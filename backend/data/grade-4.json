@@ -121,7 +121,7 @@
     "content_version": "2026.1",
     "options": [
       {
-        "text": "To put two things into one large box",
+        "text": "To join two things into one whole",
         "correct": false
       },
       {
@@ -129,11 +129,11 @@
         "correct": true
       },
       {
-        "text": "To break one big thing apart into many small pieces",
+        "text": "To count how many things there are",
         "correct": false
       },
       {
-        "text": "To hide one thing behind another one",
+        "text": "To pick one thing and ignore the other",
         "correct": false
       }
     ],
@@ -325,7 +325,7 @@
         "correct": false
       },
       {
-        "text": "A loud noise that echoes in a hall",
+        "text": "A quick jump that carries you far",
         "correct": false
       },
       {
@@ -357,7 +357,7 @@
         "correct": true
       },
       {
-        "text": "A long wall made of stacked stones",
+        "text": "A flat plain covered in tall grass",
         "correct": false
       }
     ],
@@ -493,11 +493,11 @@
         "correct": false
       },
       {
-        "text": "A bone that a dog buries in the yard",
+        "text": "A seed that grows into a tall tree",
         "correct": false
       },
       {
-        "text": "A rock that glows in the dark",
+        "text": "A gem that is cut and polished by hand",
         "correct": false
       }
     ],
@@ -625,7 +625,7 @@
     "content_version": "2026.1",
     "options": [
       {
-        "text": "A soft toy made for very little children",
+        "text": "A person who fixes cars and trucks",
         "correct": false
       },
       {
@@ -633,11 +633,11 @@
         "correct": true
       },
       {
-        "text": "A shelf where many books are kept",
+        "text": "A room where people rest after work",
         "correct": false
       },
       {
-        "text": "A cloth used to clean off a table",
+        "text": "A material used to build strong walls",
         "correct": false
       }
     ],
@@ -1029,7 +1029,7 @@
         "correct": false
       },
       {
-        "text": "A big pile of things spread far apart",
+        "text": "A pair of things that match exactly",
         "correct": false
       }
     ],
@@ -1081,11 +1081,11 @@
         "correct": false
       },
       {
-        "text": "A long wait between two events",
+        "text": "A short list of two things",
         "correct": false
       },
       {
-        "text": "A short walk between two places",
+        "text": "A quick trade between two people",
         "correct": false
       }
     ],
@@ -1281,7 +1281,7 @@
         "correct": true
       },
       {
-        "text": "Happening in a very quiet way",
+        "text": "Happening only once in a while",
         "correct": false
       }
     ],
