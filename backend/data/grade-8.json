@@ -77,7 +77,7 @@
         "correct": true
       },
       {
-        "text": "To explain a rule to a younger child",
+        "text": "To keep quiet about an idea on purpose",
         "correct": false
       }
     ],
@@ -105,7 +105,7 @@
         "correct": true
       },
       {
-        "text": "Meant for a different kind of need",
+        "text": "Hard to find when it is needed",
         "correct": false
       }
     ],
@@ -409,7 +409,7 @@
         "correct": false
       },
       {
-        "text": "Able to speak very loudly for hours at a time",
+        "text": "Able to speak in a very loud voice",
         "correct": false
       },
       {
@@ -704,7 +704,7 @@
     "word": "literal",
     "grade": "8",
     "definition": "Following the exact meaning of the words, without any hidden or figurative sense.",
-    "example": "Taken in the literal sense, a heavy heart would weigh more than a feather.",
+    "example": "Do not take his joke in the literal sense; he was only teasing.",
     "syllables": "lit · er · al",
     "content_version": "2026.1",
     "options": [
@@ -900,7 +900,7 @@
     "word": "originate",
     "grade": "8",
     "definition": "To begin or come into being from a certain source.",
-    "example": "The river will originate in the high hills and flow toward the sea.",
+    "example": "Many rivers originate in the mountains and flow toward the sea.",
     "syllables": "o · rig · i · nate",
     "content_version": "2026.1",
     "options": [
@@ -1309,7 +1309,7 @@
         "correct": true
       },
       {
-        "text": "Shared among all the members",
+        "text": "Agreed on by all and ready to begin",
         "correct": false
       }
     ],
