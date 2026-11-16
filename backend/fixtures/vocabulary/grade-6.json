@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000001",
+    "word": "analyze",
+    "grade": "6",
+    "definition": "To study something carefully, piece by piece, to understand it.",
+    "example": "We analyze the data to find a pattern.",
+    "syllables": "an · a · lyze",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To guess without looking",
+        "correct": false
+      },
+      {
+        "text": "To copy someone else's work",
+        "correct": false
+      },
+      {
+        "text": "To study something carefully to understand it",
+        "correct": true
+      },
+      {
+        "text": "To put something away",
+        "correct": false
+      }
+    ],
+    "explanation": "When you analyze, you look closely at the parts. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000002",
+    "word": "predict",
+    "grade": "6",
+    "definition": "To say what you think will happen in the future.",
+    "example": "I predict it will rain tomorrow.",
+    "syllables": "pre · dict",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To remember what happened",
+        "correct": false
+      },
+      {
+        "text": "To tell a joke",
+        "correct": false
+      },
+      {
+        "text": "To count backward",
+        "correct": false
+      },
+      {
+        "text": "To say what you think will happen",
+        "correct": true
+      }
+    ],
+    "explanation": "A prediction is a careful guess about the future. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000003",
+    "word": "ambitious",
+    "grade": "6",
+    "definition": "Having a strong wish to achieve something big.",
+    "example": "The ambitious student set a goal to read fifty books.",
+    "syllables": "am · bi · tious",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Having a strong wish to achieve something",
+        "correct": true
+      },
+      {
+        "text": "Content to do nothing",
+        "correct": false
+      },
+      {
+        "text": "Easily scared",
+        "correct": false
+      },
+      {
+        "text": "Often confused",
+        "correct": false
+      }
+    ],
+    "explanation": "An ambitious person works hard toward big goals. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000004",
+    "word": "contrast",
+    "grade": "6",
+    "definition": "A clear difference between two things when they are compared.",
+    "example": "The contrast between the hot day and cool night was big.",
+    "syllables": "con · trast",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A close match between two things",
+        "correct": false
+      },
+      {
+        "text": "A clear difference between two things",
+        "correct": true
+      },
+      {
+        "text": "A long period of waiting",
+        "correct": false
+      },
+      {
+        "text": "A way of mixing paint",
+        "correct": false
+      }
+    ],
+    "explanation": "Contrast shows how things are different. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000005",
+    "word": "diverse",
+    "grade": "6",
+    "definition": "Made up of many different kinds.",
+    "example": "Our school has a diverse group of students.",
+    "syllables": "di · verse",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "All exactly the same",
+        "correct": false
+      },
+      {
+        "text": "Very quiet",
+        "correct": false
+      },
+      {
+        "text": "Made up of many different kinds",
+        "correct": true
+      },
+      {
+        "text": "Often late",
+        "correct": false
+      }
+    ],
+    "explanation": "Diverse means varied. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000006",
+    "word": "hypothesis",
+    "grade": "6",
+    "definition": "An idea you can test that explains something, made before an experiment.",
+    "example": "Her hypothesis was that plants grow faster in sunlight.",
+    "syllables": "hy · poth · e · sis",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A final answer that is always true",
+        "correct": false
+      },
+      {
+        "text": "A list of materials",
+        "correct": false
+      },
+      {
+        "text": "A drawing of a plant",
+        "correct": false
+      },
+      {
+        "text": "A testable idea that explains something",
+        "correct": true
+      }
+    ],
+    "explanation": "A hypothesis is tested by an experiment. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000007",
+    "word": "interpret",
+    "grade": "6",
+    "definition": "To explain what something means.",
+    "example": "Can you interpret the meaning of this poem?",
+    "syllables": "in · ter · pret",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To explain what something means",
+        "correct": true
+      },
+      {
+        "text": "To copy something exactly",
+        "correct": false
+      },
+      {
+        "text": "To lose something",
+        "correct": false
+      },
+      {
+        "text": "To erase a page",
+        "correct": false
+      }
+    ],
+    "explanation": "When you interpret, you tell what you think something means. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000008",
+    "word": "significant",
+    "grade": "6",
+    "definition": "Important or large enough to matter.",
+    "example": "Learning to read was a significant step for her.",
+    "syllables": "sig · nif · i · cant",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Not important at all",
+        "correct": false
+      },
+      {
+        "text": "Important enough to matter",
+        "correct": true
+      },
+      {
+        "text": "Very small",
+        "correct": false
+      },
+      {
+        "text": "Hard to see",
+        "correct": false
+      }
+    ],
+    "explanation": "Significant means it matters. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000009",
+    "word": "frugal",
+    "grade": "6",
+    "definition": "Careful about spending money and not wasting things.",
+    "example": "A frugal shopper looks for sales.",
+    "syllables": "fru · gal",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Eager to spend everything",
+        "correct": false
+      },
+      {
+        "text": "Fond of loud music",
+        "correct": false
+      },
+      {
+        "text": "Careful about spending money",
+        "correct": true
+      },
+      {
+        "text": "Quick to run",
+        "correct": false
+      }
+    ],
+    "explanation": "A frugal person saves and avoids waste. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000010",
+    "word": "vivid",
+    "grade": "6",
+    "definition": "Very bright and clear, or full of life.",
+    "example": "She painted a vivid picture of the sunset.",
+    "syllables": "viv · id",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Dull and gray",
+        "correct": false
+      },
+      {
+        "text": "Hard to remember",
+        "correct": false
+      },
+      {
+        "text": "Very short",
+        "correct": false
+      },
+      {
+        "text": "Very bright and clear",
+        "correct": true
+      }
+    ],
+    "explanation": "Vivid means strong and clear. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000011",
+    "word": "endure",
+    "grade": "6",
+    "definition": "To keep going through something hard without giving up.",
+    "example": "The hikers had to endure the cold wind.",
+    "syllables": "en · dure",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To keep going through something hard",
+        "correct": true
+      },
+      {
+        "text": "To stop right away",
+        "correct": false
+      },
+      {
+        "text": "To run away fast",
+        "correct": false
+      },
+      {
+        "text": "To be given a prize",
+        "correct": false
+      }
+    ],
+    "explanation": "To endure is to bear a hard time. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0006-4000-8000-000000000012",
+    "word": "brisk",
+    "grade": "6",
+    "definition": "Quick, lively and full of energy.",
+    "example": "We took a brisk walk to the park.",
+    "syllables": "brisk",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Slow and sleepy",
+        "correct": false
+      },
+      {
+        "text": "Quick, lively and full of energy",
+        "correct": true
+      },
+      {
+        "text": "Warm and soft",
+        "correct": false
+      },
+      {
+        "text": "Quiet and still",
+        "correct": false
+      }
+    ],
+    "explanation": "Brisk means quick and energetic. Nice work!"
+  }
+]

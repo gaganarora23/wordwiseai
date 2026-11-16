@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "7e102be8-1440-4d47-a947-8d37c7a030dc",
+    "word": "window",
+    "grade": "1",
+    "definition": "An opening in a wall with glass in it, so you can see outside.",
+    "example": "I looked out the window and saw the rain.",
+    "syllables": "win · dow",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A flat board you write on in class",
+        "correct": false
+      },
+      {
+        "text": "A soft seat for two people",
+        "correct": false
+      },
+      {
+        "text": "An opening in a wall with glass",
+        "correct": true
+      },
+      {
+        "text": "A step that goes up to a door",
+        "correct": false
+      }
+    ],
+    "explanation": "A window is an opening with glass that lets in light. Nice work!"
+  },
+  {
+    "id": "205598dc-3d8f-47d8-983d-7cf4d4d928af",
+    "word": "pencil",
+    "grade": "1",
+    "definition": "A thin tool with a point that you use to write or draw.",
+    "example": "I sharpen my pencil before I write.",
+    "syllables": "pen · cil",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A soft cloth for wiping a dirty table",
+        "correct": false
+      },
+      {
+        "text": "A tall stick for hanging clothes",
+        "correct": false
+      },
+      {
+        "text": "A round tool for measuring time",
+        "correct": false
+      },
+      {
+        "text": "A thin tool for writing or drawing",
+        "correct": true
+      }
+    ],
+    "explanation": "A pencil is a tool you use to write or draw. Great job!"
+  },
+  {
+    "id": "de67d76a-c3ff-4e6e-afae-642f0d3226f0",
+    "word": "rabbit",
+    "grade": "1",
+    "definition": "A small animal with long ears and a short fluffy tail that hops.",
+    "example": "The rabbit nibbled a carrot in the garden.",
+    "syllables": "rab · bit",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A large gray animal with a very long trunk",
+        "correct": false
+      },
+      {
+        "text": "A small hopping animal with long ears",
+        "correct": true
+      },
+      {
+        "text": "A small animal that swims with fins",
+        "correct": false
+      },
+      {
+        "text": "A tall bird with a long neck",
+        "correct": false
+      }
+    ],
+    "explanation": "A rabbit has long ears and hops. You got it!"
+  },
+  {
+    "id": "87901fde-e25f-4e4f-81f6-b1a894609e2d",
+    "word": "flower",
+    "grade": "1",
+    "definition": "The colorful part of a plant that often smells sweet.",
+    "example": "She picked a flower for her teacher.",
+    "syllables": "flow · er",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The colorful part of a plant",
+        "correct": true
+      },
+      {
+        "text": "The hard part of a tree trunk",
+        "correct": false
+      },
+      {
+        "text": "The flat part of a leaf stem",
+        "correct": false
+      },
+      {
+        "text": "The dry part of a seed shell",
+        "correct": false
+      }
+    ],
+    "explanation": "A flower is the colorful part of a plant. Well done!"
+  },
+  {
+    "id": "e03e3cd2-573d-4639-8a2d-265a4bad55ca",
+    "word": "water",
+    "grade": "1",
+    "definition": "A clear liquid that we drink and that fills rivers and seas.",
+    "example": "I fill my bottle with cold water.",
+    "syllables": "wa · ter",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A thick yellow powder for baking",
+        "correct": false
+      },
+      {
+        "text": "A hard stone found in the ground",
+        "correct": false
+      },
+      {
+        "text": "A warm wind that blows in summer",
+        "correct": false
+      },
+      {
+        "text": "A clear liquid that we drink",
+        "correct": true
+      }
+    ],
+    "explanation": "Water is a clear liquid we drink. Nice work!"
+  },
+  {
+    "id": "ddb490fa-54e2-45e0-99f2-b8bd25fd852e",
+    "word": "friend",
+    "grade": "1",
+    "definition": "A person you like and enjoy playing with.",
+    "example": "My friend shared her snack with me.",
+    "syllables": "friend",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A person who sells you fruit and food",
+        "correct": false
+      },
+      {
+        "text": "A person who drives a bus",
+        "correct": false
+      },
+      {
+        "text": "A person you have never met",
+        "correct": false
+      },
+      {
+        "text": "A person you like to play with",
+        "correct": true
+      }
+    ],
+    "explanation": "A friend is someone you like to play with. Great job!"
+  },
+  {
+    "id": "1efef431-3363-40a8-b359-07dd5b4b3fac",
+    "word": "yellow",
+    "grade": "1",
+    "definition": "The color of a banana or a sunflower.",
+    "example": "The duck has a yellow beak.",
+    "syllables": "yel · low",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The color of the night sky",
+        "correct": false
+      },
+      {
+        "text": "The color of a green leaf",
+        "correct": false
+      },
+      {
+        "text": "The color of a ripe banana",
+        "correct": true
+      },
+      {
+        "text": "The color of a red apple",
+        "correct": false
+      }
+    ],
+    "explanation": "Yellow is the color of a banana. You got it!"
+  },
+  {
+    "id": "06711da1-0b36-471d-accc-b7fe5349f1d6",
+    "word": "orange",
+    "grade": "1",
+    "definition": "The color between red and yellow, like a pumpkin.",
+    "example": "She painted the sunset orange.",
+    "syllables": "or · ange",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The color of a green frog",
+        "correct": false
+      },
+      {
+        "text": "The color of fresh milk",
+        "correct": false
+      },
+      {
+        "text": "The color of a ripe pumpkin",
+        "correct": true
+      },
+      {
+        "text": "The color of a big blue whale",
+        "correct": false
+      }
+    ],
+    "explanation": "Orange is the color of a pumpkin. Well done!"
+  },
+  {
+    "id": "7014e5ae-f83b-4995-872d-8646b11c9739",
+    "word": "green",
+    "grade": "1",
+    "definition": "The color of fresh grass and leaves.",
+    "example": "The frog is green.",
+    "syllables": "green",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The color of a ripe tomato",
+        "correct": false
+      },
+      {
+        "text": "The color of fresh grass",
+        "correct": true
+      },
+      {
+        "text": "The color of the white clouds",
+        "correct": false
+      },
+      {
+        "text": "The color of a black crayon",
+        "correct": false
+      }
+    ],
+    "explanation": "Green is the color of grass and leaves. Nice work!"
+  },
+  {
+    "id": "f627ba62-27e6-4bfa-bce7-ded9848c3d33",
+    "word": "farm",
+    "grade": "1",
+    "definition": "A place with fields and barns where food is grown and animals are raised.",
+    "example": "We visited a farm and fed the chickens.",
+    "syllables": "farm",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A place where books are lent out",
+        "correct": false
+      },
+      {
+        "text": "A place where people swim and splash",
+        "correct": false
+      },
+      {
+        "text": "A place with crops and animals",
+        "correct": true
+      },
+      {
+        "text": "A place where trains stop for people",
+        "correct": false
+      }
+    ],
+    "explanation": "A farm is a place where food grows and animals live. Great job!"
+  },
+  {
+    "id": "25bf1895-b33f-4ca3-b47a-ace7a9725f70",
+    "word": "horse",
+    "grade": "1",
+    "definition": "A big strong animal with four legs that people can ride.",
+    "example": "The horse trotted across the field.",
+    "syllables": "horse",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A small animal that lives in a pond",
+        "correct": false
+      },
+      {
+        "text": "A big animal that people can ride",
+        "correct": true
+      },
+      {
+        "text": "A tiny animal that hums in the air",
+        "correct": false
+      },
+      {
+        "text": "A fluffy animal that lays eggs",
+        "correct": false
+      }
+    ],
+    "explanation": "A horse is a big animal that people can ride. You got it!"
+  },
+  {
+    "id": "c7e5c3e1-be98-496a-93e5-d6b03ed6cfa8",
+    "word": "sheep",
+    "grade": "1",
+    "definition": "A farm animal with thick wool that says baa.",
+    "example": "The sheep has soft, thick wool.",
+    "syllables": "sheep",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A farm animal with thick wool",
+        "correct": true
+      },
+      {
+        "text": "A farm animal with a curly tail",
+        "correct": false
+      },
+      {
+        "text": "A farm animal that lays eggs",
+        "correct": false
+      },
+      {
+        "text": "A farm animal that people ride in races",
+        "correct": false
+      }
+    ],
+    "explanation": "A sheep is a farm animal with thick wool. Well done!"
+  },
+  {
+    "id": "7e5e52a5-64fe-4dcd-a25d-6bdde4d8aeee",
+    "word": "chicken",
+    "grade": "1",
+    "definition": "A farm bird that lays eggs and says cluck.",
+    "example": "The chicken laid an egg in the barn.",
+    "syllables": "chick · en",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A farm animal that gives us milk",
+        "correct": false
+      },
+      {
+        "text": "A big bird that swims in lakes",
+        "correct": false
+      },
+      {
+        "text": "A farm bird that lays eggs",
+        "correct": true
+      },
+      {
+        "text": "A small bird that sings at dawn",
+        "correct": false
+      }
+    ],
+    "explanation": "A chicken is a farm bird that lays eggs. Nice work!"
+  },
+  {
+    "id": "09201115-9283-4363-aea3-2a6a8dd02bcc",
+    "word": "monkey",
+    "grade": "1",
+    "definition": "A furry animal with a long tail that climbs trees and swings.",
+    "example": "The monkey swung from branch to branch.",
+    "syllables": "mon · key",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A slow animal that carries a shell",
+        "correct": false
+      },
+      {
+        "text": "A tall animal with a very long neck",
+        "correct": false
+      },
+      {
+        "text": "A big animal that sleeps all winter",
+        "correct": false
+      },
+      {
+        "text": "A furry animal that swings in trees",
+        "correct": true
+      }
+    ],
+    "explanation": "A monkey is a furry animal that climbs trees. Great job!"
+  },
+  {
+    "id": "ca11e595-9abe-4502-897f-87e5046c94a4",
+    "word": "turtle",
+    "grade": "1",
+    "definition": "A slow animal with a hard shell on its back.",
+    "example": "The turtle pulled its head into its shell.",
+    "syllables": "tur · tle",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A fast animal with long legs",
+        "correct": false
+      },
+      {
+        "text": "A soft animal with fluffy fur",
+        "correct": false
+      },
+      {
+        "text": "A small animal with colorful wings",
+        "correct": false
+      },
+      {
+        "text": "A slow animal with a hard shell",
+        "correct": true
+      }
+    ],
+    "explanation": "A turtle has a hard shell on its back. You got it!"
+  },
+  {
+    "id": "6a7e6f21-1703-4447-9bbf-672c2a0aad1b",
+    "word": "pillow",
+    "grade": "1",
+    "definition": "A soft cushion that you rest your head on in bed.",
+    "example": "I hug my pillow when I sleep.",
+    "syllables": "pil · low",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A soft cushion for your head",
+        "correct": true
+      },
+      {
+        "text": "A thick wool rug for the floor",
+        "correct": false
+      },
+      {
+        "text": "A warm coat for winter",
+        "correct": false
+      },
+      {
+        "text": "A strong rope for pulling",
+        "correct": false
+      }
+    ],
+    "explanation": "A pillow is a soft cushion for your head. Well done!"
+  },
+  {
+    "id": "c903b704-e14b-48d2-b692-94ed47e80bdf",
+    "word": "blanket",
+    "grade": "1",
+    "definition": "A big soft cover that keeps you warm in bed.",
+    "example": "Mom put a blanket over me.",
+    "syllables": "blan · ket",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A tight hat that covers your ears",
+        "correct": false
+      },
+      {
+        "text": "A big soft cover that keeps you warm",
+        "correct": true
+      },
+      {
+        "text": "A thin glass window that you look through",
+        "correct": false
+      },
+      {
+        "text": "A hard board that holds a bed up",
+        "correct": false
+      }
+    ],
+    "explanation": "A blanket is a soft cover that keeps you warm. Nice work!"
+  },
+  {
+    "id": "dfc2c6f0-87b8-46cb-b043-8409fc874637",
+    "word": "table",
+    "grade": "1",
+    "definition": "A piece of furniture with a flat top and legs.",
+    "example": "We eat dinner at the table.",
+    "syllables": "ta · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A piece of furniture you sleep on",
+        "correct": false
+      },
+      {
+        "text": "A piece of furniture with a mirror",
+        "correct": false
+      },
+      {
+        "text": "A piece of furniture with a flat top",
+        "correct": true
+      },
+      {
+        "text": "A piece of furniture that holds shoes",
+        "correct": false
+      }
+    ],
+    "explanation": "A table has a flat top and legs. Great job!"
+  },
+  {
+    "id": "d4fd1373-59d8-481b-9503-0f12c60aa3fc",
+    "word": "chair",
+    "grade": "1",
+    "definition": "A seat with a back and legs for one person.",
+    "example": "Please sit in your chair.",
+    "syllables": "chair",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A table with a flat top for food",
+        "correct": false
+      },
+      {
+        "text": "A bed with a soft cover for sleep",
+        "correct": false
+      },
+      {
+        "text": "A seat with a back for one person",
+        "correct": true
+      },
+      {
+        "text": "A lamp with a bright light",
+        "correct": false
+      }
+    ],
+    "explanation": "A chair is a seat for one person. You got it!"
+  },
+  {
+    "id": "aa94cb14-ad5c-444a-a029-b17a92df7b4e",
+    "word": "spoon",
+    "grade": "1",
+    "definition": "A tool with a small bowl at the end that you eat soup with.",
+    "example": "I eat my cereal with a spoon.",
+    "syllables": "spoon",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A tool with a small bowl for eating",
+        "correct": true
+      },
+      {
+        "text": "A tool with a sharp blade for cutting",
+        "correct": false
+      },
+      {
+        "text": "A tool with long bristles for sweeping",
+        "correct": false
+      },
+      {
+        "text": "A tool with a flat head for hammering",
+        "correct": false
+      }
+    ],
+    "explanation": "A spoon is a tool for eating soup or cereal. Well done!"
+  },
+  {
+    "id": "b024e800-9985-4fcb-8bdd-ff4e11e2f30b",
+    "word": "plate",
+    "grade": "1",
+    "definition": "A flat dish that you put your food on.",
+    "example": "Please put the sandwich on my plate.",
+    "syllables": "plate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A deep pot for boiling water",
+        "correct": false
+      },
+      {
+        "text": "A flat dish for holding food",
+        "correct": true
+      },
+      {
+        "text": "A tall glass for juice",
+        "correct": false
+      },
+      {
+        "text": "A small box for pencils",
+        "correct": false
+      }
+    ],
+    "explanation": "A plate is a flat dish that holds your food. Nice work!"
+  },
+  {
+    "id": "fa5e5630-502d-4e88-9f17-22d7cc7920e4",
+    "word": "basket",
+    "grade": "1",
+    "definition": "A container made of woven strips, used for carrying things.",
+    "example": "She put the apples in a basket.",
+    "syllables": "bas · ket",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A metal pan for baking cake",
+        "correct": false
+      },
+      {
+        "text": "A woven holder for carrying things",
+        "correct": true
+      },
+      {
+        "text": "A glass jar for storing honey",
+        "correct": false
+      },
+      {
+        "text": "A plastic bag for tossing out trash",
+        "correct": false
+      }
+    ],
+    "explanation": "A basket is a woven container for carrying things. Great job!"
+  },
+  {
+    "id": "a793ea63-6e7d-45ea-a644-8112ae5752ee",
+    "word": "bottle",
+    "grade": "1",
+    "definition": "A container with a narrow top that holds drinks.",
+    "example": "He drank water from his bottle.",
+    "syllables": "bot · tle",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A container with a narrow top",
+        "correct": true
+      },
+      {
+        "text": "A flat dish with a wide rim",
+        "correct": false
+      },
+      {
+        "text": "A small box with a lid and hinge",
+        "correct": false
+      },
+      {
+        "text": "A soft bag with two handles",
+        "correct": false
+      }
+    ],
+    "explanation": "A bottle is a container with a narrow top. You got it!"
+  },
+  {
+    "id": "cf9a483e-2bdb-4bf4-b858-e3005137746e",
+    "word": "clock",
+    "grade": "1",
+    "definition": "A thing that shows what time it is.",
+    "example": "The clock on the wall says it is noon.",
+    "syllables": "clock",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A thing that shows the weather",
+        "correct": false
+      },
+      {
+        "text": "A thing that shows how heavy you are",
+        "correct": false
+      },
+      {
+        "text": "A thing that shows the time",
+        "correct": true
+      },
+      {
+        "text": "A thing that shows your height",
+        "correct": false
+      }
+    ],
+    "explanation": "A clock tells us what time it is. Well done!"
+  },
+  {
+    "id": "e9236a02-e288-421c-930e-e639c2cdc029",
+    "word": "mirror",
+    "grade": "1",
+    "definition": "A smooth glass that shows your face when you look into it.",
+    "example": "I smiled at myself in the mirror.",
+    "syllables": "mir · ror",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A soft cloth that cleans your whole face",
+        "correct": false
+      },
+      {
+        "text": "A bright lamp that warms your face",
+        "correct": false
+      },
+      {
+        "text": "A tall hat that covers your face",
+        "correct": false
+      },
+      {
+        "text": "A smooth glass that shows your face",
+        "correct": true
+      }
+    ],
+    "explanation": "A mirror shows what you look like. Nice work!"
+  },
+  {
+    "id": "086de5cf-6d82-45f8-9296-906eed323e6b",
+    "word": "ladder",
+    "grade": "1",
+    "definition": "A set of steps you climb to reach a high place.",
+    "example": "Dad used a ladder to fix the roof.",
+    "syllables": "lad · der",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A set of steps for reaching high places",
+        "correct": true
+      },
+      {
+        "text": "A long strong rope for tying up a big boat",
+        "correct": false
+      },
+      {
+        "text": "A wide road for driving fast cars",
+        "correct": false
+      },
+      {
+        "text": "A deep hole for planting a tree",
+        "correct": false
+      }
+    ],
+    "explanation": "A ladder lets you climb up to high places. Great job!"
+  },
+  {
+    "id": "dab01d6f-6909-4513-97d9-31eacd52db60",
+    "word": "rocket",
+    "grade": "1",
+    "definition": "A tall machine that shoots up into space.",
+    "example": "The rocket flew high above the clouds.",
+    "syllables": "rock · et",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A tall machine that flies into space",
+        "correct": true
+      },
+      {
+        "text": "A small cart that rolls down a hill",
+        "correct": false
+      },
+      {
+        "text": "A slow wooden boat that floats on a lake",
+        "correct": false
+      },
+      {
+        "text": "A big truck that carries mail",
+        "correct": false
+      }
+    ],
+    "explanation": "A rocket is a tall machine that flies into space. You got it!"
+  },
+  {
+    "id": "b972d864-63a4-4009-99f4-2242fbfee630",
+    "word": "drum",
+    "grade": "1",
+    "definition": "A round musical instrument that you tap to make a beat.",
+    "example": "He played the drum in the band.",
+    "syllables": "drum",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A long instrument you blow like a trumpet",
+        "correct": false
+      },
+      {
+        "text": "A round instrument you tap for a beat",
+        "correct": true
+      },
+      {
+        "text": "A small instrument you pluck with strings",
+        "correct": false
+      },
+      {
+        "text": "A tall instrument with black and white keys",
+        "correct": false
+      }
+    ],
+    "explanation": "A drum makes a beat when you tap it. Well done!"
+  },
+  {
+    "id": "6ecabdf5-60c1-4520-b28f-70e681257cbe",
+    "word": "kite",
+    "grade": "1",
+    "definition": "A light toy that flies in the wind on a long string.",
+    "example": "We flew a kite at the beach.",
+    "syllables": "kite",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A light toy that flies on a string",
+        "correct": true
+      },
+      {
+        "text": "A heavy toy that rolls on wheels",
+        "correct": false
+      },
+      {
+        "text": "A soft toy that you hug at night",
+        "correct": false
+      },
+      {
+        "text": "A loud toy that makes a buzzing sound",
+        "correct": false
+      }
+    ],
+    "explanation": "A kite is a light toy that flies on a string. Nice work!"
+  },
+  {
+    "id": "0e2c720d-6e19-4b8e-aa32-f38c522b823a",
+    "word": "puddle",
+    "grade": "1",
+    "definition": "A small pool of water on the ground after rain.",
+    "example": "I jumped in the puddle with my boots.",
+    "syllables": "pud · dle",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A big hill of sand at the beach",
+        "correct": false
+      },
+      {
+        "text": "A long river that flows to the sea",
+        "correct": false
+      },
+      {
+        "text": "A deep well that is dug in the earth",
+        "correct": false
+      },
+      {
+        "text": "A small pool of water on the ground",
+        "correct": true
+      }
+    ],
+    "explanation": "A puddle is a small pool of water. Great job!"
+  },
+  {
+    "id": "89f1d6af-2f6f-4fc4-aafd-974144124f76",
+    "word": "picnic",
+    "grade": "1",
+    "definition": "A meal that you eat outside, often on a blanket.",
+    "example": "We had a picnic in the park.",
+    "syllables": "pic · nic",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A game that you play indoors",
+        "correct": false
+      },
+      {
+        "text": "A walk that you take at night",
+        "correct": false
+      },
+      {
+        "text": "A trip that you take by plane",
+        "correct": false
+      },
+      {
+        "text": "A meal that you eat outside",
+        "correct": true
+      }
+    ],
+    "explanation": "A picnic is a meal you eat outside. You got it!"
+  },
+  {
+    "id": "3e77b3d3-b1c5-4720-a5a8-20642461208f",
+    "word": "sandwich",
+    "grade": "1",
+    "definition": "Food made with two slices of bread and a filling between them.",
+    "example": "I ate a cheese sandwich for lunch.",
+    "syllables": "sand · wich",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Two slices of bread with a filling",
+        "correct": true
+      },
+      {
+        "text": "A bowl of hot soup with noodles",
+        "correct": false
+      },
+      {
+        "text": "A glass of cold milk with ice",
+        "correct": false
+      },
+      {
+        "text": "A big cold scoop of sweet frozen cream",
+        "correct": false
+      }
+    ],
+    "explanation": "A sandwich has a filling between slices of bread. Well done!"
+  },
+  {
+    "id": "d0ac8fd0-6579-462d-a452-b956dc6ffb25",
+    "word": "lemon",
+    "grade": "1",
+    "definition": "A sour yellow fruit that is used to make lemonade.",
+    "example": "The lemon tasted very sour.",
+    "syllables": "lem · on",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A sour yellow fruit",
+        "correct": true
+      },
+      {
+        "text": "A sweet red fruit",
+        "correct": false
+      },
+      {
+        "text": "A crunchy green vegetable",
+        "correct": false
+      },
+      {
+        "text": "A soft brown nut",
+        "correct": false
+      }
+    ],
+    "explanation": "A lemon is a sour yellow fruit. Nice work!"
+  },
+  {
+    "id": "af529c4a-3a55-4174-816d-83a5c6cffeb7",
+    "word": "carrot",
+    "grade": "1",
+    "definition": "A long orange vegetable that grows under the ground.",
+    "example": "The rabbit ate a carrot.",
+    "syllables": "car · rot",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A small round juicy red fruit",
+        "correct": false
+      },
+      {
+        "text": "A tall green tree",
+        "correct": false
+      },
+      {
+        "text": "A long orange vegetable",
+        "correct": true
+      },
+      {
+        "text": "A sweet yellow flower",
+        "correct": false
+      }
+    ],
+    "explanation": "A carrot is a long orange vegetable. Great job!"
+  },
+  {
+    "id": "e0b71cd0-d3ff-4ab1-9039-a494cae0c07c",
+    "word": "cookie",
+    "grade": "1",
+    "definition": "A small, flat, sweet treat that is baked.",
+    "example": "I shared my cookie with my sister.",
+    "syllables": "cook · ie",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A big bowl of hot soup with noodles",
+        "correct": false
+      },
+      {
+        "text": "A small, flat, sweet baked treat",
+        "correct": true
+      },
+      {
+        "text": "A long loaf of plain bread",
+        "correct": false
+      },
+      {
+        "text": "A glass of cold juice",
+        "correct": false
+      }
+    ],
+    "explanation": "A cookie is a small sweet treat that is baked. You got it!"
+  },
+  {
+    "id": "d3963f23-5aa7-47ec-ab3c-85b51e3daacb",
+    "word": "honey",
+    "grade": "1",
+    "definition": "A sweet, sticky food that bees make.",
+    "example": "I put honey on my toast.",
+    "syllables": "hon · ey",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A sweet, sticky food made by bees",
+        "correct": true
+      },
+      {
+        "text": "A salty, crunchy snack from corn",
+        "correct": false
+      },
+      {
+        "text": "A sour, thin drink from lemons",
+        "correct": false
+      },
+      {
+        "text": "A hot, spicy sauce from peppers",
+        "correct": false
+      }
+    ],
+    "explanation": "Honey is sweet, sticky food made by bees. Well done!"
+  },
+  {
+    "id": "4be78a8f-8bf0-41b2-a46c-0a834f30658b",
+    "word": "bread",
+    "grade": "1",
+    "definition": "A food made from flour that is baked into loaves.",
+    "example": "We bought a loaf of bread.",
+    "syllables": "bread",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A cold drink made from fruit",
+        "correct": false
+      },
+      {
+        "text": "A baked food made from flour",
+        "correct": true
+      },
+      {
+        "text": "A green plant that grows in water",
+        "correct": false
+      },
+      {
+        "text": "A sweet cream that is frozen",
+        "correct": false
+      }
+    ],
+    "explanation": "Bread is a baked food made from flour. Nice work!"
+  },
+  {
+    "id": "d635285c-5dca-4953-a9e6-2eb37c3b4455",
+    "word": "soup",
+    "grade": "1",
+    "definition": "A warm food made of liquid with vegetables or noodles in it.",
+    "example": "The soup was warm and tasty.",
+    "syllables": "soup",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A cold frozen treat on a stick",
+        "correct": false
+      },
+      {
+        "text": "A crunchy snack made of corn",
+        "correct": false
+      },
+      {
+        "text": "A sticky sweet made of sugar",
+        "correct": false
+      },
+      {
+        "text": "A warm liquid food with vegetables",
+        "correct": true
+      }
+    ],
+    "explanation": "Soup is a warm food with a liquid base. Great job!"
+  },
+  {
+    "id": "3b15d42b-5e2a-4079-af01-2f22416771d5",
+    "word": "swim",
+    "grade": "1",
+    "definition": "To move through water by using your arms and legs.",
+    "example": "I can swim across the pool.",
+    "syllables": "swim",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To fly through the air with your wings",
+        "correct": false
+      },
+      {
+        "text": "To roll down a hill on a sled",
+        "correct": false
+      },
+      {
+        "text": "To dig a hole in the sand",
+        "correct": false
+      },
+      {
+        "text": "To move through water using your arms",
+        "correct": true
+      }
+    ],
+    "explanation": "To swim is to move through water. You got it!"
+  },
+  {
+    "id": "e4c84911-76ff-47cb-8e2b-a903dc915876",
+    "word": "climb",
+    "grade": "1",
+    "definition": "To go up something by using your hands and feet.",
+    "example": "I like to climb the ladder at the playground.",
+    "syllables": "climb",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To fall down onto the ground",
+        "correct": false
+      },
+      {
+        "text": "To go up using your hands and feet",
+        "correct": true
+      },
+      {
+        "text": "To sit still on the floor",
+        "correct": false
+      },
+      {
+        "text": "To roll along the grass",
+        "correct": false
+      }
+    ],
+    "explanation": "To climb is to go up using your hands and feet. Well done!"
+  },
+  {
+    "id": "1b184803-a499-4fa1-8f57-5b233508d510",
+    "word": "dance",
+    "grade": "1",
+    "definition": "To move your body to the beat of music.",
+    "example": "We dance to the music at the party.",
+    "syllables": "dance",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To sit quietly in a chair",
+        "correct": false
+      },
+      {
+        "text": "To move your body to music",
+        "correct": true
+      },
+      {
+        "text": "To hide under a blanket",
+        "correct": false
+      },
+      {
+        "text": "To count out loud to ten",
+        "correct": false
+      }
+    ],
+    "explanation": "To dance is to move your body to music. Nice work!"
+  },
+  {
+    "id": "9bb76883-e6d1-469e-9120-1015b0da1ebe",
+    "word": "laugh",
+    "grade": "1",
+    "definition": "To make happy sounds when something is funny.",
+    "example": "The joke made me laugh.",
+    "syllables": "laugh",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To make loud sounds when you are upset",
+        "correct": false
+      },
+      {
+        "text": "To make no sound when you sleep",
+        "correct": false
+      },
+      {
+        "text": "To make happy sounds at a joke",
+        "correct": true
+      },
+      {
+        "text": "To make soft sounds when you whisper",
+        "correct": false
+      }
+    ],
+    "explanation": "To laugh is to make happy sounds when something is funny. Great job!"
+  },
+  {
+    "id": "50c99e76-c913-4ea1-aeb1-852159131703",
+    "word": "smile",
+    "grade": "1",
+    "definition": "To turn up the corners of your mouth when you are happy.",
+    "example": "I smile when I see my dog.",
+    "syllables": "smile",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To frown and look sadly at the floor",
+        "correct": false
+      },
+      {
+        "text": "To turn up your mouth when happy",
+        "correct": true
+      },
+      {
+        "text": "To open your eyes very wide",
+        "correct": false
+      },
+      {
+        "text": "To stick out your tongue",
+        "correct": false
+      }
+    ],
+    "explanation": "A smile shows that you are happy. You got it!"
+  },
+  {
+    "id": "cd49af58-9b97-4c88-a100-08ce02e689a4",
+    "word": "walk",
+    "grade": "1",
+    "definition": "To move along on your feet at an easy speed.",
+    "example": "We walk to school together.",
+    "syllables": "walk",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To zoom along very fast on rolling wheels",
+        "correct": false
+      },
+      {
+        "text": "To move on your feet at an easy speed",
+        "correct": true
+      },
+      {
+        "text": "To leap from one rock to another",
+        "correct": false
+      },
+      {
+        "text": "To stay in one spot without moving",
+        "correct": false
+      }
+    ],
+    "explanation": "To walk is to move on your feet. Well done!"
+  },
+  {
+    "id": "b2789788-9510-4a09-9dd6-ef2c29c153ab",
+    "word": "soft",
+    "grade": "1",
+    "definition": "Nice and gentle to touch, not hard or rough.",
+    "example": "The kitten has soft fur.",
+    "syllables": "soft",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Sharp and pokey to touch, like a thorn",
+        "correct": false
+      },
+      {
+        "text": "Hot to touch, like a stove",
+        "correct": false
+      },
+      {
+        "text": "Wet to touch, like a puddle",
+        "correct": false
+      },
+      {
+        "text": "Gentle to touch, not hard or rough",
+        "correct": true
+      }
+    ],
+    "explanation": "Soft means gentle to touch. Nice work!"
+  },
+  {
+    "id": "9b1b62ec-571b-4f6f-8e0f-f307bea6bbd5",
+    "word": "loud",
+    "grade": "1",
+    "definition": "Making a big noise that is easy to hear.",
+    "example": "The music is too loud.",
+    "syllables": "loud",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Making no noise at all",
+        "correct": false
+      },
+      {
+        "text": "Making a small whisper sound",
+        "correct": false
+      },
+      {
+        "text": "Making a very big noise",
+        "correct": true
+      },
+      {
+        "text": "Making a smooth and shiny look",
+        "correct": false
+      }
+    ],
+    "explanation": "Loud means making a big noise. Great job!"
+  },
+  {
+    "id": "e829e774-805f-4275-b548-a8ce31cda915",
+    "word": "sunny",
+    "grade": "1",
+    "definition": "Bright with light from the sun.",
+    "example": "It is a sunny day, so let us play outside.",
+    "syllables": "sun · ny",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Wet with rain from the clouds",
+        "correct": false
+      },
+      {
+        "text": "Cold with snow on the ground",
+        "correct": false
+      },
+      {
+        "text": "Bright with light from the sun",
+        "correct": true
+      },
+      {
+        "text": "Dark with clouds all over the sky",
+        "correct": false
+      }
+    ],
+    "explanation": "A sunny day has bright light from the sun. You got it!"
+  },
+  {
+    "id": "8f862ce2-2de9-4637-a611-eeaa4a8c61ba",
+    "word": "slow",
+    "grade": "1",
+    "definition": "Not fast, taking a long time to move.",
+    "example": "The snail is very slow.",
+    "syllables": "slow",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Very fast and quick on your feet",
+        "correct": false
+      },
+      {
+        "text": "Very big and tall",
+        "correct": false
+      },
+      {
+        "text": "Very loud and noisy",
+        "correct": false
+      },
+      {
+        "text": "Not fast, taking a long time",
+        "correct": true
+      }
+    ],
+    "explanation": "Slow means not fast. Well done!"
+  },
+  {
+    "id": "f69a8971-5278-4956-9978-0620f0606992",
+    "word": "quiet",
+    "grade": "1",
+    "definition": "Making little or no noise.",
+    "example": "Please be quiet in the library.",
+    "syllables": "qui · et",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Making little or no noise",
+        "correct": true
+      },
+      {
+        "text": "Making lots of loud noise",
+        "correct": false
+      },
+      {
+        "text": "Making bright colors",
+        "correct": false
+      },
+      {
+        "text": "Making a quick move",
+        "correct": false
+      }
+    ],
+    "explanation": "Quiet means making little or no noise. Nice work!"
+  },
+  {
+    "id": "2b53ced1-6d6e-447a-80a5-6cf2fc3b8ad3",
+    "word": "family",
+    "grade": "1",
+    "definition": "A group of people who are related and often live together.",
+    "example": "My family eats dinner together every night.",
+    "syllables": "fam · i · ly",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A group of kids who ride the same bus",
+        "correct": false
+      },
+      {
+        "text": "A team of players who play a game",
+        "correct": false
+      },
+      {
+        "text": "A class of children who learn together",
+        "correct": false
+      },
+      {
+        "text": "A group of people who live together",
+        "correct": true
+      }
+    ],
+    "explanation": "A family is a group of people who are related. Great job!"
+  }
+]

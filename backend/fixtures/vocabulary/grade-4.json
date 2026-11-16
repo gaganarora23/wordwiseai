@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000001",
+    "word": "courage",
+    "grade": "4",
+    "definition": "The strength to do something even when you feel afraid.",
+    "example": "It took courage to speak in front of the class.",
+    "syllables": "cour · age",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "The strength to act even when afraid",
+        "correct": true
+      },
+      {
+        "text": "A feeling of being bored",
+        "correct": false
+      },
+      {
+        "text": "A reason to stay home",
+        "correct": false
+      },
+      {
+        "text": "The habit of being late",
+        "correct": false
+      }
+    ],
+    "explanation": "Courage means doing the right thing even when you are scared. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000002",
+    "word": "migrate",
+    "grade": "4",
+    "definition": "To move from one place to another, often with the seasons.",
+    "example": "Many birds migrate south for the winter.",
+    "syllables": "mi · grate",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To stay in one nest all year",
+        "correct": false
+      },
+      {
+        "text": "To move from one place to another",
+        "correct": true
+      },
+      {
+        "text": "To build a tall tower",
+        "correct": false
+      },
+      {
+        "text": "To sleep through the winter",
+        "correct": false
+      }
+    ],
+    "explanation": "Animals migrate to find food or warmer weather. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000003",
+    "word": "habitat",
+    "grade": "4",
+    "definition": "The natural place where an animal or plant lives.",
+    "example": "The pond is a habitat for frogs.",
+    "syllables": "hab · i · tat",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A tool for catching fish",
+        "correct": false
+      },
+      {
+        "text": "A kind of food for pets",
+        "correct": false
+      },
+      {
+        "text": "The natural place where a plant or animal lives",
+        "correct": true
+      },
+      {
+        "text": "A story about animals",
+        "correct": false
+      }
+    ],
+    "explanation": "A habitat gives living things food, water and shelter. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000004",
+    "word": "fragile",
+    "grade": "4",
+    "definition": "Easy to break or damage.",
+    "example": "Be gentle with the fragile glass bowl.",
+    "syllables": "frag · ile",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Very heavy",
+        "correct": false
+      },
+      {
+        "text": "Hard to see",
+        "correct": false
+      },
+      {
+        "text": "Fun to play with",
+        "correct": false
+      },
+      {
+        "text": "Easy to break",
+        "correct": true
+      }
+    ],
+    "explanation": "Fragile things need careful handling. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000005",
+    "word": "frequent",
+    "grade": "4",
+    "definition": "Happening often.",
+    "example": "We take frequent trips to the park.",
+    "syllables": "fre · quent",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Happening often",
+        "correct": true
+      },
+      {
+        "text": "Happening only once",
+        "correct": false
+      },
+      {
+        "text": "Very hard to find",
+        "correct": false
+      },
+      {
+        "text": "Silent and still",
+        "correct": false
+      }
+    ],
+    "explanation": "Frequent means it happens again and again. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000006",
+    "word": "observe",
+    "grade": "4",
+    "definition": "To watch carefully and notice details.",
+    "example": "Scientists observe the stars with telescopes.",
+    "syllables": "ob · serve",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To ignore completely",
+        "correct": false
+      },
+      {
+        "text": "To watch carefully and notice details",
+        "correct": true
+      },
+      {
+        "text": "To throw away",
+        "correct": false
+      },
+      {
+        "text": "To make a loud noise",
+        "correct": false
+      }
+    ],
+    "explanation": "When you observe, you look closely. Great work!"
+  },
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000007",
+    "word": "generous",
+    "grade": "4",
+    "definition": "Willing to share and give to others.",
+    "example": "The generous boy shared his lunch.",
+    "syllables": "gen · er · ous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Wanting to keep everything",
+        "correct": false
+      },
+      {
+        "text": "Very sleepy",
+        "correct": false
+      },
+      {
+        "text": "Willing to share with others",
+        "correct": true
+      },
+      {
+        "text": "Easily frightened",
+        "correct": false
+      }
+    ],
+    "explanation": "A generous person likes to give. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000008",
+    "word": "tradition",
+    "grade": "4",
+    "definition": "A custom that a family or group has done for many years.",
+    "example": "Baking cookies together is our holiday tradition.",
+    "syllables": "tra · di · tion",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A brand new invention",
+        "correct": false
+      },
+      {
+        "text": "A rule for a board game",
+        "correct": false
+      },
+      {
+        "text": "A map of a town",
+        "correct": false
+      },
+      {
+        "text": "A custom passed down for many years",
+        "correct": true
+      }
+    ],
+    "explanation": "A tradition is something people keep doing year after year. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000009",
+    "word": "reluctant",
+    "grade": "4",
+    "definition": "Not wanting to do something.",
+    "example": "He was reluctant to jump into the cold lake.",
+    "syllables": "re · luc · tant",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Not wanting to do something",
+        "correct": true
+      },
+      {
+        "text": "Very excited to begin",
+        "correct": false
+      },
+      {
+        "text": "Able to run fast",
+        "correct": false
+      },
+      {
+        "text": "Ready with an answer",
+        "correct": false
+      }
+    ],
+    "explanation": "Reluctant means unwilling or hesitant. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000010",
+    "word": "compare",
+    "grade": "4",
+    "definition": "To look at two things to see how they are alike and different.",
+    "example": "Let us compare the two pictures.",
+    "syllables": "com · pare",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To hide something away",
+        "correct": false
+      },
+      {
+        "text": "To see how two things are alike and different",
+        "correct": true
+      },
+      {
+        "text": "To make a loud sound",
+        "correct": false
+      },
+      {
+        "text": "To count to one hundred",
+        "correct": false
+      }
+    ],
+    "explanation": "When you compare, you look for likenesses and differences. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000011",
+    "word": "vanish",
+    "grade": "4",
+    "definition": "To disappear suddenly.",
+    "example": "The magician made the coin vanish.",
+    "syllables": "van · ish",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To grow very large",
+        "correct": false
+      },
+      {
+        "text": "To appear out of nowhere",
+        "correct": false
+      },
+      {
+        "text": "To disappear suddenly",
+        "correct": true
+      },
+      {
+        "text": "To make a lot of noise",
+        "correct": false
+      }
+    ],
+    "explanation": "If something vanishes, it is gone from sight. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0004-4000-8000-000000000012",
+    "word": "scarce",
+    "grade": "4",
+    "definition": "Hard to find because there is very little of it.",
+    "example": "Water is scarce in the desert.",
+    "syllables": "scarce",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Found everywhere",
+        "correct": false
+      },
+      {
+        "text": "Very loud",
+        "correct": false
+      },
+      {
+        "text": "Easy to carry",
+        "correct": false
+      },
+      {
+        "text": "Hard to find because there is little of it",
+        "correct": true
+      }
+    ],
+    "explanation": "Scarce means there is not much to go around. Great job!"
+  }
+]

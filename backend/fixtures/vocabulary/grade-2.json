@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000001",
+    "word": "ice cream",
+    "grade": "2",
+    "definition": "A cold, sweet treat made from milk and sugar.",
+    "example": "We had ice cream on a hot day.",
+    "syllables": "ice · cream",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A hot soup with noodles",
+        "correct": false
+      },
+      {
+        "text": "A crunchy snack made from corn",
+        "correct": false
+      },
+      {
+        "text": "A cold, sweet treat made from milk",
+        "correct": true
+      },
+      {
+        "text": "A drink made from oranges",
+        "correct": false
+      }
+    ],
+    "explanation": "Ice cream is a cold treat that melts in the sun. Yum!"
+  },
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000002",
+    "word": "garden",
+    "grade": "2",
+    "definition": "A place where people grow flowers, fruits or vegetables.",
+    "example": "We planted carrots in the garden.",
+    "syllables": "gar · den",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A room for sleeping",
+        "correct": false
+      },
+      {
+        "text": "A road for cars",
+        "correct": false
+      },
+      {
+        "text": "A shop that sells shoes",
+        "correct": false
+      },
+      {
+        "text": "A place where flowers and vegetables grow",
+        "correct": true
+      }
+    ],
+    "explanation": "In a garden, people grow plants. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000003",
+    "word": "whisper",
+    "grade": "2",
+    "definition": "To speak very softly so only a person close by can hear.",
+    "example": "I had to whisper in the library.",
+    "syllables": "whis · per",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To speak very softly",
+        "correct": true
+      },
+      {
+        "text": "To shout as loudly as you can",
+        "correct": false
+      },
+      {
+        "text": "To sing a long song",
+        "correct": false
+      },
+      {
+        "text": "To clap your hands",
+        "correct": false
+      }
+    ],
+    "explanation": "When you whisper, you use a very quiet voice. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000004",
+    "word": "kitchen",
+    "grade": "2",
+    "definition": "The room where food is made.",
+    "example": "Dad is cooking dinner in the kitchen.",
+    "syllables": "kitch · en",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "The room where you sleep",
+        "correct": false
+      },
+      {
+        "text": "The room where food is made",
+        "correct": true
+      },
+      {
+        "text": "The room where you take a bath",
+        "correct": false
+      },
+      {
+        "text": "The yard outside the house",
+        "correct": false
+      }
+    ],
+    "explanation": "A kitchen is where meals are cooked. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000005",
+    "word": "bridge",
+    "grade": "2",
+    "definition": "A structure that lets people or cars cross over water or a road.",
+    "example": "We crossed the bridge over the river.",
+    "syllables": "bridge",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A boat with sails",
+        "correct": false
+      },
+      {
+        "text": "A tunnel under a mountain",
+        "correct": false
+      },
+      {
+        "text": "A structure for crossing over water",
+        "correct": true
+      },
+      {
+        "text": "A wall around a castle",
+        "correct": false
+      }
+    ],
+    "explanation": "A bridge helps you get across a river. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000006",
+    "word": "picture",
+    "grade": "2",
+    "definition": "A drawing, painting or photo that shows something.",
+    "example": "She hung the picture on the wall.",
+    "syllables": "pic · ture",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A song with no words",
+        "correct": false
+      },
+      {
+        "text": "A story told out loud",
+        "correct": false
+      },
+      {
+        "text": "A game with cards",
+        "correct": false
+      },
+      {
+        "text": "A drawing or photo that shows something",
+        "correct": true
+      }
+    ],
+    "explanation": "A picture shows something you can look at. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000007",
+    "word": "planet",
+    "grade": "2",
+    "definition": "A large round object in space that moves around a star.",
+    "example": "Earth is the planet we live on.",
+    "syllables": "plan · et",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A large round object in space",
+        "correct": true
+      },
+      {
+        "text": "A tiny bug in the grass",
+        "correct": false
+      },
+      {
+        "text": "A tall tower in a city",
+        "correct": false
+      },
+      {
+        "text": "A machine that flies",
+        "correct": false
+      }
+    ],
+    "explanation": "A planet travels around a star. Out of this world!"
+  },
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000008",
+    "word": "careful",
+    "grade": "2",
+    "definition": "Paying close attention so that nothing bad happens.",
+    "example": "Be careful with the hot soup.",
+    "syllables": "care · ful",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Moving very fast without looking",
+        "correct": false
+      },
+      {
+        "text": "Paying close attention to stay safe",
+        "correct": true
+      },
+      {
+        "text": "Feeling sleepy",
+        "correct": false
+      },
+      {
+        "text": "Wanting to play",
+        "correct": false
+      }
+    ],
+    "explanation": "A careful person thinks before acting. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000009",
+    "word": "pumpkin",
+    "grade": "2",
+    "definition": "A large round orange fruit that grows on a vine.",
+    "example": "We carved a face into the pumpkin.",
+    "syllables": "pump · kin",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A small green bean",
+        "correct": false
+      },
+      {
+        "text": "A long yellow banana",
+        "correct": false
+      },
+      {
+        "text": "A large round orange fruit",
+        "correct": true
+      },
+      {
+        "text": "A red berry",
+        "correct": false
+      }
+    ],
+    "explanation": "A pumpkin is a big orange fruit that grows on a vine. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000010",
+    "word": "umbrella",
+    "grade": "2",
+    "definition": "A cover you hold over your head to stay dry in the rain.",
+    "example": "I opened my umbrella when it rained.",
+    "syllables": "um · brel · la",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A blanket for the beach",
+        "correct": false
+      },
+      {
+        "text": "A hat for the snow",
+        "correct": false
+      },
+      {
+        "text": "A bag for lunch",
+        "correct": false
+      },
+      {
+        "text": "A cover that keeps you dry in the rain",
+        "correct": true
+      }
+    ],
+    "explanation": "An umbrella keeps rain off your head. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000011",
+    "word": "thunder",
+    "grade": "2",
+    "definition": "The loud rumbling sound you hear during a storm.",
+    "example": "The thunder made the dog hide.",
+    "syllables": "thun · der",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "The loud rumbling sound in a storm",
+        "correct": true
+      },
+      {
+        "text": "The bright flash in the sky",
+        "correct": false
+      },
+      {
+        "text": "A soft breeze on a warm day",
+        "correct": false
+      },
+      {
+        "text": "Tiny drops of morning dew",
+        "correct": false
+      }
+    ],
+    "explanation": "Thunder is the loud sound that comes with lightning. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0002-4000-8000-000000000012",
+    "word": "sleepy",
+    "grade": "2",
+    "definition": "Ready to go to sleep and feeling tired.",
+    "example": "The baby was sleepy after lunch.",
+    "syllables": "sleep · y",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Feeling full of energy",
+        "correct": false
+      },
+      {
+        "text": "Feeling tired and ready to sleep",
+        "correct": true
+      },
+      {
+        "text": "Feeling very hungry",
+        "correct": false
+      },
+      {
+        "text": "Feeling very angry",
+        "correct": false
+      }
+    ],
+    "explanation": "When you are sleepy, you want to rest. Great job!"
+  }
+]

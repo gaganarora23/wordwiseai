@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000001",
+    "word": "ambiguous",
+    "grade": "8",
+    "definition": "Having more than one possible meaning, so it is unclear.",
+    "example": "The ambiguous sign confused the visitors.",
+    "syllables": "am · big · u · ous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Having more than one possible meaning",
+        "correct": true
+      },
+      {
+        "text": "Perfectly clear",
+        "correct": false
+      },
+      {
+        "text": "Very loud",
+        "correct": false
+      },
+      {
+        "text": "Easy to remember",
+        "correct": false
+      }
+    ],
+    "explanation": "Ambiguous means unclear because it can be understood in different ways. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000002",
+    "word": "bolster",
+    "grade": "8",
+    "definition": "To support something and make it stronger.",
+    "example": "A good night's sleep will bolster your energy.",
+    "syllables": "bol · ster",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To weaken or harm",
+        "correct": false
+      },
+      {
+        "text": "To support and make stronger",
+        "correct": true
+      },
+      {
+        "text": "To hide from view",
+        "correct": false
+      },
+      {
+        "text": "To cut in half",
+        "correct": false
+      }
+    ],
+    "explanation": "To bolster is to strengthen. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000003",
+    "word": "meticulous",
+    "grade": "8",
+    "definition": "Very careful and exact about small details.",
+    "example": "The meticulous artist checked every tiny line.",
+    "syllables": "me · tic · u · lous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Messy and careless",
+        "correct": false
+      },
+      {
+        "text": "Quick and loud",
+        "correct": false
+      },
+      {
+        "text": "Very careful about small details",
+        "correct": true
+      },
+      {
+        "text": "Shy and quiet",
+        "correct": false
+      }
+    ],
+    "explanation": "A meticulous person pays close attention to details. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000004",
+    "word": "reconcile",
+    "grade": "8",
+    "definition": "To make peace after a disagreement, or to make two things fit together.",
+    "example": "The two friends reconcile after their argument.",
+    "syllables": "rec · on · cile",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To start a new quarrel",
+        "correct": false
+      },
+      {
+        "text": "To walk away from a friend",
+        "correct": false
+      },
+      {
+        "text": "To keep a secret",
+        "correct": false
+      },
+      {
+        "text": "To make peace after a disagreement",
+        "correct": true
+      }
+    ],
+    "explanation": "To reconcile is to bring people back together in peace. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000005",
+    "word": "pragmatic",
+    "grade": "8",
+    "definition": "Dealing with problems in a sensible, practical way.",
+    "example": "She took a pragmatic approach and made a simple plan.",
+    "syllables": "prag · mat · ic",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Sensible and practical",
+        "correct": true
+      },
+      {
+        "text": "Dreamy and unrealistic",
+        "correct": false
+      },
+      {
+        "text": "Careless and rushed",
+        "correct": false
+      },
+      {
+        "text": "Loud and bossy",
+        "correct": false
+      }
+    ],
+    "explanation": "A pragmatic person cares about what works. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000006",
+    "word": "scrutinize",
+    "grade": "8",
+    "definition": "To examine something very closely.",
+    "example": "The judge will scrutinize each painting.",
+    "syllables": "scru · ti · nize",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To glance at quickly",
+        "correct": false
+      },
+      {
+        "text": "To examine very closely",
+        "correct": true
+      },
+      {
+        "text": "To throw away",
+        "correct": false
+      },
+      {
+        "text": "To paint over",
+        "correct": false
+      }
+    ],
+    "explanation": "To scrutinize is to look at something with great care. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000007",
+    "word": "tenacious",
+    "grade": "8",
+    "definition": "Holding on firmly and refusing to give up.",
+    "example": "The tenacious puppy kept tugging at the rope.",
+    "syllables": "te · na · cious",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Quick to let go",
+        "correct": false
+      },
+      {
+        "text": "Tired and sleepy",
+        "correct": false
+      },
+      {
+        "text": "Holding on firmly and not giving up",
+        "correct": true
+      },
+      {
+        "text": "Easy to fool",
+        "correct": false
+      }
+    ],
+    "explanation": "Tenacious means determined and stubborn. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000008",
+    "word": "futile",
+    "grade": "8",
+    "definition": "Having no chance of success.",
+    "example": "It is futile to push on a door that says pull.",
+    "syllables": "fu · tile",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Sure to work well",
+        "correct": false
+      },
+      {
+        "text": "Full of fun",
+        "correct": false
+      },
+      {
+        "text": "Very valuable",
+        "correct": false
+      },
+      {
+        "text": "Having no chance of success",
+        "correct": true
+      }
+    ],
+    "explanation": "A futile effort is a waste of time. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000009",
+    "word": "diligent",
+    "grade": "8",
+    "definition": "Working carefully and steadily.",
+    "example": "The diligent student finished her homework every night.",
+    "syllables": "dil · i · gent",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Working carefully and steadily",
+        "correct": true
+      },
+      {
+        "text": "Lazy and slow",
+        "correct": false
+      },
+      {
+        "text": "Silly and playful",
+        "correct": false
+      },
+      {
+        "text": "Rude and loud",
+        "correct": false
+      }
+    ],
+    "explanation": "A diligent person puts in steady effort. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000010",
+    "word": "meek",
+    "grade": "8",
+    "definition": "Quiet, gentle and not likely to argue.",
+    "example": "The meek kitten hid behind the couch.",
+    "syllables": "meek",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Loud and bossy",
+        "correct": false
+      },
+      {
+        "text": "Quiet, gentle and not likely to argue",
+        "correct": true
+      },
+      {
+        "text": "Fast and strong",
+        "correct": false
+      },
+      {
+        "text": "Bright and shiny",
+        "correct": false
+      }
+    ],
+    "explanation": "Meek means mild and gentle. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000011",
+    "word": "abstain",
+    "grade": "8",
+    "definition": "To choose not to do or have something.",
+    "example": "I abstain from sugary drinks.",
+    "syllables": "ab · stain",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To eat too much",
+        "correct": false
+      },
+      {
+        "text": "To share with others",
+        "correct": false
+      },
+      {
+        "text": "To choose not to do or have something",
+        "correct": true
+      },
+      {
+        "text": "To ask a question",
+        "correct": false
+      }
+    ],
+    "explanation": "To abstain is to hold yourself back. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0008-4000-8000-000000000012",
+    "word": "plausible",
+    "grade": "8",
+    "definition": "Seeming likely to be true.",
+    "example": "Her excuse sounded plausible, so we believed it.",
+    "syllables": "plau · si · ble",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Certainly false",
+        "correct": false
+      },
+      {
+        "text": "Very noisy",
+        "correct": false
+      },
+      {
+        "text": "Hard to read",
+        "correct": false
+      },
+      {
+        "text": "Seeming likely to be true",
+        "correct": true
+      }
+    ],
+    "explanation": "A plausible story could really be true. Nice work!"
+  }
+]

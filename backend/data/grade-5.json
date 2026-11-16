@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "8c5c6934-11ae-41a8-b243-86f5aca35361",
+    "word": "abundant",
+    "grade": "5",
+    "definition": "Present in large amounts, more than enough.",
+    "example": "Apples were abundant this year, so every family on the street got a basket.",
+    "syllables": "a · bun · dant",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Very hard to find nearby",
+        "correct": false
+      },
+      {
+        "text": "Too small to be noticed",
+        "correct": false
+      },
+      {
+        "text": "All used up with none left",
+        "correct": false
+      },
+      {
+        "text": "Present in large amounts",
+        "correct": true
+      }
+    ],
+    "explanation": "Abundant means there is plenty, more than enough. Great job!"
+  },
+  {
+    "id": "7fa4425b-0c78-4a03-ab9d-cb4797d7707d",
+    "word": "accurate",
+    "grade": "5",
+    "definition": "Correct and exact, with no mistakes.",
+    "example": "The map was so accurate that we never got lost on the trail.",
+    "syllables": "ac · cu · rate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Correct and exact in every way",
+        "correct": true
+      },
+      {
+        "text": "Mostly wrong in many places",
+        "correct": false
+      },
+      {
+        "text": "Neat and pretty to look at",
+        "correct": false
+      },
+      {
+        "text": "Large and easy to read",
+        "correct": false
+      }
+    ],
+    "explanation": "Accurate means correct and exact. You got it!"
+  },
+  {
+    "id": "2158a194-5500-4f8c-a83e-b8d4a74a0f8d",
+    "word": "ancestor",
+    "grade": "5",
+    "definition": "A relative from long ago in your family's past.",
+    "example": "My ancestor sailed across the sea in a wooden ship over a hundred years ago.",
+    "syllables": "an · ces · tor",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A friend who lives in your town",
+        "correct": false
+      },
+      {
+        "text": "A relative who lived long before you",
+        "correct": true
+      },
+      {
+        "text": "A teacher who helps with your homework",
+        "correct": false
+      },
+      {
+        "text": "A child who is born after you",
+        "correct": false
+      }
+    ],
+    "explanation": "An ancestor is a relative who lived long before you. Nice work!"
+  },
+  {
+    "id": "3a75248d-4855-418d-bdb2-2d588caf2fdb",
+    "word": "assemble",
+    "grade": "5",
+    "definition": "To put the parts of something together.",
+    "example": "We worked together to assemble the bookshelf from the box.",
+    "syllables": "as · sem · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To put all the parts together",
+        "correct": true
+      },
+      {
+        "text": "To take all the parts apart",
+        "correct": false
+      },
+      {
+        "text": "To count all the parts twice",
+        "correct": false
+      },
+      {
+        "text": "To measure all the parts",
+        "correct": false
+      }
+    ],
+    "explanation": "To assemble is to put the parts together. Well done!"
+  },
+  {
+    "id": "c2938a3d-a0c7-4203-bcdf-0128fbebabc9",
+    "word": "atmosphere",
+    "grade": "5",
+    "definition": "The layer of air that surrounds a planet.",
+    "example": "The atmosphere gives us air to breathe and keeps our planet warm.",
+    "syllables": "at · mos · phere",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The solid rock under the soil",
+        "correct": false
+      },
+      {
+        "text": "The water that fills the deep oceans",
+        "correct": false
+      },
+      {
+        "text": "The space between two far-off stars",
+        "correct": false
+      },
+      {
+        "text": "The layer of air around a planet",
+        "correct": true
+      }
+    ],
+    "explanation": "The atmosphere is the layer of air around a planet. Great job!"
+  },
+  {
+    "id": "a12c63fa-e206-46e6-84a6-29b141a108a6",
+    "word": "boundary",
+    "grade": "5",
+    "definition": "A line that marks where one area ends and another begins.",
+    "example": "A low stone wall marks the boundary of our yard.",
+    "syllables": "bound · a · ry",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A door that opens into a large room",
+        "correct": false
+      },
+      {
+        "text": "A line that marks where an area ends",
+        "correct": true
+      },
+      {
+        "text": "A path that leads through the middle",
+        "correct": false
+      },
+      {
+        "text": "A sign that tells the name of a street",
+        "correct": false
+      }
+    ],
+    "explanation": "A boundary is a line that marks where an area ends. You got it!"
+  },
+  {
+    "id": "19c83973-d367-42fe-be38-c934ff94dc45",
+    "word": "calculate",
+    "grade": "5",
+    "definition": "To find an answer by using numbers, such as by adding or dividing.",
+    "example": "Let's calculate how much money we need to buy the tickets.",
+    "syllables": "cal · cu · late",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To guess an answer with no thinking",
+        "correct": false
+      },
+      {
+        "text": "To write an answer in neat letters",
+        "correct": false
+      },
+      {
+        "text": "To say an answer in a loud voice",
+        "correct": false
+      },
+      {
+        "text": "To find an answer by using numbers",
+        "correct": true
+      }
+    ],
+    "explanation": "To calculate is to find an answer by using numbers. Nice work!"
+  },
+  {
+    "id": "c36719b1-837b-46fa-9991-ca94556cee7a",
+    "word": "category",
+    "grade": "5",
+    "definition": "A group of things that are alike in some way.",
+    "example": "We sorted the books into one category for stories and another for facts.",
+    "syllables": "cat · e · go · ry",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A single thing that stands alone",
+        "correct": false
+      },
+      {
+        "text": "A mix of things that have no link",
+        "correct": false
+      },
+      {
+        "text": "A group of things that are alike",
+        "correct": true
+      },
+      {
+        "text": "A long list of random facts",
+        "correct": false
+      }
+    ],
+    "explanation": "A category is a group of things that are alike. Well done!"
+  },
+  {
+    "id": "9e6160e2-5a20-47e9-abac-1d53a51f7ae5",
+    "word": "cautious",
+    "grade": "5",
+    "definition": "Careful to avoid trouble or mistakes.",
+    "example": "She was cautious on the icy steps and held the railing.",
+    "syllables": "cau · tious",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Eager to try something with no plan at all",
+        "correct": false
+      },
+      {
+        "text": "Ready to run ahead of everyone",
+        "correct": false
+      },
+      {
+        "text": "Careful to avoid trouble or mistakes",
+        "correct": true
+      },
+      {
+        "text": "Willing to take a big risk for fun",
+        "correct": false
+      }
+    ],
+    "explanation": "Cautious means being careful to avoid trouble. Great job!"
+  },
+  {
+    "id": "e2be6c60-bacc-4a73-a5a8-8fa8d3879a20",
+    "word": "circuit",
+    "grade": "5",
+    "definition": "A complete path that electricity can flow around.",
+    "example": "The bulb lit up when we closed the circuit with the switch.",
+    "syllables": "cir · cuit",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A kind of battery that will never run out",
+        "correct": false
+      },
+      {
+        "text": "A glass cover that protects a bulb",
+        "correct": false
+      },
+      {
+        "text": "A switch that turns on a fan",
+        "correct": false
+      },
+      {
+        "text": "A complete path for electricity to flow",
+        "correct": true
+      }
+    ],
+    "explanation": "A circuit is a complete path for electricity. You got it!"
+  },
+  {
+    "id": "ffa22f91-6bbe-493d-a240-97dca41528a5",
+    "word": "communicate",
+    "grade": "5",
+    "definition": "To share ideas, feelings or news with others.",
+    "example": "Dolphins communicate with clicks and whistles.",
+    "syllables": "com · mu · ni · cate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To share ideas or news with others",
+        "correct": true
+      },
+      {
+        "text": "To keep your ideas to yourself",
+        "correct": false
+      },
+      {
+        "text": "To forget news you heard yesterday",
+        "correct": false
+      },
+      {
+        "text": "To read news printed in a paper",
+        "correct": false
+      }
+    ],
+    "explanation": "To communicate is to share ideas or news. Nice work!"
+  },
+  {
+    "id": "a1fe2f4e-1b90-4881-9626-6a585863a92d",
+    "word": "conclude",
+    "grade": "5",
+    "definition": "To decide that something is true after thinking about the facts.",
+    "example": "After reading the clues, we conclude that the footprints belong to a deer.",
+    "syllables": "con · clude",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To doubt every single thing that you have read",
+        "correct": false
+      },
+      {
+        "text": "To begin something with a loud cheer",
+        "correct": false
+      },
+      {
+        "text": "To keep wondering and never decide",
+        "correct": false
+      },
+      {
+        "text": "To decide something after thinking it over",
+        "correct": true
+      }
+    ],
+    "explanation": "To conclude is to decide something after thinking it over. Well done!"
+  },
+  {
+    "id": "f775d88a-d850-477e-b8de-beebe5daf3d4",
+    "word": "construct",
+    "grade": "5",
+    "definition": "To build something by putting parts together.",
+    "example": "Workers will construct a new bridge over the creek.",
+    "syllables": "con · struct",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To tear something down to the ground",
+        "correct": false
+      },
+      {
+        "text": "To paint something a bright shade",
+        "correct": false
+      },
+      {
+        "text": "To build something from many parts",
+        "correct": true
+      },
+      {
+        "text": "To measure something with a ruler",
+        "correct": false
+      }
+    ],
+    "explanation": "To construct is to build something from many parts. Great job!"
+  },
+  {
+    "id": "36d2fc9a-7a70-42e7-a860-e04bf1ab67a3",
+    "word": "contribute",
+    "grade": "5",
+    "definition": "To give something, such as time, money or ideas, to help a group.",
+    "example": "Each student will contribute one idea for the class mural.",
+    "syllables": "con · trib · ute",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To give something to help a group",
+        "correct": true
+      },
+      {
+        "text": "To take something away from a group",
+        "correct": false
+      },
+      {
+        "text": "To keep something hidden from a group",
+        "correct": false
+      },
+      {
+        "text": "To read something out loud to a group",
+        "correct": false
+      }
+    ],
+    "explanation": "To contribute is to give something to help a group. You got it!"
+  },
+  {
+    "id": "fd0ed576-56d8-44d2-bc18-e266d816e026",
+    "word": "convince",
+    "grade": "5",
+    "definition": "To get someone to believe or agree by giving good reasons.",
+    "example": "I tried to convince my brother to share his new game with us.",
+    "syllables": "con · vince",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To ask someone to leave the room quietly",
+        "correct": false
+      },
+      {
+        "text": "To win someone over with good reasons",
+        "correct": true
+      },
+      {
+        "text": "To make someone laugh with a joke",
+        "correct": false
+      },
+      {
+        "text": "To teach someone how to read",
+        "correct": false
+      }
+    ],
+    "explanation": "To convince is to win someone over with good reasons. Nice work!"
+  },
+  {
+    "id": "c08550ac-6139-4860-86a3-19d0585447ab",
+    "word": "definite",
+    "grade": "5",
+    "definition": "Clear and certain, with no doubt about it.",
+    "example": "We need a definite answer before the bus leaves.",
+    "syllables": "def · i · nite",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Unclear and open to many guesses",
+        "correct": false
+      },
+      {
+        "text": "Doubtful and hard to believe",
+        "correct": false
+      },
+      {
+        "text": "Mixed up and hard to follow",
+        "correct": false
+      },
+      {
+        "text": "Clear and certain, with no doubt",
+        "correct": true
+      }
+    ],
+    "explanation": "Definite means clear and certain. Well done!"
+  },
+  {
+    "id": "db7899b8-9229-4008-99d4-71f9d2c37070",
+    "word": "dense",
+    "grade": "5",
+    "definition": "Packed closely together, with little space between.",
+    "example": "The dense fog made it hard to see the road.",
+    "syllables": "dense",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Packed closely with little space",
+        "correct": true
+      },
+      {
+        "text": "Spread far apart with much space",
+        "correct": false
+      },
+      {
+        "text": "Pale and gray in color",
+        "correct": false
+      },
+      {
+        "text": "Thin and easy to see through",
+        "correct": false
+      }
+    ],
+    "explanation": "Dense means packed closely together. Great job!"
+  },
+  {
+    "id": "87b31166-7b0b-45c3-8708-ddb117ad24b1",
+    "word": "determine",
+    "grade": "5",
+    "definition": "To find out for sure by checking the facts.",
+    "example": "A simple test can determine whether a plant needs more sunlight.",
+    "syllables": "de · ter · mine",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To guess something without checking",
+        "correct": false
+      },
+      {
+        "text": "To find out something for sure",
+        "correct": true
+      },
+      {
+        "text": "To put something away for later",
+        "correct": false
+      },
+      {
+        "text": "To pass something along to a friend",
+        "correct": false
+      }
+    ],
+    "explanation": "To determine is to find out something for sure. You got it!"
+  },
+  {
+    "id": "9a78fbb4-4ebf-422e-9518-422398bd449b",
+    "word": "diameter",
+    "grade": "5",
+    "definition": "The distance across a circle, measured straight through its center.",
+    "example": "The diameter of the wheel is about as long as my arm.",
+    "syllables": "di · am · e · ter",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The distance around the edge of a circle",
+        "correct": false
+      },
+      {
+        "text": "The space inside a square box",
+        "correct": false
+      },
+      {
+        "text": "The distance across a circle",
+        "correct": true
+      },
+      {
+        "text": "The height of a tall tower",
+        "correct": false
+      }
+    ],
+    "explanation": "A diameter is the distance straight across a circle. Nice work!"
+  },
+  {
+    "id": "9774c181-756c-46ac-aa2e-166e72545521",
+    "word": "distinct",
+    "grade": "5",
+    "definition": "Clearly different from the others and easy to notice.",
+    "example": "Each bird has a distinct song that makes it easy to recognize.",
+    "syllables": "dis · tinct",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Exactly the same as the others",
+        "correct": false
+      },
+      {
+        "text": "Hidden from view by something else",
+        "correct": false
+      },
+      {
+        "text": "Clearly different from the others",
+        "correct": true
+      },
+      {
+        "text": "Too faint for anyone to hear",
+        "correct": false
+      }
+    ],
+    "explanation": "Distinct means clearly different from the others. Well done!"
+  },
+  {
+    "id": "d79c566a-1ede-4729-a050-3f3590975760",
+    "word": "durable",
+    "grade": "5",
+    "definition": "Strong and able to last a long time without wearing out.",
+    "example": "These durable boots lasted through three hiking seasons.",
+    "syllables": "du · ra · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Light enough to float on water",
+        "correct": false
+      },
+      {
+        "text": "Strong enough to last a long time",
+        "correct": true
+      },
+      {
+        "text": "Bright enough to be seen at night",
+        "correct": false
+      },
+      {
+        "text": "Cheap enough to buy every week",
+        "correct": false
+      }
+    ],
+    "explanation": "Durable means strong enough to last a long time. Great job!"
+  },
+  {
+    "id": "10681110-ce68-426d-84c0-55069d61f370",
+    "word": "efficient",
+    "grade": "5",
+    "definition": "Working well without wasting time, energy or materials.",
+    "example": "A bicycle is an efficient way to travel across town.",
+    "syllables": "ef · fi · cient",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Working slowly and wasting a lot",
+        "correct": false
+      },
+      {
+        "text": "Working with a lot of extra steps",
+        "correct": false
+      },
+      {
+        "text": "Working without any plan or goal",
+        "correct": false
+      },
+      {
+        "text": "Working well without wasting anything",
+        "correct": true
+      }
+    ],
+    "explanation": "Efficient means working well without wasting anything. You got it!"
+  },
+  {
+    "id": "52dd84c6-b941-42c3-9cc1-e538d1980f76",
+    "word": "elevate",
+    "grade": "5",
+    "definition": "To lift something up to a higher place or level.",
+    "example": "Please elevate the sign so everyone in the back can see it.",
+    "syllables": "el · e · vate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To press something down flat",
+        "correct": false
+      },
+      {
+        "text": "To pass something along to someone else nearby",
+        "correct": false
+      },
+      {
+        "text": "To turn something around in place",
+        "correct": false
+      },
+      {
+        "text": "To lift something up to a higher level",
+        "correct": true
+      }
+    ],
+    "explanation": "To elevate is to lift something up higher. Nice work!"
+  },
+  {
+    "id": "31ae5026-ffd6-4aab-b511-063b994d91e3",
+    "word": "essential",
+    "grade": "5",
+    "definition": "So important that you cannot do without it.",
+    "example": "Water is essential for every plant and animal.",
+    "syllables": "es · sen · tial",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Nice to have but very easy to do without",
+        "correct": false
+      },
+      {
+        "text": "Left over after everything is finished",
+        "correct": false
+      },
+      {
+        "text": "So needed that you cannot do without it",
+        "correct": true
+      },
+      {
+        "text": "Strange and not seen very often",
+        "correct": false
+      }
+    ],
+    "explanation": "Essential means so needed that you cannot do without it. Well done!"
+  },
+  {
+    "id": "e186c474-73ec-4986-ae4e-a4386a5ea378",
+    "word": "estimate",
+    "grade": "5",
+    "definition": "To make a careful guess about an amount or size.",
+    "example": "Can you estimate how many marbles are in the jar?",
+    "syllables": "es · ti · mate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To find the exact number by counting them",
+        "correct": false
+      },
+      {
+        "text": "To make a careful guess about an amount",
+        "correct": true
+      },
+      {
+        "text": "To write a number in big letters",
+        "correct": false
+      },
+      {
+        "text": "To add two numbers together",
+        "correct": false
+      }
+    ],
+    "explanation": "To estimate is to make a careful guess about an amount. Great job!"
+  },
+  {
+    "id": "dbde291f-27d6-4d6a-a72d-41c634db135e",
+    "word": "evaporate",
+    "grade": "5",
+    "definition": "To change from a liquid into a gas that rises into the air.",
+    "example": "The puddle will evaporate as the sun warms the ground.",
+    "syllables": "e · vap · o · rate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To change from a liquid into a solid",
+        "correct": false
+      },
+      {
+        "text": "To change from a liquid into a gas",
+        "correct": true
+      },
+      {
+        "text": "To change from a gas into a liquid",
+        "correct": false
+      },
+      {
+        "text": "To change from one color to another",
+        "correct": false
+      }
+    ],
+    "explanation": "To evaporate is to change from a liquid into a gas. You got it!"
+  },
+  {
+    "id": "d92b93fe-2158-4678-82ee-c68dffbc43d8",
+    "word": "fertile",
+    "grade": "5",
+    "definition": "Good for growing plants, as rich soil is.",
+    "example": "The fertile soil near the river grew tall corn.",
+    "syllables": "fer · tile",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Rich and good for growing plants",
+        "correct": true
+      },
+      {
+        "text": "Dry and too hard for any seed",
+        "correct": false
+      },
+      {
+        "text": "Sandy and washed away by waves",
+        "correct": false
+      },
+      {
+        "text": "Frozen and covered in snow all year",
+        "correct": false
+      }
+    ],
+    "explanation": "Fertile means rich and good for growing plants. Nice work!"
+  },
+  {
+    "id": "9a8d5245-acce-4afd-b7b3-d693f03b8a77",
+    "word": "flexible",
+    "grade": "5",
+    "definition": "Able to bend easily without breaking.",
+    "example": "The flexible branch bent in the wind but did not snap.",
+    "syllables": "flex · i · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Stiff and likely to snap",
+        "correct": false
+      },
+      {
+        "text": "Heavy enough to sink fast",
+        "correct": false
+      },
+      {
+        "text": "Sharp enough to cut through paper",
+        "correct": false
+      },
+      {
+        "text": "Able to bend without breaking",
+        "correct": true
+      }
+    ],
+    "explanation": "Flexible means able to bend without breaking. Well done!"
+  },
+  {
+    "id": "7bd056a6-bbdf-4723-8d34-1b985e3353d4",
+    "word": "generate",
+    "grade": "5",
+    "definition": "To make or produce something.",
+    "example": "Wind turbines generate electricity for the town.",
+    "syllables": "gen · er · ate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To use up something quickly",
+        "correct": false
+      },
+      {
+        "text": "To pack away something carefully",
+        "correct": false
+      },
+      {
+        "text": "To make or produce something",
+        "correct": true
+      },
+      {
+        "text": "To give back something borrowed",
+        "correct": false
+      }
+    ],
+    "explanation": "To generate is to make or produce something. Great job!"
+  },
+  {
+    "id": "c598c6a4-4994-4cda-adea-8d2a86c76eeb",
+    "word": "horizon",
+    "grade": "5",
+    "definition": "The line far away where the sky seems to meet the land or sea.",
+    "example": "We watched the sun slip below the horizon.",
+    "syllables": "ho · ri · zon",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The far-off line where sky meets land",
+        "correct": true
+      },
+      {
+        "text": "The highest peak of a very tall mountain",
+        "correct": false
+      },
+      {
+        "text": "The edge of a small garden bed",
+        "correct": false
+      },
+      {
+        "text": "The top of a tall building",
+        "correct": false
+      }
+    ],
+    "explanation": "The horizon is the far-off line where sky meets land. You got it!"
+  },
+  {
+    "id": "783e6164-e47b-45bc-a214-9ddb65faff9d",
+    "word": "immense",
+    "grade": "5",
+    "definition": "Extremely large.",
+    "example": "The blue whale is an immense animal, longer than two buses.",
+    "syllables": "im · mense",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Extremely large in size",
+        "correct": true
+      },
+      {
+        "text": "Barely big enough to see",
+        "correct": false
+      },
+      {
+        "text": "Just the right size for a hand",
+        "correct": false
+      },
+      {
+        "text": "Small enough to fit in a pocket",
+        "correct": false
+      }
+    ],
+    "explanation": "Immense means extremely large. Nice work!"
+  },
+  {
+    "id": "34d86220-c65b-4d36-8a42-31864bb6f950",
+    "word": "inform",
+    "grade": "5",
+    "definition": "To tell someone facts or news.",
+    "example": "Please inform your parents about the field trip.",
+    "syllables": "in · form",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To ask someone for a favor",
+        "correct": false
+      },
+      {
+        "text": "To tell someone facts or news",
+        "correct": true
+      },
+      {
+        "text": "To give someone a small gift",
+        "correct": false
+      },
+      {
+        "text": "To wave to someone far away",
+        "correct": false
+      }
+    ],
+    "explanation": "To inform is to tell someone facts or news. Well done!"
+  },
+  {
+    "id": "72f0ff6a-e1d6-4566-a6b6-29eca8244af4",
+    "word": "instinct",
+    "grade": "5",
+    "definition": "A natural way of acting that you are born with, not one you learn.",
+    "example": "A baby turtle's instinct tells it to head for the water.",
+    "syllables": "in · stinct",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A natural urge you are born with",
+        "correct": true
+      },
+      {
+        "text": "A skill that you practice for years",
+        "correct": false
+      },
+      {
+        "text": "A fact that you read in a book",
+        "correct": false
+      },
+      {
+        "text": "A habit that you learn from a friend",
+        "correct": false
+      }
+    ],
+    "explanation": "An instinct is a natural urge you are born with. Great job!"
+  },
+  {
+    "id": "a72b319e-b1ec-4078-9940-362697a0881f",
+    "word": "investigate",
+    "grade": "5",
+    "definition": "To study something carefully to find out the facts.",
+    "example": "We will investigate why the plant leaves are turning yellow.",
+    "syllables": "in · ves · ti · gate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To admire something from very far away",
+        "correct": false
+      },
+      {
+        "text": "To ignore something and move on",
+        "correct": false
+      },
+      {
+        "text": "To study something to find the facts",
+        "correct": true
+      },
+      {
+        "text": "To copy something onto paper",
+        "correct": false
+      }
+    ],
+    "explanation": "To investigate is to study something to find the facts. You got it!"
+  },
+  {
+    "id": "51e5a9f1-7004-4028-8dc3-b359fcbd581e",
+    "word": "mineral",
+    "grade": "5",
+    "definition": "A natural solid that is found in the earth and is not a plant or animal.",
+    "example": "Quartz is a hard mineral that is found in many rocks.",
+    "syllables": "min · er · al",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A living thing that grows in soil",
+        "correct": false
+      },
+      {
+        "text": "A natural solid found in the earth",
+        "correct": true
+      },
+      {
+        "text": "A tool used for digging up rock",
+        "correct": false
+      },
+      {
+        "text": "A liquid that fills a river",
+        "correct": false
+      }
+    ],
+    "explanation": "A mineral is a natural solid found in the earth. Nice work!"
+  },
+  {
+    "id": "f4161e4f-5aac-46dc-be01-b7d3f8d305e6",
+    "word": "migrate",
+    "grade": "5",
+    "definition": "To travel to another place, often far away, when the seasons change.",
+    "example": "Many birds migrate south before winter.",
+    "syllables": "mi · grate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To sleep through the whole winter",
+        "correct": false
+      },
+      {
+        "text": "To build a nest high in a tree",
+        "correct": false
+      },
+      {
+        "text": "To travel far when the seasons change",
+        "correct": true
+      },
+      {
+        "text": "To change colors with the season",
+        "correct": false
+      }
+    ],
+    "explanation": "To migrate is to travel far when the seasons change. Well done!"
+  },
+  {
+    "id": "7e7abaac-1baf-41c3-a44d-47e32792cbe6",
+    "word": "navigate",
+    "grade": "5",
+    "definition": "To find your way from one place to another, using a map or compass.",
+    "example": "On the drive, we used a map to navigate through the winding mountain roads.",
+    "syllables": "nav · i · gate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To pack your bags for a long trip",
+        "correct": false
+      },
+      {
+        "text": "To pay for tickets at a station",
+        "correct": false
+      },
+      {
+        "text": "To find your way from place to place",
+        "correct": true
+      },
+      {
+        "text": "To wait in a line at a gate",
+        "correct": false
+      }
+    ],
+    "explanation": "To navigate is to find your way from place to place. Great job!"
+  },
+  {
+    "id": "69414dfa-b776-4312-8d2e-2d510929870b",
+    "word": "numerous",
+    "grade": "5",
+    "definition": "Very many, a large number of.",
+    "example": "Numerous birds gathered on the lawn after the rain.",
+    "syllables": "nu · mer · ous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Only one or two in all",
+        "correct": false
+      },
+      {
+        "text": "Too far apart to count",
+        "correct": false
+      },
+      {
+        "text": "Alike in every way",
+        "correct": false
+      },
+      {
+        "text": "Very many in number",
+        "correct": true
+      }
+    ],
+    "explanation": "Numerous means very many. You got it!"
+  },
+  {
+    "id": "528eb370-a2f7-4e1c-beee-33d62ba95d21",
+    "word": "obstacle",
+    "grade": "5",
+    "definition": "Something that gets in your way and makes it hard to go forward.",
+    "example": "A fallen log was an obstacle on the trail.",
+    "syllables": "ob · sta · cle",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something that shows you the way",
+        "correct": false
+      },
+      {
+        "text": "Something that blocks your way",
+        "correct": true
+      },
+      {
+        "text": "Something that carries you along",
+        "correct": false
+      },
+      {
+        "text": "Something that makes a trip shorter",
+        "correct": false
+      }
+    ],
+    "explanation": "An obstacle is something that blocks your way. Nice work!"
+  },
+  {
+    "id": "73b34dee-896e-40ac-a7d2-f006aaf43996",
+    "word": "organism",
+    "grade": "5",
+    "definition": "Any living thing, such as a plant, an animal or a mushroom.",
+    "example": "Even a tiny pond organism can be seen under a microscope.",
+    "syllables": "or · gan · ism",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A machine that runs on batteries",
+        "correct": false
+      },
+      {
+        "text": "A rock found at the bottom of a lake",
+        "correct": false
+      },
+      {
+        "text": "Any living thing",
+        "correct": true
+      },
+      {
+        "text": "A tool for measuring the weather",
+        "correct": false
+      }
+    ],
+    "explanation": "An organism is any living thing. Well done!"
+  },
+  {
+    "id": "c168c7d2-e459-43df-9caf-3674972673ab",
+    "word": "ecosystem",
+    "grade": "5",
+    "definition": "All the living things in a place and the way they depend on each other and their surroundings.",
+    "example": "A pond is a small ecosystem with plants, fish, insects and water.",
+    "syllables": "ec · o · sys · tem",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A big building where many animals are kept",
+        "correct": false
+      },
+      {
+        "text": "A machine that cleans the air indoors",
+        "correct": false
+      },
+      {
+        "text": "Living things and the place they share",
+        "correct": true
+      },
+      {
+        "text": "A map that shows where plants grow",
+        "correct": false
+      }
+    ],
+    "explanation": "An ecosystem is living things and the place they share. Great job!"
+  },
+  {
+    "id": "b2e659cb-2109-4d3f-84d4-4bd90a4e3535",
+    "word": "obvious",
+    "grade": "5",
+    "definition": "Easy to see or understand.",
+    "example": "It was obvious from her big smile that she loved the gift.",
+    "syllables": "ob · vi · ous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Hard to find and easy to miss",
+        "correct": false
+      },
+      {
+        "text": "Easy to see or understand",
+        "correct": true
+      },
+      {
+        "text": "Strange and hard to explain",
+        "correct": false
+      },
+      {
+        "text": "Quiet and tucked out of sight",
+        "correct": false
+      }
+    ],
+    "explanation": "Obvious means easy to see or understand. You got it!"
+  },
+  {
+    "id": "cdf6a0b2-0722-4c2f-8a59-6848b1ba7971",
+    "word": "reflect",
+    "grade": "5",
+    "definition": "To send back light, heat or sound, the way a mirror does.",
+    "example": "The calm lake will reflect the colors of the sunset.",
+    "syllables": "re · flect",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To soak in light, like a sponge",
+        "correct": false
+      },
+      {
+        "text": "To make light dim and dark",
+        "correct": false
+      },
+      {
+        "text": "To let light pass straight through",
+        "correct": false
+      },
+      {
+        "text": "To send back light, like a mirror",
+        "correct": true
+      }
+    ],
+    "explanation": "To reflect is to send back light, like a mirror. Nice work!"
+  },
+  {
+    "id": "5fa2c2dd-4047-4458-835f-6f1956e5b6e3",
+    "word": "reliable",
+    "grade": "5",
+    "definition": "Able to be trusted to do what it should.",
+    "example": "A reliable friend keeps every promise.",
+    "syllables": "re · li · a · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Likely to break at any moment",
+        "correct": false
+      },
+      {
+        "text": "Often wrong when you need it",
+        "correct": false
+      },
+      {
+        "text": "New and not yet tried by anyone",
+        "correct": false
+      },
+      {
+        "text": "Able to be trusted to do its job",
+        "correct": true
+      }
+    ],
+    "explanation": "Reliable means able to be trusted to do its job. Well done!"
+  },
+  {
+    "id": "d5470490-7992-46a4-b4f2-75c2c1482ed8",
+    "word": "represent",
+    "grade": "5",
+    "definition": "To stand for or be a sign of something else.",
+    "example": "On a map, a blue line can represent a river.",
+    "syllables": "rep · re · sent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To stand for something else",
+        "correct": true
+      },
+      {
+        "text": "To hide something from view",
+        "correct": false
+      },
+      {
+        "text": "To take something apart",
+        "correct": false
+      },
+      {
+        "text": "To add something to a list",
+        "correct": false
+      }
+    ],
+    "explanation": "To represent is to stand for something else. Great job!"
+  },
+  {
+    "id": "52b05fda-652a-4c0e-8841-81b513f562b8",
+    "word": "resource",
+    "grade": "5",
+    "definition": "Something useful that people can use, such as water, wood or time.",
+    "example": "Water is a natural resource that all people need.",
+    "syllables": "re · source",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something broken that people throw out",
+        "correct": false
+      },
+      {
+        "text": "Something secret that people hide",
+        "correct": false
+      },
+      {
+        "text": "Something far away that people visit",
+        "correct": false
+      },
+      {
+        "text": "Something useful that people can use",
+        "correct": true
+      }
+    ],
+    "explanation": "A resource is something useful that people can use. You got it!"
+  },
+  {
+    "id": "f7de8b14-9e22-4814-b24d-25d314a29208",
+    "word": "sequence",
+    "grade": "5",
+    "definition": "A set of things that come one after another in a certain order.",
+    "example": "Put the pictures in sequence to tell the story.",
+    "syllables": "se · quence",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Things that are all gathered in a heap",
+        "correct": false
+      },
+      {
+        "text": "Things that follow one after another",
+        "correct": true
+      },
+      {
+        "text": "Things that are placed far from each other",
+        "correct": false
+      },
+      {
+        "text": "Things that are exactly the same size",
+        "correct": false
+      }
+    ],
+    "explanation": "A sequence is things that follow one after another. Nice work!"
+  },
+  {
+    "id": "3c305c15-e35d-4b43-a8d0-d9d51237f0c1",
+    "word": "specific",
+    "grade": "5",
+    "definition": "Exact and clear, not general or vague.",
+    "example": "Be specific: tell me which shelf the book is on.",
+    "syllables": "spe · cif · ic",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Exact and clear, not vague",
+        "correct": true
+      },
+      {
+        "text": "Hidden and not easy to find",
+        "correct": false
+      },
+      {
+        "text": "Wide and covering many things",
+        "correct": false
+      },
+      {
+        "text": "Mixed up and hard to follow",
+        "correct": false
+      }
+    ],
+    "explanation": "Specific means exact and clear. Well done!"
+  },
+  {
+    "id": "5fd6cf29-66d7-4514-aa7f-d2d93d07962e",
+    "word": "transform",
+    "grade": "5",
+    "definition": "To change something completely into a new form.",
+    "example": "A caterpillar will transform into a butterfly.",
+    "syllables": "trans · form",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To stay exactly the same for a long time",
+        "correct": false
+      },
+      {
+        "text": "To change completely into something new",
+        "correct": true
+      },
+      {
+        "text": "To step back to where you began",
+        "correct": false
+      },
+      {
+        "text": "To copy something exactly as it is",
+        "correct": false
+      }
+    ],
+    "explanation": "To transform is to change completely into something new. Great job!"
+  },
+  {
+    "id": "28050aae-f7b4-4724-a2de-cd7f4c894ca6",
+    "word": "variety",
+    "grade": "5",
+    "definition": "A number of different kinds of things.",
+    "example": "The market sells a wide variety of fruit.",
+    "syllables": "va · ri · e · ty",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A group of different kinds of things",
+        "correct": true
+      },
+      {
+        "text": "A very large pile of the exact same thing",
+        "correct": false
+      },
+      {
+        "text": "A single choice with no others",
+        "correct": false
+      },
+      {
+        "text": "A place where goods are stored",
+        "correct": false
+      }
+    ],
+    "explanation": "A variety is a group of different kinds of things. You got it!"
+  }
+]

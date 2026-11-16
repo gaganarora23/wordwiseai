@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "0b8a23c8-28f0-4fc9-8071-0a483cb14941",
+    "word": "predict",
+    "grade": "4",
+    "definition": "To say what you think will happen before it happens.",
+    "example": "Dark clouds made me predict that it would rain by noon.",
+    "syllables": "pre · dict",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To tell what already happened last week",
+        "correct": false
+      },
+      {
+        "text": "To forget what you meant to say",
+        "correct": false
+      },
+      {
+        "text": "To ask where something is kept",
+        "correct": false
+      },
+      {
+        "text": "To say what will happen before it does",
+        "correct": true
+      }
+    ],
+    "explanation": "To predict is to say what you think will happen next. Nice work!"
+  },
+  {
+    "id": "e7b77ea9-ff2e-493c-9ca1-c219bdfec46d",
+    "word": "neighbor",
+    "grade": "4",
+    "definition": "A person who lives near you, such as in the next house.",
+    "example": "Our neighbor waters our plants when we go away.",
+    "syllables": "neigh · bor",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A person who lives close to your home",
+        "correct": true
+      },
+      {
+        "text": "A person who teaches in your classroom",
+        "correct": false
+      },
+      {
+        "text": "A person who sells food at a market",
+        "correct": false
+      },
+      {
+        "text": "A person who drives a bus around town",
+        "correct": false
+      }
+    ],
+    "explanation": "A neighbor is someone who lives near you. Great job!"
+  },
+  {
+    "id": "2c734351-9b7a-4428-898e-0859e2c67ba1",
+    "word": "community",
+    "grade": "4",
+    "definition": "A group of people who live, work or play in the same area.",
+    "example": "Our community built a new playground in the park.",
+    "syllables": "com · mu · ni · ty",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A single large building made of brick",
+        "correct": false
+      },
+      {
+        "text": "A set of rules for a board game",
+        "correct": false
+      },
+      {
+        "text": "A road that goes around a big city",
+        "correct": false
+      },
+      {
+        "text": "A group of people who share an area",
+        "correct": true
+      }
+    ],
+    "explanation": "A community is a group of people who share an area. You got it!"
+  },
+  {
+    "id": "7dd7c4a5-e0bd-4f29-ae86-bd7b31b2e9c2",
+    "word": "tradition",
+    "grade": "4",
+    "definition": "Something a family or group has done the same way for many years.",
+    "example": "Baking pies together every fall is our family tradition.",
+    "syllables": "tra · di · tion",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A sudden change that nobody expected",
+        "correct": false
+      },
+      {
+        "text": "A completely new idea no one has tried",
+        "correct": false
+      },
+      {
+        "text": "A habit that only one person has",
+        "correct": false
+      },
+      {
+        "text": "A custom passed down over many years",
+        "correct": true
+      }
+    ],
+    "explanation": "A tradition is a custom that is passed down over time. Well done!"
+  },
+  {
+    "id": "bbcb10eb-081a-4b61-98ee-1315613a9bcf",
+    "word": "compare",
+    "grade": "4",
+    "definition": "To look at two things to see how they are alike and different.",
+    "example": "Let's compare the two maps to see which route is shorter.",
+    "syllables": "com · pare",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To join two things into one whole",
+        "correct": false
+      },
+      {
+        "text": "To check how two things are alike and different",
+        "correct": true
+      },
+      {
+        "text": "To count how many things there are",
+        "correct": false
+      },
+      {
+        "text": "To pick one thing and ignore the other",
+        "correct": false
+      }
+    ],
+    "explanation": "To compare is to see how two things are alike and different. Nice work!"
+  },
+  {
+    "id": "9ae3ef05-df7f-4381-9193-c46b84cb2591",
+    "word": "mixture",
+    "grade": "4",
+    "definition": "Something made by blending two or more things together.",
+    "example": "The soup was a mixture of beans, corn and carrots.",
+    "syllables": "mix · ture",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something made by blending different things",
+        "correct": true
+      },
+      {
+        "text": "A thing that stays in one single solid piece",
+        "correct": false
+      },
+      {
+        "text": "A part that breaks off from the whole",
+        "correct": false
+      },
+      {
+        "text": "A place where many things are stored",
+        "correct": false
+      }
+    ],
+    "explanation": "A mixture is made by blending different things together. Great job!"
+  },
+  {
+    "id": "84529164-1cc3-4769-baf0-7b96f81380fb",
+    "word": "liquid",
+    "grade": "4",
+    "definition": "Something that flows and takes the shape of its container, like water or juice.",
+    "example": "Pour the liquid slowly into the measuring cup.",
+    "syllables": "liq · uid",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something hard that always keeps its own shape",
+        "correct": false
+      },
+      {
+        "text": "Something that flows like water or juice",
+        "correct": true
+      },
+      {
+        "text": "Something light that floats in the air",
+        "correct": false
+      },
+      {
+        "text": "Something soft that you can squeeze",
+        "correct": false
+      }
+    ],
+    "explanation": "A liquid flows, like water or juice. You got it!"
+  },
+  {
+    "id": "63a47a80-99e2-4116-bcd0-146afc4eb76a",
+    "word": "solid",
+    "grade": "4",
+    "definition": "A hard thing that keeps its own shape and does not flow.",
+    "example": "Ice is a solid, but it turns to water when it melts.",
+    "syllables": "sol · id",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something that spills out and spreads flat",
+        "correct": false
+      },
+      {
+        "text": "Something that floats up into the air",
+        "correct": false
+      },
+      {
+        "text": "Something that is too tiny to be seen",
+        "correct": false
+      },
+      {
+        "text": "Something that holds its own shape",
+        "correct": true
+      }
+    ],
+    "explanation": "A solid keeps its own shape instead of flowing. Well done!"
+  },
+  {
+    "id": "f0c679e4-bf9d-4bc3-8cbc-ec9cae0b3170",
+    "word": "rotate",
+    "grade": "4",
+    "definition": "To turn around a center point, the way a wheel spins.",
+    "example": "The fan blades rotate faster when you turn the dial up.",
+    "syllables": "ro · tate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To move straight toward a target",
+        "correct": false
+      },
+      {
+        "text": "To drop down from a high place",
+        "correct": false
+      },
+      {
+        "text": "To turn around a center point",
+        "correct": true
+      },
+      {
+        "text": "To slide back and forth on a line",
+        "correct": false
+      }
+    ],
+    "explanation": "To rotate is to turn around a center point. Nice work!"
+  },
+  {
+    "id": "02143563-7ee0-4be4-a467-80fbeb442fab",
+    "word": "vibrate",
+    "grade": "4",
+    "definition": "To shake back and forth very quickly.",
+    "example": "The guitar string will vibrate when you pluck it.",
+    "syllables": "vi · brate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To stay perfectly still and silent",
+        "correct": false
+      },
+      {
+        "text": "To shake back and forth very fast",
+        "correct": true
+      },
+      {
+        "text": "To roll slowly across the floor",
+        "correct": false
+      },
+      {
+        "text": "To float gently up into the air",
+        "correct": false
+      }
+    ],
+    "explanation": "To vibrate is to shake back and forth very fast. Great job!"
+  },
+  {
+    "id": "634327de-916b-4eb0-9f5f-6d85e7af7842",
+    "word": "absorb",
+    "grade": "4",
+    "definition": "To soak up a liquid, light or heat.",
+    "example": "A sponge can absorb a lot of spilled water.",
+    "syllables": "ab · sorb",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To push something away from itself",
+        "correct": false
+      },
+      {
+        "text": "To soak something up into itself",
+        "correct": true
+      },
+      {
+        "text": "To pour something out of itself",
+        "correct": false
+      },
+      {
+        "text": "To cut something into small pieces",
+        "correct": false
+      }
+    ],
+    "explanation": "To absorb is to soak something up. You got it!"
+  },
+  {
+    "id": "be521bda-1931-4ccb-81ff-06ee870243f1",
+    "word": "balance",
+    "grade": "4",
+    "definition": "A steady position in which your weight is spread evenly so you do not fall.",
+    "example": "She held her arms out to keep her balance on the narrow log.",
+    "syllables": "bal · ance",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A strong force that sends things flying away",
+        "correct": false
+      },
+      {
+        "text": "A sudden stop caused by a heavy bump",
+        "correct": false
+      },
+      {
+        "text": "A quick jump that carries you far",
+        "correct": false
+      },
+      {
+        "text": "A steady position with weight spread out",
+        "correct": true
+      }
+    ],
+    "explanation": "Balance is a steady position that keeps you from falling. Well done!"
+  },
+  {
+    "id": "957a645f-9c37-4a43-b43f-2b752af11d8b",
+    "word": "crater",
+    "grade": "4",
+    "definition": "A large bowl-shaped hole in the ground or on the surface of a moon.",
+    "example": "Through the telescope we saw a huge crater on the moon.",
+    "syllables": "cra · ter",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A tall hill with a pointed top",
+        "correct": false
+      },
+      {
+        "text": "A deep ditch full of fast running water",
+        "correct": false
+      },
+      {
+        "text": "A large bowl-shaped hole in the ground",
+        "correct": true
+      },
+      {
+        "text": "A flat plain covered in tall grass",
+        "correct": false
+      }
+    ],
+    "explanation": "A crater is a large bowl-shaped hole. Nice work!"
+  },
+  {
+    "id": "fd43120d-97f7-4a4d-a5dd-06aad961696b",
+    "word": "current",
+    "grade": "4",
+    "definition": "The steady movement of water or air in one direction.",
+    "example": "The swimmers let the river's current carry them downstream.",
+    "syllables": "cur · rent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A tall wave that crashes down hard on the shore",
+        "correct": false
+      },
+      {
+        "text": "A calm pool of still, quiet water",
+        "correct": false
+      },
+      {
+        "text": "The steady movement of water in one direction",
+        "correct": true
+      },
+      {
+        "text": "A deep hole at the bottom of a lake",
+        "correct": false
+      }
+    ],
+    "explanation": "A current is water or air moving steadily one way. Great job!"
+  },
+  {
+    "id": "c23ef71a-67e7-4d2e-abb9-9caaec5b157a",
+    "word": "decade",
+    "grade": "4",
+    "definition": "A period of ten years.",
+    "example": "My grandmother has lived in the same house for over a decade.",
+    "syllables": "dec · ade",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A period of ten whole weeks",
+        "correct": false
+      },
+      {
+        "text": "A period of ten years",
+        "correct": true
+      },
+      {
+        "text": "A period of ten full months",
+        "correct": false
+      },
+      {
+        "text": "A period of a hundred years",
+        "correct": false
+      }
+    ],
+    "explanation": "A decade is a period of ten years. You got it!"
+  },
+  {
+    "id": "b59ae308-3136-40eb-ae16-c9aa98f8af30",
+    "word": "distance",
+    "grade": "4",
+    "definition": "The amount of space between two places or things.",
+    "example": "The distance from our house to school is about one mile.",
+    "syllables": "dis · tance",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The time it takes to finish a long chore",
+        "correct": false
+      },
+      {
+        "text": "The weight of a heavy backpack",
+        "correct": false
+      },
+      {
+        "text": "The amount of space between two places",
+        "correct": true
+      },
+      {
+        "text": "The speed of a car on the road",
+        "correct": false
+      }
+    ],
+    "explanation": "Distance is the amount of space between two places. Well done!"
+  },
+  {
+    "id": "a01cb426-94fe-4720-952b-37f7d69de30f",
+    "word": "evidence",
+    "grade": "4",
+    "definition": "Facts or signs that show something is true.",
+    "example": "Muddy paw prints were evidence that the dog had been in the garden.",
+    "syllables": "ev · i · dence",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Rules that tell you what to do next",
+        "correct": false
+      },
+      {
+        "text": "A guess that nobody has checked yet",
+        "correct": false
+      },
+      {
+        "text": "A made-up story told just for fun",
+        "correct": false
+      },
+      {
+        "text": "Signs that show something is true",
+        "correct": true
+      }
+    ],
+    "explanation": "Evidence is a sign that shows something is true. Nice work!"
+  },
+  {
+    "id": "7f95096b-ae91-4f50-94b2-08ae95bfbba7",
+    "word": "fossil",
+    "grade": "4",
+    "definition": "The hardened remains or print of a plant or animal from long ago, found in rock.",
+    "example": "We found a fossil of a fern leaf inside a flat gray rock.",
+    "syllables": "fos · sil",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A print of a plant or animal in old rock",
+        "correct": true
+      },
+      {
+        "text": "A shell that washed up on the beach last week",
+        "correct": false
+      },
+      {
+        "text": "A seed that grows into a tall tree",
+        "correct": false
+      },
+      {
+        "text": "A gem that is cut and polished by hand",
+        "correct": false
+      }
+    ],
+    "explanation": "A fossil is the print of a plant or animal in old rock. Great job!"
+  },
+  {
+    "id": "f72d19c9-ff44-4735-aeda-adcd1a335ba8",
+    "word": "glacier",
+    "grade": "4",
+    "definition": "A huge, slow-moving mass of ice that covers land.",
+    "example": "A glacier moves so slowly that you cannot see it change in a day.",
+    "syllables": "gla · cier",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A thick cloud of white fog above a quiet lake",
+        "correct": false
+      },
+      {
+        "text": "A large pond of warm, still water",
+        "correct": false
+      },
+      {
+        "text": "A huge, slow-moving river of ice on land",
+        "correct": true
+      },
+      {
+        "text": "A fast stream of cold, rushing water",
+        "correct": false
+      }
+    ],
+    "explanation": "A glacier is a huge, slow-moving mass of ice. You got it!"
+  },
+  {
+    "id": "54e644bd-22e5-47b4-b43b-21c1dfc16694",
+    "word": "inspect",
+    "grade": "4",
+    "definition": "To look at something closely and carefully to check it.",
+    "example": "Before the trip, we always inspect the bike tires.",
+    "syllables": "in · spect",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To throw something away without looking",
+        "correct": false
+      },
+      {
+        "text": "To paint something a bright color",
+        "correct": false
+      },
+      {
+        "text": "To carry something up a long flight of stairs",
+        "correct": false
+      },
+      {
+        "text": "To look at something closely and carefully",
+        "correct": true
+      }
+    ],
+    "explanation": "To inspect is to look closely and carefully. Well done!"
+  },
+  {
+    "id": "25fb2ed5-8633-420f-be93-dfa890730ca1",
+    "word": "jungle",
+    "grade": "4",
+    "definition": "A thick forest in a warm, rainy place where many plants and animals live.",
+    "example": "Vines hung from the tall trees of the jungle.",
+    "syllables": "jun · gle",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A thick, warm forest full of plants",
+        "correct": true
+      },
+      {
+        "text": "A flat, dry land with few plants",
+        "correct": false
+      },
+      {
+        "text": "A cold, icy field covered in snow",
+        "correct": false
+      },
+      {
+        "text": "A sandy shore beside the sea",
+        "correct": false
+      }
+    ],
+    "explanation": "A jungle is a thick, warm forest full of plants and animals. Nice work!"
+  },
+  {
+    "id": "c8da418b-297b-4667-88ed-bdc8f6f1074b",
+    "word": "lantern",
+    "grade": "4",
+    "definition": "A light you can carry, set inside a case that protects it.",
+    "example": "We hung a lantern from a branch so we could see at the campsite.",
+    "syllables": "lan · tern",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A tool for digging holes in soil",
+        "correct": false
+      },
+      {
+        "text": "A cloth bag for carrying lunch",
+        "correct": false
+      },
+      {
+        "text": "A frame for holding up a tent",
+        "correct": false
+      },
+      {
+        "text": "A carried light inside a protective case",
+        "correct": true
+      }
+    ],
+    "explanation": "A lantern is a light you can carry in a case. Great job!"
+  },
+  {
+    "id": "b4fad8ff-9819-49c0-97b5-09fabb4db3c2",
+    "word": "machine",
+    "grade": "4",
+    "definition": "A tool with moving parts that helps people do work.",
+    "example": "This machine sorts the mail much faster than a person can.",
+    "syllables": "ma · chine",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A person who fixes cars and trucks",
+        "correct": false
+      },
+      {
+        "text": "A tool with parts that move to do work",
+        "correct": true
+      },
+      {
+        "text": "A room where people rest after work",
+        "correct": false
+      },
+      {
+        "text": "A material used to build strong walls",
+        "correct": false
+      }
+    ],
+    "explanation": "A machine has moving parts that help people do work. You got it!"
+  },
+  {
+    "id": "c7c61255-3f47-4fa1-acbe-9808a884c51c",
+    "word": "narrate",
+    "grade": "4",
+    "definition": "To tell a story or explain what is happening.",
+    "example": "I will narrate the story while you act it out.",
+    "syllables": "nar · rate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To tell a story or say what is happening",
+        "correct": true
+      },
+      {
+        "text": "To write down a list of numbers",
+        "correct": false
+      },
+      {
+        "text": "To sing a song without any words",
+        "correct": false
+      },
+      {
+        "text": "To listen quietly to a long, exciting story",
+        "correct": false
+      }
+    ],
+    "explanation": "To narrate is to tell a story or say what is happening. Well done!"
+  },
+  {
+    "id": "0bdc108d-c4d2-4c2c-b79e-a047cccfd3e0",
+    "word": "nutrient",
+    "grade": "4",
+    "definition": "Something in food that helps a body or plant grow and stay healthy.",
+    "example": "Calcium is a nutrient that helps keep your bones strong.",
+    "syllables": "nu · tri · ent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A dish served at the end of a meal",
+        "correct": false
+      },
+      {
+        "text": "A spice that gives food a hot taste",
+        "correct": false
+      },
+      {
+        "text": "A part of food that helps you grow",
+        "correct": true
+      },
+      {
+        "text": "A way of cooking food over a fire",
+        "correct": false
+      }
+    ],
+    "explanation": "A nutrient is a part of food that helps you grow. Nice work!"
+  },
+  {
+    "id": "9fd23076-5d13-4468-adb0-10b32cbe0b17",
+    "word": "opinion",
+    "grade": "4",
+    "definition": "What you think or feel about something, which others may not share.",
+    "example": "My opinion is that the blue kite looks better than the red one.",
+    "syllables": "o · pin · ion",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A fact that can be checked and then proved",
+        "correct": false
+      },
+      {
+        "text": "What you think or feel about something",
+        "correct": true
+      },
+      {
+        "text": "A rule that everyone has to follow",
+        "correct": false
+      },
+      {
+        "text": "A question that has only one answer",
+        "correct": false
+      }
+    ],
+    "explanation": "An opinion is what you think or feel about something. Great job!"
+  },
+  {
+    "id": "f765aa3c-0610-47c3-8ee5-689bbf7f4293",
+    "word": "ripple",
+    "grade": "4",
+    "definition": "A small wave on the surface of water.",
+    "example": "A pebble made a ripple that spread across the pond.",
+    "syllables": "rip · ple",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A heavy stone at the bottom of a lake",
+        "correct": false
+      },
+      {
+        "text": "A tiny wave on the top of water",
+        "correct": true
+      },
+      {
+        "text": "A thin layer of ice on a pond",
+        "correct": false
+      },
+      {
+        "text": "A tall pole that holds up a dock",
+        "correct": false
+      }
+    ],
+    "explanation": "A ripple is a tiny wave on the top of water. You got it!"
+  },
+  {
+    "id": "092d0c1e-ff50-4049-acda-0671f281a201",
+    "word": "survey",
+    "grade": "4",
+    "definition": "A set of questions asked to many people to learn what they think.",
+    "example": "Our class made a survey to find out everyone's favorite lunch.",
+    "syllables": "sur · vey",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A set of questions asked to many people",
+        "correct": true
+      },
+      {
+        "text": "A long trip taken across a country",
+        "correct": false
+      },
+      {
+        "text": "A list of the answers on a test",
+        "correct": false
+      },
+      {
+        "text": "A short test of your spelling words",
+        "correct": false
+      }
+    ],
+    "explanation": "A survey is a set of questions asked to many people. Well done!"
+  },
+  {
+    "id": "5d142a9f-f8ec-4e11-b3b6-eecbf6ccd7e4",
+    "word": "temperature",
+    "grade": "4",
+    "definition": "How hot or cold something is.",
+    "example": "The temperature dropped overnight, so we wore warm coats.",
+    "syllables": "tem · per · a · ture",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "How heavy or light something is",
+        "correct": false
+      },
+      {
+        "text": "How loud or quiet something is",
+        "correct": false
+      },
+      {
+        "text": "How warm or cool something is",
+        "correct": true
+      },
+      {
+        "text": "How tall or short something is",
+        "correct": false
+      }
+    ],
+    "explanation": "Temperature tells how warm or cool something is. Nice work!"
+  },
+  {
+    "id": "9cd172e2-0281-4e0d-999f-31a4f7aa8776",
+    "word": "vehicle",
+    "grade": "4",
+    "definition": "A machine, such as a car or a bus, that carries people or things from place to place.",
+    "example": "Every vehicle stopped when the light turned red.",
+    "syllables": "ve · hi · cle",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A path that cars and trucks drive on",
+        "correct": false
+      },
+      {
+        "text": "A machine that carries people or goods",
+        "correct": true
+      },
+      {
+        "text": "A tool for fixing a flat tire",
+        "correct": false
+      },
+      {
+        "text": "A lot where cars are parked overnight",
+        "correct": false
+      }
+    ],
+    "explanation": "A vehicle is a machine that carries people or goods. Great job!"
+  },
+  {
+    "id": "6f7ab998-69b4-47a9-a729-ba4fc14c278a",
+    "word": "weave",
+    "grade": "4",
+    "definition": "To make cloth or a basket by crossing strips over and under each other.",
+    "example": "She likes to weave baskets out of long, dry grass.",
+    "syllables": "weave",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To cut a piece of cloth into small squares",
+        "correct": false
+      },
+      {
+        "text": "To glue sheets of paper onto a flat board",
+        "correct": false
+      },
+      {
+        "text": "To cross strips over and under each other",
+        "correct": true
+      },
+      {
+        "text": "To stretch a rope tight between two poles",
+        "correct": false
+      }
+    ],
+    "explanation": "To weave is to cross strips over and under each other. You got it!"
+  },
+  {
+    "id": "88139cf1-5ea3-4164-9218-e4647eb443a6",
+    "word": "amount",
+    "grade": "4",
+    "definition": "How much there is of something.",
+    "example": "Add a small amount of salt to the soup.",
+    "syllables": "a · mount",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "How fast something is going",
+        "correct": false
+      },
+      {
+        "text": "How old something has become",
+        "correct": false
+      },
+      {
+        "text": "How much there is of something",
+        "correct": true
+      },
+      {
+        "text": "How bright something looks",
+        "correct": false
+      }
+    ],
+    "explanation": "An amount tells how much there is of something. Well done!"
+  },
+  {
+    "id": "96057748-e291-4272-9bd5-9ec43608ecaf",
+    "word": "barrier",
+    "grade": "4",
+    "definition": "Something that blocks the way or keeps things apart.",
+    "example": "A tall fence formed a barrier between the yard and the road.",
+    "syllables": "bar · ri · er",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something that shows the way forward",
+        "correct": false
+      },
+      {
+        "text": "Something that pulls things closer",
+        "correct": false
+      },
+      {
+        "text": "Something that helps things move along",
+        "correct": false
+      },
+      {
+        "text": "Something that blocks the way",
+        "correct": true
+      }
+    ],
+    "explanation": "A barrier is something that blocks the way. Nice work!"
+  },
+  {
+    "id": "09e6d2fb-14d3-456c-9c97-92fcc0afb3ca",
+    "word": "blizzard",
+    "grade": "4",
+    "definition": "A very heavy snowstorm with strong wind.",
+    "example": "School was closed because of the blizzard.",
+    "syllables": "bliz · zard",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A warm rain that falls in summer",
+        "correct": false
+      },
+      {
+        "text": "A heavy snowstorm with strong wind",
+        "correct": true
+      },
+      {
+        "text": "A bright arc of color after rain",
+        "correct": false
+      },
+      {
+        "text": "A dry wind that blows over sand",
+        "correct": false
+      }
+    ],
+    "explanation": "A blizzard is a heavy snowstorm with strong wind. Great job!"
+  },
+  {
+    "id": "66ad1efd-811e-4446-a559-2165cc843ef0",
+    "word": "century",
+    "grade": "4",
+    "definition": "A period of one hundred years.",
+    "example": "Our town's library was built more than a century ago.",
+    "syllables": "cen · tu · ry",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A period of one hundred years",
+        "correct": true
+      },
+      {
+        "text": "A period of ten whole years",
+        "correct": false
+      },
+      {
+        "text": "A period of one thousand years",
+        "correct": false
+      },
+      {
+        "text": "A period of one hundred days",
+        "correct": false
+      }
+    ],
+    "explanation": "A century is a period of one hundred years. You got it!"
+  },
+  {
+    "id": "e0e170b8-b3ec-4259-9f62-eb6eeacff6b6",
+    "word": "climate",
+    "grade": "4",
+    "definition": "The usual weather in a place over many years.",
+    "example": "The climate in the desert is hot and dry all year.",
+    "syllables": "cli · mate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The usual weather of a place over many years",
+        "correct": true
+      },
+      {
+        "text": "The weather outside on one single sunny afternoon",
+        "correct": false
+      },
+      {
+        "text": "The map that shows where a place is",
+        "correct": false
+      },
+      {
+        "text": "The kind of soil that plants grow in",
+        "correct": false
+      }
+    ],
+    "explanation": "Climate is the usual weather of a place over many years. Well done!"
+  },
+  {
+    "id": "2808f779-3e9b-47c1-95c0-1990eba1a5cd",
+    "word": "cluster",
+    "grade": "4",
+    "definition": "A small group of things close together.",
+    "example": "A cluster of grapes hung from the vine.",
+    "syllables": "clus · ter",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A single thing standing all alone",
+        "correct": false
+      },
+      {
+        "text": "A small group of things close together",
+        "correct": true
+      },
+      {
+        "text": "A long line of things in order",
+        "correct": false
+      },
+      {
+        "text": "A pair of things that match exactly",
+        "correct": false
+      }
+    ],
+    "explanation": "A cluster is a small group of things close together. Nice work!"
+  },
+  {
+    "id": "f726e333-d85d-4b7a-9e6b-3e5f50b0eb43",
+    "word": "conserve",
+    "grade": "4",
+    "definition": "To use something carefully so that it is not wasted.",
+    "example": "We turn off the lights to conserve electricity.",
+    "syllables": "con · serve",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To buy as much of something as you can",
+        "correct": false
+      },
+      {
+        "text": "To use something without wasting it",
+        "correct": true
+      },
+      {
+        "text": "To hide something where no one looks",
+        "correct": false
+      },
+      {
+        "text": "To mix something with other things",
+        "correct": false
+      }
+    ],
+    "explanation": "To conserve is to use something without wasting it. Great job!"
+  },
+  {
+    "id": "3929d9bd-8c9f-48ab-aa05-188a4e076960",
+    "word": "contrast",
+    "grade": "4",
+    "definition": "A clear difference between two things when you look at them together.",
+    "example": "There is a strong contrast between the dark sky and the bright moon.",
+    "syllables": "con · trast",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A clear difference between two things",
+        "correct": true
+      },
+      {
+        "text": "A perfect match between two things",
+        "correct": false
+      },
+      {
+        "text": "A close link between two things",
+        "correct": false
+      },
+      {
+        "text": "A mix made by joining two things",
+        "correct": false
+      }
+    ],
+    "explanation": "A contrast is a clear difference between two things. You got it!"
+  },
+  {
+    "id": "dcfebad1-aada-4da5-a615-ba31b0a3f4e0",
+    "word": "declare",
+    "grade": "4",
+    "definition": "To say something clearly and with confidence so everyone can hear.",
+    "example": "The coach will declare the winner at the end of the race.",
+    "syllables": "de · clare",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To keep something secret from everyone",
+        "correct": false
+      },
+      {
+        "text": "To whisper something only to yourself",
+        "correct": false
+      },
+      {
+        "text": "To forget something said earlier",
+        "correct": false
+      },
+      {
+        "text": "To say something clearly for all to hear",
+        "correct": true
+      }
+    ],
+    "explanation": "To declare is to say something clearly for all to hear. Well done!"
+  },
+  {
+    "id": "49dd6c2d-18ac-4db8-9608-3db5e7ea1bca",
+    "word": "delicate",
+    "grade": "4",
+    "definition": "Easily broken or damaged, so it needs gentle handling.",
+    "example": "The glass bird is delicate, so hold it with both hands.",
+    "syllables": "del · i · cate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Strong enough to last for years",
+        "correct": false
+      },
+      {
+        "text": "Heavy and tough to lift or carry",
+        "correct": false
+      },
+      {
+        "text": "Easy to break and needing care",
+        "correct": true
+      },
+      {
+        "text": "Rough and bumpy on the surface",
+        "correct": false
+      }
+    ],
+    "explanation": "Delicate means easy to break and needing care. Nice work!"
+  },
+  {
+    "id": "1411c0f3-4bc9-4609-9a7f-be966fb5a83a",
+    "word": "detail",
+    "grade": "4",
+    "definition": "One small piece of information about something.",
+    "example": "One small detail in the photo, a tiny red door, caught my eye.",
+    "syllables": "de · tail",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A small piece of information about something",
+        "correct": true
+      },
+      {
+        "text": "The main idea of a whole story",
+        "correct": false
+      },
+      {
+        "text": "The title printed on a book cover",
+        "correct": false
+      },
+      {
+        "text": "The last line of a long poem",
+        "correct": false
+      }
+    ],
+    "explanation": "A detail is a small piece of information. Great job!"
+  },
+  {
+    "id": "7ffa36c3-63dd-49e3-85f6-e48503e3fe83",
+    "word": "emerge",
+    "grade": "4",
+    "definition": "To come out from a hidden or closed-in place.",
+    "example": "The turtle began to emerge from its shell.",
+    "syllables": "e · merge",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To step back into a hiding place",
+        "correct": false
+      },
+      {
+        "text": "To come out into the open",
+        "correct": true
+      },
+      {
+        "text": "To fall asleep in a quiet spot",
+        "correct": false
+      },
+      {
+        "text": "To get stuck in a narrow gap",
+        "correct": false
+      }
+    ],
+    "explanation": "To emerge is to come out into the open. You got it!"
+  },
+  {
+    "id": "d3f76874-bf77-43d1-8555-b01188762160",
+    "word": "entire",
+    "grade": "4",
+    "definition": "Whole, with nothing left out.",
+    "example": "I read the entire book in one weekend.",
+    "syllables": "en · tire",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Empty, with nothing inside it",
+        "correct": false
+      },
+      {
+        "text": "Broken, with several pieces gone",
+        "correct": false
+      },
+      {
+        "text": "Small, with only one part showing",
+        "correct": false
+      },
+      {
+        "text": "Whole, with no part left out",
+        "correct": true
+      }
+    ],
+    "explanation": "Entire means whole, with no part left out. Well done!"
+  },
+  {
+    "id": "3c1927f3-d065-419f-8f1d-74ad390d3e15",
+    "word": "factory",
+    "grade": "4",
+    "definition": "A building where workers and machines make things.",
+    "example": "The toy factory makes thousands of puzzles each week.",
+    "syllables": "fac · to · ry",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A place where people go to read",
+        "correct": false
+      },
+      {
+        "text": "A shop that sells fresh vegetables",
+        "correct": false
+      },
+      {
+        "text": "A field where crops are grown",
+        "correct": false
+      },
+      {
+        "text": "A building where things are made",
+        "correct": true
+      }
+    ],
+    "explanation": "A factory is a building where things are made. Nice work!"
+  },
+  {
+    "id": "a5835854-ca42-437d-a6b6-b89b405ad9b4",
+    "word": "frequent",
+    "grade": "4",
+    "definition": "Happening often or again and again.",
+    "example": "We have frequent storms in spring, so I keep my umbrella by the door.",
+    "syllables": "fre · quent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Happening just one time",
+        "correct": false
+      },
+      {
+        "text": "Happening only on weekends",
+        "correct": false
+      },
+      {
+        "text": "Happening often, again and again",
+        "correct": true
+      },
+      {
+        "text": "Happening only once in a while",
+        "correct": false
+      }
+    ],
+    "explanation": "Frequent means happening often. Great job!"
+  },
+  {
+    "id": "34034fb9-4d3a-4fe8-b018-48540f161778",
+    "word": "harbor",
+    "grade": "4",
+    "definition": "A sheltered area of water by the shore where boats can stay safely.",
+    "example": "The fishing boats returned to the harbor before sunset.",
+    "syllables": "har · bor",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A safe place by the shore for boats",
+        "correct": true
+      },
+      {
+        "text": "A wooden bridge over a wide river",
+        "correct": false
+      },
+      {
+        "text": "A beach where children build sand castles",
+        "correct": false
+      },
+      {
+        "text": "A narrow path beside a fast river",
+        "correct": false
+      }
+    ],
+    "explanation": "A harbor is a safe place by the shore for boats. You got it!"
+  },
+  {
+    "id": "99b9e18a-2157-4596-a94e-2455248d276b",
+    "word": "insulate",
+    "grade": "4",
+    "definition": "To cover something so that heat stays in or out.",
+    "example": "Workers will insulate the attic so the house stays warmer in winter.",
+    "syllables": "in · su · late",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To clean something with soap and warm water",
+        "correct": false
+      },
+      {
+        "text": "To paint something a bright color",
+        "correct": false
+      },
+      {
+        "text": "To lift something off the ground",
+        "correct": false
+      },
+      {
+        "text": "To cover something to hold heat in or out",
+        "correct": true
+      }
+    ],
+    "explanation": "To insulate is to cover something to hold heat in or out. Well done!"
+  },
+  {
+    "id": "e99d7582-ec38-4066-81f0-bd8135e811a6",
+    "word": "material",
+    "grade": "4",
+    "definition": "What something is made from, such as wood, metal or cloth.",
+    "example": "Wood is a strong material for building a treehouse.",
+    "syllables": "ma · te · ri · al",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "What an object is made from",
+        "correct": true
+      },
+      {
+        "text": "The place where an object is kept",
+        "correct": false
+      },
+      {
+        "text": "The reason an object was bought",
+        "correct": false
+      },
+      {
+        "text": "The color an object is painted",
+        "correct": false
+      }
+    ],
+    "explanation": "Material is what an object is made from. Nice work!"
+  },
+  {
+    "id": "9584d276-eea0-4914-a4ea-a1d145a8687f",
+    "word": "recycle",
+    "grade": "4",
+    "definition": "To turn old things, like paper or cans, into new things.",
+    "example": "We recycle our bottles instead of throwing them away.",
+    "syllables": "re · cy · cle",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To toss old things in the trash",
+        "correct": false
+      },
+      {
+        "text": "To bury old things deep in the ground",
+        "correct": false
+      },
+      {
+        "text": "To turn old things into new things",
+        "correct": true
+      },
+      {
+        "text": "To count old things one by one",
+        "correct": false
+      }
+    ],
+    "explanation": "To recycle is to turn old things into new things. Great job!"
+  }
+]
