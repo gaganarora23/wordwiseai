@@ -17,7 +17,7 @@
         "correct": false
       },
       {
-        "text": "Brand new and not yet used",
+        "text": "All used up with none left",
         "correct": false
       },
       {
@@ -45,11 +45,11 @@
         "correct": false
       },
       {
-        "text": "Very large and hard to fold",
+        "text": "Fast and finished before anyone else",
         "correct": false
       },
       {
-        "text": "Bright and pleasing to look at",
+        "text": "Simple and easy for a child to do",
         "correct": false
       }
     ],
@@ -105,7 +105,7 @@
         "correct": false
       },
       {
-        "text": "To pay for all the parts",
+        "text": "To measure all the parts",
         "correct": false
       }
     ],
@@ -245,7 +245,7 @@
         "correct": true
       },
       {
-        "text": "Glad to give away a favorite toy",
+        "text": "Willing to take a big risk for fun",
         "correct": false
       }
     ],
@@ -297,11 +297,11 @@
         "correct": false
       },
       {
-        "text": "To read a book with no sound",
+        "text": "To forget news you heard yesterday",
         "correct": false
       },
       {
-        "text": "To count the stars at night",
+        "text": "To copy a drawing from a book",
         "correct": false
       }
     ],
@@ -325,7 +325,7 @@
         "correct": false
       },
       {
-        "text": "To repeat something a few times",
+        "text": "To keep wondering and never decide",
         "correct": false
       },
       {
@@ -409,11 +409,11 @@
         "correct": true
       },
       {
-        "text": "To hand someone a heavy box",
+        "text": "To make someone laugh with a joke",
         "correct": false
       },
       {
-        "text": "To lend someone a spare pencil",
+        "text": "To teach someone how to read",
         "correct": false
       }
     ],
@@ -433,11 +433,11 @@
         "correct": false
       },
       {
-        "text": "Quick and over in a moment",
+        "text": "Doubtful and hard to believe",
         "correct": false
       },
       {
-        "text": "Bright and cheerful all day long",
+        "text": "Mixed up and hard to follow",
         "correct": false
       },
       {
@@ -465,7 +465,7 @@
         "correct": false
       },
       {
-        "text": "Smooth and shiny all over",
+        "text": "Wide and open to the sky",
         "correct": false
       },
       {
@@ -601,11 +601,11 @@
         "correct": false
       },
       {
-        "text": "Working loudly all through the long day",
+        "text": "Working with a lot of extra steps",
         "correct": false
       },
       {
-        "text": "Working only in the early morning",
+        "text": "Working without any plan or goal",
         "correct": false
       },
       {
@@ -665,7 +665,7 @@
         "correct": true
       },
       {
-        "text": "Old and from a long time ago",
+        "text": "Strange and not seen very often",
         "correct": false
       }
     ],
@@ -773,7 +773,7 @@
         "correct": false
       },
       {
-        "text": "Smooth enough to slide away",
+        "text": "Sharp enough to cut through paper",
         "correct": false
       },
       {
@@ -861,7 +861,7 @@
         "correct": false
       },
       {
-        "text": "A little smaller than most",
+        "text": "Small enough to fit in a pocket",
         "correct": false
       }
     ],
@@ -937,7 +937,7 @@
         "correct": false
       },
       {
-        "text": "To repeat something to a friend",
+        "text": "To ignore something and move on",
         "correct": false
       },
       {
@@ -1165,7 +1165,7 @@
         "correct": true
       },
       {
-        "text": "Very old and no longer used",
+        "text": "Strange and hard to explain",
         "correct": false
       },
       {
@@ -1217,11 +1217,11 @@
         "correct": false
       },
       {
-        "text": "Easy to forget in a crowd",
+        "text": "Often wrong when you need it",
         "correct": false
       },
       {
-        "text": "Hard to see in the dark",
+        "text": "New and not yet tried by anyone",
         "correct": false
       },
       {
@@ -1333,11 +1333,11 @@
         "correct": false
       },
       {
-        "text": "Large and very hard to lift",
+        "text": "Wide and covering many things",
         "correct": false
       },
       {
-        "text": "Loud and heard from far away",
+        "text": "Mixed up and hard to follow",
         "correct": false
       }
     ],
@@ -1365,7 +1365,7 @@
         "correct": false
       },
       {
-        "text": "To move across a room very fast",
+        "text": "To copy something exactly as it is",
         "correct": false
       }
     ],
