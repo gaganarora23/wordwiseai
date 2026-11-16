@@ -101,7 +101,7 @@
         "correct": false
       },
       {
-        "text": "A tool used to measure short lengths",
+        "text": "A habit that only one person has",
         "correct": false
       },
       {
@@ -681,7 +681,7 @@
     "content_version": "2026.1",
     "options": [
       {
-        "text": "A tool that is used for cutting food",
+        "text": "A dish served at the end of a meal",
         "correct": false
       },
       {
@@ -773,7 +773,7 @@
         "correct": false
       },
       {
-        "text": "A list of rules for a classroom board game",
+        "text": "A list of the answers on a test",
         "correct": false
       },
       {
@@ -1081,11 +1081,11 @@
         "correct": false
       },
       {
-        "text": "A short list of two things",
+        "text": "A close link between two things",
         "correct": false
       },
       {
-        "text": "A quick trade between two people",
+        "text": "A mix made by joining two things",
         "correct": false
       }
     ],
