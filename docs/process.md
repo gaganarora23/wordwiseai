@@ -22,3 +22,5 @@ Branches are named after the work, in lowercase with hyphens. Existing examples:
 - PR title says what changed; the description lists the issues it covers.
 - Review convention: QA is the independent reviewer. It reads the issue and the running code, not the engineer's summary. The author of a change does not approve it.
 - Known gap: earlier issues were closed on QA PASS while still on an unmerged branch. Merge first when possible, so closed means in `main`.
+
+Deployment on merge to `main`, its setup and rollback steps: [`docs/deployment.md`](deployment.md).

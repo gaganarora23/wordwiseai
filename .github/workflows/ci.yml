@@ -47,3 +47,35 @@ jobs:
         run: cd frontend && bun install --frozen-lockfile
       - name: Run all tests
         run: make test
+
+  deploy:
+    # Runs only after `test` passes, and only for pushes to main (never for pull requests).
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
+    steps:
+      - name: Trigger Render deploy (API)
+        env:
+          HOOK: ${{ secrets.RENDER_DEPLOY_HOOK_API }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::notice::RENDER_DEPLOY_HOOK_API is not set; skipping the API deploy."
+            exit 0
+          fi
+          body=$(curl --fail --silent --show-error -X POST "$HOOK")
+          echo "API deploy triggered: $(echo "$body" | grep -o 'dep-[A-Za-z0-9]*' | head -n 1)"
+      - name: Trigger Render deploy (web)
+        env:
+          HOOK: ${{ secrets.RENDER_DEPLOY_HOOK_WEB }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::notice::RENDER_DEPLOY_HOOK_WEB is not set; skipping the web deploy."
+            exit 0
+          fi
+          body=$(curl --fail --silent --show-error -X POST "$HOOK")
+          echo "Web deploy triggered: $(echo "$body" | grep -o 'dep-[A-Za-z0-9]*' | head -n 1)"
