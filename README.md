@@ -219,7 +219,7 @@ Steps (done once, by the project owner):
 Things to know:
 
 - **Cold start.** Free web services sleep after 15 minutes idle; the first request afterwards takes about a minute.
-- **Database expiry.** A free Render PostgreSQL database expires 30 days after creation, so the shared demo data disappears then unless the database is upgraded or recreated.
+- **Database expiry.** A free Render PostgreSQL database expires 30 days after creation, so the shared demo data (every profile) is lost then unless the database is upgraded to a paid plan first. To recreate it, follow [If the free database expired](docs/deployment.md#if-the-free-database-expired-after-30-days).
 - **Vocabulary.** On start the backend loads 500 of the 650 target words (K to 9; Grades 10 to 12 are issue #16), logging `Created: 500` the first time and `unchanged: 500` afterwards.
 - **Shared demo.** There is no authentication; anyone with the link sees and edits the same profiles, so real children's data must not be entered. The app says this on the home page.
 - **Database URL.** Render's `postgresql://` connection string is accepted; the backend rewrites it to `postgresql+psycopg://`.
