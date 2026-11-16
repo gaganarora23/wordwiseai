@@ -4,14 +4,14 @@ Draft. The strategy lives in `architecture.md` section 7; this file is the worki
 
 ## Run
 
-- `make test` from the repo root runs the backend suite, then the frontend suite. It must pass before a PR.
+- `make test` from the repo root installs dependencies, starts the database if needed, then runs the backend and frontend suites. It must pass before a PR.
 - Backend alone: `cd backend && uv run pytest` (one file: `uv run pytest tests/test_x.py`).
 - Frontend alone: `cd frontend && bun run test`.
-- On a fresh clone run `cd frontend && bun install --frozen-lockfile` once. `make test` does not install.
+- No setup step is needed on a fresh clone (Docker, uv and bun must be installed); `make test` installs from the lockfiles.
 
 ## Backend database harness
 
-- Integration tests use real PostgreSQL. Locally it is the Compose service: `docker compose up -d --wait db`. In CI it will be a service container, configured in #47.
+- Integration tests use real PostgreSQL. Locally it is the Compose service, started by `make test` when none is reachable (or `docker compose up -d --wait db`). In CI it will be a service container, configured in #47.
 - The harness creates its own `wordwise_test_<random>` database on the server in `DATABASE_URL`, migrates it once per run and drops it at the end. The development database is never touched. The `DATABASE_URL` user needs `CREATEDB` (the Compose user and a CI service container have it). A killed process (`kill -9`) can leave a `wordwise_test_*` database behind.
 - Fixtures in `backend/tests/conftest.py`: `clean_db` (Engine; the seven tables are truncated before and after each test), `db_session` (Session for your own inserts; commit to make rows visible to routes), `client` (`TestClient` with `get_session` overridden to the test database). Insert helpers: `insert_child`, `insert_word`, `insert_session_with_words` in `backend/tests/helpers.py`.
 - Request `client` or `clean_db` explicitly; nothing is autouse, so tests that need no database still run when PostgreSQL is down.
