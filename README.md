@@ -14,6 +14,16 @@ WordWise is a child-friendly vocabulary-learning web app for students from Kinde
 
 The full specification is `_docs/plan.md`; the architecture is `_docs/architecture.md`.
 
+### What works today
+
+The course delivery builds this in vertical slices, tracked as issues (`mvp` and `post-mvp` labels).
+
+| Area | State |
+|---|---|
+| Profiles: create, list, view, edit, delete | **Works end to end** (frontend, API, PostgreSQL) |
+| Vocabulary for each grade (650-word release target; 500 loaded) | **Works end to end**: the profile's "See your words" page lists the grade's words from the API |
+| Daily learning sessions, quiz, mastery and review, results, parent dashboard | Not built on the backend yet (issues #20 to #32, #38 to #41); the quiz and dashboard code in the frontend still runs on a browser mock |
+
 ## How it was built
 
 The project is built by an AI agent team following a written process, with every unit of work tracked as a public GitHub issue with acceptance criteria.
@@ -35,13 +45,13 @@ docker compose up --build         # database, backend and frontend
 
 No setup file is needed: without a `.env`, Compose uses local-development defaults for the database (user `wordwise`, password `change-me`, database `wordwise`), and the database port is published on `127.0.0.1` only. To use your own values, copy `.env.example` to `.env` and edit it; never use the defaults outside local development.
 
-This starts PostgreSQL, then the backend (which applies the migrations, loads the vocabulary and serves the API on `http://localhost:8000`, docs at `/docs`), then the frontend on `http://localhost:8080`. Open `http://localhost:8080`, create a profile and click its tile to see the words for its grade. Stop with `Ctrl+C`; add `-d` to run in the background and `docker compose down` to stop (`down -v` also deletes the database). The frontend calls the backend at `http://localhost:8000` (baked in at build time via the `VITE_API_URL` build arg in `docker-compose.yml`).
+This starts PostgreSQL, then the backend (which applies the migrations, loads the vocabulary and serves the API on `http://localhost:8000`, docs at `/docs`), then the frontend on `http://localhost:8080`. Open `http://localhost:8080`, add a learner (nickname, grade, daily goal), and click the tile to see the words for its grade; you can also edit and delete the profile. Profiles are stored in PostgreSQL, so they survive a reload and a restart. Stop with `Ctrl+C`; add `-d` to run in the background and `docker compose down` to stop (`down -v` also deletes the database). The frontend calls the backend at `http://localhost:8000` (baked in at build time via the `VITE_API_URL` build arg in `docker-compose.yml`).
 
 The sections below describe running the pieces without Docker, for development.
 
 **Prerequisites:** Docker (running), [uv](https://docs.astral.sh/uv/), Node 24 and bun 1.4.
 
-**Current state.** The backend has the database schema, the vocabulary tooling, `GET /api/v1/health` and `GET /api/v1/grades/{grade}/words`; the profile, session and quiz endpoints are not built yet (tasks #17, #20 onwards, tracked as issues). The frontend therefore keeps profiles in the browser's local storage (mock service, `frontend/src/services/index.ts`) but reads the words from the backend: pick a profile and the "words" page lists the vocabulary of that profile's grade, loaded from PostgreSQL through the API. Both are started below so each can be checked on its own.
+**Current state.** The backend has the database schema, the vocabulary tooling, `GET /api/v1/health`, `GET /api/v1/grades/{grade}/words` and the profile endpoints (create, list, get, update, delete: see [API](#api)). The frontend reads and writes profiles through the API, so they are stored in PostgreSQL, and its "words" page lists the vocabulary of the profile's grade from the API. The session, quiz and dashboard endpoints are not built yet (tasks #20 onwards, tracked as issues), so those screens still use the frontend's built-in mock service (`frontend/src/services/index.ts`; set `VITE_USE_MOCK=true` to run the whole frontend on the mock, without the backend). Both parts are started below so each can be checked on its own.
 
 Steps 1 and 2 run from the repository root, steps 3 to 5 from `backend/`, step 6 from `frontend/` (each step says where). Steps 5 and 6 each keep a terminal busy, so use a separate terminal for each.
 
@@ -92,7 +102,7 @@ bun install --frozen-lockfile   # first time, and after dependency changes
 bun run dev
 ```
 
-Open `http://localhost:8080`. You should see "WordWise — Who's learning today?". Create a profile, then click its tile: the page lists that grade's words (50 per grade), served by the backend from PostgreSQL. If the backend is not running you get "We couldn't load the words" with a retry button. The frontend talks to `http://localhost:8000` unless `VITE_API_URL` is set.
+Open `http://localhost:8080`. You should see "WordWise — Who's learning today?". Click "Add a learner" and save a profile (it is stored in PostgreSQL), then click its tile: the page lists that grade's words (50 per grade). If the backend is not running the profile list shows "We couldn't load profiles" with a retry button. The frontend talks to `http://localhost:8000` unless `VITE_API_URL` is set.
 
 **Check the loaded vocabulary** (from the repository root):
 
@@ -111,6 +121,22 @@ It lists 50 words for each of K and 1 to 9.
 - `Cannot connect to the database` or the tests asking for `docker compose up -d --wait db`: Docker is not running, or step 2 was skipped.
 - `Database is not migrated`: run step 3.
 - Tests: `make test` from the repository root (needs steps 1 and 2 and `cd frontend && bun install` once).
+
+## API
+
+Interactive documentation is served at `http://localhost:8000/docs` (OpenAPI 3.1). Base path `/api/v1`.
+
+| Method and path | Purpose | Success | Errors |
+|---|---|---|---|
+| `GET /health` | Liveness | `200` | |
+| `GET /grades/{grade}/words` | Curated words of one grade (K, 1 to 12) with answer options | `200` (empty list if none) | `422` unknown grade |
+| `POST /profiles` | Create a profile: `{nickname, grade, daily_goal}` | `201` | `422` |
+| `GET /profiles` | All profiles (empty list if none) | `200` | |
+| `GET /profiles/{profile_id}` | One profile | `200` | `404` unknown, `422` malformed id |
+| `PUT /profiles/{profile_id}` | Replace nickname, grade and daily goal; `updated_at` changes | `200` | `404`, `422` |
+| `DELETE /profiles/{profile_id}` | Delete the profile and, by database cascade, its sessions, answers, results and mastery | `204` | `404` (also on the second delete) |
+
+A profile is `{id, nickname, grade, daily_goal, created_at, updated_at}`. Validation: nickname 1 to 20 characters (surrounding whitespace is trimmed), grade `K` or `1` to `12`, daily goal `5` or `10`; unknown or extra fields are rejected with `422`. Browsers may call the API from the origins in `CORS_ORIGINS` with `GET`, `POST`, `PUT` and `DELETE`.
 
 ## Database
 
@@ -176,7 +202,7 @@ Connection settings: connect timeout is 5 seconds (`connect_args={"connect_timeo
 
 `make test` from the repo root runs the backend suite (`cd backend && uv run pytest`), then the frontend suite. Backend integration tests run against real PostgreSQL, never SQLite.
 
-**Database.** Locally PostgreSQL is the Compose service: `docker compose up -d --wait db`. In CI it will be a service container, configured in #47. The harness (`backend/tests/conftest.py`, plumbing in `harness.py`) creates its own `wordwise_test_<random>` database on the same server as `DATABASE_URL`, runs `alembic upgrade head` on it once per pytest run, and drops it at the end, so the development database is never read, truncated or migrated. The `DATABASE_URL` user needs the `CREATEDB` privilege (the Compose user and a CI service container have it). If PostgreSQL is down, tests that use the harness fail (not skip) with `docker compose up -d --wait db` in the message; tests that need no database still pass. The database is dropped even when a test fails; a killed process (`kill -9`) can leave a `wordwise_test_*` database behind, which you can drop by hand.
+**Database.** Locally PostgreSQL is the Compose service: `docker compose up -d --wait db`. In CI it is a service container (`.github/workflows/ci.yml`). The harness (`backend/tests/conftest.py`, plumbing in `harness.py`) creates its own `wordwise_test_<random>` database on the same server as `DATABASE_URL`, runs `alembic upgrade head` on it once per pytest run, and drops it at the end, so the development database is never read, truncated or migrated. The `DATABASE_URL` user needs the `CREATEDB` privilege (the Compose user and a CI service container have it). If PostgreSQL is down, tests that use the harness fail (not skip) with `docker compose up -d --wait db` in the message; tests that need no database still pass. The database is dropped even when a test fails; a killed process (`kill -9`) can leave a `wordwise_test_*` database behind, which you can drop by hand.
 
 **Fixtures** (`backend/tests/conftest.py`):
 
@@ -191,7 +217,7 @@ from tests.helpers import insert_child
 def test_child_is_visible_to_the_api(client, db_session):
     child_id = insert_child(db_session, nickname="Sam")
     db_session.commit()
-    assert client.get(f"/api/v1/children/{child_id}").status_code == 200  # illustrative route, arrives with #17
+    assert client.get(f"/api/v1/profiles/{child_id}").json()["nickname"] == "Sam"
 ```
 
 `test_harness.py` proves the harness: tables are empty at the start of every test, committed rows do not leak, and the failure behaviour above.
