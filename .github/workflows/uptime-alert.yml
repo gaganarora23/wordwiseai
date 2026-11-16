@@ -1,0 +1,26 @@
+name: Uptime alert
+
+# Checks the live API every 15 minutes. A red run makes GitHub email the repo owner.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      api_url:
+        description: "Base URL to check (empty = https://wordwise-api-xji2.onrender.com)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the user journey
+        env:
+          API_URL: ${{ inputs.api_url }}
+        run: bash .github/scripts/check-user-journey.sh "$API_URL"
