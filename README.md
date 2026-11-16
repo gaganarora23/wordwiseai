@@ -30,9 +30,10 @@ The project is built by an AI agent team following a written process, with every
 **Prerequisite:** Docker (running). From the repository root:
 
 ```sh
-cp .env.example .env              # once; the placeholders work as-is
 docker compose up --build         # database, backend and frontend
 ```
+
+No setup file is needed: without a `.env`, Compose uses local-development defaults for the database (user `wordwise`, password `change-me`, database `wordwise`), and the database port is published on `127.0.0.1` only. To use your own values, copy `.env.example` to `.env` and edit it; never use the defaults outside local development.
 
 This starts PostgreSQL, then the backend (which applies the migrations, loads the vocabulary and serves the API on `http://localhost:8000`, docs at `/docs`), then the frontend on `http://localhost:8080`. Open `http://localhost:8080`, create a profile and click its tile to see the words for its grade. Stop with `Ctrl+C`; add `-d` to run in the background and `docker compose down` to stop (`down -v` also deletes the database). The frontend calls the backend at `http://localhost:8000` (baked in at build time via the `VITE_API_URL` build arg in `docker-compose.yml`).
 
@@ -121,7 +122,7 @@ docker compose up -d --wait db    # starts PostgreSQL and waits until healthy
 docker compose exec db sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB"'   # open psql
 ```
 
-Compose refuses to start if `POSTGRES_USER`, `POSTGRES_PASSWORD` or `POSTGRES_DB` is missing or empty.
+`POSTGRES_USER`, `POSTGRES_PASSWORD` and `POSTGRES_DB` default to `wordwise`, `change-me` and `wordwise` (local development only); set them in `.env` to override.
 
 **Persistence check.** Data survives `restart`, `stop`/`start` and `down`/`up`:
 
