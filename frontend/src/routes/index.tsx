@@ -55,11 +55,11 @@ function Index() {
               <div key={p.id} className="block-card flex flex-col overflow-hidden">
                 <button
                   className={`flex flex-1 flex-col items-start gap-1 p-6 text-left ${TILE_COLORS[i % TILE_COLORS.length]} focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring`}
-                  onClick={() => navigate({ to: "/learn/$childId", params: { childId: p.id } })}
+                  onClick={() => navigate({ to: "/words/$childId", params: { childId: p.id } })}
                 >
                   <span className="font-display text-3xl font-bold">{p.nickname}</span>
                   <span className="font-medium opacity-90">{gradeLabel(p.grade)} · {p.dailyGoal} words a day</span>
-                  <span className="mt-4 font-display font-bold underline underline-offset-4">Start learning →</span>
+                  <span className="mt-4 font-display font-bold underline underline-offset-4">See your words →</span>
                 </button>
                 <div className="flex border-t-2 border-foreground">
                   <button className="flex flex-1 items-center justify-center gap-2 py-3 text-sm font-medium hover:bg-muted" onClick={() => { setEditing(p); setFormOpen(true); }}>

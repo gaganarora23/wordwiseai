@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as LearnChildIdRouteImport } from './routes/learn.$childId'
+import { Route as WordsChildIdRouteImport } from './routes/words.$childId'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -22,31 +23,40 @@ const LearnChildIdRoute = LearnChildIdRouteImport.update({
   path: '/learn/$childId',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WordsChildIdRoute = WordsChildIdRouteImport.update({
+  id: '/words/$childId',
+  path: '/words/$childId',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/learn/$childId': typeof LearnChildIdRoute
+  '/words/$childId': typeof WordsChildIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/learn/$childId': typeof LearnChildIdRoute
+  '/words/$childId': typeof WordsChildIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/learn/$childId': typeof LearnChildIdRoute
+  '/words/$childId': typeof WordsChildIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/learn/$childId'
+  fullPaths: '/' | '/learn/$childId' | '/words/$childId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/learn/$childId'
-  id: '__root__' | '/' | '/learn/$childId'
+  to: '/' | '/learn/$childId' | '/words/$childId'
+  id: '__root__' | '/' | '/learn/$childId' | '/words/$childId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   LearnChildIdRoute: typeof LearnChildIdRoute
+  WordsChildIdRoute: typeof WordsChildIdRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -65,12 +75,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LearnChildIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/words/$childId': {
+      id: '/words/$childId'
+      path: '/words/$childId'
+      fullPath: '/words/$childId'
+      preLoaderRoute: typeof WordsChildIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   LearnChildIdRoute: LearnChildIdRoute,
+  WordsChildIdRoute: WordsChildIdRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

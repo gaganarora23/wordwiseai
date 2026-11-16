@@ -27,7 +27,7 @@ The project is built by an AI agent team following a written process, with every
 
 **Prerequisites:** Docker (running), [uv](https://docs.astral.sh/uv/), Node 24 and bun 1.4.
 
-**Current state.** The backend has the database schema, the vocabulary tooling and `GET /api/v1/health`; the profile, session and quiz endpoints are not built yet (tasks #17 onwards). The frontend therefore runs on its built-in mock service (`frontend/src/services/index.ts`): profiles and progress live in the browser's local storage, and the UI does not read the vocabulary stored in PostgreSQL yet. Both are started below so each can be checked on its own.
+**Current state.** The backend has the database schema, the vocabulary tooling, `GET /api/v1/health` and `GET /api/v1/grades/{grade}/words`; the profile, session and quiz endpoints are not built yet (tasks #17, #20 onwards, tracked as issues). The frontend therefore keeps profiles in the browser's local storage (mock service, `frontend/src/services/index.ts`) but reads the words from the backend: pick a profile and the "words" page lists the vocabulary of that profile's grade, loaded from PostgreSQL through the API. Both are started below so each can be checked on its own.
 
 Steps 1 and 2 run from the repository root, steps 3 to 5 from `backend/`, step 6 from `frontend/` (each step says where). Steps 5 and 6 each keep a terminal busy, so use a separate terminal for each.
 
@@ -78,7 +78,7 @@ bun install --frozen-lockfile   # first time, and after dependency changes
 bun run dev
 ```
 
-Open `http://localhost:8080`. You should see "WordWise — Who's learning today?". Create a profile to try the UI.
+Open `http://localhost:8080`. You should see "WordWise — Who's learning today?". Create a profile, then click its tile: the page lists that grade's words (50 per grade), served by the backend from PostgreSQL. If the backend is not running you get "We couldn't load the words" with a retry button. The frontend talks to `http://localhost:8000` unless `VITE_API_URL` is set.
 
 **Check the loaded vocabulary** (from the repository root):
 
