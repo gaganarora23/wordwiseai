@@ -81,3 +81,7 @@ PATH works as for the validator (file or directory, recursive `*.json`; default 
 - Words in the database but not in the files are never deleted or changed. They are listed after the run under `Not in files (left in place)`.
 - The last output line says whether the files hold exactly 650 words (`Release target reached: 650 words`) or `Release target not reached: <N> of 650 words`. It counts entries in the files and does not change the exit code.
 - Exit `0` loaded (or nothing changed); `1` validation failures, nothing loaded; `2` no JSON files found or wrong usage; `3` configuration or database problem (`DATABASE_URL` missing or invalid, PostgreSQL not reachable, database not migrated, or a database error, in which case nothing from the run is written).
+
+## Development fixtures
+
+A small development vocabulary (154 words, all 13 grades) lives outside this folder in `backend/fixtures/vocabulary/`, so the default run of the validator and the loader never picks it up. It is development test content: not release content, never to be loaded in production, never counted toward the 650-word target (loading it ends with `Release target not reached: 154 of 650 words`). Its entries carry a `fixture-` content version and reserved ids (rules in the fixtures README); release content must use neither. Never put fixture files in `data/`. Load it from `backend/` with `uv run python -m app.services.vocabulary_ingestion fixtures/vocabulary`. See `backend/fixtures/vocabulary/README.md`.

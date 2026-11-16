@@ -56,6 +56,8 @@ cd backend && uv run alembic check            # models and migration agree
 
 **Vocabulary loading.** `cd backend && uv run python -m app.services.vocabulary_ingestion [PATH ...]` validates the vocabulary files and loads them into `words` in one transaction, idempotently and by stable id. See [Loading into the database](backend/data/README.md#loading-into-the-database) for the exit codes, the removed-words rule and the 650-word target line.
 
+A development-only vocabulary (154 words, not release content) is in `backend/fixtures/vocabulary/`; see its README.
+
 Connection settings: connect timeout is 5 seconds (`connect_args={"connect_timeout": 5}`) and `pool_pre_ping=True`; both are defined in `backend/app/config.py` and used in `backend/app/db.py`. Database tests need the Compose database (`docker compose up -d --wait db`); without it they fail with that command in the message.
 
 ## Testing
