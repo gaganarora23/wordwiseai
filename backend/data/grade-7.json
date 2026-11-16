@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "b8f810f4-d3b5-4868-812f-3e666dfbebe4",
+    "word": "abandon",
+    "grade": "7",
+    "definition": "To leave a person, place or thing behind and not come back to it.",
+    "example": "The hikers had to abandon their plan when a fallen tree blocked the trail.",
+    "syllables": "a · ban · don",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To hand something over to a friend",
+        "correct": false
+      },
+      {
+        "text": "To leave something behind for good",
+        "correct": true
+      },
+      {
+        "text": "To look after something carefully",
+        "correct": false
+      },
+      {
+        "text": "To search for something that is lost",
+        "correct": false
+      }
+    ],
+    "explanation": "To abandon something is to leave it behind for good. Great job!"
+  },
+  {
+    "id": "a3ee4acf-fa03-4917-b1e9-1f68a2792db6",
+    "word": "adequate",
+    "grade": "7",
+    "definition": "Good enough for what is needed, but not more than that.",
+    "example": "Our small tent was adequate for two people, though it felt tight.",
+    "syllables": "ad · e · quate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Far better than anyone expected",
+        "correct": false
+      },
+      {
+        "text": "Much too small to be useful",
+        "correct": false
+      },
+      {
+        "text": "Perfect in every single way",
+        "correct": false
+      },
+      {
+        "text": "Good enough for what is needed",
+        "correct": true
+      }
+    ],
+    "explanation": "Adequate means good enough for what is needed. Nice work!"
+  },
+  {
+    "id": "bb46c569-9923-4441-b330-04a794ce182d",
+    "word": "alternative",
+    "grade": "7",
+    "definition": "A different choice that you can take instead of the first one.",
+    "example": "The pool was closed, so our alternative was a swim at the lake.",
+    "syllables": "al · ter · na · tive",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A different choice you can make instead",
+        "correct": true
+      },
+      {
+        "text": "A rule that every person in a group must follow",
+        "correct": false
+      },
+      {
+        "text": "The reason someone gives for a choice",
+        "correct": false
+      },
+      {
+        "text": "A copy that looks just like the first",
+        "correct": false
+      }
+    ],
+    "explanation": "An alternative is a different choice you can make instead. Well done!"
+  },
+  {
+    "id": "61f4753d-27f3-477d-bc10-cd2bf8148858",
+    "word": "ambition",
+    "grade": "7",
+    "definition": "A strong wish to achieve something big, usually by working hard.",
+    "example": "Her ambition was to run a marathon before she turned sixteen.",
+    "syllables": "am · bi · tion",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A talent that someone is born with",
+        "correct": false
+      },
+      {
+        "text": "A strong wish to reach a big goal",
+        "correct": true
+      },
+      {
+        "text": "A prize given to the best student",
+        "correct": false
+      },
+      {
+        "text": "A habit of finishing work early",
+        "correct": false
+      }
+    ],
+    "explanation": "Ambition is a strong wish to reach a big goal. You got it!"
+  },
+  {
+    "id": "f0b473a8-3a4d-4047-839b-4196ad7af61d",
+    "word": "analogy",
+    "grade": "7",
+    "definition": "A comparison that shows how two different things are alike, used to explain an idea.",
+    "example": "The teacher used an analogy, comparing a cell to a tiny factory, to explain how it works.",
+    "syllables": "a · nal · o · gy",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A short story that teaches a lesson to readers",
+        "correct": false
+      },
+      {
+        "text": "A list that puts things in order",
+        "correct": false
+      },
+      {
+        "text": "A comparison that explains one thing by another",
+        "correct": true
+      },
+      {
+        "text": "A drawing that shows how a thing looks",
+        "correct": false
+      }
+    ],
+    "explanation": "An analogy explains one thing by comparing it to another. Great job!"
+  },
+  {
+    "id": "a585a589-6759-4859-82f0-e145ccf57007",
+    "word": "apparent",
+    "grade": "7",
+    "definition": "Easy to see or understand; clear to anyone who looks.",
+    "example": "It was apparent from her smile that the news was good.",
+    "syllables": "ap · par · ent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Hidden behind something else",
+        "correct": false
+      },
+      {
+        "text": "Related to a mother or father",
+        "correct": false
+      },
+      {
+        "text": "Easy to see and understand",
+        "correct": true
+      },
+      {
+        "text": "Doubtful and open to question",
+        "correct": false
+      }
+    ],
+    "explanation": "Apparent means easy to see and understand. Nice work!"
+  },
+  {
+    "id": "272cbbc3-29ac-4246-b044-8ab212ddf7f2",
+    "word": "assume",
+    "grade": "7",
+    "definition": "To believe that something is true without having proof.",
+    "example": "Do not assume the store is open on holidays; call before you go.",
+    "syllables": "as · sume",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To accept something as true without proof",
+        "correct": true
+      },
+      {
+        "text": "To check something carefully to be sure",
+        "correct": false
+      },
+      {
+        "text": "To prove something with a clear test",
+        "correct": false
+      },
+      {
+        "text": "To explain something to a younger child",
+        "correct": false
+      }
+    ],
+    "explanation": "To assume is to accept something as true without proof. Well done!"
+  },
+  {
+    "id": "98182f09-f003-411f-8f6c-86df20e0d45b",
+    "word": "candid",
+    "grade": "7",
+    "definition": "Honest and direct in what you say, even when it is hard to hear.",
+    "example": "She gave a candid answer about which team she thought would win.",
+    "syllables": "can · did",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Careful to keep your thoughts secret",
+        "correct": false
+      },
+      {
+        "text": "Honest and open in what you say",
+        "correct": true
+      },
+      {
+        "text": "Polite but never willing to answer",
+        "correct": false
+      },
+      {
+        "text": "Eager to please everyone you meet",
+        "correct": false
+      }
+    ],
+    "explanation": "Candid means honest and open in what you say. You got it!"
+  },
+  {
+    "id": "8ac4423a-d3dc-47e3-98a3-171032de8521",
+    "word": "capacity",
+    "grade": "7",
+    "definition": "The greatest amount that a container or place can hold.",
+    "example": "The stadium has a capacity of ten thousand people, and every seat was taken.",
+    "syllables": "ca · pac · i · ty",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The material that a container is made of",
+        "correct": false
+      },
+      {
+        "text": "The weight of something when empty",
+        "correct": false
+      },
+      {
+        "text": "The shape of the inside of a space",
+        "correct": false
+      },
+      {
+        "text": "The most that something can hold",
+        "correct": true
+      }
+    ],
+    "explanation": "Capacity is the most that something can hold. Great job!"
+  },
+  {
+    "id": "397a2e71-77f4-4dd9-ba2c-e6cf78b19d5e",
+    "word": "coincide",
+    "grade": "7",
+    "definition": "To happen at the same time as something else.",
+    "example": "My birthday happens to coincide with the school fair this year.",
+    "syllables": "co · in · cide",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To happen at the same time",
+        "correct": true
+      },
+      {
+        "text": "To happen one right after the other",
+        "correct": false
+      },
+      {
+        "text": "To happen again and again each year",
+        "correct": false
+      },
+      {
+        "text": "To be put off until a later date",
+        "correct": false
+      }
+    ],
+    "explanation": "To coincide is to happen at the same time. Nice work!"
+  },
+  {
+    "id": "17329996-1354-42d7-b1fa-658ca55ed51c",
+    "word": "compile",
+    "grade": "7",
+    "definition": "To collect information from different places and put it together in one document.",
+    "example": "For the project, we will compile facts from three books into a single report.",
+    "syllables": "com · pile",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To gather things into one collection",
+        "correct": true
+      },
+      {
+        "text": "To copy a page one word at a time",
+        "correct": false
+      },
+      {
+        "text": "To sort things from best to worst",
+        "correct": false
+      },
+      {
+        "text": "To count how many items are there",
+        "correct": false
+      }
+    ],
+    "explanation": "To compile is to gather things into one collection. Well done!"
+  },
+  {
+    "id": "764e8993-7b74-41a4-892e-239df83d6f1d",
+    "word": "compromise",
+    "grade": "7",
+    "definition": "An agreement in which each side gives up a little of what it wanted.",
+    "example": "We reached a compromise: I picked the movie and my sister picked the snacks.",
+    "syllables": "com · pro · mise",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A win where one side gets everything",
+        "correct": false
+      },
+      {
+        "text": "A rule that is set by the teacher",
+        "correct": false
+      },
+      {
+        "text": "A promise to try again tomorrow",
+        "correct": false
+      },
+      {
+        "text": "A deal where each side gives up something",
+        "correct": true
+      }
+    ],
+    "explanation": "A compromise is a deal where each side gives up something. You got it!"
+  },
+  {
+    "id": "24d95c3a-9cc1-42cd-8fb9-a67f3e8362d5",
+    "word": "conceal",
+    "grade": "7",
+    "definition": "To hide something so that it cannot be seen or found.",
+    "example": "The fox used the tall grass to conceal itself from the hawk.",
+    "syllables": "con · ceal",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To hide something from sight",
+        "correct": true
+      },
+      {
+        "text": "To show something to everyone",
+        "correct": false
+      },
+      {
+        "text": "To mend something that is torn",
+        "correct": false
+      },
+      {
+        "text": "To guard something from harm",
+        "correct": false
+      }
+    ],
+    "explanation": "To conceal is to hide something from sight. Great job!"
+  },
+  {
+    "id": "36627f89-8d7a-4078-8472-7aa6c57dfc96",
+    "word": "concise",
+    "grade": "7",
+    "definition": "Giving a lot of information in only a few words.",
+    "example": "Her summary was concise: it covered the whole chapter in three sentences.",
+    "syllables": "con · cise",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Long and full of extra details",
+        "correct": false
+      },
+      {
+        "text": "Unclear and hard to follow",
+        "correct": false
+      },
+      {
+        "text": "Brief but full of useful details",
+        "correct": true
+      },
+      {
+        "text": "Written in very neat handwriting",
+        "correct": false
+      }
+    ],
+    "explanation": "Concise means brief but full of useful details. Nice work!"
+  },
+  {
+    "id": "aea37e4d-d512-480e-8c94-629a90f01790",
+    "word": "convenient",
+    "grade": "7",
+    "definition": "Easy to use or reach, and saving time or effort.",
+    "example": "The bus stop is convenient because it is right outside our door.",
+    "syllables": "con · ven · ient",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Easy to reach and saves effort",
+        "correct": true
+      },
+      {
+        "text": "Priced higher than it is worth",
+        "correct": false
+      },
+      {
+        "text": "Hard to find without a map",
+        "correct": false
+      },
+      {
+        "text": "Large enough for a whole crowd to use",
+        "correct": false
+      }
+    ],
+    "explanation": "Convenient means easy to reach and saving effort. Well done!"
+  },
+  {
+    "id": "f6a76c50-117e-480a-a0f1-52e83905c4c4",
+    "word": "crucial",
+    "grade": "7",
+    "definition": "Extremely important, often needed for success.",
+    "example": "Getting enough sleep is crucial before a big exam.",
+    "syllables": "cru · cial",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Enjoyable to read but of little use",
+        "correct": false
+      },
+      {
+        "text": "Common and easy to replace",
+        "correct": false
+      },
+      {
+        "text": "Needed only now and then",
+        "correct": false
+      },
+      {
+        "text": "Extremely important for success",
+        "correct": true
+      }
+    ],
+    "explanation": "Crucial means extremely important for success. You got it!"
+  },
+  {
+    "id": "a1cc64b6-232d-453a-b9bf-0121ad7aaef3",
+    "word": "decline",
+    "grade": "7",
+    "definition": "To politely say no to an offer or an invitation.",
+    "example": "I had to decline the invitation because I already had a soccer game.",
+    "syllables": "de · cline",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To gladly say yes to an offer",
+        "correct": false
+      },
+      {
+        "text": "To politely say no to an offer",
+        "correct": true
+      },
+      {
+        "text": "To make an offer to someone",
+        "correct": false
+      },
+      {
+        "text": "To ask for a better offer",
+        "correct": false
+      }
+    ],
+    "explanation": "To decline is to politely say no to an offer. Great job!"
+  },
+  {
+    "id": "dd45d9d6-dc09-45f7-9908-1394a352ec4e",
+    "word": "demonstrate",
+    "grade": "7",
+    "definition": "To show how something works or how to do it, step by step.",
+    "example": "The coach will demonstrate the proper way to throw the ball.",
+    "syllables": "dem · on · strate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To ask questions about how it works",
+        "correct": false
+      },
+      {
+        "text": "To write a description of a task",
+        "correct": false
+      },
+      {
+        "text": "To show how something is done",
+        "correct": true
+      },
+      {
+        "text": "To practice something many times",
+        "correct": false
+      }
+    ],
+    "explanation": "To demonstrate is to show how something is done. Nice work!"
+  },
+  {
+    "id": "4945f3a5-00b4-4e5b-adc9-41d0c57b5659",
+    "word": "detect",
+    "grade": "7",
+    "definition": "To notice or discover something that is hard to see.",
+    "example": "The smoke alarm can detect even a small amount of smoke in the air.",
+    "syllables": "de · tect",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To make something harder to see",
+        "correct": false
+      },
+      {
+        "text": "To protect something from damage",
+        "correct": false
+      },
+      {
+        "text": "To collect something over time",
+        "correct": false
+      },
+      {
+        "text": "To notice something hard to see",
+        "correct": true
+      }
+    ],
+    "explanation": "To detect is to notice something that is hard to see. Well done!"
+  },
+  {
+    "id": "49ce9a84-0db4-4ef7-8ad4-a474bb860bd6",
+    "word": "diminish",
+    "grade": "7",
+    "definition": "To become or make something smaller or less.",
+    "example": "The sound of the bell began to diminish as we walked farther away.",
+    "syllables": "di · min · ish",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To grow bigger and stronger",
+        "correct": false
+      },
+      {
+        "text": "To stay exactly the same",
+        "correct": false
+      },
+      {
+        "text": "To become smaller or less",
+        "correct": true
+      },
+      {
+        "text": "To change into something else",
+        "correct": false
+      }
+    ],
+    "explanation": "To diminish is to become smaller or less. You got it!"
+  },
+  {
+    "id": "8987716d-553c-4b4a-b70a-a9afd4c7f7f4",
+    "word": "dispute",
+    "grade": "7",
+    "definition": "An argument or disagreement about something.",
+    "example": "The two neighbors settled their dispute over the fence by talking it through.",
+    "syllables": "dis · pute",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A disagreement about something",
+        "correct": true
+      },
+      {
+        "text": "An agreement made after talking",
+        "correct": false
+      },
+      {
+        "text": "A question asked in class",
+        "correct": false
+      },
+      {
+        "text": "A promise made to a friend",
+        "correct": false
+      }
+    ],
+    "explanation": "A dispute is a disagreement about something. Great job!"
+  },
+  {
+    "id": "85825703-148c-4771-b1f4-dac8a0505be6",
+    "word": "distribute",
+    "grade": "7",
+    "definition": "To hand out or share something among several people.",
+    "example": "The teacher will distribute the worksheets before the quiz begins.",
+    "syllables": "dis · trib · ute",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To collect items from a group",
+        "correct": false
+      },
+      {
+        "text": "To keep every single part for yourself",
+        "correct": false
+      },
+      {
+        "text": "To count the items in a pile",
+        "correct": false
+      },
+      {
+        "text": "To give out parts to several people",
+        "correct": true
+      }
+    ],
+    "explanation": "To distribute is to give out parts to several people. Nice work!"
+  },
+  {
+    "id": "0921ac91-2407-4e30-9d38-d4c7eda15dba",
+    "word": "drastic",
+    "grade": "7",
+    "definition": "Very strong or extreme in effect, especially when sudden.",
+    "example": "The cold front brought a drastic drop in temperature overnight.",
+    "syllables": "dras · tic",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Small and hardly noticeable",
+        "correct": false
+      },
+      {
+        "text": "Gradual and steady over many years",
+        "correct": false
+      },
+      {
+        "text": "Very strong and sudden in effect",
+        "correct": true
+      },
+      {
+        "text": "Easy to predict ahead of time",
+        "correct": false
+      }
+    ],
+    "explanation": "Drastic means very strong and sudden in effect. Well done!"
+  },
+  {
+    "id": "97c8cf2e-c93b-461f-8b56-2c90654511c7",
+    "word": "endure",
+    "grade": "7",
+    "definition": "To keep going through something hard or long without giving up.",
+    "example": "The runners had to endure heavy rain for the last mile of the race.",
+    "syllables": "en · dure",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To give up when things get hard",
+        "correct": false
+      },
+      {
+        "text": "To keep going through something hard",
+        "correct": true
+      },
+      {
+        "text": "To avoid something that is hard",
+        "correct": false
+      },
+      {
+        "text": "To prepare for something hard",
+        "correct": false
+      }
+    ],
+    "explanation": "To endure is to keep going through something hard. You got it!"
+  },
+  {
+    "id": "0dd1e730-a187-496e-b277-8a026fce68ee",
+    "word": "enhance",
+    "grade": "7",
+    "definition": "To make something better, stronger or more attractive.",
+    "example": "A little lemon juice can enhance the flavor of the soup.",
+    "syllables": "en · hance",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To make something smaller",
+        "correct": false
+      },
+      {
+        "text": "To make something plainer",
+        "correct": false
+      },
+      {
+        "text": "To make something better",
+        "correct": true
+      },
+      {
+        "text": "To keep something as it is",
+        "correct": false
+      }
+    ],
+    "explanation": "To enhance is to make something better. Great job!"
+  },
+  {
+    "id": "dc809a75-3e2a-4d85-b977-fdbf3e2979cd",
+    "word": "enthusiasm",
+    "grade": "7",
+    "definition": "Strong excitement and interest in something.",
+    "example": "The whole class showed great enthusiasm for the science fair.",
+    "syllables": "en · thu · si · asm",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A calm and quiet way of working alone",
+        "correct": false
+      },
+      {
+        "text": "A skill learned through lots of practice",
+        "correct": false
+      },
+      {
+        "text": "A reward given for good effort in class",
+        "correct": false
+      },
+      {
+        "text": "A strong, eager excitement for something",
+        "correct": true
+      }
+    ],
+    "explanation": "Enthusiasm is strong excitement about something. Nice work!"
+  },
+  {
+    "id": "948c36e0-9a63-4d0f-8cca-dadd8623f3c7",
+    "word": "exceed",
+    "grade": "7",
+    "definition": "To go beyond a limit or an amount.",
+    "example": "Please do not let your speed exceed the limit posted on the sign.",
+    "syllables": "ex · ceed",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To stop short of a set limit",
+        "correct": false
+      },
+      {
+        "text": "To go beyond a set limit",
+        "correct": true
+      },
+      {
+        "text": "To meet a limit exactly",
+        "correct": false
+      },
+      {
+        "text": "To do well at a hard task",
+        "correct": false
+      }
+    ],
+    "explanation": "To exceed is to go beyond a set limit. Well done!"
+  },
+  {
+    "id": "a8e92648-8c56-4907-a620-d564a8969b6d",
+    "word": "expand",
+    "grade": "7",
+    "definition": "To become larger or to make something larger.",
+    "example": "Metal can expand a little when it gets hot.",
+    "syllables": "ex · pand",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To shrink to a smaller size",
+        "correct": false
+      },
+      {
+        "text": "To bend into a new shape",
+        "correct": false
+      },
+      {
+        "text": "To break into many pieces",
+        "correct": false
+      },
+      {
+        "text": "To grow larger in size or amount",
+        "correct": true
+      }
+    ],
+    "explanation": "To expand is to grow larger in size or amount. You got it!"
+  },
+  {
+    "id": "ee5ccc15-6a60-474e-b591-c6e7b6ee6996",
+    "word": "fragile",
+    "grade": "7",
+    "definition": "Easily broken or damaged.",
+    "example": "Pack the glass ornaments carefully because they are fragile.",
+    "syllables": "frag · ile",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Easy to break or damage",
+        "correct": true
+      },
+      {
+        "text": "Tough enough to survive a rough drop",
+        "correct": false
+      },
+      {
+        "text": "Heavy enough to be hard to lift",
+        "correct": false
+      },
+      {
+        "text": "Light enough to float in water",
+        "correct": false
+      }
+    ],
+    "explanation": "Fragile means easy to break or damage. Great job!"
+  },
+  {
+    "id": "3f8f1898-2ce0-4296-bcfe-fa722bf30fdd",
+    "word": "gradual",
+    "grade": "7",
+    "definition": "Happening in small steps over a long time.",
+    "example": "The change from winter to spring is gradual, with a few warmer days each week.",
+    "syllables": "grad · u · al",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Happening all at once",
+        "correct": false
+      },
+      {
+        "text": "Happening in a repeated pattern",
+        "correct": false
+      },
+      {
+        "text": "Happening a little at a time",
+        "correct": true
+      },
+      {
+        "text": "Happening for the first time",
+        "correct": false
+      }
+    ],
+    "explanation": "Gradual means happening a little at a time. Nice work!"
+  },
+  {
+    "id": "318e1c92-f41c-4722-8e6d-f5d7d03febfd",
+    "word": "hesitate",
+    "grade": "7",
+    "definition": "To pause before doing or saying something because you are unsure.",
+    "example": "Do not hesitate to ask for help if the instructions are confusing.",
+    "syllables": "hes · i · tate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To rush ahead without thinking",
+        "correct": false
+      },
+      {
+        "text": "To pause because you are unsure",
+        "correct": true
+      },
+      {
+        "text": "To say yes right away",
+        "correct": false
+      },
+      {
+        "text": "To repeat a word several times in a row",
+        "correct": false
+      }
+    ],
+    "explanation": "To hesitate is to pause because you are unsure. Well done!"
+  },
+  {
+    "id": "84bc48ea-fcee-4d3c-910d-7382c821e4fb",
+    "word": "identical",
+    "grade": "7",
+    "definition": "Exactly the same in every way.",
+    "example": "The twins wore identical jackets, so it was hard to tell them apart.",
+    "syllables": "i · den · ti · cal",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Similar but not quite the same",
+        "correct": false
+      },
+      {
+        "text": "Exactly alike in every detail",
+        "correct": true
+      },
+      {
+        "text": "Different in almost every way",
+        "correct": false
+      },
+      {
+        "text": "Alike in color but not in shape",
+        "correct": false
+      }
+    ],
+    "explanation": "Identical means exactly alike in every detail. You got it!"
+  },
+  {
+    "id": "1fa2a62e-f93d-40a4-a454-89c5e4be48ce",
+    "word": "imply",
+    "grade": "7",
+    "definition": "To suggest something without saying it directly.",
+    "example": "Her frown seemed to imply that she did not like the plan.",
+    "syllables": "im · ply",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To state something in plain words",
+        "correct": false
+      },
+      {
+        "text": "To apply something to a task",
+        "correct": false
+      },
+      {
+        "text": "To hint at something without saying it",
+        "correct": true
+      },
+      {
+        "text": "To rely on something for help",
+        "correct": false
+      }
+    ],
+    "explanation": "To imply is to hint at something without saying it. Great job!"
+  },
+  {
+    "id": "3afe1aa7-90d7-4480-8d33-9d369600f72f",
+    "word": "inquire",
+    "grade": "7",
+    "definition": "To ask for information about something.",
+    "example": "I called the library to inquire about the hours on the weekend.",
+    "syllables": "in · quire",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To ask for information about something",
+        "correct": true
+      },
+      {
+        "text": "To announce news to a room full of people",
+        "correct": false
+      },
+      {
+        "text": "To answer a question in class",
+        "correct": false
+      },
+      {
+        "text": "To demand something from someone",
+        "correct": false
+      }
+    ],
+    "explanation": "To inquire is to ask for information. Nice work!"
+  },
+  {
+    "id": "5789feac-6af8-498f-a697-90fadac40359",
+    "word": "intense",
+    "grade": "7",
+    "definition": "Very strong or extreme in force, feeling or degree.",
+    "example": "The heat was so intense that we stayed in the shade all afternoon.",
+    "syllables": "in · tense",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Mild and easy to handle",
+        "correct": false
+      },
+      {
+        "text": "Very strong or extreme",
+        "correct": true
+      },
+      {
+        "text": "Short and over quickly",
+        "correct": false
+      },
+      {
+        "text": "Quiet and easy to ignore",
+        "correct": false
+      }
+    ],
+    "explanation": "Intense means very strong or extreme. Well done!"
+  },
+  {
+    "id": "0a420ced-ec5e-4c47-9309-086a50ae7b5a",
+    "word": "interval",
+    "grade": "7",
+    "definition": "A period of time or a space between two events or things.",
+    "example": "There was a ten minute interval between the two parts of the play.",
+    "syllables": "in · ter · val",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The final part of a long event or show",
+        "correct": false
+      },
+      {
+        "text": "A list of the events planned",
+        "correct": false
+      },
+      {
+        "text": "A gap of time between two events",
+        "correct": true
+      },
+      {
+        "text": "A reward given after an event",
+        "correct": false
+      }
+    ],
+    "explanation": "An interval is a gap of time between two events. You got it!"
+  },
+  {
+    "id": "7902fe73-4ed1-4624-aba0-fc5c4fb487e3",
+    "word": "mature",
+    "grade": "7",
+    "definition": "Fully grown or developed.",
+    "example": "The mature oak tree gave plenty of shade to the whole yard.",
+    "syllables": "ma · ture",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Fully grown and developed",
+        "correct": true
+      },
+      {
+        "text": "Just beginning to sprout",
+        "correct": false
+      },
+      {
+        "text": "Newly planted and still tiny",
+        "correct": false
+      },
+      {
+        "text": "Found growing only in cold places",
+        "correct": false
+      }
+    ],
+    "explanation": "Mature means fully grown and developed. Great job!"
+  },
+  {
+    "id": "d17fa13e-7b26-47ae-946f-795baf0a0a1f",
+    "word": "miniature",
+    "grade": "7",
+    "definition": "Much smaller than the usual size, like a tiny copy.",
+    "example": "He built a miniature version of the bridge from toothpicks.",
+    "syllables": "min · i · a · ture",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Much larger than usual",
+        "correct": false
+      },
+      {
+        "text": "Much smaller than usual",
+        "correct": true
+      },
+      {
+        "text": "Built in several layers",
+        "correct": false
+      },
+      {
+        "text": "Made entirely from old materials",
+        "correct": false
+      }
+    ],
+    "explanation": "Miniature means much smaller than usual. Nice work!"
+  },
+  {
+    "id": "9bb89be7-6dd4-4e66-8bab-2b0fddc4a4bf",
+    "word": "modify",
+    "grade": "7",
+    "definition": "To change something a little, to improve it or make it suit a need.",
+    "example": "We had to modify the recipe because we had no eggs.",
+    "syllables": "mod · i · fy",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To copy something exactly",
+        "correct": false
+      },
+      {
+        "text": "To keep something unchanged",
+        "correct": false
+      },
+      {
+        "text": "To replace something entirely",
+        "correct": false
+      },
+      {
+        "text": "To change something a little",
+        "correct": true
+      }
+    ],
+    "explanation": "To modify is to change something a little. Well done!"
+  },
+  {
+    "id": "948fcc0b-a02d-4c05-930c-77649ce14ea8",
+    "word": "obtain",
+    "grade": "7",
+    "definition": "To get something, usually by effort or by asking.",
+    "example": "You must obtain a ticket before you can enter the show.",
+    "syllables": "ob · tain",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To lose something by mistake",
+        "correct": false
+      },
+      {
+        "text": "To get something by effort",
+        "correct": true
+      },
+      {
+        "text": "To give something to a friend",
+        "correct": false
+      },
+      {
+        "text": "To hold something inside",
+        "correct": false
+      }
+    ],
+    "explanation": "To obtain is to get something by effort. You got it!"
+  },
+  {
+    "id": "51245415-0851-48e8-a52a-de49e254257f",
+    "word": "outcome",
+    "grade": "7",
+    "definition": "The result of something that happened or was done.",
+    "example": "We were all happy with the outcome of the vote for a class pet.",
+    "syllables": "out · come",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The result of what was done",
+        "correct": true
+      },
+      {
+        "text": "The reason an event began",
+        "correct": false
+      },
+      {
+        "text": "A plan for an upcoming event",
+        "correct": false
+      },
+      {
+        "text": "A guess about what might happen",
+        "correct": false
+      }
+    ],
+    "explanation": "An outcome is the result of what was done. Great job!"
+  },
+  {
+    "id": "b1413abc-6a8b-49cf-b208-f91443b5ba44",
+    "word": "overcome",
+    "grade": "7",
+    "definition": "To succeed in dealing with a problem or a difficulty.",
+    "example": "With practice, she was able to overcome her trouble with long division.",
+    "syllables": "o · ver · come",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To cause a problem for someone",
+        "correct": false
+      },
+      {
+        "text": "To ignore a problem and leave",
+        "correct": false
+      },
+      {
+        "text": "To find a problem in a plan",
+        "correct": false
+      },
+      {
+        "text": "To beat a problem or difficulty",
+        "correct": true
+      }
+    ],
+    "explanation": "To overcome is to beat a problem or difficulty. Nice work!"
+  },
+  {
+    "id": "cf37a6e3-61d5-4377-89a4-0ccf1304ea5d",
+    "word": "persist",
+    "grade": "7",
+    "definition": "To keep trying or continuing, even when it is hard.",
+    "example": "If you persist with your practice, your piano playing will get better.",
+    "syllables": "per · sist",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To stop trying when it gets hard",
+        "correct": false
+      },
+      {
+        "text": "To keep trying even when it is hard",
+        "correct": true
+      },
+      {
+        "text": "To start something brand new each day",
+        "correct": false
+      },
+      {
+        "text": "To tell others about a hard task",
+        "correct": false
+      }
+    ],
+    "explanation": "To persist is to keep trying even when it is hard. Well done!"
+  },
+  {
+    "id": "0a622d5b-d551-42df-bc4c-abdf68cea837",
+    "word": "precise",
+    "grade": "7",
+    "definition": "Exact and clear, with every detail correct.",
+    "example": "The recipe needs a precise amount of flour, so use a scale.",
+    "syllables": "pre · cise",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Close enough for most everyday purposes",
+        "correct": false
+      },
+      {
+        "text": "Exact and correct in every detail",
+        "correct": true
+      },
+      {
+        "text": "Short and easy to remember",
+        "correct": false
+      },
+      {
+        "text": "Rough and based on a guess",
+        "correct": false
+      }
+    ],
+    "explanation": "Precise means exact and correct in every detail. You got it!"
+  },
+  {
+    "id": "84cc9717-4829-4702-9764-c4e379f7013c",
+    "word": "random",
+    "grade": "7",
+    "definition": "Chosen or happening without a plan or pattern.",
+    "example": "The teacher drew a random name from the jar to pick the first speaker.",
+    "syllables": "ran · dom",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Arranged in careful alphabetical order",
+        "correct": false
+      },
+      {
+        "text": "Repeated in the same way each time",
+        "correct": false
+      },
+      {
+        "text": "Picked because it was the best",
+        "correct": false
+      },
+      {
+        "text": "Done without any plan or pattern",
+        "correct": true
+      }
+    ],
+    "explanation": "Random means done without any plan or pattern. Great job!"
+  },
+  {
+    "id": "5e45773a-9a09-46c8-8e0b-348ff2b02e98",
+    "word": "limited",
+    "grade": "7",
+    "definition": "Small in number or amount; kept within a set size.",
+    "example": "Seats on the field trip bus are limited, so sign up early.",
+    "syllables": "lim · it · ed",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Large in number and growing",
+        "correct": false
+      },
+      {
+        "text": "Open to anyone who wants it",
+        "correct": false
+      },
+      {
+        "text": "Fixed at the same price for all",
+        "correct": false
+      },
+      {
+        "text": "Small in number or amount",
+        "correct": true
+      }
+    ],
+    "explanation": "Limited means small in number or amount. Nice work!"
+  },
+  {
+    "id": "c9a1b770-f20e-4c15-a2e6-09b9343d43bd",
+    "word": "vital",
+    "grade": "7",
+    "definition": "Absolutely necessary, very important for life or success.",
+    "example": "Water is vital for every plant in the garden.",
+    "syllables": "vi · tal",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Absolutely needed for life or success",
+        "correct": true
+      },
+      {
+        "text": "Useful only on special days",
+        "correct": false
+      },
+      {
+        "text": "Helpful but easy to replace",
+        "correct": false
+      },
+      {
+        "text": "Easy to find in most places around town",
+        "correct": false
+      }
+    ],
+    "explanation": "Vital means absolutely needed for life or success. Well done!"
+  },
+  {
+    "id": "8d4b7fd9-1367-4162-9e29-7eceaf4a9e01",
+    "word": "commence",
+    "grade": "7",
+    "definition": "To begin or start.",
+    "example": "The ceremony will commence at noon, so please take your seats.",
+    "syllables": "com · mence",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To begin or get started",
+        "correct": true
+      },
+      {
+        "text": "To finish or come to an end",
+        "correct": false
+      },
+      {
+        "text": "To pause for a short break",
+        "correct": false
+      },
+      {
+        "text": "To repeat from the beginning",
+        "correct": false
+      }
+    ],
+    "explanation": "To commence is to begin or get started. You got it!"
+  },
+  {
+    "id": "688254b2-2290-41dc-b125-83b4eed4e0af",
+    "word": "dedicate",
+    "grade": "7",
+    "definition": "To give your time and effort fully to a purpose.",
+    "example": "She chose to dedicate every weekend morning to practicing her violin.",
+    "syllables": "ded · i · cate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To decorate a place for a party",
+        "correct": false
+      },
+      {
+        "text": "To teach a lesson to a class",
+        "correct": false
+      },
+      {
+        "text": "To give time and effort to a goal",
+        "correct": true
+      },
+      {
+        "text": "To save money for something",
+        "correct": false
+      }
+    ],
+    "explanation": "To dedicate is to give time and effort to a goal. Great job!"
+  },
+  {
+    "id": "71eb8859-ca3e-4416-b023-3ab9f1f695f4",
+    "word": "hazard",
+    "grade": "7",
+    "definition": "Something that could cause an accident or harm.",
+    "example": "A wet floor is a hazard, so the janitor put out a bright sign.",
+    "syllables": "haz · ard",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something that keeps people safe",
+        "correct": false
+      },
+      {
+        "text": "A rule about staying safe",
+        "correct": false
+      },
+      {
+        "text": "Something that could cause harm",
+        "correct": true
+      },
+      {
+        "text": "A tool that fixes damage",
+        "correct": false
+      }
+    ],
+    "explanation": "A hazard is something that could cause harm. Nice work!"
+  }
+]
