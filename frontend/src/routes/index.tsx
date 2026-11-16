@@ -25,6 +25,15 @@ export const Route = createFileRoute("/")({
 
 const TILE_COLORS = ["bg-primary text-primary-foreground", "bg-secondary text-secondary-foreground", "bg-accent text-accent-foreground", "bg-success text-success-foreground"];
 
+export function SharedDemoNotice() {
+  return (
+    <p className="mt-12 max-w-xl text-sm text-muted-foreground" data-testid="shared-demo-notice">
+      This is a shared demo with no sign-in: anyone with the link can see and change the profiles
+      stored on the server. Do not enter real children's data; use a made-up nickname.
+    </p>
+  );
+}
+
 function Index() {
   const qc = useQueryClient();
   const navigate = useNavigate();
@@ -80,9 +89,7 @@ function Index() {
           </div>
         )}
 
-        <p className="mt-12 max-w-xl text-sm text-muted-foreground">
-          Profiles and progress are kept only in this browser. Clearing browser data or switching devices will remove them.
-        </p>
+        <SharedDemoNotice />
       </main>
 
       <ProfileFormDialog

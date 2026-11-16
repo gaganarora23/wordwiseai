@@ -30,8 +30,8 @@ The project is built by an AI agent team following a written process, with every
 
 - **Spec first.** `_docs/plan.md` defines behavior and API before code; `_docs/tasks.md` breaks it into tasks.
 - **Public tracker.** [Issues](https://github.com/gaganarora23/wordwiseai/issues) hold the backlog, each with acceptance criteria; `mvp` and `post-mvp` labels mark scope; commits and PRs reference issue numbers.
-- **Agent team.** An orchestrator (the main session) launches three subagents per task: a **PM** that grooms the issue, an **engineer** that implements it, and a **QA engineer** that checks it against the acceptance criteria and posts PASS or FAIL. On FAIL the engineer retries with QA's comment. Roles are in `_docs/team/`, the lifecycle is in `_docs/process.md`.
-- **Context management.** `AGENTS.md` at the root points to modular docs in `_docs/`, with `backend/AGENTS.md` and `frontend/AGENTS.md` for each part.
+- **Agent team.** An orchestrator (the main session) launches three subagents per task: a **PM** that grooms the issue, an **engineer** that implements it, and a **QA engineer** that checks it against the acceptance criteria and posts PASS or FAIL. On FAIL the engineer retries with QA's comment. Roles and their limits are in `docs/agents.md` and `_docs/team/`, the lifecycle is in `_docs/process.md`, and branch, PR and CI conventions are in `docs/process.md`.
+- **Context management.** `AGENTS.md` at the root points to modular docs in `_docs/` and `docs/`, with `backend/AGENTS.md` and `frontend/AGENTS.md` for each part.
 
 ## Run the app locally
 
@@ -168,7 +168,7 @@ docker compose exec db sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "sel
 
 **Backend configuration.** The backend reads two environment variables (real environment wins over the repo-root `.env`):
 
-- `DATABASE_URL` (required): must start with `postgresql+psycopg://`. The backend refuses to start with a one-line error if it is missing or invalid. The database itself does not need to be running for the app to start or for `GET /api/v1/health` to answer.
+- `DATABASE_URL` (required): must start with `postgresql+psycopg://`; `postgresql://` and `postgres://` (what hosts such as Render provide) are accepted and rewritten to `postgresql+psycopg://`. The backend refuses to start with a one-line error if it is missing or invalid. The database itself does not need to be running for the app to start or for `GET /api/v1/health` to answer.
 - `CORS_ORIGINS` (optional): comma-separated browser origins allowed via CORS; unset or empty allows none.
 
 Run the backend against the Compose database:
@@ -198,6 +198,27 @@ A development-only vocabulary (154 words, not release content) is in `backend/fi
 
 Connection settings: connect timeout is 5 seconds (`connect_args={"connect_timeout": 5}`) and `pool_pre_ping=True`; both are defined in `backend/app/config.py` and used in `backend/app/db.py`. Database tests need the Compose database (`docker compose up -d --wait db`); without it they fail with that command in the message.
 
+## Deployment
+
+WordWise is deployed to [Render](https://render.com) (free tier) from the Blueprint in [`render.yaml`](render.yaml): one PostgreSQL database (`wordwise-db`, PostgreSQL 18, Render's newest major and allowed on the free plan) and two Docker web services, `wordwise-api` (backend) and `wordwise-web` (frontend).
+
+**Public URLs:** TBD: filled in after the first deploy
+
+Steps (done once, by the project owner):
+
+1. Sign in at [render.com](https://render.com) and connect your GitHub account.
+2. New > Blueprint, pick the `gaganarora23/wordwiseai` repo and branch, then Apply. Render creates the database and both services and builds them.
+3. The expected URLs are `https://wordwise-web.onrender.com` (the app) and `https://wordwise-api.onrender.com` (API, docs at `/docs`). The blueprint hard-codes these in `CORS_ORIGINS` (API) and `VITE_API_URL` (web, baked in at build time). If Render adds a suffix to either name because it is taken, edit those two values in the dashboard and redeploy `wordwise-web` and `wordwise-api`. Then put the real URLs on the line above.
+4. Auto-deploy is off. Deploys are triggered from GitHub Actions through deploy hooks; copy each service's deploy hook URL (Settings) into GitHub secrets as described in [`docs/deployment.md`](docs/deployment.md).
+
+Things to know:
+
+- **Cold start.** Free web services sleep after 15 minutes idle; the first request afterwards takes about a minute.
+- **Database expiry.** A free Render PostgreSQL database expires 30 days after creation, so the shared demo data disappears then unless the database is upgraded or recreated.
+- **Vocabulary.** On start the backend loads 500 of the 650 target words (K to 9; Grades 10 to 12 are issue #16), logging `Created: 500` the first time and `unchanged: 500` afterwards.
+- **Shared demo.** There is no authentication; anyone with the link sees and edits the same profiles, so real children's data must not be entered. The app says this on the home page.
+- **Database URL.** Render's `postgresql://` connection string is accepted; the backend rewrites it to `postgresql+psycopg://`.
+
 ## Testing
 
 `make test` from the repo root runs the backend suite (`cd backend && uv run pytest`), then the frontend suite. Backend integration tests run against real PostgreSQL, never SQLite.
@@ -221,3 +242,7 @@ def test_child_is_visible_to_the_api(client, db_session):
 ```
 
 `test_harness.py` proves the harness: tables are empty at the start of every test, committed rows do not leak, and the failure behaviour above.
+
+### Continuous integration
+
+`.github/workflows/ci.yml` runs on every `pull_request` and on every push to `main`. One job, named `test` and shown on GitHub as `CI / test`, runs on `ubuntu-latest` with a PostgreSQL 18 service container (`postgres:18-alpine`, health-checked before the steps start) and `DATABASE_URL` pointing at it. It installs the backend (`uv sync --frozen`) and frontend (`bun install --frozen-lockfile`) dependencies, then runs `make test`: the backend pytest suite followed by the frontend suite. Dependency downloads are cached, keyed on `backend/uv.lock` and `frontend/bun.lock`. Require the `CI / test` check before merging a pull request. On pushes to `main` a second job, `deploy`, runs after `test` passes and triggers the Render deploy hooks; see [`docs/deployment.md`](docs/deployment.md).

@@ -1,8 +1,10 @@
+import json
 import uuid
 
 import pytest
 
-from tests.helpers import insert_word
+from app.services.vocabulary_ingestion import load_rows, load_words
+from tests.helpers import VOCABULARY_FIXTURES_DIR, insert_word
 
 
 def test_returns_only_words_of_the_grade_with_options(client, db_session):
@@ -46,3 +48,22 @@ def test_results_are_ordered_by_id(client, db_session):
     returned = [w["id"] for w in client.get("/api/v1/grades/2/words").json()]
 
     assert returned == [str(i) for i in ids]
+
+
+@pytest.mark.parametrize("grade", ["K", "1", "5"])
+def test_fixture_vocabulary_grade_returns_only_its_own_words(client, db_session, grade):
+    files = sorted(VOCABULARY_FIXTURES_DIR.glob("grade-*.json"))
+    rows = load_rows(files)
+    load_words(db_session.connection(), rows)
+    db_session.commit()
+
+    expected = json.loads((VOCABULARY_FIXTURES_DIR / f"grade-{grade}.json").read_text(encoding="utf-8"))
+    assert len(rows) > len(expected) > 0  # other grades were loaded too
+
+    response = client.get(f"/api/v1/grades/{grade}/words")
+
+    assert response.status_code == 200
+    body = response.json()
+    assert len(body) == len(expected)
+    assert {w["grade"] for w in body} == {grade}
+    assert {w["id"] for w in body} == {e["id"] for e in expected}

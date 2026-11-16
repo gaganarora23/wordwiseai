@@ -15,6 +15,8 @@ from pydantic_settings import BaseSettings, NoDecode, SettingsConfigDict
 ENV_FILE = Path(__file__).resolve().parents[2] / ".env"
 
 DATABASE_URL_PREFIX = "postgresql+psycopg://"
+# Hosts such as Render hand out plain ``postgresql://`` strings; rewrite them to the driver form.
+DATABASE_URL_ALIASES = ("postgresql://", "postgres://")
 
 # Connection settings, also documented in the README Database section.
 DB_CONNECT_TIMEOUT_SECONDS = 5
@@ -34,6 +36,10 @@ class Settings(BaseSettings):
     @field_validator("database_url")
     @classmethod
     def _check_database_url(cls, value: str) -> str:
+        for alias in DATABASE_URL_ALIASES:
+            if value.startswith(alias):
+                value = DATABASE_URL_PREFIX + value[len(alias):]
+                break
         # Fixed message on purpose: pydantic would otherwise echo the value (and password).
         if not value.startswith(DATABASE_URL_PREFIX) or value == DATABASE_URL_PREFIX:
             raise ValueError(
