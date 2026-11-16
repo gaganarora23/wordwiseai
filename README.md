@@ -221,3 +221,7 @@ def test_child_is_visible_to_the_api(client, db_session):
 ```
 
 `test_harness.py` proves the harness: tables are empty at the start of every test, committed rows do not leak, and the failure behaviour above.
+
+### Continuous integration
+
+`.github/workflows/ci.yml` runs on every `pull_request` and on every push to `main`. One job, named `test` and shown on GitHub as `CI / test`, runs on `ubuntu-latest` with a PostgreSQL 18 service container (`postgres:18-alpine`, health-checked before the steps start) and `DATABASE_URL` pointing at it. It installs the backend (`uv sync --frozen`) and frontend (`bun install --frozen-lockfile`) dependencies, then runs `make test`: the backend pytest suite followed by the frontend suite. Dependency downloads are cached, keyed on `backend/uv.lock` and `frontend/bun.lock`. Require the `CI / test` check before merging a pull request.
