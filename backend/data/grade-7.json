@@ -189,7 +189,7 @@
         "correct": false
       },
       {
-        "text": "To explain something to a younger child",
+        "text": "To doubt something until it is proven",
         "correct": false
       }
     ],
@@ -505,31 +505,31 @@
   },
   {
     "id": "4945f3a5-00b4-4e5b-adc9-41d0c57b5659",
-    "word": "detect",
+    "word": "perceive",
     "grade": "7",
-    "definition": "To notice or discover something that is hard to see.",
-    "example": "The smoke alarm can detect even a small amount of smoke in the air.",
-    "syllables": "de · tect",
+    "definition": "To notice or become aware of something through your senses.",
+    "example": "Dogs can perceive sounds that people are not able to hear.",
+    "syllables": "per · ceive",
     "content_version": "2026.1",
     "options": [
       {
-        "text": "To make something harder to see",
+        "text": "To ignore something right in front of you",
         "correct": false
       },
       {
-        "text": "To protect something from damage",
+        "text": "To imagine something that is not real",
         "correct": false
       },
       {
-        "text": "To collect something over time",
+        "text": "To forget something you once knew",
         "correct": false
       },
       {
-        "text": "To notice something hard to see",
+        "text": "To notice something through your senses",
         "correct": true
       }
     ],
-    "explanation": "To detect is to notice something that is hard to see. Well done!"
+    "explanation": "To perceive is to notice something through your senses. Great job!"
   },
   {
     "id": "49ce9a84-0db4-4ef7-8ad4-a474bb860bd6",
@@ -749,7 +749,7 @@
         "correct": false
       },
       {
-        "text": "To do well at a hard task",
+        "text": "To make a limit easier to reach",
         "correct": false
       }
     ],
@@ -757,31 +757,31 @@
   },
   {
     "id": "a8e92648-8c56-4907-a620-d564a8969b6d",
-    "word": "expand",
+    "word": "implement",
     "grade": "7",
-    "definition": "To become larger or to make something larger.",
-    "example": "Metal can expand a little when it gets hot.",
-    "syllables": "ex · pand",
+    "definition": "To put a plan or idea into action.",
+    "example": "The class will implement the new recycling plan starting next week.",
+    "syllables": "im · ple · ment",
     "content_version": "2026.1",
     "options": [
       {
-        "text": "To shrink to a smaller size",
+        "text": "To write down a plan or idea",
         "correct": false
       },
       {
-        "text": "To bend into a new shape",
+        "text": "To argue against a plan or idea",
         "correct": false
       },
       {
-        "text": "To break into many pieces",
+        "text": "To cancel a plan or idea for good",
         "correct": false
       },
       {
-        "text": "To grow larger in size or amount",
+        "text": "To carry out a plan or idea",
         "correct": true
       }
     ],
-    "explanation": "To expand is to grow larger in size or amount. You got it!"
+    "explanation": "To implement is to carry out a plan or idea. Nice work!"
   },
   {
     "id": "ee5ccc15-6a60-474e-b591-c6e7b6ee6996",
@@ -984,7 +984,7 @@
     "word": "interval",
     "grade": "7",
     "definition": "A period of time or a space between two events or things.",
-    "example": "There was a ten minute interval between the two parts of the play.",
+    "example": "There was a ten-minute interval between the two parts of the play.",
     "syllables": "in · ter · val",
     "content_version": "2026.1",
     "options": [
@@ -1009,31 +1009,31 @@
   },
   {
     "id": "7902fe73-4ed1-4624-aba0-fc5c4fb487e3",
-    "word": "mature",
+    "word": "vibrant",
     "grade": "7",
-    "definition": "Fully grown or developed.",
-    "example": "The mature oak tree gave plenty of shade to the whole yard.",
-    "syllables": "ma · ture",
+    "definition": "Full of energy, life or bright color.",
+    "example": "The market was vibrant with music, busy sellers and colorful cloth.",
+    "syllables": "vi · brant",
     "content_version": "2026.1",
     "options": [
       {
-        "text": "Fully grown and developed",
+        "text": "Full of energy and bright color",
         "correct": true
       },
       {
-        "text": "Just beginning to sprout",
+        "text": "Dull and faded after many years",
         "correct": false
       },
       {
-        "text": "Newly planted and still tiny",
+        "text": "Calm and quiet with very little to see",
         "correct": false
       },
       {
-        "text": "Found growing only in cold places",
+        "text": "Neat and organized in straight rows",
         "correct": false
       }
     ],
-    "explanation": "Mature means fully grown and developed. Great job!"
+    "explanation": "Vibrant means full of energy and bright color. Nice work!"
   },
   {
     "id": "d17fa13e-7b26-47ae-946f-795baf0a0a1f",
@@ -1093,87 +1093,87 @@
   },
   {
     "id": "948fcc0b-a02d-4c05-930c-77649ce14ea8",
-    "word": "obtain",
+    "word": "acquire",
     "grade": "7",
-    "definition": "To get something, usually by effort or by asking.",
-    "example": "You must obtain a ticket before you can enter the show.",
-    "syllables": "ob · tain",
+    "definition": "To gain something through effort, skill or purchase.",
+    "example": "Over the summer, she hoped to acquire a few new skills on the guitar.",
+    "syllables": "ac · quire",
     "content_version": "2026.1",
     "options": [
       {
-        "text": "To lose something by mistake",
+        "text": "To lose something through carelessness",
         "correct": false
       },
       {
-        "text": "To get something by effort",
+        "text": "To gain something through effort",
         "correct": true
       },
       {
-        "text": "To give something to a friend",
+        "text": "To give something away to a friend",
         "correct": false
       },
       {
-        "text": "To hold something inside",
+        "text": "To hold on to something that is already yours",
         "correct": false
       }
     ],
-    "explanation": "To obtain is to get something by effort. You got it!"
+    "explanation": "To acquire is to gain something through effort. Nice work!"
   },
   {
     "id": "51245415-0851-48e8-a52a-de49e254257f",
-    "word": "outcome",
+    "word": "hinder",
     "grade": "7",
-    "definition": "The result of something that happened or was done.",
-    "example": "We were all happy with the outcome of the vote for a class pet.",
-    "syllables": "out · come",
+    "definition": "To make something harder to do or to slow it down.",
+    "example": "Heavy rain can hinder the workers who are building the road.",
+    "syllables": "hin · der",
     "content_version": "2026.1",
     "options": [
       {
-        "text": "The result of what was done",
+        "text": "To slow something down or get in its way",
         "correct": true
       },
       {
-        "text": "The reason an event began",
+        "text": "To speed something up and help it along",
         "correct": false
       },
       {
-        "text": "A plan for an upcoming event",
+        "text": "To lead something toward its final goal",
         "correct": false
       },
       {
-        "text": "A guess about what might happen",
+        "text": "To finish something before it is due",
         "correct": false
       }
     ],
-    "explanation": "An outcome is the result of what was done. Great job!"
+    "explanation": "To hinder is to slow something down or get in its way. Well done!"
   },
   {
     "id": "b1413abc-6a8b-49cf-b208-f91443b5ba44",
-    "word": "overcome",
+    "word": "withdraw",
     "grade": "7",
-    "definition": "To succeed in dealing with a problem or a difficulty.",
-    "example": "With practice, she was able to overcome her trouble with long division.",
-    "syllables": "o · ver · come",
+    "definition": "To take something back or move away from a place or plan.",
+    "example": "She decided to withdraw her name from the list before the vote.",
+    "syllables": "with · draw",
     "content_version": "2026.1",
     "options": [
       {
-        "text": "To cause a problem for someone",
+        "text": "To push forward and take the lead",
         "correct": false
       },
       {
-        "text": "To ignore a problem and leave",
+        "text": "To hand something in for others to see",
         "correct": false
       },
       {
-        "text": "To find a problem in a plan",
+        "text": "To add one more item to a collection",
         "correct": false
       },
       {
-        "text": "To beat a problem or difficulty",
+        "text": "To take something back or pull away",
         "correct": true
       }
     ],
-    "explanation": "To overcome is to beat a problem or difficulty. Nice work!"
+    "explanation": "To withdraw is to take something back or pull away. Well done!"
   },
   {
     "id": "cf37a6e3-61d5-4377-89a4-0ccf1304ea5d",
@@ -1197,7 +1197,7 @@
         "correct": false
       },
       {
-        "text": "To tell others about a hard task",
+        "text": "To wait for help before trying again",
         "correct": false
       }
     ],
@@ -1233,87 +1233,87 @@
   },
   {
     "id": "84cc9717-4829-4702-9764-c4e379f7013c",
-    "word": "random",
+    "word": "consult",
     "grade": "7",
-    "definition": "Chosen or happening without a plan or pattern.",
-    "example": "The teacher drew a random name from the jar to pick the first speaker.",
-    "syllables": "ran · dom",
+    "definition": "To ask someone for advice or information before deciding.",
+    "example": "Before choosing a science project, I like to consult my teacher.",
+    "syllables": "con · sult",
     "content_version": "2026.1",
     "options": [
       {
-        "text": "Arranged in careful alphabetical order",
+        "text": "To give orders to someone about a task",
         "correct": false
       },
       {
-        "text": "Repeated in the same way each time",
+        "text": "To argue with someone about a decision",
         "correct": false
       },
       {
-        "text": "Picked because it was the best",
+        "text": "To check on someone who is far away",
         "correct": false
       },
       {
-        "text": "Done without any plan or pattern",
+        "text": "To ask an expert for advice or help",
         "correct": true
       }
     ],
-    "explanation": "Random means done without any plan or pattern. Great job!"
+    "explanation": "To consult is to ask an expert for advice or help. Great job!"
   },
   {
     "id": "5e45773a-9a09-46c8-8e0b-348ff2b02e98",
-    "word": "limited",
+    "word": "restrict",
     "grade": "7",
-    "definition": "Small in number or amount; kept within a set size.",
-    "example": "Seats on the field trip bus are limited, so sign up early.",
-    "syllables": "lim · it · ed",
+    "definition": "To keep something within a set limit so it cannot go beyond it.",
+    "example": "The school will restrict phone use to lunch time and breaks.",
+    "syllables": "re · strict",
     "content_version": "2026.1",
     "options": [
       {
-        "text": "Large in number and growing",
+        "text": "To free something from every rule and limit",
         "correct": false
       },
       {
-        "text": "Open to anyone who wants it",
+        "text": "To make something easier for people to reach",
         "correct": false
       },
       {
-        "text": "Fixed at the same price for all",
+        "text": "To bring something back to how it was before",
         "correct": false
       },
       {
-        "text": "Small in number or amount",
+        "text": "To keep something within a set limit",
         "correct": true
       }
     ],
-    "explanation": "Limited means small in number or amount. Nice work!"
+    "explanation": "To restrict is to keep something within a set limit. Nice work!"
   },
   {
     "id": "c9a1b770-f20e-4c15-a2e6-09b9343d43bd",
-    "word": "vital",
+    "word": "tolerate",
     "grade": "7",
-    "definition": "Absolutely necessary, very important for life or success.",
-    "example": "Water is vital for every plant in the garden.",
-    "syllables": "vi · tal",
+    "definition": "To put up with something unpleasant without complaining.",
+    "example": "She can tolerate loud music for a short time, but not for hours.",
+    "syllables": "tol · er · ate",
     "content_version": "2026.1",
     "options": [
       {
-        "text": "Absolutely needed for life or success",
+        "text": "To put up with something unpleasant",
         "correct": true
       },
       {
-        "text": "Useful only on special days",
+        "text": "To get rid of something unpleasant at once",
         "correct": false
       },
       {
-        "text": "Helpful but easy to replace",
+        "text": "To make something unpleasant even worse",
         "correct": false
       },
       {
-        "text": "Easy to find in most places around town",
+        "text": "To warn people about something unpleasant",
         "correct": false
       }
     ],
-    "explanation": "Vital means absolutely needed for life or success. Well done!"
+    "explanation": "To tolerate is to put up with something unpleasant. Great job!"
   },
   {
     "id": "8d4b7fd9-1367-4162-9e29-7eceaf4a9e01",
