@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "ee582a65-2897-473e-94d1-24a85f160c88",
+    "word": "cat",
+    "grade": "K",
+    "definition": "A small furry pet that purrs and says meow.",
+    "example": "The cat sat on my lap.",
+    "syllables": "cat",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A big animal that barks",
+        "correct": false
+      },
+      {
+        "text": "A furry pet that purrs",
+        "correct": true
+      },
+      {
+        "text": "A bird that sings in a tree",
+        "correct": false
+      },
+      {
+        "text": "A fish that swims in a bowl",
+        "correct": false
+      }
+    ],
+    "explanation": "A cat is a furry pet that purrs. Great job!"
+  },
+  {
+    "id": "fd94f755-3018-4bd4-a377-05cfba08e6bb",
+    "word": "dog",
+    "grade": "K",
+    "definition": "A pet that wags its tail and barks.",
+    "example": "The dog ran after the ball.",
+    "syllables": "dog",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A pet that purrs and chases little mice",
+        "correct": false
+      },
+      {
+        "text": "A pet that lives in a fish bowl",
+        "correct": false
+      },
+      {
+        "text": "A farm animal that gives us milk",
+        "correct": false
+      },
+      {
+        "text": "A pet that barks and wags its tail",
+        "correct": true
+      }
+    ],
+    "explanation": "A dog is a pet that barks and wags its tail. Nice work!"
+  },
+  {
+    "id": "33d4216b-f5fb-43c9-8859-bd25f395a65e",
+    "word": "sun",
+    "grade": "K",
+    "definition": "The bright light in the sky that warms us in the day.",
+    "example": "The sun is shining today.",
+    "syllables": "sun",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The white light in the sky at night",
+        "correct": false
+      },
+      {
+        "text": "A cloud that brings the rain",
+        "correct": false
+      },
+      {
+        "text": "A big hill covered in snow",
+        "correct": false
+      },
+      {
+        "text": "The bright light in the sky by day",
+        "correct": true
+      }
+    ],
+    "explanation": "The sun is the bright light that warms our day. Well done!"
+  },
+  {
+    "id": "cfa99995-1107-45d8-8798-654ab097e9df",
+    "word": "hat",
+    "grade": "K",
+    "definition": "Something you wear on your head.",
+    "example": "I wear a hat when it is sunny.",
+    "syllables": "hat",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something you wear on your feet",
+        "correct": false
+      },
+      {
+        "text": "Something you wear on your head",
+        "correct": true
+      },
+      {
+        "text": "Something you wear on your hands",
+        "correct": false
+      },
+      {
+        "text": "Something you use to brush your teeth",
+        "correct": false
+      }
+    ],
+    "explanation": "A hat goes on your head. You got it!"
+  },
+  {
+    "id": "22235330-99cb-49a2-84e9-a053208b8e73",
+    "word": "cup",
+    "grade": "K",
+    "definition": "A small bowl with a handle that you drink from.",
+    "example": "I drink milk from my cup.",
+    "syllables": "cup",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A flat dish for a cake",
+        "correct": false
+      },
+      {
+        "text": "A tool for cutting paper",
+        "correct": false
+      },
+      {
+        "text": "A small bowl with a handle",
+        "correct": true
+      },
+      {
+        "text": "A box for keeping toys",
+        "correct": false
+      }
+    ],
+    "explanation": "A cup is something you drink from. Great job!"
+  },
+  {
+    "id": "6225c22d-29a1-4be9-9c19-e7c3b77dc0ac",
+    "word": "ball",
+    "grade": "K",
+    "definition": "A round toy that you can throw, kick or bounce.",
+    "example": "We kick the ball at the park.",
+    "syllables": "ball",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A flat toy that you spin on the floor",
+        "correct": false
+      },
+      {
+        "text": "A round toy you can throw or kick",
+        "correct": true
+      },
+      {
+        "text": "A tall tower made of blocks",
+        "correct": false
+      },
+      {
+        "text": "A soft toy to hug at bedtime",
+        "correct": false
+      }
+    ],
+    "explanation": "A ball is round and fun to kick or throw. Nice work!"
+  },
+  {
+    "id": "3dfc6956-71be-425f-9af3-580ecae824f6",
+    "word": "bed",
+    "grade": "K",
+    "definition": "The place where you lie down to sleep at night.",
+    "example": "I read a book in my bed.",
+    "syllables": "bed",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The place where you wash your hands",
+        "correct": false
+      },
+      {
+        "text": "The place where you cook dinner",
+        "correct": false
+      },
+      {
+        "text": "The place where you park a car",
+        "correct": false
+      },
+      {
+        "text": "The place where you sleep at night",
+        "correct": true
+      }
+    ],
+    "explanation": "A bed is where you sleep. Sweet dreams and good job!"
+  },
+  {
+    "id": "d90e642a-583f-41e8-9403-773839bd484e",
+    "word": "bus",
+    "grade": "K",
+    "definition": "A big vehicle that carries many people.",
+    "example": "I ride the bus to school.",
+    "syllables": "bus",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A small boat with a sail",
+        "correct": false
+      },
+      {
+        "text": "A machine that flies with wings",
+        "correct": false
+      },
+      {
+        "text": "A big vehicle with many seats",
+        "correct": true
+      },
+      {
+        "text": "A bike with two small wheels",
+        "correct": false
+      }
+    ],
+    "explanation": "A bus is a big vehicle with lots of seats. Well done!"
+  },
+  {
+    "id": "420f1fcd-c574-424d-8ee5-bfbecf661f6f",
+    "word": "fish",
+    "grade": "K",
+    "definition": "An animal that lives in water and swims with fins.",
+    "example": "The fish swims in the pond.",
+    "syllables": "fish",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "An animal that gallops across a field",
+        "correct": false
+      },
+      {
+        "text": "An animal that swims with fins",
+        "correct": true
+      },
+      {
+        "text": "An animal that flies in the sky",
+        "correct": false
+      },
+      {
+        "text": "An animal that climbs up trees",
+        "correct": false
+      }
+    ],
+    "explanation": "A fish lives in water and swims with fins. Great job!"
+  },
+  {
+    "id": "83c49aba-7156-4333-8cf6-3cf6c8f84208",
+    "word": "duck",
+    "grade": "K",
+    "definition": "A bird with a flat beak that swims and quacks.",
+    "example": "The duck swam across the pond.",
+    "syllables": "duck",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A bird that swims and quacks",
+        "correct": true
+      },
+      {
+        "text": "A bird that hoots at night",
+        "correct": false
+      },
+      {
+        "text": "A bird that crows in the morning",
+        "correct": false
+      },
+      {
+        "text": "A bird with bright red feathers",
+        "correct": false
+      }
+    ],
+    "explanation": "A duck is a bird that swims and quacks. Nice work!"
+  },
+  {
+    "id": "cc4c885b-0f5c-4cab-8afc-c1659297d418",
+    "word": "cow",
+    "grade": "K",
+    "definition": "A big farm animal that gives us milk and says moo.",
+    "example": "The cow eats grass in the field.",
+    "syllables": "cow",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A farm animal that gives us eggs",
+        "correct": false
+      },
+      {
+        "text": "A farm animal that gives us milk",
+        "correct": true
+      },
+      {
+        "text": "A farm animal that gives us wool",
+        "correct": false
+      },
+      {
+        "text": "A wild animal with a long trunk",
+        "correct": false
+      }
+    ],
+    "explanation": "A cow is a farm animal that gives us milk. You got it!"
+  },
+  {
+    "id": "5eb8fb71-72bd-4e59-b51a-88a73c8803ba",
+    "word": "pig",
+    "grade": "K",
+    "definition": "A farm animal with a curly tail that says oink.",
+    "example": "The pig rolled in the mud.",
+    "syllables": "pig",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A farm animal that oinks",
+        "correct": true
+      },
+      {
+        "text": "A farm animal that moos",
+        "correct": false
+      },
+      {
+        "text": "A farm animal that clucks",
+        "correct": false
+      },
+      {
+        "text": "A farm animal that quacks",
+        "correct": false
+      }
+    ],
+    "explanation": "A pig says oink and has a curly tail. Well done!"
+  },
+  {
+    "id": "b66d5c81-9896-4474-9742-fa1c6d130aa3",
+    "word": "frog",
+    "grade": "K",
+    "definition": "A small green animal that hops and lives near water.",
+    "example": "A frog jumped onto the leaf.",
+    "syllables": "frog",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A big furry animal that purrs at home",
+        "correct": false
+      },
+      {
+        "text": "A bird that glides over the sea",
+        "correct": false
+      },
+      {
+        "text": "A green animal that hops near ponds",
+        "correct": true
+      },
+      {
+        "text": "A big animal that gives us milk",
+        "correct": false
+      }
+    ],
+    "explanation": "A frog is a green animal that hops near water. Great job!"
+  },
+  {
+    "id": "1875f5c4-2c16-482b-b150-937a526476d9",
+    "word": "book",
+    "grade": "K",
+    "definition": "Pages with words and pictures that you read.",
+    "example": "She reads a book before bed.",
+    "syllables": "book",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Pages with words and pictures",
+        "correct": true
+      },
+      {
+        "text": "A box that plays loud music",
+        "correct": false
+      },
+      {
+        "text": "A toy that you ride outside",
+        "correct": false
+      },
+      {
+        "text": "A cloth you use to dry dishes",
+        "correct": false
+      }
+    ],
+    "explanation": "A book has pages with words and pictures. Nice work!"
+  },
+  {
+    "id": "668f7a08-f9eb-4135-856c-7a03cad518f5",
+    "word": "car",
+    "grade": "K",
+    "definition": "A vehicle with four wheels that drives on the road.",
+    "example": "Dad drives the car to work.",
+    "syllables": "car",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A boat with a big sail",
+        "correct": false
+      },
+      {
+        "text": "A plane that flies high",
+        "correct": false
+      },
+      {
+        "text": "A sled that slides on snow",
+        "correct": false
+      },
+      {
+        "text": "A vehicle with four wheels",
+        "correct": true
+      }
+    ],
+    "explanation": "A car has four wheels and drives on roads. Well done!"
+  },
+  {
+    "id": "e1487dc3-6109-4292-8e70-d99b2e2da9cb",
+    "word": "cake",
+    "grade": "K",
+    "definition": "A sweet food that is baked, often for a birthday.",
+    "example": "We ate cake at my party.",
+    "syllables": "cake",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A salty snack made from potatoes",
+        "correct": false
+      },
+      {
+        "text": "A sweet food baked for parties",
+        "correct": true
+      },
+      {
+        "text": "A cold drink with ice",
+        "correct": false
+      },
+      {
+        "text": "A hot soup with noodles",
+        "correct": false
+      }
+    ],
+    "explanation": "Cake is a sweet food that we bake. Yummy and great job!"
+  },
+  {
+    "id": "b73c7cf1-7213-47e2-9bd4-7531af1206eb",
+    "word": "milk",
+    "grade": "K",
+    "definition": "A white drink that comes from cows.",
+    "example": "I drink a glass of milk.",
+    "syllables": "milk",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A clear drink from the tap",
+        "correct": false
+      },
+      {
+        "text": "A white drink from cows",
+        "correct": true
+      },
+      {
+        "text": "A sweet juice from fruit",
+        "correct": false
+      },
+      {
+        "text": "A thick soup with beans",
+        "correct": false
+      }
+    ],
+    "explanation": "Milk is a white drink that comes from cows. You got it!"
+  },
+  {
+    "id": "4fcafe44-8efc-420e-8db1-7f015b072fef",
+    "word": "egg",
+    "grade": "K",
+    "definition": "An oval food with a shell that a hen lays.",
+    "example": "I had an egg for breakfast.",
+    "syllables": "egg",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A juicy fruit with seeds inside",
+        "correct": false
+      },
+      {
+        "text": "A crunchy snack that grows in dirt",
+        "correct": false
+      },
+      {
+        "text": "A soft bread with a crust",
+        "correct": false
+      },
+      {
+        "text": "A food with a shell from a hen",
+        "correct": true
+      }
+    ],
+    "explanation": "An egg has a shell and comes from a hen. Great job!"
+  },
+  {
+    "id": "c958dc21-0ded-49b3-bcb2-55b7314657ce",
+    "word": "shoe",
+    "grade": "K",
+    "definition": "Something you wear on your foot when you walk outside.",
+    "example": "I tied my shoe by myself.",
+    "syllables": "shoe",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something you wear on your head",
+        "correct": false
+      },
+      {
+        "text": "Something you wear on your foot",
+        "correct": true
+      },
+      {
+        "text": "Something you wear around your neck",
+        "correct": false
+      },
+      {
+        "text": "Something you hold when it rains",
+        "correct": false
+      }
+    ],
+    "explanation": "A shoe goes on your foot. Nice work!"
+  },
+  {
+    "id": "7b1ad1d8-8528-4562-884f-182eb372f589",
+    "word": "door",
+    "grade": "K",
+    "definition": "A part of a room that opens so you can go in or out.",
+    "example": "Please close the door.",
+    "syllables": "door",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A part that opens to go in or out",
+        "correct": true
+      },
+      {
+        "text": "A bed that you sleep on at night",
+        "correct": false
+      },
+      {
+        "text": "A light that you turn on at night",
+        "correct": false
+      },
+      {
+        "text": "A shelf that holds your books",
+        "correct": false
+      }
+    ],
+    "explanation": "A door opens so you can go in or out. Well done!"
+  },
+  {
+    "id": "f63fff31-76f4-4ea2-89b5-a9c95c27500e",
+    "word": "moon",
+    "grade": "K",
+    "definition": "The big round light we see in the sky at night.",
+    "example": "The moon is bright tonight.",
+    "syllables": "moon",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The hot light that shines by day",
+        "correct": false
+      },
+      {
+        "text": "The round light in the night sky",
+        "correct": true
+      },
+      {
+        "text": "A big cloud that brings rain",
+        "correct": false
+      },
+      {
+        "text": "A tall tree that grows in a park",
+        "correct": false
+      }
+    ],
+    "explanation": "The moon is the round light in the night sky. Great job!"
+  },
+  {
+    "id": "535e65cc-d963-4593-94e9-b6fb02c06c45",
+    "word": "star",
+    "grade": "K",
+    "definition": "A bright dot of light that twinkles in the night sky.",
+    "example": "I made a wish on a star.",
+    "syllables": "star",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A big round ball that you can kick far",
+        "correct": false
+      },
+      {
+        "text": "A bright dot that twinkles at night",
+        "correct": true
+      },
+      {
+        "text": "A shiny coin in a piggy bank",
+        "correct": false
+      },
+      {
+        "text": "A red sign at the end of a road",
+        "correct": false
+      }
+    ],
+    "explanation": "A star is a bright dot of light in the night sky. You got it!"
+  },
+  {
+    "id": "823346f9-8dce-4c24-bf9c-cbd93489cade",
+    "word": "run",
+    "grade": "K",
+    "definition": "To move on your feet very fast.",
+    "example": "I like to run in the park.",
+    "syllables": "run",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To sit very still in a chair",
+        "correct": false
+      },
+      {
+        "text": "To go to sleep at night",
+        "correct": false
+      },
+      {
+        "text": "To move your feet very fast",
+        "correct": true
+      },
+      {
+        "text": "To say hello to a friend",
+        "correct": false
+      }
+    ],
+    "explanation": "To run is to move on your feet very fast. Nice work!"
+  },
+  {
+    "id": "7d4aa3cd-dd5f-4b1e-b96a-46d78939f92a",
+    "word": "hop",
+    "grade": "K",
+    "definition": "To jump with small, quick jumps.",
+    "example": "The bunny will hop away.",
+    "syllables": "hop",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To walk slowly with big steps",
+        "correct": false
+      },
+      {
+        "text": "To crawl on your hands and knees",
+        "correct": false
+      },
+      {
+        "text": "To lie down on the floor",
+        "correct": false
+      },
+      {
+        "text": "To jump with small quick jumps",
+        "correct": true
+      }
+    ],
+    "explanation": "To hop is to jump with small, quick jumps. Well done!"
+  },
+  {
+    "id": "a5921c25-ef24-4360-8946-4cb3810946d4",
+    "word": "sit",
+    "grade": "K",
+    "definition": "To rest your bottom on a chair or the floor.",
+    "example": "Please sit next to me.",
+    "syllables": "sit",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To stand up tall on your tiptoes",
+        "correct": false
+      },
+      {
+        "text": "To jump high in the air",
+        "correct": false
+      },
+      {
+        "text": "To rest on a chair or the floor",
+        "correct": true
+      },
+      {
+        "text": "To dance and spin around",
+        "correct": false
+      }
+    ],
+    "explanation": "To sit is to rest on a chair or the floor. Great job!"
+  },
+  {
+    "id": "3cb0eb67-2e68-4d09-8a1d-f61ebc3ca7b3",
+    "word": "eat",
+    "grade": "K",
+    "definition": "To chew food and swallow it.",
+    "example": "We eat lunch at noon.",
+    "syllables": "eat",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To pour cold water into a big glass",
+        "correct": false
+      },
+      {
+        "text": "To put food in your mouth and chew",
+        "correct": true
+      },
+      {
+        "text": "To wash your face and hands",
+        "correct": false
+      },
+      {
+        "text": "To tie your shoes in a bow",
+        "correct": false
+      }
+    ],
+    "explanation": "To eat is to chew food and swallow it. You got it!"
+  },
+  {
+    "id": "838a65ad-eaec-4e52-942a-527efeaced8e",
+    "word": "big",
+    "grade": "K",
+    "definition": "Very large in size.",
+    "example": "The truck is big and loud.",
+    "syllables": "big",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Very small in size",
+        "correct": false
+      },
+      {
+        "text": "Very fast and quick",
+        "correct": false
+      },
+      {
+        "text": "Very large in size",
+        "correct": true
+      },
+      {
+        "text": "Very soft and fluffy",
+        "correct": false
+      }
+    ],
+    "explanation": "Big means very large. Nice work!"
+  },
+  {
+    "id": "09422291-1cc2-4f3b-b7e3-3f0471690b1c",
+    "word": "red",
+    "grade": "K",
+    "definition": "The color of a ripe tomato or a fire truck.",
+    "example": "The apple is red.",
+    "syllables": "red",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The color of fresh green grass",
+        "correct": false
+      },
+      {
+        "text": "The color of a lemon",
+        "correct": false
+      },
+      {
+        "text": "The color of the blue sky",
+        "correct": false
+      },
+      {
+        "text": "The color of a ripe tomato",
+        "correct": true
+      }
+    ],
+    "explanation": "Red is the color of a ripe tomato. Well done!"
+  },
+  {
+    "id": "f36e27bc-48ba-4275-b175-382be9181269",
+    "word": "happy",
+    "grade": "K",
+    "definition": "Feeling glad and full of joy.",
+    "example": "I am happy to see my friends.",
+    "syllables": "hap · py",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Feeling sad and wanting to cry",
+        "correct": false
+      },
+      {
+        "text": "Feeling sleepy and tired",
+        "correct": false
+      },
+      {
+        "text": "Feeling hungry for lunch",
+        "correct": false
+      },
+      {
+        "text": "Feeling glad and full of joy",
+        "correct": true
+      }
+    ],
+    "explanation": "Happy means feeling glad and full of joy. Great job!"
+  },
+  {
+    "id": "1c462e13-babf-4ea6-9191-37efee2e734e",
+    "word": "hot",
+    "grade": "K",
+    "definition": "Very warm, like the sun or a stove.",
+    "example": "The soup is too hot.",
+    "syllables": "hot",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Very cold, like winter snow",
+        "correct": false
+      },
+      {
+        "text": "Very wet, like a big splash",
+        "correct": false
+      },
+      {
+        "text": "Very warm, like the summer sun",
+        "correct": true
+      },
+      {
+        "text": "Very soft, like a fluffy pillow",
+        "correct": false
+      }
+    ],
+    "explanation": "Hot means very warm. You got it!"
+  },
+  {
+    "id": "72d43a1f-de10-41de-a565-654c5e6cfc81",
+    "word": "cold",
+    "grade": "K",
+    "definition": "Not warm, like ice or snow.",
+    "example": "My hands are cold.",
+    "syllables": "cold",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Very warm, like a bath",
+        "correct": false
+      },
+      {
+        "text": "Very loud, like a drum",
+        "correct": false
+      },
+      {
+        "text": "Very bright, like a lamp",
+        "correct": false
+      },
+      {
+        "text": "Not warm, like ice or snow",
+        "correct": true
+      }
+    ],
+    "explanation": "Cold means not warm. Nice work!"
+  },
+  {
+    "id": "6e59cdd8-baab-48c6-a706-dd3c774c9e97",
+    "word": "mom",
+    "grade": "K",
+    "definition": "A mother, who takes care of her children.",
+    "example": "My mom makes me breakfast.",
+    "syllables": "mom",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A teacher who helps you read",
+        "correct": false
+      },
+      {
+        "text": "A friend who sits right next to you",
+        "correct": false
+      },
+      {
+        "text": "A neighbor who lives next door",
+        "correct": false
+      },
+      {
+        "text": "A mother who cares for her child",
+        "correct": true
+      }
+    ],
+    "explanation": "Mom is a mother who takes care of her child. Well done!"
+  },
+  {
+    "id": "de3ab672-e8f7-4682-9c42-b636cb532ac8",
+    "word": "baby",
+    "grade": "K",
+    "definition": "A very young child who cannot walk or talk yet.",
+    "example": "The baby is asleep.",
+    "syllables": "ba · by",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A grown-up who drives a bus",
+        "correct": false
+      },
+      {
+        "text": "A very young child",
+        "correct": true
+      },
+      {
+        "text": "A big kid in school",
+        "correct": false
+      },
+      {
+        "text": "A pet that likes to bark",
+        "correct": false
+      }
+    ],
+    "explanation": "A baby is a very young child. Great job!"
+  },
+  {
+    "id": "58882267-df01-4a46-8387-8686e6a3e2be",
+    "word": "hand",
+    "grade": "K",
+    "definition": "The part at the end of your arm that has fingers.",
+    "example": "I wave my hand to say hi.",
+    "syllables": "hand",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The part of your arm with fingers",
+        "correct": true
+      },
+      {
+        "text": "The part of your leg with toes",
+        "correct": false
+      },
+      {
+        "text": "The part of your head with hair",
+        "correct": false
+      },
+      {
+        "text": "The part of your face for smelling",
+        "correct": false
+      }
+    ],
+    "explanation": "A hand is at the end of your arm and has fingers. You got it!"
+  },
+  {
+    "id": "6214916f-224b-4102-852f-33bf3afcf6c2",
+    "word": "nose",
+    "grade": "K",
+    "definition": "The part of your face that you use to smell.",
+    "example": "I smell a flower with my nose.",
+    "syllables": "nose",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The part of your face for seeing",
+        "correct": false
+      },
+      {
+        "text": "The part of your face for hearing",
+        "correct": false
+      },
+      {
+        "text": "The part of your arm for waving",
+        "correct": false
+      },
+      {
+        "text": "The part of your face for smelling",
+        "correct": true
+      }
+    ],
+    "explanation": "Your nose helps you smell. Nice work!"
+  },
+  {
+    "id": "982a19b9-2bd8-4afa-80c1-5ed7d83835f1",
+    "word": "eye",
+    "grade": "K",
+    "definition": "The part of your face that you see with.",
+    "example": "I closed one eye.",
+    "syllables": "eye",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The part of your face you see with",
+        "correct": true
+      },
+      {
+        "text": "The part of your foot that has five toes",
+        "correct": false
+      },
+      {
+        "text": "The part of your leg that bends",
+        "correct": false
+      },
+      {
+        "text": "The part of your head with hair",
+        "correct": false
+      }
+    ],
+    "explanation": "You see with your eye. Well done!"
+  },
+  {
+    "id": "52a5f1a3-908d-471a-9d09-2a59e3ae594d",
+    "word": "foot",
+    "grade": "K",
+    "definition": "The part at the bottom of your leg that you stand on.",
+    "example": "I stepped on a rock with my foot.",
+    "syllables": "foot",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The part of your leg you stand on",
+        "correct": true
+      },
+      {
+        "text": "The part of your arm you wave",
+        "correct": false
+      },
+      {
+        "text": "The part of your face you smell with",
+        "correct": false
+      },
+      {
+        "text": "The part of your head with hair",
+        "correct": false
+      }
+    ],
+    "explanation": "Your foot is at the bottom of your leg. Great job!"
+  },
+  {
+    "id": "14d3f84c-3cf4-43a0-9739-ce903a95abc7",
+    "word": "rain",
+    "grade": "K",
+    "definition": "Drops of water that fall from the clouds.",
+    "example": "I put on my coat because of the rain.",
+    "syllables": "rain",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Soft white flakes that fall in winter",
+        "correct": false
+      },
+      {
+        "text": "Bright light from the sun",
+        "correct": false
+      },
+      {
+        "text": "Water drops falling from clouds",
+        "correct": true
+      },
+      {
+        "text": "Hot sand blowing in the wind",
+        "correct": false
+      }
+    ],
+    "explanation": "Rain is drops of water that fall from clouds. You got it!"
+  },
+  {
+    "id": "b58ab41f-42be-45f4-bd55-1aea617c3d79",
+    "word": "snow",
+    "grade": "K",
+    "definition": "Soft white flakes of frozen water that fall in winter.",
+    "example": "We played in the snow all day.",
+    "syllables": "snow",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Soft white flakes in cold weather",
+        "correct": true
+      },
+      {
+        "text": "Warm drops of rain",
+        "correct": false
+      },
+      {
+        "text": "Bright light from the sun",
+        "correct": false
+      },
+      {
+        "text": "A loud, rumbling noise in the stormy sky",
+        "correct": false
+      }
+    ],
+    "explanation": "Snow is soft white flakes that fall in winter. Nice work!"
+  },
+  {
+    "id": "06c11dda-6733-47fb-b566-b46bda7d92de",
+    "word": "bird",
+    "grade": "K",
+    "definition": "An animal with feathers and wings.",
+    "example": "A bird sang in the tree.",
+    "syllables": "bird",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "An animal with fur and four legs",
+        "correct": false
+      },
+      {
+        "text": "An animal with scales and fins",
+        "correct": false
+      },
+      {
+        "text": "An animal with feathers and wings",
+        "correct": true
+      },
+      {
+        "text": "An animal with a shell on its back",
+        "correct": false
+      }
+    ],
+    "explanation": "A bird has feathers and wings. Well done!"
+  },
+  {
+    "id": "a86e662b-a375-47fa-80a9-fe88b93a51a2",
+    "word": "tree",
+    "grade": "K",
+    "definition": "A tall plant with a trunk, branches and leaves.",
+    "example": "We sat under the tree.",
+    "syllables": "tree",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A tall plant with a trunk",
+        "correct": true
+      },
+      {
+        "text": "A short plant with soft petals",
+        "correct": false
+      },
+      {
+        "text": "A big rock on the ground",
+        "correct": false
+      },
+      {
+        "text": "A tall building with many rooms",
+        "correct": false
+      }
+    ],
+    "explanation": "A tree is a tall plant with a trunk and leaves. Great job!"
+  },
+  {
+    "id": "29d9bc4e-33b6-4415-9a75-4107e5a1d9bb",
+    "word": "leaf",
+    "grade": "K",
+    "definition": "A flat green part that grows on a plant or tree.",
+    "example": "A leaf fell from the branch.",
+    "syllables": "leaf",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A sharp part of a fish",
+        "correct": false
+      },
+      {
+        "text": "A soft part of a shoe",
+        "correct": false
+      },
+      {
+        "text": "A flat green part of a plant",
+        "correct": true
+      },
+      {
+        "text": "A round part of a clock",
+        "correct": false
+      }
+    ],
+    "explanation": "A leaf is a flat green part of a plant. You got it!"
+  },
+  {
+    "id": "4af606b0-8df0-4e96-b53f-eb1754c0097e",
+    "word": "box",
+    "grade": "K",
+    "definition": "A container with straight sides that is used to keep things.",
+    "example": "I put my toys in the box.",
+    "syllables": "box",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A sharp tool for cutting thick paper",
+        "correct": false
+      },
+      {
+        "text": "A big wheel on a bike",
+        "correct": false
+      },
+      {
+        "text": "A container for keeping things",
+        "correct": true
+      },
+      {
+        "text": "A bright light on a street",
+        "correct": false
+      }
+    ],
+    "explanation": "A box is a container for keeping things. Nice work!"
+  },
+  {
+    "id": "28b80f11-32c6-46e6-a80a-b8ba046cc43d",
+    "word": "toy",
+    "grade": "K",
+    "definition": "Something that children play with.",
+    "example": "My toy is a little red truck.",
+    "syllables": "toy",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A thing that children play with",
+        "correct": true
+      },
+      {
+        "text": "A thing for cleaning dirty floors",
+        "correct": false
+      },
+      {
+        "text": "A thing for cooking food",
+        "correct": false
+      },
+      {
+        "text": "A thing for writing letters",
+        "correct": false
+      }
+    ],
+    "explanation": "A toy is a thing that children play with. Well done!"
+  },
+  {
+    "id": "74340358-2698-40f6-a815-eeaafe49575c",
+    "word": "bag",
+    "grade": "K",
+    "definition": "A soft case with handles that you use to carry things.",
+    "example": "I carry my lunch in a bag.",
+    "syllables": "bag",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A tall shelf for keeping your books",
+        "correct": false
+      },
+      {
+        "text": "A deep hole in the ground",
+        "correct": false
+      },
+      {
+        "text": "A thin sheet of paper",
+        "correct": false
+      },
+      {
+        "text": "A soft case for carrying things",
+        "correct": true
+      }
+    ],
+    "explanation": "A bag is a soft case for carrying things. Great job!"
+  },
+  {
+    "id": "21fde03b-707f-4956-8411-b69738b17d08",
+    "word": "sleep",
+    "grade": "K",
+    "definition": "To rest with your eyes closed, like at night.",
+    "example": "I sleep with my teddy bear.",
+    "syllables": "sleep",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To jump and play outside in the sun",
+        "correct": false
+      },
+      {
+        "text": "To read a story out loud",
+        "correct": false
+      },
+      {
+        "text": "To eat your dinner",
+        "correct": false
+      },
+      {
+        "text": "To rest with your eyes closed",
+        "correct": true
+      }
+    ],
+    "explanation": "To sleep is to rest with your eyes closed. You got it!"
+  },
+  {
+    "id": "22718411-a730-4bee-847f-003967a3f207",
+    "word": "clap",
+    "grade": "K",
+    "definition": "To bring your hands together to make a sound.",
+    "example": "We clap when the song ends.",
+    "syllables": "clap",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To wave your arm slowly up in the air",
+        "correct": false
+      },
+      {
+        "text": "To stamp your feet on the floor",
+        "correct": false
+      },
+      {
+        "text": "To bring your hands together loudly",
+        "correct": true
+      },
+      {
+        "text": "To tap your head with a finger",
+        "correct": false
+      }
+    ],
+    "explanation": "To clap is to bring your hands together. Nice work!"
+  },
+  {
+    "id": "54fe89c7-8f65-41d9-9c3e-db11edd0ba4f",
+    "word": "blue",
+    "grade": "K",
+    "definition": "The color of the sky on a sunny day.",
+    "example": "The sea looks blue.",
+    "syllables": "blue",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The color of a ripe banana",
+        "correct": false
+      },
+      {
+        "text": "The color of a clear sky",
+        "correct": true
+      },
+      {
+        "text": "The color of fresh snow",
+        "correct": false
+      },
+      {
+        "text": "The color of green grass",
+        "correct": false
+      }
+    ],
+    "explanation": "Blue is the color of a clear sky. Well done!"
+  },
+  {
+    "id": "f8f93ffc-f346-4e39-93f8-1fa6dfc73932",
+    "word": "apple",
+    "grade": "K",
+    "definition": "A round fruit that is often red or green.",
+    "example": "I ate a crunchy apple for a snack.",
+    "syllables": "ap · ple",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A round red or green fruit",
+        "correct": true
+      },
+      {
+        "text": "A long, bendy yellow fruit",
+        "correct": false
+      },
+      {
+        "text": "A hard, shiny coin",
+        "correct": false
+      },
+      {
+        "text": "A fluffy white cloud",
+        "correct": false
+      }
+    ],
+    "explanation": "An apple is a round fruit that is often red or green. Great job!"
+  },
+  {
+    "id": "de3034d1-2dba-4bc9-aa83-985c23b3e3f3",
+    "word": "kind",
+    "grade": "K",
+    "definition": "Caring and nice to other people.",
+    "example": "Be kind to your friends.",
+    "syllables": "kind",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Caring and nice to other people",
+        "correct": true
+      },
+      {
+        "text": "Grumpy and unfriendly to others",
+        "correct": false
+      },
+      {
+        "text": "Sleepy and slow in the morning",
+        "correct": false
+      },
+      {
+        "text": "Quick and good at running",
+        "correct": false
+      }
+    ],
+    "explanation": "Kind means caring and nice to others. You got it!"
+  }
+]
