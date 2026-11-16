@@ -224,7 +224,7 @@ WordWise is deployed to [Render](https://render.com) (free tier) from the Bluepr
 - App: https://wordwise-web.onrender.com
 - API: https://wordwise-api-xji2.onrender.com (interactive docs at `/docs`)
 
-The first request after 15 minutes idle takes about a minute (free-tier cold start); wait and reload.
+The first request after 15 minutes idle takes about a minute (free-tier cold start); wait and reload. The uptime alert keeps the API mostly warm, but the web app still sleeps.
 
 Steps (done once, by the project owner):
 
@@ -235,7 +235,7 @@ Steps (done once, by the project owner):
 
 Things to know:
 
-- **Cold start.** Free web services sleep after 15 minutes idle; the first request afterwards takes about a minute.
+- **Cold start.** Free web services sleep after 15 minutes idle; the first request afterwards takes about a minute. With the [uptime alert](#uptime-alert) running, the API is mostly warm; the web frontend is not pinged and still cold-starts.
 - **Database expiry.** A free Render PostgreSQL database expires 30 days after creation, so the shared demo data (every profile) is lost then unless the database is upgraded to a paid plan first. To recreate it, follow [If the free database expired](docs/deployment.md#if-the-free-database-expired-after-30-days).
 - **Vocabulary.** On start the backend loads 500 of the 650 target words (K to 9; Grades 10 to 12 are issue #16), logging `Created: 500` the first time and `unchanged: 500` afterwards.
 - **Shared demo.** There is no authentication; anyone with the link sees and edits the same profiles, so real children's data must not be entered. The app says this on the home page.
@@ -243,7 +243,17 @@ Things to know:
 
 ## Uptime alert
 
-A scheduled GitHub Actions workflow (`.github/workflows/uptime-alert.yml`) watches the live API as a user would see it: `GET /api/v1/health` must return 200, and `GET /api/v1/grades/5/words` must return 200 with exactly 50 words (this one catches a database outage). It runs every 15 minutes, tolerates a cold start of about 2 minutes and retries a failed check once.
+A scheduled GitHub Actions workflow (`.github/workflows/uptime-alert.yml`) is an alert on user impact. It exercises what a child would hit, not CPU or memory: `GET /api/v1/health` must return 200, and `GET /api/v1/grades/5/words` must return 200 with exactly 50 words (the API is reachable and the words list loads from PostgreSQL, so this also catches a database outage). Each request waits up to about 2 minutes (tolerating a cold start); a failed check is retried once after 10 seconds.
+
+**Does not cover:** real-user error rates, the web frontend (it is never requested), other endpoints, or any paging beyond GitHub's failed-workflow email, which depends on the owner's GitHub notification settings.
+
+**Frequency and footprint.** The cron is `*/15 * * * *`: every 15 minutes, 2 requests per run, so about 96 runs and 192 requests a day (up to 4 requests in a run where a check fails and retries). That is tiny. No Render rate limit is documented, and none is claimed here.
+
+**Render free-tier trade-off.** Free web services sleep after about 15 minutes idle, so a check every 15 minutes keeps the API awake roughly around the clock. That uses most of the monthly free instance hours (about 750 hours a month across the workspace; approximate, the owner should confirm in the Render dashboard). The web frontend is not pinged and still sleeps. The owner has chosen to accept this trade-off.
+
+**Detection delay.** In the worst case a failure is noticed about 15 minutes after it starts, plus GitHub's scheduling delay. GitHub may delay or skip scheduled runs under load, so detection is neither instant nor guaranteed.
+
+**Change or stop it.** To change the frequency, edit the `cron` line in `.github/workflows/uptime-alert.yml`. To turn it off: Actions, "Uptime alert", "Disable workflow".
 
 - **Where a failure shows up:** a red run in the repository's Actions tab, and GitHub's failed-workflow email to the repo owner.
 - **Run it by hand:** Actions, "Uptime alert", "Run workflow", with an optional `api_url` (empty checks `https://wordwise-api-xji2.onrender.com`).
