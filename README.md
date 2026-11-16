@@ -26,7 +26,7 @@ No `.env` file is needed; local-development defaults are built in. First build t
 - **Persistence.** Profiles, sessions, answers and mastery live in PostgreSQL behind a FastAPI REST API (`/api/v1`, OpenAPI at `/docs`).
 - **Content.** A curated, validated vocabulary of 650 words (50 per grade for K to 12 is the release target; 500 for Kindergarten to Grade 9 are loaded so far).
 
-The full specification is `_docs/plan.md`; the architecture is `_docs/architecture.md`.
+The full specification is [`_docs/plan.md`](_docs/plan.md); the architecture is [`_docs/architecture.md`](_docs/architecture.md). Tech stack: React (Vite, TanStack, bun) frontend, FastAPI + SQLAlchemy + Alembic backend (Python 3.13, uv), PostgreSQL 18, Docker Compose, GitHub Actions, Render.
 
 ### What works today
 
@@ -42,10 +42,10 @@ The course delivery builds this in vertical slices, tracked as issues (`mvp` and
 
 The project is built by an AI agent team following a written process, with every unit of work tracked as a public GitHub issue with acceptance criteria.
 
-- **Spec first.** `_docs/plan.md` defines behavior and API before code; `_docs/tasks.md` breaks it into tasks.
+- **Spec first.** [`_docs/plan.md`](_docs/plan.md) defines behavior and API before code; [`_docs/tasks.md`](_docs/tasks.md) breaks it into tasks.
 - **Public tracker.** [Issues](https://github.com/gaganarora23/wordwiseai/issues) hold the backlog, each with acceptance criteria; `mvp` and `post-mvp` labels mark scope; commits and PRs reference issue numbers.
-- **Agent team.** An orchestrator (the main session) launches three subagents per task: a **PM** that grooms the issue, an **engineer** that implements it, and a **QA engineer** that checks it against the acceptance criteria and posts PASS or FAIL. On FAIL the engineer retries with QA's comment. Roles and their limits are in `docs/agents.md` and `_docs/team/`, the lifecycle is in `_docs/process.md`, and branch, PR and CI conventions are in `docs/process.md`.
-- **Context management.** `AGENTS.md` at the root points to modular docs in `_docs/` and `docs/`, with `backend/AGENTS.md` and `frontend/AGENTS.md` for each part.
+- **Agent team.** An orchestrator (the main session) launches three subagents per task: a **PM** that grooms the issue, an **engineer** that implements it, and a **QA engineer** that checks it against the acceptance criteria and posts PASS or FAIL. On FAIL the engineer retries with QA's comment. Roles and their limits are in [`docs/agents.md`](docs/agents.md) and [`_docs/team/`](_docs/team/), the lifecycle is in [`_docs/process.md`](_docs/process.md), and branch, PR and CI conventions are in [`docs/process.md`](docs/process.md).
+- **Context management.** [`AGENTS.md`](AGENTS.md) at the root points to modular docs in [`_docs/`](_docs/) and [`docs/`](docs/), with [`backend/AGENTS.md`](backend/AGENTS.md) and [`frontend/AGENTS.md`](frontend/AGENTS.md) for each part.
 
 ## Run the app locally
 
@@ -65,7 +65,7 @@ This starts PostgreSQL, then the backend (which applies the migrations, loads th
 
 Only the database runs in Docker here; the backend and frontend run on your machine.
 
-**Prerequisites:** Docker (running), [uv](https://docs.astral.sh/uv/), Node 24 and bun 1.4.
+**Prerequisites:** Docker (running), [uv](https://docs.astral.sh/uv/) (installs Python 3.13 for you), Node 24 and bun 1.4.
 
 **Current state.** The backend has the database schema, the vocabulary tooling, `GET /api/v1/health`, `GET /api/v1/grades/{grade}/words` and the profile endpoints (create, list, get, update, delete: see [API](#api)). The frontend reads and writes profiles through the API, so they are stored in PostgreSQL, and its "words" page lists the vocabulary of the profile's grade from the API. The session, quiz and dashboard endpoints are not built yet (tasks #20 onwards, tracked as issues), so those screens still use the frontend's built-in mock service (`frontend/src/services/index.ts`; set `VITE_USE_MOCK=true` to run the whole frontend on the mock, without the backend). Both parts are started below so each can be checked on its own.
 

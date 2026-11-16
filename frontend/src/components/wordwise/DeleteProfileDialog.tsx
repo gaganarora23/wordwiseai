@@ -18,7 +18,7 @@ export function DeleteProfileDialog({ profile, onOpenChange, onConfirm }: {
       <DialogContent className="block-card">
         <DialogHeader>
           <DialogTitle className="font-display text-2xl">Delete {profile?.nickname}?</DialogTitle>
-          <DialogDescription>This removes the profile and all of its learning history from this browser.</DialogDescription>
+          <DialogDescription>This permanently removes the profile and all of its learning history from the shared database. There is no undo.</DialogDescription>
         </DialogHeader>
         {step === 1 ? (
           <>
