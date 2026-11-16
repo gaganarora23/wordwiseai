@@ -202,13 +202,18 @@ Connection settings: connect timeout is 5 seconds (`connect_args={"connect_timeo
 
 WordWise is deployed to [Render](https://render.com) (free tier) from the Blueprint in [`render.yaml`](render.yaml): one PostgreSQL database (`wordwise-db`, PostgreSQL 18, Render's newest major and allowed on the free plan) and two Docker web services, `wordwise-api` (backend) and `wordwise-web` (frontend).
 
-**Public URLs:** TBD: filled in after the first deploy
+**Public URLs:**
+
+- App: https://wordwise-web.onrender.com
+- API: https://wordwise-api-xji2.onrender.com (interactive docs at `/docs`)
+
+The first request after 15 minutes idle takes about a minute (free-tier cold start); wait and reload.
 
 Steps (done once, by the project owner):
 
 1. Sign in at [render.com](https://render.com) and connect your GitHub account.
 2. New > Blueprint, pick the `gaganarora23/wordwiseai` repo and branch, then Apply. Render creates the database and both services and builds them.
-3. The expected URLs are `https://wordwise-web.onrender.com` (the app) and `https://wordwise-api.onrender.com` (API, docs at `/docs`). The blueprint hard-codes these in `CORS_ORIGINS` (API) and `VITE_API_URL` (web, baked in at build time). If Render adds a suffix to either name because it is taken, edit those two values in the dashboard and redeploy `wordwise-web` and `wordwise-api`. Then put the real URLs on the line above.
+3. Render added a suffix to the API name because `wordwise-api` was already taken, so the API URL is `https://wordwise-api-xji2.onrender.com`, not the one a name alone predicts. The web service kept `https://wordwise-web.onrender.com`. `CORS_ORIGINS` (API) holds the web origin; `VITE_API_URL` (web) holds the API URL and is baked into the frontend at build time, so a wrong value leaves the page stuck on "Loading profiles". If a service is recreated and its URL changes: copy the URL from the service page, then on `wordwise-web` open Environment, edit `VITE_API_URL`, Save, then Manual Deploy (or the deploy hook) to rebuild; update `render.yaml` and the URLs above to match.
 4. Auto-deploy is off. Deploys are triggered from GitHub Actions through deploy hooks; copy each service's deploy hook URL (Settings) into GitHub secrets as described in [`docs/deployment.md`](docs/deployment.md).
 
 Things to know:
