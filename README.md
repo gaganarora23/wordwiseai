@@ -25,6 +25,19 @@ The project is built by an AI agent team following a written process, with every
 
 ## Run the app locally
 
+## Run everything with Docker (one command)
+
+**Prerequisite:** Docker (running). From the repository root:
+
+```sh
+cp .env.example .env              # once; the placeholders work as-is
+docker compose up --build         # database, backend and frontend
+```
+
+This starts PostgreSQL, then the backend (which applies the migrations, loads the vocabulary and serves the API on `http://localhost:8000`, docs at `/docs`), then the frontend on `http://localhost:8080`. Open `http://localhost:8080`, create a profile and click its tile to see the words for its grade. Stop with `Ctrl+C`; add `-d` to run in the background and `docker compose down` to stop (`down -v` also deletes the database). The frontend calls the backend at `http://localhost:8000` (baked in at build time via the `VITE_API_URL` build arg in `docker-compose.yml`).
+
+The sections below describe running the pieces without Docker, for development.
+
 **Prerequisites:** Docker (running), [uv](https://docs.astral.sh/uv/), Node 24 and bun 1.4.
 
 **Current state.** The backend has the database schema, the vocabulary tooling, `GET /api/v1/health` and `GET /api/v1/grades/{grade}/words`; the profile, session and quiz endpoints are not built yet (tasks #17, #20 onwards, tracked as issues). The frontend therefore keeps profiles in the browser's local storage (mock service, `frontend/src/services/index.ts`) but reads the words from the backend: pick a profile and the "words" page lists the vocabulary of that profile's grade, loaded from PostgreSQL through the API. Both are started below so each can be checked on its own.
