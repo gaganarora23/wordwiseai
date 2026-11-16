@@ -77,7 +77,7 @@
         "correct": false
       },
       {
-        "text": "To store something on a high shelf",
+        "text": "To forget something you just learned",
         "correct": false
       }
     ],
@@ -121,15 +121,15 @@
     "content_version": "2026.1",
     "options": [
       {
-        "text": "To save something for a rainy day at home",
+        "text": "To ignore something given to you",
         "correct": false
       },
       {
-        "text": "To trade something for a new one",
+        "text": "To complain about something small",
         "correct": false
       },
       {
-        "text": "To borrow something for a week",
+        "text": "To forget who gave you something",
         "correct": false
       },
       {
@@ -185,7 +185,7 @@
         "correct": false
       },
       {
-        "text": "A sudden change in the weather",
+        "text": "A cost you must pay for something",
         "correct": false
       },
       {
@@ -241,11 +241,11 @@
         "correct": false
       },
       {
-        "text": "Having no way to be used",
+        "text": "Having a very small size",
         "correct": false
       },
       {
-        "text": "Having a very bright color",
+        "text": "Having an old and worn look",
         "correct": false
       }
     ],
@@ -381,7 +381,7 @@
         "correct": false
       },
       {
-        "text": "To draw a picture of the clues",
+        "text": "To ignore the clues and guess",
         "correct": false
       },
       {
@@ -433,7 +433,7 @@
         "correct": false
       },
       {
-        "text": "Made up of very old things",
+        "text": "Made up of parts that match exactly",
         "correct": false
       },
       {
@@ -441,7 +441,7 @@
         "correct": true
       },
       {
-        "text": "Made up of tiny round things",
+        "text": "Made up of things in a straight line",
         "correct": false
       }
     ],
@@ -577,11 +577,11 @@
         "correct": false
       },
       {
-        "text": "To hold something up high",
+        "text": "To ignore something without a thought",
         "correct": false
       },
       {
-        "text": "To pass something down the line",
+        "text": "To guess without looking at it",
         "correct": false
       }
     ],
@@ -605,11 +605,11 @@
         "correct": false
       },
       {
-        "text": "Having a very loud sound",
+        "text": "Having been said more than once",
         "correct": false
       },
       {
-        "text": "Having a lot of small parts",
+        "text": "Having a very short length",
         "correct": false
       }
     ],
@@ -709,7 +709,7 @@
     "content_version": "2026.1",
     "options": [
       {
-        "text": "To hide with paint or ink",
+        "text": "To cover something up with paint",
         "correct": false
       },
       {
@@ -717,11 +717,11 @@
         "correct": true
       },
       {
-        "text": "To read with a loud voice",
+        "text": "To read about something aloud",
         "correct": false
       },
       {
-        "text": "To count with colored beads",
+        "text": "To copy something word for word",
         "correct": false
       }
     ],
@@ -861,7 +861,7 @@
         "correct": false
       },
       {
-        "text": "To paint something with a brush",
+        "text": "To sell something at a low price",
         "correct": false
       }
     ],
@@ -1029,7 +1029,7 @@
         "correct": false
       },
       {
-        "text": "Written in very small letters",
+        "text": "Too hard for anyone to follow",
         "correct": false
       }
     ],
@@ -1073,11 +1073,11 @@
     "content_version": "2026.1",
     "options": [
       {
-        "text": "The number of days in a whole school year",
+        "text": "The place where something is kept",
         "correct": false
       },
       {
-        "text": "The color of a very bright shape",
+        "text": "The name given to a new idea",
         "correct": false
       },
       {
@@ -1185,11 +1185,11 @@
     "content_version": "2026.1",
     "options": [
       {
-        "text": "A plan for a fun party at the end of the school year",
+        "text": "A tool scientists use to see tiny things",
         "correct": false
       },
       {
-        "text": "A list of items for a trip",
+        "text": "A rule that people must obey",
         "correct": false
       },
       {
@@ -1249,11 +1249,11 @@
         "correct": true
       },
       {
-        "text": "Newest and shiniest of the group",
+        "text": "Oldest and most worn of the group",
         "correct": false
       },
       {
-        "text": "Plainest and quickest of them all",
+        "text": "Most average of all in the group",
         "correct": false
       }
     ],
@@ -1333,11 +1333,11 @@
         "correct": true
       },
       {
-        "text": "Cold and wet all over",
+        "text": "Plain and a little faded",
         "correct": false
       },
       {
-        "text": "Small and easy to carry",
+        "text": "Short and easy to say",
         "correct": false
       }
     ],
@@ -1381,7 +1381,7 @@
     "content_version": "2026.1",
     "options": [
       {
-        "text": "Far too long to fit on a page",
+        "text": "Not connected to the topic at all",
         "correct": false
       },
       {
