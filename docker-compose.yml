@@ -1,11 +1,12 @@
 services:
   db:
+    # The defaults below are for local development only; set real values in .env or the host environment for anything else.
     image: postgres:18-alpine
     restart: unless-stopped
     environment:
-      POSTGRES_USER: ${POSTGRES_USER:?POSTGRES_USER is not set; copy .env.example to .env}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is not set or empty; copy .env.example to .env}
-      POSTGRES_DB: ${POSTGRES_DB:?POSTGRES_DB is not set; copy .env.example to .env}
+      POSTGRES_USER: ${POSTGRES_USER:-wordwise}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-me}
+      POSTGRES_DB: ${POSTGRES_DB:-wordwise}
     ports:
       - "127.0.0.1:${DB_PORT:-5432}:5432"
     volumes:
@@ -18,6 +19,29 @@ services:
       timeout: 3s
       retries: 10
       start_period: 5s
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-wordwise}:${POSTGRES_PASSWORD:-change-me}@db:5432/${POSTGRES_DB:-wordwise}
+      CORS_ORIGINS: http://localhost:8080
+    ports:
+      - "127.0.0.1:8000:8000"
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:8000
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "127.0.0.1:8080:8080"
 
 volumes:
   db_data:

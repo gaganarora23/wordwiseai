@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "ba1789bc-f3f7-478b-9f31-74c934ccfbd0",
+    "word": "arbitrary",
+    "grade": "9",
+    "definition": "Based on a random choice or a whim rather than on a reason.",
+    "example": "The rule seemed arbitrary because nobody could explain why it existed.",
+    "syllables": "ar · bi · trar · y",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Decided after studying all the facts",
+        "correct": false
+      },
+      {
+        "text": "Decided by whim rather than by reason",
+        "correct": true
+      },
+      {
+        "text": "Decided by a vote of the whole class",
+        "correct": false
+      },
+      {
+        "text": "Decided long ago and rarely changed",
+        "correct": false
+      }
+    ],
+    "explanation": "Arbitrary means decided by whim rather than by reason. Great job!"
+  },
+  {
+    "id": "99c5645a-8d65-4690-b43d-406523dd9fbb",
+    "word": "benevolent",
+    "grade": "9",
+    "definition": "Kind and generous, wanting to do good for others.",
+    "example": "The benevolent neighbor shoveled snow from every driveway on the street.",
+    "syllables": "be · nev · o · lent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Strict and careful about the rules",
+        "correct": false
+      },
+      {
+        "text": "Wealthy and proud of being rich",
+        "correct": false
+      },
+      {
+        "text": "Clever and quick to find mistakes",
+        "correct": false
+      },
+      {
+        "text": "Kind and eager to help others",
+        "correct": true
+      }
+    ],
+    "explanation": "Benevolent means kind and eager to help others. Nice work!"
+  },
+  {
+    "id": "9b997ce0-2a63-4937-a038-739f586b3f51",
+    "word": "brevity",
+    "grade": "9",
+    "definition": "The quality of being short and to the point.",
+    "example": "The speech was praised for its brevity; it said everything in two minutes.",
+    "syllables": "brev · i · ty",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The state of being very long",
+        "correct": false
+      },
+      {
+        "text": "The quality of being short and clear",
+        "correct": true
+      },
+      {
+        "text": "The courage needed to face a hard challenge",
+        "correct": false
+      },
+      {
+        "text": "The skill of speaking in public",
+        "correct": false
+      }
+    ],
+    "explanation": "Brevity is the quality of being short and clear. Well done!"
+  },
+  {
+    "id": "1e89944d-5fc2-4e48-82c3-6ae333dd6184",
+    "word": "catalyst",
+    "grade": "9",
+    "definition": "Something that causes or speeds up a change or an event.",
+    "example": "The new teacher was the catalyst for starting a robotics club at school.",
+    "syllables": "cat · a · lyst",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something that prevents any change",
+        "correct": false
+      },
+      {
+        "text": "Something that sets off a change",
+        "correct": true
+      },
+      {
+        "text": "A tool used to measure change",
+        "correct": false
+      },
+      {
+        "text": "A record of changes over time",
+        "correct": false
+      }
+    ],
+    "explanation": "A catalyst is something that sets off a change. You got it!"
+  },
+  {
+    "id": "28e40558-2a9c-42b7-bc45-9d234eb2daf5",
+    "word": "comprehensive",
+    "grade": "9",
+    "definition": "Complete and covering everything that is needed.",
+    "example": "The guidebook is comprehensive, with maps, history and tips for every trail.",
+    "syllables": "com · pre · hen · sive",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Short and covering only one part",
+        "correct": false
+      },
+      {
+        "text": "Easy to understand and clearly written",
+        "correct": false
+      },
+      {
+        "text": "Complete and covering all the parts",
+        "correct": true
+      },
+      {
+        "text": "Arranged from newest to oldest",
+        "correct": false
+      }
+    ],
+    "explanation": "Comprehensive means complete and covering all the parts. Great job!"
+  },
+  {
+    "id": "5c830948-5837-498f-a73a-c7f80230a26e",
+    "word": "connotation",
+    "grade": "9",
+    "definition": "A feeling or idea that a word suggests beyond its exact meaning.",
+    "example": "The word home has a warm connotation of comfort and family.",
+    "syllables": "con · no · ta · tion",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The exact meaning that is given in a dictionary",
+        "correct": false
+      },
+      {
+        "text": "A feeling a word suggests beyond its meaning",
+        "correct": true
+      },
+      {
+        "text": "The way a word is spelled",
+        "correct": false
+      },
+      {
+        "text": "The sound a word makes when spoken",
+        "correct": false
+      }
+    ],
+    "explanation": "A connotation is a feeling a word suggests beyond its exact meaning. Nice work!"
+  },
+  {
+    "id": "ede78aa3-d872-4177-8434-22b7b2ad98ec",
+    "word": "contemplate",
+    "grade": "9",
+    "definition": "To think about something carefully and for a long time.",
+    "example": "I sat by the window to contemplate which book to choose for my report.",
+    "syllables": "con · tem · plate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To decide something in a split second",
+        "correct": false
+      },
+      {
+        "text": "To forget about something right away",
+        "correct": false
+      },
+      {
+        "text": "To write about something in a diary",
+        "correct": false
+      },
+      {
+        "text": "To think about something for a long time",
+        "correct": true
+      }
+    ],
+    "explanation": "To contemplate is to think about something for a long time. Well done!"
+  },
+  {
+    "id": "5d191318-18f3-445a-928e-c3c570e3ff56",
+    "word": "credible",
+    "grade": "9",
+    "definition": "Believable and able to be trusted.",
+    "example": "The scientist's report was credible because it came with clear evidence.",
+    "syllables": "cred · i · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Hard to believe and likely false",
+        "correct": false
+      },
+      {
+        "text": "Believable and worth trusting",
+        "correct": true
+      },
+      {
+        "text": "Admired and praised by many people",
+        "correct": false
+      },
+      {
+        "text": "Ready to lend money to other people",
+        "correct": false
+      }
+    ],
+    "explanation": "Credible means believable and worth trusting. You got it!"
+  },
+  {
+    "id": "05e32a03-b1e5-4104-a61e-640a41a9f63f",
+    "word": "deteriorate",
+    "grade": "9",
+    "definition": "To become worse over time.",
+    "example": "The old wooden fence will deteriorate if it is never painted.",
+    "syllables": "de · te · ri · o · rate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To slowly become better with age",
+        "correct": false
+      },
+      {
+        "text": "To stay the same for many years",
+        "correct": false
+      },
+      {
+        "text": "To slowly become worse in quality",
+        "correct": true
+      },
+      {
+        "text": "To be replaced by something much newer",
+        "correct": false
+      }
+    ],
+    "explanation": "To deteriorate is to slowly become worse in quality. Great job!"
+  },
+  {
+    "id": "0e47116b-78d7-4629-940d-82f7012ad766",
+    "word": "diligent",
+    "grade": "9",
+    "definition": "Careful and hard-working in doing a task.",
+    "example": "The diligent student checked her answers twice before handing in the test.",
+    "syllables": "dil · i · gent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Quick and able to finish before others",
+        "correct": false
+      },
+      {
+        "text": "Calm and willing to wait",
+        "correct": false
+      },
+      {
+        "text": "Clever and good at guessing",
+        "correct": false
+      },
+      {
+        "text": "Careful and steady in doing work",
+        "correct": true
+      }
+    ],
+    "explanation": "Diligent means careful and steady in doing work. Nice work!"
+  },
+  {
+    "id": "75d795b4-95da-4b2c-b219-5b8bb5ce0717",
+    "word": "discrepancy",
+    "grade": "9",
+    "definition": "A difference between things that should match.",
+    "example": "The teacher noticed a discrepancy between the two lists of names.",
+    "syllables": "dis · crep · an · cy",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A difference between things that should match",
+        "correct": true
+      },
+      {
+        "text": "A close match between two lists",
+        "correct": false
+      },
+      {
+        "text": "A total or sum of two amounts",
+        "correct": false
+      },
+      {
+        "text": "A list of the items in a set",
+        "correct": false
+      }
+    ],
+    "explanation": "A discrepancy is a difference between things that should match. Well done!"
+  },
+  {
+    "id": "942298a3-b8c7-4020-ae3c-1aafa605fcb8",
+    "word": "disperse",
+    "grade": "9",
+    "definition": "To spread out in different directions.",
+    "example": "Pigeons disperse when a bicycle rolls through the square.",
+    "syllables": "dis · perse",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To gather together in one place",
+        "correct": false
+      },
+      {
+        "text": "To spread out in different directions",
+        "correct": true
+      },
+      {
+        "text": "To move in a straight line",
+        "correct": false
+      },
+      {
+        "text": "To circle around a single spot",
+        "correct": false
+      }
+    ],
+    "explanation": "To disperse is to spread out in different directions. You got it!"
+  },
+  {
+    "id": "0ffdbd50-7db9-4df2-b9fd-4ba8edb32635",
+    "word": "eccentric",
+    "grade": "9",
+    "definition": "Unusual or odd in behavior, but in a harmless way.",
+    "example": "My eccentric uncle wears a bright hat every day, even in summer.",
+    "syllables": "ec · cen · tric",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Ordinary in every way",
+        "correct": false
+      },
+      {
+        "text": "Central and in the middle",
+        "correct": false
+      },
+      {
+        "text": "Unusual in a harmless way",
+        "correct": true
+      },
+      {
+        "text": "Excited and full of energy",
+        "correct": false
+      }
+    ],
+    "explanation": "Eccentric means unusual in a harmless way. Great job!"
+  },
+  {
+    "id": "fbdd352e-2399-4ea3-abb5-b26cd2b23339",
+    "word": "empathy",
+    "grade": "9",
+    "definition": "The ability to understand and share another person's feelings.",
+    "example": "She showed empathy by sitting with her friend after the bad news.",
+    "syllables": "em · pa · thy",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A strong wish to win every argument",
+        "correct": false
+      },
+      {
+        "text": "The habit of keeping your feelings private",
+        "correct": false
+      },
+      {
+        "text": "A talent for guessing what comes next",
+        "correct": false
+      },
+      {
+        "text": "The ability to share another person's feelings",
+        "correct": true
+      }
+    ],
+    "explanation": "Empathy is the ability to share another person's feelings. Nice work!"
+  },
+  {
+    "id": "2f01ed69-45f9-48c9-822a-bd4091fb954f",
+    "word": "equitable",
+    "grade": "9",
+    "definition": "Fair and equal to everyone.",
+    "example": "The coach made an equitable plan so that every player got time on the field.",
+    "syllables": "eq · ui · ta · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Fair only to people you know",
+        "correct": false
+      },
+      {
+        "text": "Decided by the loudest voice",
+        "correct": false
+      },
+      {
+        "text": "Fair and equal to everyone",
+        "correct": true
+      },
+      {
+        "text": "Planned to help only a few",
+        "correct": false
+      }
+    ],
+    "explanation": "Equitable means fair and equal to everyone. Well done!"
+  },
+  {
+    "id": "95d69e64-5a77-4262-8e54-39625ecef493",
+    "word": "erratic",
+    "grade": "9",
+    "definition": "Unpredictable and not following a regular pattern.",
+    "example": "The weather was erratic all week, sunny one hour and stormy the next.",
+    "syllables": "er · rat · ic",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Steady and the same every day",
+        "correct": false
+      },
+      {
+        "text": "Careful and thought out well in advance",
+        "correct": false
+      },
+      {
+        "text": "Gentle and calm from start to end",
+        "correct": false
+      },
+      {
+        "text": "Unpredictable and without a pattern",
+        "correct": true
+      }
+    ],
+    "explanation": "Erratic means unpredictable and without a pattern. You got it!"
+  },
+  {
+    "id": "5f148ca8-0b7e-4e87-b3d8-496925ff04d4",
+    "word": "exemplify",
+    "grade": "9",
+    "definition": "To be a clear example of something.",
+    "example": "Her kindness to every new student helps to exemplify the school's values.",
+    "syllables": "ex · em · pli · fy",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To be a clear example of something",
+        "correct": true
+      },
+      {
+        "text": "To copy the style of something",
+        "correct": false
+      },
+      {
+        "text": "To explain the reasons for something",
+        "correct": false
+      },
+      {
+        "text": "To list all the rules of something",
+        "correct": false
+      }
+    ],
+    "explanation": "To exemplify is to be a clear example of something. Great job!"
+  },
+  {
+    "id": "cf86b114-b44e-4d96-a68b-e9e5a379ba0c",
+    "word": "frugal",
+    "grade": "9",
+    "definition": "Careful about spending money; not wasteful.",
+    "example": "Because we are frugal, we pack lunches instead of buying them each day.",
+    "syllables": "fru · gal",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Quick to spend money on every sale",
+        "correct": false
+      },
+      {
+        "text": "Skilled at earning large sums",
+        "correct": false
+      },
+      {
+        "text": "Careful about how money is spent",
+        "correct": true
+      },
+      {
+        "text": "Happy to share money with a friend",
+        "correct": false
+      }
+    ],
+    "explanation": "Frugal means careful about how money is spent. Nice work!"
+  },
+  {
+    "id": "a4714dd2-afed-4f06-946b-53617f643ed4",
+    "word": "gregarious",
+    "grade": "9",
+    "definition": "Enjoying the company of other people; sociable.",
+    "example": "The gregarious puppy ran up to greet every person in the park.",
+    "syllables": "gre · gar · i · ous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Grateful and quick to say thanks",
+        "correct": false
+      },
+      {
+        "text": "Gentle and quiet around animals",
+        "correct": false
+      },
+      {
+        "text": "Friendly and fond of company",
+        "correct": true
+      },
+      {
+        "text": "Great at telling long stories",
+        "correct": false
+      }
+    ],
+    "explanation": "Gregarious means friendly and fond of company. Well done!"
+  },
+  {
+    "id": "eb0f120d-dcd0-437c-b796-986796f22ba1",
+    "word": "hierarchy",
+    "grade": "9",
+    "definition": "A system that ranks people or things from highest to lowest.",
+    "example": "The chart showed the hierarchy of the company, from the manager down to the new interns.",
+    "syllables": "hi · er · ar · chy",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A system that ranks things by level",
+        "correct": true
+      },
+      {
+        "text": "A group of friends who work together",
+        "correct": false
+      },
+      {
+        "text": "A list of names in alphabetical order",
+        "correct": false
+      },
+      {
+        "text": "A map that shows where things are",
+        "correct": false
+      }
+    ],
+    "explanation": "A hierarchy is a system that ranks things by level. You got it!"
+  },
+  {
+    "id": "5db70c51-8e2f-48e7-9cbc-c4e3f13140ae",
+    "word": "objective",
+    "grade": "9",
+    "definition": "Based on facts rather than on personal feelings or opinions.",
+    "example": "A good judge stays objective and looks only at the facts.",
+    "syllables": "ob · jec · tive",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Based on feelings and opinions",
+        "correct": false
+      },
+      {
+        "text": "Based on facts rather than feelings",
+        "correct": true
+      },
+      {
+        "text": "Based on a friend's advice",
+        "correct": false
+      },
+      {
+        "text": "Based on rules from long ago",
+        "correct": false
+      }
+    ],
+    "explanation": "Objective means based on facts rather than feelings. Great job!"
+  },
+  {
+    "id": "587f6fbe-c4ba-4c6b-bf1b-0161c14479a8",
+    "word": "elusive",
+    "grade": "9",
+    "definition": "Hard to find, catch or remember.",
+    "example": "The elusive fox slipped away before we could get a clear photo.",
+    "syllables": "e · lu · sive",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Easy to spot from far away",
+        "correct": false
+      },
+      {
+        "text": "Hard to find, catch or hold on to",
+        "correct": true
+      },
+      {
+        "text": "Famous and known by everyone",
+        "correct": false
+      },
+      {
+        "text": "Tame and used to being near people",
+        "correct": false
+      }
+    ],
+    "explanation": "Elusive means hard to find, catch or hold on to. Nice work!"
+  },
+  {
+    "id": "60752573-e3fc-445a-a9ae-5419e5595e61",
+    "word": "inherent",
+    "grade": "9",
+    "definition": "Naturally and permanently a part of something.",
+    "example": "Some risk is inherent in every sport, so players wear protective gear.",
+    "syllables": "in · her · ent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Added later by someone else",
+        "correct": false
+      },
+      {
+        "text": "Passed down from parents to their children",
+        "correct": false
+      },
+      {
+        "text": "Easy to take away and replace",
+        "correct": false
+      },
+      {
+        "text": "Part of something by its very nature",
+        "correct": true
+      }
+    ],
+    "explanation": "Inherent means part of something by its very nature. Well done!"
+  },
+  {
+    "id": "7572f230-edb2-430d-b2f9-26ba58a298e2",
+    "word": "innovation",
+    "grade": "9",
+    "definition": "A new idea, method or device.",
+    "example": "The folding bicycle was a clever innovation for people who live in small apartments.",
+    "syllables": "in · no · va · tion",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "An old tradition kept alive",
+        "correct": false
+      },
+      {
+        "text": "A repair made to a broken tool",
+        "correct": false
+      },
+      {
+        "text": "A lesson taught by an expert",
+        "correct": false
+      },
+      {
+        "text": "A new idea, method or device",
+        "correct": true
+      }
+    ],
+    "explanation": "An innovation is a new idea, method or device. You got it!"
+  },
+  {
+    "id": "578fc45f-c394-4242-80b2-ccd43627354a",
+    "word": "ethical",
+    "grade": "9",
+    "definition": "Following what is right and fair; morally good.",
+    "example": "It is ethical to return a wallet you find, even when no one is watching.",
+    "syllables": "eth · i · cal",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Right and fair in what you do",
+        "correct": true
+      },
+      {
+        "text": "Popular and liked by most people",
+        "correct": false
+      },
+      {
+        "text": "Fair only when it helps you win",
+        "correct": false
+      },
+      {
+        "text": "Clever and good at winning",
+        "correct": false
+      }
+    ],
+    "explanation": "Ethical means right and fair in what you do. Great job!"
+  },
+  {
+    "id": "87fcf030-aee6-42ac-9d11-612f4de1ae5f",
+    "word": "juxtapose",
+    "grade": "9",
+    "definition": "To place two things side by side to show how they differ.",
+    "example": "The artist chose to juxtapose a bright red door against a gray wall.",
+    "syllables": "jux · ta · pose",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To stack many things in a pile",
+        "correct": false
+      },
+      {
+        "text": "To remove one thing from a pair",
+        "correct": false
+      },
+      {
+        "text": "To set two things side by side",
+        "correct": true
+      },
+      {
+        "text": "To pose a question to two people",
+        "correct": false
+      }
+    ],
+    "explanation": "To juxtapose is to set two things side by side. Nice work!"
+  },
+  {
+    "id": "a81454c2-d0f2-4bdd-9baa-e9e9c97f8111",
+    "word": "lucid",
+    "grade": "9",
+    "definition": "Clear and easy to understand.",
+    "example": "Her lucid explanation made the tricky math problem feel simple.",
+    "syllables": "lu · cid",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Lucky and likely to succeed",
+        "correct": false
+      },
+      {
+        "text": "Bright and glowing in the dark",
+        "correct": false
+      },
+      {
+        "text": "Clear and easy to understand",
+        "correct": true
+      },
+      {
+        "text": "Long and full of hard words",
+        "correct": false
+      }
+    ],
+    "explanation": "Lucid means clear and easy to understand. Well done!"
+  },
+  {
+    "id": "7d7ee46d-438b-4d47-a643-1d222b08d9fa",
+    "word": "meticulous",
+    "grade": "9",
+    "definition": "Extremely careful about small details.",
+    "example": "He was meticulous about his model, checking each tiny piece before gluing it.",
+    "syllables": "me · tic · u · lous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Extremely careful about details",
+        "correct": true
+      },
+      {
+        "text": "Extremely quick at finishing work",
+        "correct": false
+      },
+      {
+        "text": "Very fond of making rules",
+        "correct": false
+      },
+      {
+        "text": "Ready to try anything once",
+        "correct": false
+      }
+    ],
+    "explanation": "Meticulous means extremely careful about details. You got it!"
+  },
+  {
+    "id": "68c6db92-5bd7-4c89-a722-247d5eadf38e",
+    "word": "mundane",
+    "grade": "9",
+    "definition": "Ordinary and a bit dull; part of everyday life.",
+    "example": "Washing dishes is a mundane chore, but someone has to do it.",
+    "syllables": "mun · dane",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Lively and out of the ordinary",
+        "correct": false
+      },
+      {
+        "text": "Rare and worth a lot of money",
+        "correct": false
+      },
+      {
+        "text": "Odd and hard to explain to others",
+        "correct": false
+      },
+      {
+        "text": "Ordinary and part of daily life",
+        "correct": true
+      }
+    ],
+    "explanation": "Mundane means ordinary and part of daily life. Great job!"
+  },
+  {
+    "id": "68cf518e-a13b-40c8-829e-a0752934dd10",
+    "word": "nostalgia",
+    "grade": "9",
+    "definition": "A warm, sometimes sad longing for happy times in the past.",
+    "example": "Looking at old photos filled him with nostalgia for his childhood summers.",
+    "syllables": "nos · tal · gia",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A longing for happy times in the past",
+        "correct": true
+      },
+      {
+        "text": "A plan for happy times to come",
+        "correct": false
+      },
+      {
+        "text": "A habit of forgetting all the old things",
+        "correct": false
+      },
+      {
+        "text": "A collection of old photos",
+        "correct": false
+      }
+    ],
+    "explanation": "Nostalgia is a longing for happy times in the past. Nice work!"
+  },
+  {
+    "id": "5490f6a2-6259-4d46-bda8-baf901fa2fc9",
+    "word": "nuance",
+    "grade": "9",
+    "definition": "A very small difference in meaning, color or feeling.",
+    "example": "A good translator notices every nuance in the way a sentence is said.",
+    "syllables": "nu · ance",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A very small difference in meaning",
+        "correct": true
+      },
+      {
+        "text": "A big change in a story",
+        "correct": false
+      },
+      {
+        "text": "A mistake in how a long word is spelled",
+        "correct": false
+      },
+      {
+        "text": "A rule that decides a meaning",
+        "correct": false
+      }
+    ],
+    "explanation": "A nuance is a very small difference in meaning. Well done!"
+  },
+  {
+    "id": "0585c48d-f82d-46be-b7d0-e3a776774aad",
+    "word": "oblivious",
+    "grade": "9",
+    "definition": "Not aware of what is happening around you.",
+    "example": "She was so focused on her book that she was oblivious to the loud music.",
+    "syllables": "ob · liv · i · ous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Alert and watching every detail",
+        "correct": false
+      },
+      {
+        "text": "Bothered by every little sound",
+        "correct": false
+      },
+      {
+        "text": "Forgetful of things from the past",
+        "correct": false
+      },
+      {
+        "text": "Unaware of what is going on around you",
+        "correct": true
+      }
+    ],
+    "explanation": "Oblivious means unaware of what is going on around you. You got it!"
+  },
+  {
+    "id": "8689bca4-8e32-432b-8583-a16e095ecd2b",
+    "word": "paradox",
+    "grade": "9",
+    "definition": "A statement or situation that seems to contradict itself but may still be true.",
+    "example": "It is a paradox that the more you share your knowledge, the more you have.",
+    "syllables": "par · a · dox",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A guess that turns out to be right",
+        "correct": false
+      },
+      {
+        "text": "A statement that seems to contradict itself",
+        "correct": true
+      },
+      {
+        "text": "A question with only one answer",
+        "correct": false
+      },
+      {
+        "text": "A rule that has no exceptions",
+        "correct": false
+      }
+    ],
+    "explanation": "A paradox is a statement that seems to contradict itself. Great job!"
+  },
+  {
+    "id": "045f5e2d-5779-49ab-83d7-3810679607bb",
+    "word": "pragmatic",
+    "grade": "9",
+    "definition": "Dealing with things in a practical, sensible way.",
+    "example": "Her pragmatic solution was to carry an umbrella instead of hoping for sun.",
+    "syllables": "prag · mat · ic",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Dreamy and focused on imagined things",
+        "correct": false
+      },
+      {
+        "text": "Practical and focused on what works",
+        "correct": true
+      },
+      {
+        "text": "Playful and focused on having fun",
+        "correct": false
+      },
+      {
+        "text": "Strict and focused on old rules",
+        "correct": false
+      }
+    ],
+    "explanation": "Pragmatic means practical and focused on what works. Nice work!"
+  },
+  {
+    "id": "c9266ae2-9a49-4138-9cad-9e6dfafb08f8",
+    "word": "procrastinate",
+    "grade": "9",
+    "definition": "To keep putting off a task until later.",
+    "example": "If you procrastinate, the homework will pile up before the weekend.",
+    "syllables": "pro · cras · ti · nate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To keep putting a task off until later",
+        "correct": true
+      },
+      {
+        "text": "To finish a task before it is due",
+        "correct": false
+      },
+      {
+        "text": "To rush through a task carelessly",
+        "correct": false
+      },
+      {
+        "text": "To share a task with a partner",
+        "correct": false
+      }
+    ],
+    "explanation": "To procrastinate is to keep putting a task off until later. Well done!"
+  },
+  {
+    "id": "87d0993b-b443-45f1-ac92-93ef5b023b7d",
+    "word": "prudent",
+    "grade": "9",
+    "definition": "Wise and careful in thinking ahead.",
+    "example": "It was prudent to check the weather before we planned the trip.",
+    "syllables": "pru · dent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Wise and careful about the future",
+        "correct": true
+      },
+      {
+        "text": "Proud and sure of every choice",
+        "correct": false
+      },
+      {
+        "text": "Polite and kind to every guest",
+        "correct": false
+      },
+      {
+        "text": "Pleased with whatever happens",
+        "correct": false
+      }
+    ],
+    "explanation": "Prudent means wise and careful about the future. You got it!"
+  },
+  {
+    "id": "89b5f7ec-aee9-457a-95d6-2c029f33ba79",
+    "word": "rhetoric",
+    "grade": "9",
+    "definition": "The art of using words well to speak or write in a convincing way.",
+    "example": "The student used strong rhetoric to persuade the class to recycle.",
+    "syllables": "rhet · o · ric",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The habit of speaking very softly",
+        "correct": false
+      },
+      {
+        "text": "A list of hard words and their meanings",
+        "correct": false
+      },
+      {
+        "text": "The art of using words to persuade",
+        "correct": true
+      },
+      {
+        "text": "A style of writing in rhyme",
+        "correct": false
+      }
+    ],
+    "explanation": "Rhetoric is the art of using words to persuade. Great job!"
+  },
+  {
+    "id": "f893d8ea-c8e0-49b5-a4b8-2d6d805aa7cb",
+    "word": "sporadic",
+    "grade": "9",
+    "definition": "Happening now and then, not regularly.",
+    "example": "We had sporadic showers all afternoon, but none lasted long.",
+    "syllables": "spo · rad · ic",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Happening now and then",
+        "correct": true
+      },
+      {
+        "text": "Happening every single day",
+        "correct": false
+      },
+      {
+        "text": "Happening only at night",
+        "correct": false
+      },
+      {
+        "text": "Happening in a steady rhythm",
+        "correct": false
+      }
+    ],
+    "explanation": "Sporadic means happening now and then. Nice work!"
+  },
+  {
+    "id": "7a50bdba-03d6-4f7d-8f94-044b8828f8c0",
+    "word": "substantiate",
+    "grade": "9",
+    "definition": "To support a claim with proof or evidence.",
+    "example": "You must substantiate your answer with a quote from the story.",
+    "syllables": "sub · stan · ti · ate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To repeat a claim more loudly",
+        "correct": false
+      },
+      {
+        "text": "To back up a claim with proof",
+        "correct": true
+      },
+      {
+        "text": "To doubt a claim without reason",
+        "correct": false
+      },
+      {
+        "text": "To copy a claim from a book",
+        "correct": false
+      }
+    ],
+    "explanation": "To substantiate is to back up a claim with proof. Well done!"
+  },
+  {
+    "id": "65c30430-638a-408a-afd1-3c011ff0a196",
+    "word": "superficial",
+    "grade": "9",
+    "definition": "Only on the surface; not deep or thorough.",
+    "example": "A superficial look at the test did not show the tricky questions.",
+    "syllables": "su · per · fi · cial",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Better than all the others",
+        "correct": false
+      },
+      {
+        "text": "Large and covering a wide area of land",
+        "correct": false
+      },
+      {
+        "text": "Only on the surface and not deep",
+        "correct": true
+      },
+      {
+        "text": "Deep and based on careful study",
+        "correct": false
+      }
+    ],
+    "explanation": "Superficial means only on the surface and not deep. You got it!"
+  },
+  {
+    "id": "8f463542-0542-47d5-97d8-991ad9693cfd",
+    "word": "tenacious",
+    "grade": "9",
+    "definition": "Holding on firmly and not giving up.",
+    "example": "The tenacious climber kept trying until she reached the top.",
+    "syllables": "te · na · cious",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Tender and gentle with others",
+        "correct": false
+      },
+      {
+        "text": "Thankful and quick to give thanks",
+        "correct": false
+      },
+      {
+        "text": "Talkative and always chatting",
+        "correct": false
+      },
+      {
+        "text": "Firm and unwilling to give up",
+        "correct": true
+      }
+    ],
+    "explanation": "Tenacious means firm and unwilling to give up. Great job!"
+  },
+  {
+    "id": "740bea6b-37a6-47d0-aced-b2a9f8b0f24b",
+    "word": "tranquil",
+    "grade": "9",
+    "definition": "Calm, quiet and peaceful.",
+    "example": "The lake was tranquil in the early morning, without a ripple on the water.",
+    "syllables": "tran · quil",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Busy, loud and crowded",
+        "correct": false
+      },
+      {
+        "text": "Calm, quiet and peaceful",
+        "correct": true
+      },
+      {
+        "text": "Cold, dark and windy all day long",
+        "correct": false
+      },
+      {
+        "text": "Wide, flat and empty",
+        "correct": false
+      }
+    ],
+    "explanation": "Tranquil means calm, quiet and peaceful. Nice work!"
+  },
+  {
+    "id": "770bf193-68fa-4cf5-a085-38dc3c22a2be",
+    "word": "ubiquitous",
+    "grade": "9",
+    "definition": "Found everywhere at the same time.",
+    "example": "Smartphones have become ubiquitous, and you can see them in every public place.",
+    "syllables": "u · biq · ui · tous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Found in every place at once",
+        "correct": true
+      },
+      {
+        "text": "Found in only one place",
+        "correct": false
+      },
+      {
+        "text": "Found only in very old places",
+        "correct": false
+      },
+      {
+        "text": "Found mostly in the morning",
+        "correct": false
+      }
+    ],
+    "explanation": "Ubiquitous means found in every place at once. Well done!"
+  },
+  {
+    "id": "9e2aa8ea-9854-48e3-a24a-30f95cec9d3b",
+    "word": "verbose",
+    "grade": "9",
+    "definition": "Using more words than necessary.",
+    "example": "His verbose answer took ten minutes when a single sentence would have done.",
+    "syllables": "ver · bose",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Short, with only a few words",
+        "correct": false
+      },
+      {
+        "text": "Poetic, with lines that rhyme",
+        "correct": false
+      },
+      {
+        "text": "Wordy, with more words than needed",
+        "correct": true
+      },
+      {
+        "text": "Silent, with no sound at all",
+        "correct": false
+      }
+    ],
+    "explanation": "Verbose means wordy, with more words than needed. You got it!"
+  },
+  {
+    "id": "f619a6f9-adde-4efa-9ecc-612dfa1b17c4",
+    "word": "whimsical",
+    "grade": "9",
+    "definition": "Playful and fanciful in an unusual way.",
+    "example": "The whimsical drawing showed a teapot with tiny legs, walking down a hill.",
+    "syllables": "whim · si · cal",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Serious and based on hard facts",
+        "correct": false
+      },
+      {
+        "text": "Gloomy and full of gray colors",
+        "correct": false
+      },
+      {
+        "text": "Playful and imaginative in an odd way",
+        "correct": true
+      },
+      {
+        "text": "Plain and meant for daily use",
+        "correct": false
+      }
+    ],
+    "explanation": "Whimsical means playful and imaginative in an odd way. Great job!"
+  },
+  {
+    "id": "22298017-22b6-4b44-9ed1-e21b96cc0a65",
+    "word": "frivolous",
+    "grade": "9",
+    "definition": "Lacking seriousness; focused on small, unimportant things.",
+    "example": "She felt that buying a tenth pair of sunglasses was a frivolous way to spend her savings.",
+    "syllables": "friv · o · lous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Unimportant and lacking serious purpose",
+        "correct": true
+      },
+      {
+        "text": "Important and filled with purpose",
+        "correct": false
+      },
+      {
+        "text": "Free and open to anyone who wants to join",
+        "correct": false
+      },
+      {
+        "text": "Fussy about tiny details",
+        "correct": false
+      }
+    ],
+    "explanation": "Frivolous means unimportant and lacking serious purpose. Nice work!"
+  },
+  {
+    "id": "95c6c0a0-3d0d-4061-9cd3-ff408320330f",
+    "word": "ephemeral",
+    "grade": "9",
+    "definition": "Lasting for only a very short time.",
+    "example": "A soap bubble is ephemeral; it pops within seconds.",
+    "syllables": "e · phem · er · al",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Permanent and hard to erase",
+        "correct": false
+      },
+      {
+        "text": "Large and filling the whole sky",
+        "correct": false
+      },
+      {
+        "text": "Ancient and found in old books",
+        "correct": false
+      },
+      {
+        "text": "Short-lived and quickly gone",
+        "correct": true
+      }
+    ],
+    "explanation": "Ephemeral means short-lived and quickly gone. Well done!"
+  },
+  {
+    "id": "4c4fd7c5-d78c-40c0-af4e-b77c1835ba37",
+    "word": "resilient",
+    "grade": "9",
+    "definition": "Able to recover quickly after trouble or a setback.",
+    "example": "The resilient team lost the first game but came back to win the finals.",
+    "syllables": "re · sil · ient",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Able to stay away from trouble",
+        "correct": false
+      },
+      {
+        "text": "Able to predict when trouble will start",
+        "correct": false
+      },
+      {
+        "text": "Able to cause trouble for others",
+        "correct": false
+      },
+      {
+        "text": "Able to bounce back after trouble",
+        "correct": true
+      }
+    ],
+    "explanation": "Resilient means able to bounce back after trouble. You got it!"
+  },
+  {
+    "id": "6f1df06a-57bc-45bb-af97-71bbe59b1412",
+    "word": "versatile",
+    "grade": "9",
+    "definition": "Able to be used in many different ways.",
+    "example": "A plain white shirt is versatile because it goes with almost anything.",
+    "syllables": "ver · sa · tile",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Useful in many different ways",
+        "correct": true
+      },
+      {
+        "text": "Useful only for one task",
+        "correct": false
+      },
+      {
+        "text": "Valuable because it is old",
+        "correct": false
+      },
+      {
+        "text": "Easy to store in a small space",
+        "correct": false
+      }
+    ],
+    "explanation": "Versatile means useful in many different ways. Great job!"
+  },
+  {
+    "id": "b3bd8bf5-d8aa-4e46-9876-a7dab470afb4",
+    "word": "obscure",
+    "grade": "9",
+    "definition": "Little known or hard to understand; unclear.",
+    "example": "The author's obscure poems are loved by only a few readers.",
+    "syllables": "ob · scure",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Famous and known to everyone",
+        "correct": false
+      },
+      {
+        "text": "Little known and hard to understand",
+        "correct": true
+      },
+      {
+        "text": "Clear and very easy for anyone to follow",
+        "correct": false
+      },
+      {
+        "text": "Large and printed in bold",
+        "correct": false
+      }
+    ],
+    "explanation": "Obscure means little known and hard to understand. Nice work!"
+  }
+]
