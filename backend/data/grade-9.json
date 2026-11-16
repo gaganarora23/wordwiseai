@@ -213,11 +213,11 @@
         "correct": true
       },
       {
-        "text": "Famous and often talked about",
+        "text": "Admired and praised by many people",
         "correct": false
       },
       {
-        "text": "Lively and full of surprises",
+        "text": "Ready to lend money to other people",
         "correct": false
       }
     ],
@@ -689,7 +689,7 @@
         "correct": false
       },
       {
-        "text": "Strong and good at sports",
+        "text": "Fair only when it helps you win",
         "correct": false
       },
       {
@@ -1329,7 +1329,7 @@
         "correct": false
       },
       {
-        "text": "Able to hide whenever trouble starts",
+        "text": "Able to predict when trouble will start",
         "correct": false
       },
       {
@@ -1365,7 +1365,7 @@
         "correct": false
       },
       {
-        "text": "Visible from a very long distance",
+        "text": "Easy to store in a small space",
         "correct": false
       }
     ],
