@@ -9,7 +9,7 @@ def test_health_returns_ok():
     response = client.get("/api/v1/health")
     assert response.status_code == 200
     assert response.headers["content-type"] == "application/json"
-    assert response.json() == {"status": "ok"}
+    assert response.json() == {"status": "broken-on-purpose"}
 
 
 def test_post_health_returns_405():
