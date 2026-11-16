@@ -1,0 +1,47 @@
+# Render Blueprint: PostgreSQL + backend API + frontend, all on free plans.
+# Apply it once in the Render dashboard (New > Blueprint); see README "Deployment".
+# Deploys are triggered from GitHub Actions through deploy hooks (issue #50), so
+# auto-deploy is off. No secrets live here: Render injects the database URL.
+databases:
+  - name: wordwise-db
+    plan: free
+    # Newest major Render supports (its default when omitted). Free plan allows it,
+    # and the backend uses plain SQL via psycopg 3, so no version-specific feature.
+    postgresMajorVersion: "18"
+    databaseName: wordwise
+    user: wordwise
+    ipAllowList: [] # only Render services reach it (internal connection string)
+
+services:
+  - type: web
+    name: wordwise-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    autoDeployTrigger: "off"
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: DATABASE_URL # postgresql://...; the backend rewrites it to postgresql+psycopg://
+        fromDatabase:
+          name: wordwise-db
+          property: connectionString
+      - key: CORS_ORIGINS # the frontend public origin
+        value: https://wordwise-web.onrender.com
+      - key: PORT # the container listens on 8000 (backend/docker-entrypoint.sh)
+        value: "8000"
+
+  - type: web
+    name: wordwise-web
+    runtime: docker
+    plan: free
+    dockerfilePath: ./frontend/Dockerfile
+    dockerContext: ./frontend
+    autoDeployTrigger: "off"
+    envVars:
+      - key: VITE_API_URL # build-time: the backend PUBLIC https URL, baked into the bundle
+        value: https://wordwise-api.onrender.com
+      - key: PORT # the container listens on 8080 (frontend/Dockerfile)
+        value: "8080"
+      - key: HOST
+        value: 0.0.0.0

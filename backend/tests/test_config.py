@@ -61,12 +61,28 @@ def test_missing_database_url_error_names_it(monkeypatch):
 
 
 @pytest.mark.parametrize(
+    "given",
+    ["postgresql://u:pw@h:5432/db", "postgres://u:pw@h:5432/db"],
+)
+def test_plain_postgres_schemes_are_normalized_to_psycopg(monkeypatch, given):
+    monkeypatch.setenv("DATABASE_URL", given)
+    assert settings().database_url == "postgresql+psycopg://u:pw@h:5432/db"
+
+
+def test_psycopg_scheme_is_left_unchanged(monkeypatch):
+    monkeypatch.setenv("DATABASE_URL", GOOD_URL)
+    assert settings().database_url == GOOD_URL
+
+
+@pytest.mark.parametrize(
     "url",
     [
         "",
         "not a url",
         "sqlite:///x.db",
-        "postgresql://u:s3cret-pw@localhost/db",
+        "postgresql://",
+        "postgres://",
+        "postgresql+asyncpg://u:s3cret-pw@localhost/db",
     ],
 )
 def test_bad_database_url_error_is_readable_and_hides_password(monkeypatch, url):
@@ -91,7 +107,7 @@ def run_import_app(env_overrides):
     )
 
 
-@pytest.mark.parametrize("url", ["", "not a url", "sqlite:///x.db", "postgresql://u:s3cret-pw@h/db"])
+@pytest.mark.parametrize("url", ["", "not a url", "sqlite:///x.db", "mysql://u:s3cret-pw@h/db"])
 def test_startup_with_bad_database_url_exits_with_one_line(url):
     result = run_import_app({"DATABASE_URL": url})
     assert result.returncode != 0

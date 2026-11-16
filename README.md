@@ -198,6 +198,27 @@ A development-only vocabulary (154 words, not release content) is in `backend/fi
 
 Connection settings: connect timeout is 5 seconds (`connect_args={"connect_timeout": 5}`) and `pool_pre_ping=True`; both are defined in `backend/app/config.py` and used in `backend/app/db.py`. Database tests need the Compose database (`docker compose up -d --wait db`); without it they fail with that command in the message.
 
+## Deployment
+
+WordWise is deployed to [Render](https://render.com) (free tier) from the Blueprint in [`render.yaml`](render.yaml): one PostgreSQL database (`wordwise-db`, PostgreSQL 18, Render's newest major and allowed on the free plan) and two Docker web services, `wordwise-api` (backend) and `wordwise-web` (frontend).
+
+**Public URLs:** TBD: filled in after the first deploy
+
+Steps (done once, by the project owner):
+
+1. Sign in at [render.com](https://render.com) and connect your GitHub account.
+2. New > Blueprint, pick the `gaganarora23/wordwiseai` repo and branch, then Apply. Render creates the database and both services and builds them.
+3. The expected URLs are `https://wordwise-web.onrender.com` (the app) and `https://wordwise-api.onrender.com` (API, docs at `/docs`). The blueprint hard-codes these in `CORS_ORIGINS` (API) and `VITE_API_URL` (web, baked in at build time). If Render adds a suffix to either name because it is taken, edit those two values in the dashboard and redeploy `wordwise-web` and `wordwise-api`. Then put the real URLs on the line above.
+4. Auto-deploy is off. Deploys are triggered from GitHub Actions through deploy hooks; copy each service's deploy hook URL (Settings) into GitHub secrets as described in [`docs/deployment.md`](docs/deployment.md).
+
+Things to know:
+
+- **Cold start.** Free web services sleep after 15 minutes idle; the first request afterwards takes about a minute.
+- **Database expiry.** A free Render PostgreSQL database expires 30 days after creation, so the shared demo data disappears then unless the database is upgraded or recreated.
+- **Vocabulary.** On start the backend loads 500 of the 650 target words (K to 9; Grades 10 to 12 are issue #16), logging `Created: 500` the first time and `unchanged: 500` afterwards.
+- **Shared demo.** There is no authentication; anyone with the link sees and edits the same profiles, so real children's data must not be entered. The app says this on the home page.
+- **Database URL.** Render's `postgresql://` connection string is accepted; the backend rewrites it to `postgresql+psycopg://`.
+
 ## Testing
 
 `make test` from the repo root runs the backend suite (`cd backend && uv run pytest`), then the frontend suite. Backend integration tests run against real PostgreSQL, never SQLite.
