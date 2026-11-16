@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "9d3ba883-fa78-4326-b355-888106556ffb",
+    "word": "abstract",
+    "grade": "6",
+    "definition": "Existing as an idea or feeling rather than as something you can touch.",
+    "example": "Freedom is an abstract idea, not an object you can hold.",
+    "syllables": "ab · stract",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Like an idea you cannot touch",
+        "correct": true
+      },
+      {
+        "text": "Like a rock you can pick up",
+        "correct": false
+      },
+      {
+        "text": "Like a tool you can hold in your hand",
+        "correct": false
+      },
+      {
+        "text": "Like a book you can read",
+        "correct": false
+      }
+    ],
+    "explanation": "Abstract describes an idea that you cannot touch. Nice work!"
+  },
+  {
+    "id": "f5ae1ffc-e713-4d97-8979-dd0bc1ba9ac2",
+    "word": "adapt",
+    "grade": "6",
+    "definition": "To change in order to fit a new situation or place.",
+    "example": "Some plants adapt to dry weather by storing water in their stems.",
+    "syllables": "a · dapt",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To stay the same in every place",
+        "correct": false
+      },
+      {
+        "text": "To change to fit a new situation",
+        "correct": true
+      },
+      {
+        "text": "To leave a place and not return",
+        "correct": false
+      },
+      {
+        "text": "To ask for help with a task",
+        "correct": false
+      }
+    ],
+    "explanation": "To adapt is to change to fit a new situation. Great job!"
+  },
+  {
+    "id": "e9939c99-6f36-4097-8d23-ea5be9a82f0a",
+    "word": "analyze",
+    "grade": "6",
+    "definition": "To study something closely, part by part, to understand it.",
+    "example": "In science class, we analyze the data from our experiment.",
+    "syllables": "an · a · lyze",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To hurry through something quickly",
+        "correct": false
+      },
+      {
+        "text": "To study something part by part",
+        "correct": true
+      },
+      {
+        "text": "To copy something onto a clean page",
+        "correct": false
+      },
+      {
+        "text": "To store something on a high shelf",
+        "correct": false
+      }
+    ],
+    "explanation": "To analyze is to study something part by part. You got it!"
+  },
+  {
+    "id": "c6a34c4d-13b8-497f-b4f0-a0395ccfcdda",
+    "word": "anticipate",
+    "grade": "6",
+    "definition": "To expect something and get ready for it.",
+    "example": "We anticipate a big crowd at the fair, so we are bringing extra chairs.",
+    "syllables": "an · tic · i · pate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To expect something and get ready",
+        "correct": true
+      },
+      {
+        "text": "To forget something and leave it behind",
+        "correct": false
+      },
+      {
+        "text": "To remember something from long ago",
+        "correct": false
+      },
+      {
+        "text": "To ignore something and walk away",
+        "correct": false
+      }
+    ],
+    "explanation": "To anticipate is to expect something and get ready. Well done!"
+  },
+  {
+    "id": "6e2bbd61-2522-47e6-9cfe-cfebaa5459e4",
+    "word": "appreciate",
+    "grade": "6",
+    "definition": "To value something and feel thankful for it.",
+    "example": "I appreciate your help with the heavy boxes.",
+    "syllables": "ap · pre · ci · ate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To save something for a rainy day at home",
+        "correct": false
+      },
+      {
+        "text": "To trade something for a new one",
+        "correct": false
+      },
+      {
+        "text": "To borrow something for a week",
+        "correct": false
+      },
+      {
+        "text": "To value something and be thankful",
+        "correct": true
+      }
+    ],
+    "explanation": "To appreciate is to value something and be thankful. Nice work!"
+  },
+  {
+    "id": "75f2cdbc-0d57-4fbe-87a7-183039c465ce",
+    "word": "aspect",
+    "grade": "6",
+    "definition": "One part or side of something that you can look at.",
+    "example": "The cost is one aspect of the plan, but safety matters too.",
+    "syllables": "as · pect",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The whole of a thing from end to end",
+        "correct": false
+      },
+      {
+        "text": "The reason behind a final decision",
+        "correct": false
+      },
+      {
+        "text": "One side of a bigger idea",
+        "correct": true
+      },
+      {
+        "text": "The ending of a long, twisting story",
+        "correct": false
+      }
+    ],
+    "explanation": "An aspect is one side or part of a bigger idea. Great job!"
+  },
+  {
+    "id": "8faf939e-669d-4b48-960f-1f0e2d66054a",
+    "word": "benefit",
+    "grade": "6",
+    "definition": "A good result or advantage that you get from something.",
+    "example": "One benefit of exercise is that it gives you more energy.",
+    "syllables": "ben · e · fit",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A good result you get from something",
+        "correct": true
+      },
+      {
+        "text": "A bad habit that is very hard to break",
+        "correct": false
+      },
+      {
+        "text": "A sudden change in the weather",
+        "correct": false
+      },
+      {
+        "text": "A rule that limits what you can do",
+        "correct": false
+      }
+    ],
+    "explanation": "A benefit is a good result you get from something. You got it!"
+  },
+  {
+    "id": "5a64fdbf-e247-454b-8666-38c46fe34dde",
+    "word": "circulate",
+    "grade": "6",
+    "definition": "To move around freely, passing from place to place.",
+    "example": "A fan helps air circulate around the room.",
+    "syllables": "cir · cu · late",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To stay stuck in one spot",
+        "correct": false
+      },
+      {
+        "text": "To drop quickly toward the ground",
+        "correct": false
+      },
+      {
+        "text": "To grow smaller bit by bit",
+        "correct": false
+      },
+      {
+        "text": "To move around and keep flowing",
+        "correct": true
+      }
+    ],
+    "explanation": "To circulate is to move around and keep flowing. Well done!"
+  },
+  {
+    "id": "4b179714-dcf7-4b41-b319-a8453c0390b7",
+    "word": "complex",
+    "grade": "6",
+    "definition": "Made of many parts and hard to understand.",
+    "example": "The rules of the board game were so complex that it took us an hour to learn them.",
+    "syllables": "com · plex",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Having many connected parts",
+        "correct": true
+      },
+      {
+        "text": "Having only one simple part",
+        "correct": false
+      },
+      {
+        "text": "Having no way to be used",
+        "correct": false
+      },
+      {
+        "text": "Having a very bright color",
+        "correct": false
+      }
+    ],
+    "explanation": "Complex means having many connected parts. Nice work!"
+  },
+  {
+    "id": "2fa83cfe-fc00-4612-bcb0-2ba668e84fc5",
+    "word": "component",
+    "grade": "6",
+    "definition": "One part of a larger whole, such as a part of a machine.",
+    "example": "The battery is a key component of the flashlight.",
+    "syllables": "com · po · nent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The whole of a finished object",
+        "correct": false
+      },
+      {
+        "text": "The box that an object comes in",
+        "correct": false
+      },
+      {
+        "text": "The manual that explains an object",
+        "correct": false
+      },
+      {
+        "text": "One part of a larger whole",
+        "correct": true
+      }
+    ],
+    "explanation": "A component is one part of a larger whole. Great job!"
+  },
+  {
+    "id": "9f957c4c-586c-4f55-81f2-8115bb9c2bbf",
+    "word": "consequence",
+    "grade": "6",
+    "definition": "A result of something that happened earlier.",
+    "example": "One consequence of staying up late is feeling sleepy in class.",
+    "syllables": "con · se · quence",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A reason for doing something later",
+        "correct": false
+      },
+      {
+        "text": "A result of something done earlier",
+        "correct": true
+      },
+      {
+        "text": "A prize given to the best player",
+        "correct": false
+      },
+      {
+        "text": "A warning printed on a sign",
+        "correct": false
+      }
+    ],
+    "explanation": "A consequence is a result of something done earlier. You got it!"
+  },
+  {
+    "id": "e5710ee3-03e4-4521-aa64-e85096a020e3",
+    "word": "consistent",
+    "grade": "6",
+    "definition": "Always acting or happening in the same way.",
+    "example": "She is a consistent player who practices every single day.",
+    "syllables": "con · sis · tent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Changing in a new way each and every time",
+        "correct": false
+      },
+      {
+        "text": "Happening only once in a while",
+        "correct": false
+      },
+      {
+        "text": "Always happening in the same way",
+        "correct": true
+      },
+      {
+        "text": "Happening at the wrong time",
+        "correct": false
+      }
+    ],
+    "explanation": "Consistent means always happening in the same way. Well done!"
+  },
+  {
+    "id": "e0104c9c-04f1-47a6-b737-02e61977639f",
+    "word": "context",
+    "grade": "6",
+    "definition": "The words or situation around something that help explain its meaning.",
+    "example": "You can figure out a new word by reading the context around it.",
+    "syllables": "con · text",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The very last page of a long, thick story book",
+        "correct": false
+      },
+      {
+        "text": "The title at the top of a page",
+        "correct": false
+      },
+      {
+        "text": "The surrounding words that give meaning",
+        "correct": true
+      },
+      {
+        "text": "The list of words at the back",
+        "correct": false
+      }
+    ],
+    "explanation": "Context is the surrounding words that give meaning. Nice work!"
+  },
+  {
+    "id": "0ebf9b32-746e-4562-81e9-3bc34e7133b1",
+    "word": "deduce",
+    "grade": "6",
+    "definition": "To reach a conclusion by thinking about clues.",
+    "example": "From the wet umbrella, I deduce that it rained today.",
+    "syllables": "de · duce",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To work out an answer from clues",
+        "correct": true
+      },
+      {
+        "text": "To hide all of the clues in a drawer",
+        "correct": false
+      },
+      {
+        "text": "To draw a picture of the clues",
+        "correct": false
+      },
+      {
+        "text": "To tell the clues to a friend",
+        "correct": false
+      }
+    ],
+    "explanation": "To deduce is to work out an answer from clues. Great job!"
+  },
+  {
+    "id": "9b0e0859-972c-475e-a56a-1606dc7b1566",
+    "word": "dilemma",
+    "grade": "6",
+    "definition": "A hard choice between two or more things.",
+    "example": "She faced a dilemma: join the soccer team or the art club.",
+    "syllables": "di · lem · ma",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "An easy task that takes only a minute",
+        "correct": false
+      },
+      {
+        "text": "A hard choice between two options",
+        "correct": true
+      },
+      {
+        "text": "A plan that works every time",
+        "correct": false
+      },
+      {
+        "text": "A story that has no ending",
+        "correct": false
+      }
+    ],
+    "explanation": "A dilemma is a hard choice between two options. You got it!"
+  },
+  {
+    "id": "c5f75c21-fb03-4bf4-a33d-4fffbdb29503",
+    "word": "diverse",
+    "grade": "6",
+    "definition": "Made up of many different kinds.",
+    "example": "The park has a diverse mix of trees, from tall pines to small maples.",
+    "syllables": "di · verse",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Made up of only one kind",
+        "correct": false
+      },
+      {
+        "text": "Made up of very old things",
+        "correct": false
+      },
+      {
+        "text": "Made up of many different kinds",
+        "correct": true
+      },
+      {
+        "text": "Made up of tiny round things",
+        "correct": false
+      }
+    ],
+    "explanation": "Diverse means made up of many different kinds. Well done!"
+  },
+  {
+    "id": "54084486-ba62-43d3-a5b3-1893cd355e70",
+    "word": "economy",
+    "grade": "6",
+    "definition": "The way a place makes, shares and spends money, goods and services.",
+    "example": "The town's economy grew when new shops opened.",
+    "syllables": "e · con · o · my",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "How a place looks from the sky",
+        "correct": false
+      },
+      {
+        "text": "How a place makes and uses money",
+        "correct": true
+      },
+      {
+        "text": "How a place keeps its weather records",
+        "correct": false
+      },
+      {
+        "text": "How a place names its streets",
+        "correct": false
+      }
+    ],
+    "explanation": "An economy is how a place makes and uses money. Nice work!"
+  },
+  {
+    "id": "13d184c7-97c0-413a-8908-3d27927e09ec",
+    "word": "elaborate",
+    "grade": "6",
+    "definition": "To add more details to explain something.",
+    "example": "Can you elaborate on how you built the model?",
+    "syllables": "e · lab · o · rate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To remove details to make it shorter",
+        "correct": false
+      },
+      {
+        "text": "To add more details to explain",
+        "correct": true
+      },
+      {
+        "text": "To repeat the same sentence again",
+        "correct": false
+      },
+      {
+        "text": "To change the topic suddenly",
+        "correct": false
+      }
+    ],
+    "explanation": "To elaborate is to add more details to explain. Great job!"
+  },
+  {
+    "id": "6a5858ad-eb5f-4e10-a2b2-7a6f65503f2f",
+    "word": "eliminate",
+    "grade": "6",
+    "definition": "To remove or get rid of something completely.",
+    "example": "Chefs try to eliminate waste by using every part of a vegetable.",
+    "syllables": "e · lim · i · nate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To remove something completely",
+        "correct": true
+      },
+      {
+        "text": "To add something more",
+        "correct": false
+      },
+      {
+        "text": "To hide something for later",
+        "correct": false
+      },
+      {
+        "text": "To count something twice",
+        "correct": false
+      }
+    ],
+    "explanation": "To eliminate is to remove something completely. You got it!"
+  },
+  {
+    "id": "9d123b4b-2b15-445f-9b0d-62e4208ede3c",
+    "word": "emphasize",
+    "grade": "6",
+    "definition": "To give special importance to something so that it stands out.",
+    "example": "The teacher will emphasize the main idea by underlining it.",
+    "syllables": "em · pha · size",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To make something blend into the background",
+        "correct": false
+      },
+      {
+        "text": "To tell something quietly to no one",
+        "correct": false
+      },
+      {
+        "text": "To show that something is important",
+        "correct": true
+      },
+      {
+        "text": "To skip over something very quickly",
+        "correct": false
+      }
+    ],
+    "explanation": "To emphasize is to show that something is important. Well done!"
+  },
+  {
+    "id": "f68a031d-fd94-4c78-9811-25e443566230",
+    "word": "evaluate",
+    "grade": "6",
+    "definition": "To judge how good or useful something is after careful thought.",
+    "example": "The judges will evaluate each science project.",
+    "syllables": "e · val · u · ate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To judge how good something is",
+        "correct": true
+      },
+      {
+        "text": "To build something from scratch",
+        "correct": false
+      },
+      {
+        "text": "To hold something up high",
+        "correct": false
+      },
+      {
+        "text": "To pass something down the line",
+        "correct": false
+      }
+    ],
+    "explanation": "To evaluate is to judge how good something is. Nice work!"
+  },
+  {
+    "id": "7840f416-de88-4138-8b9d-be688beb8874",
+    "word": "ambiguous",
+    "grade": "6",
+    "definition": "Having more than one possible meaning, so it is unclear.",
+    "example": "The sign was ambiguous, so we could not tell which way to turn.",
+    "syllables": "am · big · u · ous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Having more than one meaning",
+        "correct": true
+      },
+      {
+        "text": "Having only one clear meaning",
+        "correct": false
+      },
+      {
+        "text": "Having a very loud sound",
+        "correct": false
+      },
+      {
+        "text": "Having a lot of small parts",
+        "correct": false
+      }
+    ],
+    "explanation": "Ambiguous means having more than one possible meaning. Great job!"
+  },
+  {
+    "id": "882c3383-64fa-41bb-bd25-55516eb0c505",
+    "word": "exaggerate",
+    "grade": "6",
+    "definition": "To make something sound bigger or better than it really is.",
+    "example": "I exaggerate when I say that the walk took forever.",
+    "syllables": "ex · ag · ger · ate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To make something sound smaller than it is",
+        "correct": false
+      },
+      {
+        "text": "To make something sound bigger than it is",
+        "correct": true
+      },
+      {
+        "text": "To tell something just as it happened",
+        "correct": false
+      },
+      {
+        "text": "To say something in a very quiet voice",
+        "correct": false
+      }
+    ],
+    "explanation": "To exaggerate is to make something sound bigger than it is. You got it!"
+  },
+  {
+    "id": "d4479df4-ec87-466f-8b71-571dad609122",
+    "word": "fluctuate",
+    "grade": "6",
+    "definition": "To rise and fall again and again.",
+    "example": "The temperature can fluctuate a lot during a spring day.",
+    "syllables": "fluc · tu · ate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To climb steadily without stopping",
+        "correct": false
+      },
+      {
+        "text": "To stay frozen at one level",
+        "correct": false
+      },
+      {
+        "text": "To fall once and then stop",
+        "correct": false
+      },
+      {
+        "text": "To rise and fall again and again",
+        "correct": true
+      }
+    ],
+    "explanation": "To fluctuate is to rise and fall again and again. Well done!"
+  },
+  {
+    "id": "c43def7a-f5ad-45ff-bbfb-249991710d62",
+    "word": "hypothesis",
+    "grade": "6",
+    "definition": "An idea that you can test to explain why something happens.",
+    "example": "Our hypothesis was that plants grow taller with more light.",
+    "syllables": "hy · poth · e · sis",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A fact that is already proved",
+        "correct": false
+      },
+      {
+        "text": "A tool for measuring plants",
+        "correct": false
+      },
+      {
+        "text": "A list of the steps in a game",
+        "correct": false
+      },
+      {
+        "text": "An idea that you can test",
+        "correct": true
+      }
+    ],
+    "explanation": "A hypothesis is an idea that you can test. Nice work!"
+  },
+  {
+    "id": "b6d045a9-bf05-4aae-b11a-9816d4240c4b",
+    "word": "illustrate",
+    "grade": "6",
+    "definition": "To explain or show something with pictures or examples.",
+    "example": "The author used a diagram to illustrate how a lever works.",
+    "syllables": "il · lus · trate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To hide with paint or ink",
+        "correct": false
+      },
+      {
+        "text": "To explain with pictures or examples",
+        "correct": true
+      },
+      {
+        "text": "To read with a loud voice",
+        "correct": false
+      },
+      {
+        "text": "To count with colored beads",
+        "correct": false
+      }
+    ],
+    "explanation": "To illustrate is to explain with pictures or examples. Great job!"
+  },
+  {
+    "id": "658bed09-4865-4f0b-9d0b-083532b28e1a",
+    "word": "influence",
+    "grade": "6",
+    "definition": "The power to change what people think or do.",
+    "example": "A good teacher can have a lasting influence on students.",
+    "syllables": "in · flu · ence",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The strength to lift something heavy",
+        "correct": false
+      },
+      {
+        "text": "The speed at which something moves",
+        "correct": false
+      },
+      {
+        "text": "The size of a crowd at an event",
+        "correct": false
+      },
+      {
+        "text": "The power to affect what people do",
+        "correct": true
+      }
+    ],
+    "explanation": "Influence is the power to affect what people think or do. You got it!"
+  },
+  {
+    "id": "0fa7594c-dd5c-43c9-97eb-7e2bb940db64",
+    "word": "interpret",
+    "grade": "6",
+    "definition": "To explain the meaning of something.",
+    "example": "Can you interpret what the poem is saying?",
+    "syllables": "in · ter · pret",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To explain what something means",
+        "correct": true
+      },
+      {
+        "text": "To hide what something means",
+        "correct": false
+      },
+      {
+        "text": "To copy what something looks like",
+        "correct": false
+      },
+      {
+        "text": "To forget what something said",
+        "correct": false
+      }
+    ],
+    "explanation": "To interpret is to explain what something means. Well done!"
+  },
+  {
+    "id": "ce22d0e9-4445-4ef9-8912-437cce112633",
+    "word": "isolate",
+    "grade": "6",
+    "definition": "To set something apart so that it is alone.",
+    "example": "We will isolate one plant in a dark closet to see if it still grows.",
+    "syllables": "i · so · late",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To join something to a larger group",
+        "correct": false
+      },
+      {
+        "text": "To put something in the center of a crowd",
+        "correct": false
+      },
+      {
+        "text": "To pass something to many people",
+        "correct": false
+      },
+      {
+        "text": "To set something apart from the rest",
+        "correct": true
+      }
+    ],
+    "explanation": "To isolate is to set something apart from the rest. Nice work!"
+  },
+  {
+    "id": "04bd5f63-ed74-4f4c-b6f5-682c2041c061",
+    "word": "justify",
+    "grade": "6",
+    "definition": "To give good reasons to show that something is fair or right.",
+    "example": "Please justify your answer by showing your work.",
+    "syllables": "jus · ti · fy",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To change a choice at the last minute",
+        "correct": false
+      },
+      {
+        "text": "To hide a choice from other people",
+        "correct": false
+      },
+      {
+        "text": "To give good reasons for a choice",
+        "correct": true
+      },
+      {
+        "text": "To make a choice by flipping a coin",
+        "correct": false
+      }
+    ],
+    "explanation": "To justify is to give good reasons for a choice. Great job!"
+  },
+  {
+    "id": "769a6d07-1181-4db8-a3ca-63c1291e9e05",
+    "word": "maintain",
+    "grade": "6",
+    "definition": "To keep something in good shape or going at the same level.",
+    "example": "We maintain our bikes by oiling the chains.",
+    "syllables": "main · tain",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To let something fall apart",
+        "correct": false
+      },
+      {
+        "text": "To keep something in good shape",
+        "correct": true
+      },
+      {
+        "text": "To trade something for a new one",
+        "correct": false
+      },
+      {
+        "text": "To paint something with a brush",
+        "correct": false
+      }
+    ],
+    "explanation": "To maintain is to keep something in good shape. You got it!"
+  },
+  {
+    "id": "819aea44-2460-4f71-bc8a-ff761295f2d0",
+    "word": "mechanism",
+    "grade": "6",
+    "definition": "The parts of a machine that work together to do a job.",
+    "example": "The clock's mechanism is made of tiny gears.",
+    "syllables": "mech · a · nism",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The case that covers a machine",
+        "correct": false
+      },
+      {
+        "text": "The cord that plugs a machine into the wall",
+        "correct": false
+      },
+      {
+        "text": "The label stuck onto a machine",
+        "correct": false
+      },
+      {
+        "text": "The parts that work together in a machine",
+        "correct": true
+      }
+    ],
+    "explanation": "A mechanism is the working parts of a machine. Well done!"
+  },
+  {
+    "id": "b7484372-948f-4321-bbf6-701e50943c9f",
+    "word": "negotiate",
+    "grade": "6",
+    "definition": "To talk with others to reach an agreement.",
+    "example": "The two teams will negotiate to decide who gets the field first.",
+    "syllables": "ne · go · ti · ate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To wait quietly for others to decide",
+        "correct": false
+      },
+      {
+        "text": "To follow the rules without a word",
+        "correct": false
+      },
+      {
+        "text": "To talk to reach an agreement",
+        "correct": true
+      },
+      {
+        "text": "To ask a question and walk away",
+        "correct": false
+      }
+    ],
+    "explanation": "To negotiate is to talk to reach an agreement. Nice work!"
+  },
+  {
+    "id": "afe57623-d401-4792-b504-b384dee6fe13",
+    "word": "neutral",
+    "grade": "6",
+    "definition": "Not taking either side in a disagreement.",
+    "example": "The referee stays neutral and treats both teams the same.",
+    "syllables": "neu · tral",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Siding with the stronger team",
+        "correct": false
+      },
+      {
+        "text": "Not taking either side",
+        "correct": true
+      },
+      {
+        "text": "Cheering only for the home team",
+        "correct": false
+      },
+      {
+        "text": "Leaving before the game starts",
+        "correct": false
+      }
+    ],
+    "explanation": "Neutral means not taking either side. Great job!"
+  },
+  {
+    "id": "03412152-ac14-406a-8510-ab98b418d314",
+    "word": "perspective",
+    "grade": "6",
+    "definition": "A way of looking at something, based on your own point of view.",
+    "example": "From my perspective, the hike was fun, but my sister found it long.",
+    "syllables": "per · spec · tive",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A way of looking at something",
+        "correct": true
+      },
+      {
+        "text": "A map that shows a short route",
+        "correct": false
+      },
+      {
+        "text": "A tool used for seeing far away",
+        "correct": false
+      },
+      {
+        "text": "A rule that says who goes first",
+        "correct": false
+      }
+    ],
+    "explanation": "A perspective is a way of looking at something. You got it!"
+  },
+  {
+    "id": "ffcccbc2-f2b0-4016-8a3c-acc695ea57e3",
+    "word": "phenomenon",
+    "grade": "6",
+    "definition": "Something that can be seen or noticed, especially in nature.",
+    "example": "A rainbow is a natural phenomenon caused by sunlight and water drops.",
+    "syllables": "phe · nom · e · non",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A tool used to measure the daily weather",
+        "correct": false
+      },
+      {
+        "text": "A rule that explains how to play",
+        "correct": false
+      },
+      {
+        "text": "A place where scientists work",
+        "correct": false
+      },
+      {
+        "text": "An event in nature that can be seen",
+        "correct": true
+      }
+    ],
+    "explanation": "A phenomenon is something in nature that can be seen. Well done!"
+  },
+  {
+    "id": "924856c2-f3d8-44b5-9eb4-b7c3c50ebdbf",
+    "word": "plausible",
+    "grade": "6",
+    "definition": "Seeming reasonable and likely to be true.",
+    "example": "The idea that the wind blew the door shut seemed plausible.",
+    "syllables": "plau · si · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Seeming reasonable and likely true",
+        "correct": true
+      },
+      {
+        "text": "Certainly false and easy to prove wrong",
+        "correct": false
+      },
+      {
+        "text": "Too silly for anyone to say",
+        "correct": false
+      },
+      {
+        "text": "Written in very small letters",
+        "correct": false
+      }
+    ],
+    "explanation": "Plausible means seeming reasonable and likely true. Nice work!"
+  },
+  {
+    "id": "9f3d91b1-562c-486c-89cb-1aa399b0d1ef",
+    "word": "priority",
+    "grade": "6",
+    "definition": "Something that is more important than other things and should come first.",
+    "example": "Finishing my homework is my priority before I play.",
+    "syllables": "pri · or · i · ty",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something that can wait until later",
+        "correct": false
+      },
+      {
+        "text": "Something that is left over from yesterday",
+        "correct": false
+      },
+      {
+        "text": "Something that should be done first",
+        "correct": true
+      },
+      {
+        "text": "Something that is shared by everyone",
+        "correct": false
+      }
+    ],
+    "explanation": "A priority is something that should be done first. Great job!"
+  },
+  {
+    "id": "ca6f3502-17a5-48c6-971d-f4d34ba28e42",
+    "word": "proportion",
+    "grade": "6",
+    "definition": "The size of one part compared with another part or the whole.",
+    "example": "The proportion of blue beads to red beads is two to one.",
+    "syllables": "pro · por · tion",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The number of days in a whole school year",
+        "correct": false
+      },
+      {
+        "text": "The color of a very bright shape",
+        "correct": false
+      },
+      {
+        "text": "The speed of a moving object",
+        "correct": false
+      },
+      {
+        "text": "The size of a part compared to a whole",
+        "correct": true
+      }
+    ],
+    "explanation": "A proportion compares the size of a part to a whole. You got it!"
+  },
+  {
+    "id": "29e90861-2e62-40a3-bc1e-9150555642f5",
+    "word": "reluctant",
+    "grade": "6",
+    "definition": "Not eager to do something.",
+    "example": "He was reluctant to try the diving board at first.",
+    "syllables": "re · luc · tant",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Too excited to wait a second",
+        "correct": false
+      },
+      {
+        "text": "Able to finish very quickly",
+        "correct": false
+      },
+      {
+        "text": "Not eager to do something",
+        "correct": true
+      },
+      {
+        "text": "Ready to try anything new",
+        "correct": false
+      }
+    ],
+    "explanation": "Reluctant means not eager to do something. Well done!"
+  },
+  {
+    "id": "a65efeee-8853-467d-aa83-1997014703ba",
+    "word": "significant",
+    "grade": "6",
+    "definition": "Important and worth noticing.",
+    "example": "Finding the fossil was a significant moment for the whole class.",
+    "syllables": "sig · nif · i · cant",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Small and very easy to overlook",
+        "correct": false
+      },
+      {
+        "text": "Plain and not at all unusual",
+        "correct": false
+      },
+      {
+        "text": "Old and no longer used",
+        "correct": false
+      },
+      {
+        "text": "Important and worth noticing",
+        "correct": true
+      }
+    ],
+    "explanation": "Significant means important and worth noticing. Nice work!"
+  },
+  {
+    "id": "6fd61fce-fac1-4710-9ed3-2e703b2b606a",
+    "word": "sustain",
+    "grade": "6",
+    "definition": "To keep something going for a long time.",
+    "example": "A strong root system helps sustain the tree through dry summers.",
+    "syllables": "sus · tain",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To stop something right away",
+        "correct": false
+      },
+      {
+        "text": "To start something brand new",
+        "correct": false
+      },
+      {
+        "text": "To keep something going for a long time",
+        "correct": true
+      },
+      {
+        "text": "To change something into a new shape",
+        "correct": false
+      }
+    ],
+    "explanation": "To sustain is to keep something going for a long time. Great job!"
+  },
+  {
+    "id": "7a707f74-af53-404b-9ce7-39b94d0a27ee",
+    "word": "theory",
+    "grade": "6",
+    "definition": "An idea, backed by evidence, that explains how or why something works.",
+    "example": "The theory explains why the tides rise and fall each day.",
+    "syllables": "the · o · ry",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A plan for a fun party at the end of the school year",
+        "correct": false
+      },
+      {
+        "text": "A list of items for a trip",
+        "correct": false
+      },
+      {
+        "text": "A prize given at a science fair",
+        "correct": false
+      },
+      {
+        "text": "An idea that explains how something works",
+        "correct": true
+      }
+    ],
+    "explanation": "A theory is an idea that explains how something works. You got it!"
+  },
+  {
+    "id": "eeb04aee-e153-4dcd-b406-1bfe5c889751",
+    "word": "transparent",
+    "grade": "6",
+    "definition": "Clear enough to see through, like clean glass.",
+    "example": "The transparent bottle let us see the water level.",
+    "syllables": "trans · par · ent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Thick enough that light cannot pass",
+        "correct": false
+      },
+      {
+        "text": "Dark enough to hide what is inside",
+        "correct": false
+      },
+      {
+        "text": "Clear enough that you can see through",
+        "correct": true
+      },
+      {
+        "text": "Solid enough to stand on",
+        "correct": false
+      }
+    ],
+    "explanation": "Transparent means clear enough to see through. Well done!"
+  },
+  {
+    "id": "fd0413fc-8797-44d8-8d58-702dc6b89604",
+    "word": "ultimate",
+    "grade": "6",
+    "definition": "Final, or the greatest of its kind.",
+    "example": "Reaching the top of the hill was the ultimate goal of our hike.",
+    "syllables": "ul · ti · mate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "First and smallest of its kind",
+        "correct": false
+      },
+      {
+        "text": "Final or greatest of its kind",
+        "correct": true
+      },
+      {
+        "text": "Newest and shiniest of the group",
+        "correct": false
+      },
+      {
+        "text": "Plainest and quickest of them all",
+        "correct": false
+      }
+    ],
+    "explanation": "Ultimate means final or the greatest of its kind. Nice work!"
+  },
+  {
+    "id": "4fbe1c2d-c174-47ce-98fc-378270ec3924",
+    "word": "unique",
+    "grade": "6",
+    "definition": "One of a kind, unlike anything else.",
+    "example": "Every snowflake has a unique shape.",
+    "syllables": "u · nique",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "One of many that look the same",
+        "correct": false
+      },
+      {
+        "text": "One of two that go together",
+        "correct": false
+      },
+      {
+        "text": "One of a kind, unlike any other",
+        "correct": true
+      },
+      {
+        "text": "One of a crowd that is easy to miss",
+        "correct": false
+      }
+    ],
+    "explanation": "Unique means one of a kind. Great job!"
+  },
+  {
+    "id": "2a7da3d8-f7d3-431e-8d5f-45668437ec4c",
+    "word": "verify",
+    "grade": "6",
+    "definition": "To check that something is true or correct.",
+    "example": "Use a second book to verify the facts in your report.",
+    "syllables": "ver · i · fy",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To wish that something were true",
+        "correct": false
+      },
+      {
+        "text": "To pretend that something is true",
+        "correct": false
+      },
+      {
+        "text": "To copy something that is true",
+        "correct": false
+      },
+      {
+        "text": "To check that something is true",
+        "correct": true
+      }
+    ],
+    "explanation": "To verify is to check that something is true. You got it!"
+  },
+  {
+    "id": "2fb8d4fd-e63c-4910-a87a-0866ff2fccc1",
+    "word": "vivid",
+    "grade": "6",
+    "definition": "Bright, clear and full of life or detail.",
+    "example": "Her vivid painting showed every color of the sunset.",
+    "syllables": "viv · id",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Dull and hard to make out",
+        "correct": false
+      },
+      {
+        "text": "Bright and full of life",
+        "correct": true
+      },
+      {
+        "text": "Cold and wet all over",
+        "correct": false
+      },
+      {
+        "text": "Small and easy to carry",
+        "correct": false
+      }
+    ],
+    "explanation": "Vivid means bright and full of life. Well done!"
+  },
+  {
+    "id": "7e5d60b7-5e9e-426b-b5af-dd689ce8f1ba",
+    "word": "contradict",
+    "grade": "6",
+    "definition": "To say or show the opposite of what was said before.",
+    "example": "Your two answers contradict each other, so one of them must be wrong.",
+    "syllables": "con · tra · dict",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To say the opposite of what was said",
+        "correct": true
+      },
+      {
+        "text": "To say the very same thing again",
+        "correct": false
+      },
+      {
+        "text": "To say nothing at all in reply",
+        "correct": false
+      },
+      {
+        "text": "To say something in a rush",
+        "correct": false
+      }
+    ],
+    "explanation": "To contradict is to say the opposite of what was said. Nice work!"
+  },
+  {
+    "id": "31061994-1e05-4e98-8a5a-2a34efbe8468",
+    "word": "relevant",
+    "grade": "6",
+    "definition": "Closely connected to the topic you are talking about.",
+    "example": "Only include facts that are relevant to your topic.",
+    "syllables": "rel · e · vant",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Far too long to fit on a page",
+        "correct": false
+      },
+      {
+        "text": "Closely connected to the topic",
+        "correct": true
+      },
+      {
+        "text": "Placed at the top of a long list",
+        "correct": false
+      },
+      {
+        "text": "Taken from a very old book",
+        "correct": false
+      }
+    ],
+    "explanation": "Relevant means closely connected to the topic. Great job!"
+  }
+]
