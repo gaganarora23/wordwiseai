@@ -1,5 +1,80 @@
 # wordwiseai
 
+## Run the app locally
+
+**Prerequisites:** Docker (running), [uv](https://docs.astral.sh/uv/), Node 24 and bun 1.4.
+
+**Current state.** The backend has the database schema, the vocabulary tooling and `GET /api/v1/health`; the profile, session and quiz endpoints are not built yet (tasks #17 onwards). The frontend therefore runs on its built-in mock service (`frontend/src/services/index.ts`): profiles and progress live in the browser's local storage, and the UI does not read the vocabulary stored in PostgreSQL yet. Both are started below so each can be checked on its own.
+
+Steps 1 and 2 run from the repository root, steps 3 to 5 from `backend/`, step 6 from `frontend/` (each step says where). Steps 5 and 6 each keep a terminal busy, so use a separate terminal for each.
+
+**1. Configuration** (once). The placeholders in `.env.example` work as-is for local development:
+
+```sh
+cp .env.example .env
+```
+
+**2. Database.** Starts PostgreSQL 18 in Docker and waits until it is healthy:
+
+```sh
+docker compose up -d --wait db
+```
+
+**3. Backend dependencies and schema** (safe to repeat):
+
+```sh
+cd backend
+uv sync
+uv run alembic upgrade head     # creates the tables
+```
+
+**4. Load the vocabulary** (still in `backend/`; safe to repeat):
+
+```sh
+uv run python -m app.services.vocabulary_ingestion
+```
+
+Expected last lines: `Created: 350, updated: 0, unchanged: 0` and `Release target not reached: 350 of 650 words`. A second run prints `unchanged: 350`. To use the development fixture words instead, pass their path: `uv run python -m app.services.vocabulary_ingestion fixtures/vocabulary`.
+
+**5. Start the backend** (terminal 1, in `backend/`):
+
+```sh
+uv run uvicorn app.main:app
+```
+
+Check it in a browser or with curl:
+
+- `http://localhost:8000/api/v1/health` returns `{"status":"ok"}`
+- `http://localhost:8000/docs` is the interactive API documentation
+
+**6. Start the frontend** (terminal 2, from the repository root):
+
+```sh
+cd frontend
+bun install --frozen-lockfile   # first time, and after dependency changes
+bun run dev
+```
+
+Open `http://localhost:8080`. You should see "WordWise — Who's learning today?". Create a profile to try the UI.
+
+**Check the loaded vocabulary** (from the repository root):
+
+```sh
+docker compose exec db sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "select grade, count(*) from words group by grade order by grade;"'
+```
+
+It lists 50 words for each of K and 1 to 6.
+
+**Stop.** Press `Ctrl+C` in the backend and frontend terminals, then `docker compose down` (keeps the data) or `docker compose down -v` (also deletes the database; the next start needs steps 3 and 4 again).
+
+**Troubleshooting.**
+
+- `Configuration error: DATABASE_URL must be set ...`: step 1 was skipped, or you are running a command outside the repository checkout.
+- Port 5432, 8000 or 8080 already in use: stop what is using it. For PostgreSQL you can instead set `DB_PORT=5433` in `.env` and use port 5433 in `DATABASE_URL`.
+- `Cannot connect to the database` or the tests asking for `docker compose up -d --wait db`: Docker is not running, or step 2 was skipped.
+- `Database is not migrated`: run step 3.
+- Tests: `make test` from the repository root (needs steps 1 and 2 and `cd frontend && bun install` once).
+
 ## Database
 
 PostgreSQL 18 runs in Docker Compose with a named volume (`db_data`), published on `127.0.0.1` only.
