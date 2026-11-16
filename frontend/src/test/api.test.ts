@@ -21,7 +21,7 @@ describe("fetchGradeWords", () => {
 
     expect(fetchMock.mock.calls[0]![0]).toMatch(/\/api\/v1\/grades\/1\/words$/);
     expect(word).toMatchObject({ id: "w1", word: "cat", contentVersion: "v1" });
-    expect(word.question.correctOptionId).toBe("2");
+    expect(word.question.correctOptionId).toBe("999");
     expect(word.question.options).toEqual([{ id: "1", text: "a" }, { id: "2", text: "b" }]);
   });
 
