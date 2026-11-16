@@ -1,4 +1,27 @@
-# wordwiseai
+# WordWise
+
+WordWise is a child-friendly vocabulary-learning web app for students from Kindergarten through Grade 12. Many children's vocabulary stays small because practice is irregular and nobody tracks which words stuck. WordWise gives a child a small daily set of age-appropriate words and tracks what they have learned.
+
+## What it does
+
+- **Profiles.** A parent creates one or more child profiles on one browser (nickname, grade, daily word goal). There are no accounts or logins.
+- **Learning.** The child sees a few words a day, one at a time, with the meaning and an example sentence.
+- **Quiz.** After learning, a 4-option multiple-choice quiz checks each word and gives immediate feedback with an explanation.
+- **Mastery and review.** A word moves from `NEW` to `LEARNING` to `MASTERED` after 3 correct answers in a row. A wrong answer resets the streak and flags the word for review.
+- **Parent dashboard.** Per child: activity, vocabulary growth, quiz accuracy, words needing review and recent sessions.
+- **Persistence.** Profiles, sessions, answers and mastery live in PostgreSQL behind a FastAPI REST API (`/api/v1`, OpenAPI at `/docs`).
+- **Content.** A curated, validated vocabulary of 650 words (50 per grade for K to 12 is the release target; 500 for Kindergarten to Grade 9 are loaded so far).
+
+The full specification is `_docs/plan.md`; the architecture is `_docs/architecture.md`.
+
+## How it was built
+
+The project is built by an AI agent team following a written process, with every unit of work tracked as a public GitHub issue with acceptance criteria.
+
+- **Spec first.** `_docs/plan.md` defines behavior and API before code; `_docs/tasks.md` breaks it into tasks.
+- **Public tracker.** [Issues](https://github.com/gaganarora23/wordwiseai/issues) hold the backlog, each with acceptance criteria; `mvp` and `post-mvp` labels mark scope; commits and PRs reference issue numbers.
+- **Agent team.** An orchestrator (the main session) launches three subagents per task: a **PM** that grooms the issue, an **engineer** that implements it, and a **QA engineer** that checks it against the acceptance criteria and posts PASS or FAIL. On FAIL the engineer retries with QA's comment. Roles are in `_docs/team/`, the lifecycle is in `_docs/process.md`.
+- **Context management.** `AGENTS.md` at the root points to modular docs in `_docs/`, with `backend/AGENTS.md` and `frontend/AGENTS.md` for each part.
 
 ## Run the app locally
 
@@ -34,7 +57,7 @@ uv run alembic upgrade head     # creates the tables
 uv run python -m app.services.vocabulary_ingestion
 ```
 
-Expected last lines: `Created: 350, updated: 0, unchanged: 0` and `Release target not reached: 350 of 650 words`. A second run prints `unchanged: 350`. To use the development fixture words instead, pass their path: `uv run python -m app.services.vocabulary_ingestion fixtures/vocabulary`.
+Expected last lines: `Created: 500, updated: 0, unchanged: 0` and `Release target not reached: 500 of 650 words`. A second run prints `unchanged: 500`. To use the development fixture words instead, pass their path: `uv run python -m app.services.vocabulary_ingestion fixtures/vocabulary`.
 
 **5. Start the backend** (terminal 1, in `backend/`):
 
@@ -63,7 +86,7 @@ Open `http://localhost:8080`. You should see "WordWise — Who's learning today?
 docker compose exec db sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "select grade, count(*) from words group by grade order by grade;"'
 ```
 
-It lists 50 words for each of K and 1 to 6.
+It lists 50 words for each of K and 1 to 9.
 
 **Stop.** Press `Ctrl+C` in the backend and frontend terminals, then `docker compose down` (keeps the data) or `docker compose down -v` (also deletes the database; the next start needs steps 3 and 4 again).
 
