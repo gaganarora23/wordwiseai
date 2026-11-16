@@ -6,29 +6,7 @@ import pytest
 from sqlalchemy import text
 from sqlalchemy.exc import IntegrityError
 
-CHILD = {"nickname": "Sam", "grade": "3", "daily_goal": 5}
-WORD = {
-    "word": "banana", "grade": "1", "definition": "a fruit", "example": "I ate a banana.",
-    "syllables": "ba · na · na", "content_version": "v1",
-    "option_1": "a", "option_2": "b", "option_3": "c", "option_4": "d",
-    "correct_option": 1, "explanation": "Because.",
-}
-
-
-def insert_child(connection, **overrides):
-    values = {"id": uuid.uuid4(), **CHILD, **overrides}
-    connection.execute(
-        text("INSERT INTO children (id, nickname, grade, daily_goal) VALUES (:id, :nickname, :grade, :daily_goal)"),
-        values,
-    )
-
-
-def insert_word(connection, **overrides):
-    values = {"id": uuid.uuid4(), **WORD, **overrides}
-    columns = ", ".join(values)
-    params = ", ".join(f":{k}" for k in values)
-    connection.execute(text(f"INSERT INTO words ({columns}) VALUES ({params})"), values)
-
+from tests.helpers import CHILD, WORD, insert_child, insert_word  # noqa: F401  (re-exported for other test files)
 
 def rejected(insert, connection, **overrides):
     with pytest.raises(IntegrityError):
