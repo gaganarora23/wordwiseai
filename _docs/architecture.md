@@ -394,7 +394,7 @@ and pass**. Cover that fully and stop. No end-to-end browser suite in V0.
 
 ### 7.4 Single command
 
-A root `Makefile` target, **`make test`**, runs backend and frontend suites.
+A root `Makefile` target, **`make test`**, is the single command from a fresh clone: it runs `uv sync --frozen` and `bun install --frozen-lockfile`, starts the Compose database only when none is reachable (skipped in CI, which provides a service container), then runs the backend and frontend suites and fails if either fails.
 `make up` (or `docker compose up`) starts the full stack.
 
 ### 7.5 Priority test cases (derived from the acceptance checklist)

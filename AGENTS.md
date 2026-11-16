@@ -7,7 +7,7 @@ Child-friendly vocabulary-learning web app (Kindergarten to Grade 12): a FastAPI
 - `backend/` - FastAPI, SQLAlchemy, Alembic, pytest (uv). See `backend/AGENTS.md`.
 - `frontend/` - React (Vite, TanStack), Vitest (bun). See `frontend/AGENTS.md`.
 - `docker-compose.yml` - PostgreSQL, backend and frontend containers.
-- `Makefile` - `make test` runs both test suites.
+- `Makefile` - `make test` installs dependencies, starts the database if needed and runs both test suites.
 - `.github/workflows/ci.yml` - CI (`CI / test`) on pull requests and pushes to `main`.
 - `_docs/` - specification, architecture, tasks, process, role instructions and testing guidelines (below).
 - `docs/` - agent team and working conventions: `docs/agents.md`, `docs/process.md`.
@@ -31,11 +31,11 @@ Read the one that matches your task before starting:
 
 ## Commands
 
-Prerequisites: `uv sync` in `backend/` and `bun install` in `frontend/` (Docker for the database).
+Prerequisites: `uv`, `bun` and Docker installed (`make test` runs the installs and starts the database itself).
 
 - `docker compose up --build` - run the full stack (PostgreSQL, API on `:8000`, UI on `:8080`).
 - `docker compose up -d --wait db` - start only PostgreSQL.
-- `make test` - backend (pytest) and frontend (Vitest) suites; needs the database from the line above.
+- `make test` - installs dependencies, starts the database if none is reachable, then runs the backend (pytest) and frontend (Vitest) suites; non-zero if either fails. Never overrides a configured `DATABASE_URL`; see README Testing.
 - `cd backend && uv run uvicorn app.main:app` - run the API alone.
 - `cd frontend && bun run dev` - run the UI alone.
 - API contract: FastAPI generates the OpenAPI document at `http://localhost:8000/openapi.json` (docs at `/docs`). A committed `openapi.yaml`, an export script and generated frontend types are planned (`_docs/architecture.md`) but not built, so there is no regenerate command yet. See `_docs/api.md`.

@@ -2,6 +2,20 @@
 
 WordWise is a child-friendly vocabulary-learning web app for students from Kindergarten through Grade 12. Many children's vocabulary stays small because practice is irregular and nobody tracks which words stuck. WordWise gives a child a small daily set of age-appropriate words and tracks what they have learned.
 
+**Live demo:** https://wordwise-web.onrender.com (free tier: the first request after idle takes about a minute). API docs: https://wordwise-api-xji2.onrender.com/docs
+
+## Quick start
+
+**Prerequisite:** [Docker](https://docs.docker.com/get-docker/) installed **and running** (start Docker Desktop first; otherwise you get `Cannot connect to the Docker daemon`).
+
+| I want to... | Run (from the repository root) | Then |
+|---|---|---|
+| Run the whole app (database, backend, frontend) | `docker compose up --build` | Open http://localhost:8080 (UI). API: http://localhost:8000/docs |
+| Run all tests (backend and frontend) | `make test` | Needs Docker, [uv](https://docs.astral.sh/uv/), Node 24 and [bun](https://bun.sh) 1.4. Installs dependencies and starts the database itself. |
+| Stop the app | `Ctrl+C`, then `docker compose down` | `docker compose down -v` also deletes the database |
+
+No `.env` file is needed; local-development defaults are built in. First build takes a few minutes. Details: [Run the app locally](#run-the-app-locally), [Testing](#testing), [API](#api), [Deployment](#deployment).
+
 ## What it does
 
 - **Profiles.** A parent creates one or more child profiles on one browser (nickname, grade, daily word goal). There are no accounts or logins.
@@ -35,7 +49,7 @@ The project is built by an AI agent team following a written process, with every
 
 ## Run the app locally
 
-## Run everything with Docker (one command)
+### Option A: everything with Docker (one command)
 
 **Prerequisite:** Docker (running). From the repository root:
 
@@ -47,7 +61,9 @@ No setup file is needed: without a `.env`, Compose uses local-development defaul
 
 This starts PostgreSQL, then the backend (which applies the migrations, loads the vocabulary and serves the API on `http://localhost:8000`, docs at `/docs`), then the frontend on `http://localhost:8080`. Open `http://localhost:8080`, add a learner (nickname, grade, daily goal), and click the tile to see the words for its grade; you can also edit and delete the profile. Profiles are stored in PostgreSQL, so they survive a reload and a restart. Stop with `Ctrl+C`; add `-d` to run in the background and `docker compose down` to stop (`down -v` also deletes the database). The frontend calls the backend at `http://localhost:8000` (baked in at build time via the `VITE_API_URL` build arg in `docker-compose.yml`).
 
-The sections below describe running the pieces without Docker, for development.
+### Option B: run the pieces without Docker (for development)
+
+Only the database runs in Docker here; the backend and frontend run on your machine.
 
 **Prerequisites:** Docker (running), [uv](https://docs.astral.sh/uv/), Node 24 and bun 1.4.
 
@@ -118,9 +134,10 @@ It lists 50 words for each of K and 1 to 9.
 
 - `Configuration error: DATABASE_URL must be set ...`: step 1 was skipped, or you are running a command outside the repository checkout.
 - Port 5432, 8000 or 8080 already in use: stop what is using it. For PostgreSQL you can instead set `DB_PORT=5433` in `.env` and use port 5433 in `DATABASE_URL`.
+- `Cannot connect to the Docker daemon` (from `docker compose` or `make test`): Docker Desktop is not running. Start it (for example after a restart), wait until it reports running, and retry.
 - `Cannot connect to the database` or the tests asking for `docker compose up -d --wait db`: Docker is not running, or step 2 was skipped.
 - `Database is not migrated`: run step 3.
-- Tests: `make test` from the repository root (needs steps 1 and 2 and `cd frontend && bun install` once).
+- Tests: `make test` from the repository root. It installs the dependencies and starts the database if needed (needs Docker, or a reachable PostgreSQL; no other steps).
 
 ## API
 
@@ -226,9 +243,19 @@ Things to know:
 
 ## Testing
 
-`make test` from the repo root runs the backend suite (`cd backend && uv run pytest`), then the frontend suite. Backend integration tests run against real PostgreSQL, never SQLite.
+```sh
+make test                          # everything: backend (pytest) + frontend (Vitest)
+cd backend && uv run pytest        # backend only (needs the database: docker compose up -d --wait db)
+cd frontend && bun run test        # frontend only
+```
 
-**Database.** Locally PostgreSQL is the Compose service: `docker compose up -d --wait db`. In CI it is a service container (`.github/workflows/ci.yml`). The harness (`backend/tests/conftest.py`, plumbing in `harness.py`) creates its own `wordwise_test_<random>` database on the same server as `DATABASE_URL`, runs `alembic upgrade head` on it once per pytest run, and drops it at the end, so the development database is never read, truncated or migrated. The `DATABASE_URL` user needs the `CREATEDB` privilege (the Compose user and a CI service container have it). If PostgreSQL is down, tests that use the harness fail (not skip) with `docker compose up -d --wait db` in the message; tests that need no database still pass. The database is dropped even when a test fails; a killed process (`kill -9`) can leave a `wordwise_test_*` database behind, which you can drop by hand.
+The backend suite has unit tests (validators, config, schemas) and integration tests that call the API against a real PostgreSQL database (`backend/tests/`); the frontend suite covers the HTTP service, routing and components (`frontend/src/test/`). CI runs the same `make test` on every pull request.
+
+`make test` from the repo root is the single command, and works from a fresh clone. It runs `uv sync --frozen` (backend) and `bun install --frozen-lockfile` (frontend), starts the Compose database if none is reachable (`docker compose up -d --wait db`, never `down` or `-v`, so existing data is untouched), then runs the backend suite (`cd backend && uv run pytest`) and the frontend suite. Both suites always run; the exit status is non-zero if either fails. Backend integration tests run against real PostgreSQL, never SQLite. The separate commands (`cd backend && uv run pytest`, `cd frontend && bun run test`) still work.
+
+Database selection by `make test`: a `DATABASE_URL` exported in your shell or set in `.env` is used as is and never overridden. If neither is set, the Compose defaults (`wordwise` / `change-me` / `wordwise` on `localhost`) are used with `DB_PORT` (environment, then `.env`, default 5432); the URL is passed to the test run only and no file is written. If the host and port already answer, or `CI=true`, no Docker command is run. If Docker is not installed or not running, `make test` prints one line saying so and exits non-zero. If the database never becomes healthy, set `DB_PORT` (see Troubleshooting).
+
+**Database.** Locally PostgreSQL is the Compose service, started for you by `make test` (or by hand: `docker compose up -d --wait db`). In CI it is a service container (`.github/workflows/ci.yml`). The harness (`backend/tests/conftest.py`, plumbing in `harness.py`) creates its own `wordwise_test_<random>` database on the same server as `DATABASE_URL`, runs `alembic upgrade head` on it once per pytest run, and drops it at the end, so the development database is never read, truncated or migrated. The `DATABASE_URL` user needs the `CREATEDB` privilege (the Compose user and a CI service container have it). If PostgreSQL is down, tests that use the harness fail (not skip) with `docker compose up -d --wait db` in the message; tests that need no database still pass. The database is dropped even when a test fails; a killed process (`kill -9`) can leave a `wordwise_test_*` database behind, which you can drop by hand.
 
 **Fixtures** (`backend/tests/conftest.py`):
 
@@ -250,4 +277,4 @@ def test_child_is_visible_to_the_api(client, db_session):
 
 ### Continuous integration
 
-`.github/workflows/ci.yml` runs on every `pull_request` and on every push to `main`. One job, named `test` and shown on GitHub as `CI / test`, runs on `ubuntu-latest` with a PostgreSQL 18 service container (`postgres:18-alpine`, health-checked before the steps start) and `DATABASE_URL` pointing at it. It installs the backend (`uv sync --frozen`) and frontend (`bun install --frozen-lockfile`) dependencies, then runs `make test`: the backend pytest suite followed by the frontend suite. Dependency downloads are cached, keyed on `backend/uv.lock` and `frontend/bun.lock`. Require the `CI / test` check before merging a pull request. On pushes to `main` a second job, `deploy`, runs after `test` passes and triggers the Render deploy hooks; see [`docs/deployment.md`](docs/deployment.md).
+`.github/workflows/ci.yml` runs on every `pull_request` and on every push to `main`. One job, named `test` and shown on GitHub as `CI / test`, runs on `ubuntu-latest` with a PostgreSQL 18 service container (`postgres:18-alpine`, health-checked before the steps start) and `DATABASE_URL` pointing at it. It installs the backend (`uv sync --frozen`) and frontend (`bun install --frozen-lockfile`) dependencies, then runs `make test`: the backend pytest suite and the frontend suite. `make test` repeats the (no-op) installs and, because `CI=true` and the service database answers on 5432, does not call Docker or start a second database. Dependency downloads are cached, keyed on `backend/uv.lock` and `frontend/bun.lock`. Require the `CI / test` check before merging a pull request. On pushes to `main` a second job, `deploy`, runs after `test` passes and triggers the Render deploy hooks; see [`docs/deployment.md`](docs/deployment.md).
