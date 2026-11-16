@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000001",
+    "word": "ameliorate",
+    "grade": "12",
+    "definition": "To make something bad become better.",
+    "example": "New programs can ameliorate poor living conditions.",
+    "syllables": "a · mel · io · rate",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To make something bad better",
+        "correct": true
+      },
+      {
+        "text": "To make something worse",
+        "correct": false
+      },
+      {
+        "text": "To keep it the same",
+        "correct": false
+      },
+      {
+        "text": "To forget about it",
+        "correct": false
+      }
+    ],
+    "explanation": "To ameliorate is to improve a bad situation. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000002",
+    "word": "antithesis",
+    "grade": "12",
+    "definition": "The exact opposite of something.",
+    "example": "Silence is the antithesis of a loud concert.",
+    "syllables": "an · tith · e · sis",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A close copy of something",
+        "correct": false
+      },
+      {
+        "text": "The exact opposite of something",
+        "correct": true
+      },
+      {
+        "text": "The beginning of a book",
+        "correct": false
+      },
+      {
+        "text": "A small piece of a whole",
+        "correct": false
+      }
+    ],
+    "explanation": "An antithesis is a complete opposite. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000003",
+    "word": "assiduous",
+    "grade": "12",
+    "definition": "Showing steady care and hard work.",
+    "example": "The assiduous student reviewed her notes every day.",
+    "syllables": "as · sid · u · ous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Lazy and careless",
+        "correct": false
+      },
+      {
+        "text": "Easily bored",
+        "correct": false
+      },
+      {
+        "text": "Showing steady care and hard work",
+        "correct": true
+      },
+      {
+        "text": "Proud and loud",
+        "correct": false
+      }
+    ],
+    "explanation": "An assiduous worker is constant and careful. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000004",
+    "word": "ostentatious",
+    "grade": "12",
+    "definition": "Showing off wealth or importance in a way meant to impress.",
+    "example": "The ostentatious house had gold on every door.",
+    "syllables": "os · ten · ta · tious",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Plain and humble",
+        "correct": false
+      },
+      {
+        "text": "Small and cozy",
+        "correct": false
+      },
+      {
+        "text": "Old and broken",
+        "correct": false
+      },
+      {
+        "text": "Showing off to impress others",
+        "correct": true
+      }
+    ],
+    "explanation": "Ostentatious means flashy and boastful. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000005",
+    "word": "pellucid",
+    "grade": "12",
+    "definition": "Extremely clear, in sight or in meaning.",
+    "example": "The pellucid water let us see the pebbles below.",
+    "syllables": "pel · lu · cid",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Extremely clear",
+        "correct": true
+      },
+      {
+        "text": "Cloudy and muddy",
+        "correct": false
+      },
+      {
+        "text": "Cold and deep",
+        "correct": false
+      },
+      {
+        "text": "Dark and gloomy",
+        "correct": false
+      }
+    ],
+    "explanation": "Pellucid means transparent or very clear. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000006",
+    "word": "perfunctory",
+    "grade": "12",
+    "definition": "Done quickly and without much care or interest.",
+    "example": "He gave a perfunctory glance and moved on.",
+    "syllables": "per · func · to · ry",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Done with great attention",
+        "correct": false
+      },
+      {
+        "text": "Done quickly without much care",
+        "correct": true
+      },
+      {
+        "text": "Done in secret",
+        "correct": false
+      },
+      {
+        "text": "Done many times",
+        "correct": false
+      }
+    ],
+    "explanation": "A perfunctory act is a routine one with little effort. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000007",
+    "word": "recalcitrant",
+    "grade": "12",
+    "definition": "Stubbornly refusing to obey or cooperate.",
+    "example": "The recalcitrant mule would not move.",
+    "syllables": "re · cal · ci · trant",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Eager to follow along",
+        "correct": false
+      },
+      {
+        "text": "Quick to learn",
+        "correct": false
+      },
+      {
+        "text": "Stubbornly refusing to cooperate",
+        "correct": true
+      },
+      {
+        "text": "Happy to help",
+        "correct": false
+      }
+    ],
+    "explanation": "Recalcitrant means stubbornly resistant. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000008",
+    "word": "sycophant",
+    "grade": "12",
+    "definition": "A person who flatters someone important to gain favor.",
+    "example": "The sycophant praised every idea the manager had.",
+    "syllables": "syc · o · phant",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A person who tells the plain truth",
+        "correct": false
+      },
+      {
+        "text": "A person who is a good teacher",
+        "correct": false
+      },
+      {
+        "text": "A person who lives alone",
+        "correct": false
+      },
+      {
+        "text": "A person who flatters to gain favor",
+        "correct": true
+      }
+    ],
+    "explanation": "A sycophant is an overly eager flatterer. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000009",
+    "word": "truculent",
+    "grade": "12",
+    "definition": "Grumpy and ready to argue.",
+    "example": "The truculent customer complained about everything.",
+    "syllables": "truc · u · lent",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Grumpy and ready to argue",
+        "correct": true
+      },
+      {
+        "text": "Calm and polite",
+        "correct": false
+      },
+      {
+        "text": "Tired and sleepy",
+        "correct": false
+      },
+      {
+        "text": "Silly and playful",
+        "correct": false
+      }
+    ],
+    "explanation": "Truculent means aggressively grumpy. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000010",
+    "word": "vicissitude",
+    "grade": "12",
+    "definition": "A change of circumstances, often a hard one, that happens in life.",
+    "example": "The family faced many a vicissitude over the years.",
+    "syllables": "vi · cis · si · tude",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A very steady routine",
+        "correct": false
+      },
+      {
+        "text": "A change in circumstances that happens in life",
+        "correct": true
+      },
+      {
+        "text": "A kind of food",
+        "correct": false
+      },
+      {
+        "text": "A loud noise",
+        "correct": false
+      }
+    ],
+    "explanation": "Vicissitudes are the ups and downs of life. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000011",
+    "word": "bane",
+    "grade": "12",
+    "definition": "A cause of ongoing trouble or annoyance.",
+    "example": "Weeds are the bane of every gardener.",
+    "syllables": "bane",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A source of great joy",
+        "correct": false
+      },
+      {
+        "text": "A helpful tool",
+        "correct": false
+      },
+      {
+        "text": "A cause of ongoing trouble",
+        "correct": true
+      },
+      {
+        "text": "A type of bird",
+        "correct": false
+      }
+    ],
+    "explanation": "A bane is something that keeps causing problems. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0012-4000-8000-000000000012",
+    "word": "mercurial",
+    "grade": "12",
+    "definition": "Changing mood quickly and often.",
+    "example": "His mercurial mood shifted from joy to worry in minutes.",
+    "syllables": "mer · cu · ri · al",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Always calm and steady",
+        "correct": false
+      },
+      {
+        "text": "Very slow to act",
+        "correct": false
+      },
+      {
+        "text": "Easy to understand",
+        "correct": false
+      },
+      {
+        "text": "Changing mood quickly and often",
+        "correct": true
+      }
+    ],
+    "explanation": "Mercurial means unpredictable and quick to change. Nice work!"
+  }
+]

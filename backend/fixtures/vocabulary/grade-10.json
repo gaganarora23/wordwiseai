@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000001",
+    "word": "alleviate",
+    "grade": "10",
+    "definition": "To make pain or a problem less severe.",
+    "example": "A cool cloth can alleviate a headache.",
+    "syllables": "al · le · vi · ate",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To make a problem worse",
+        "correct": false
+      },
+      {
+        "text": "To cause a new problem",
+        "correct": false
+      },
+      {
+        "text": "To make a problem less severe",
+        "correct": true
+      },
+      {
+        "text": "To forget a problem",
+        "correct": false
+      }
+    ],
+    "explanation": "To alleviate is to ease or relieve. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000002",
+    "word": "pernicious",
+    "grade": "10",
+    "definition": "Causing harm in a slow and hidden way.",
+    "example": "Gossip can have a pernicious effect on a team.",
+    "syllables": "per · ni · cious",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Bringing great joy",
+        "correct": false
+      },
+      {
+        "text": "Helping others grow",
+        "correct": false
+      },
+      {
+        "text": "Making a loud noise",
+        "correct": false
+      },
+      {
+        "text": "Causing harm in a slow, hidden way",
+        "correct": true
+      }
+    ],
+    "explanation": "Pernicious means quietly harmful. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000003",
+    "word": "juxtapose",
+    "grade": "10",
+    "definition": "To place two things side by side to show how they differ.",
+    "example": "The artist chose to juxtapose bright and dark colors.",
+    "syllables": "jux · ta · pose",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To place side by side to show differences",
+        "correct": true
+      },
+      {
+        "text": "To combine into one",
+        "correct": false
+      },
+      {
+        "text": "To hide behind a wall",
+        "correct": false
+      },
+      {
+        "text": "To tear apart",
+        "correct": false
+      }
+    ],
+    "explanation": "To juxtapose is to set things next to each other for comparison. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000004",
+    "word": "magnanimous",
+    "grade": "10",
+    "definition": "Generous and forgiving, especially toward a rival.",
+    "example": "The magnanimous winner praised the other team.",
+    "syllables": "mag · nan · i · mous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Cruel and petty",
+        "correct": false
+      },
+      {
+        "text": "Generous and forgiving",
+        "correct": true
+      },
+      {
+        "text": "Shy and nervous",
+        "correct": false
+      },
+      {
+        "text": "Careless and messy",
+        "correct": false
+      }
+    ],
+    "explanation": "A magnanimous person has a big heart. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000005",
+    "word": "obsolete",
+    "grade": "10",
+    "definition": "No longer used because something newer has replaced it.",
+    "example": "Typewriters are obsolete in most offices.",
+    "syllables": "ob · so · lete",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Newly invented",
+        "correct": false
+      },
+      {
+        "text": "Used every day",
+        "correct": false
+      },
+      {
+        "text": "No longer used because of something newer",
+        "correct": true
+      },
+      {
+        "text": "Very costly",
+        "correct": false
+      }
+    ],
+    "explanation": "Obsolete means out of date. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000006",
+    "word": "prolific",
+    "grade": "10",
+    "definition": "Producing a great deal of work, fruit or offspring.",
+    "example": "The prolific author wrote forty books.",
+    "syllables": "pro · lif · ic",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Producing very little",
+        "correct": false
+      },
+      {
+        "text": "Easily broken",
+        "correct": false
+      },
+      {
+        "text": "Hard to read",
+        "correct": false
+      },
+      {
+        "text": "Producing a great deal",
+        "correct": true
+      }
+    ],
+    "explanation": "A prolific writer creates a lot. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000007",
+    "word": "reticent",
+    "grade": "10",
+    "definition": "Not willing to share thoughts or feelings freely.",
+    "example": "The reticent boy rarely spoke in class.",
+    "syllables": "ret · i · cent",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Not willing to share thoughts freely",
+        "correct": true
+      },
+      {
+        "text": "Eager to talk all the time",
+        "correct": false
+      },
+      {
+        "text": "Very loud",
+        "correct": false
+      },
+      {
+        "text": "Always laughing",
+        "correct": false
+      }
+    ],
+    "explanation": "A reticent person keeps quiet about their thoughts. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000008",
+    "word": "serene",
+    "grade": "10",
+    "definition": "Calm, peaceful and untroubled.",
+    "example": "The lake was serene in the early morning.",
+    "syllables": "se · rene",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Noisy and wild",
+        "correct": false
+      },
+      {
+        "text": "Calm and peaceful",
+        "correct": true
+      },
+      {
+        "text": "Dark and scary",
+        "correct": false
+      },
+      {
+        "text": "Hot and dry",
+        "correct": false
+      }
+    ],
+    "explanation": "Serene means peaceful. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000009",
+    "word": "tangible",
+    "grade": "10",
+    "definition": "Able to be touched or clearly seen to be real.",
+    "example": "The trophy was tangible proof of their hard work.",
+    "syllables": "tan · gi · ble",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Impossible to feel",
+        "correct": false
+      },
+      {
+        "text": "Only imagined",
+        "correct": false
+      },
+      {
+        "text": "Able to be touched, clearly real",
+        "correct": true
+      },
+      {
+        "text": "Hard to forget",
+        "correct": false
+      }
+    ],
+    "explanation": "A tangible thing is real and solid. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000010",
+    "word": "vindicate",
+    "grade": "10",
+    "definition": "To clear someone of blame by showing they were right.",
+    "example": "New evidence will vindicate the accused man.",
+    "syllables": "vin · di · cate",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To blame without proof",
+        "correct": false
+      },
+      {
+        "text": "To forget a promise",
+        "correct": false
+      },
+      {
+        "text": "To hide the facts",
+        "correct": false
+      },
+      {
+        "text": "To clear of blame by showing the truth",
+        "correct": true
+      }
+    ],
+    "explanation": "To vindicate is to prove someone right. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000011",
+    "word": "terse",
+    "grade": "10",
+    "definition": "Using very few words, often in a way that seems abrupt.",
+    "example": "His terse reply was just one word.",
+    "syllables": "terse",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Using very few words",
+        "correct": true
+      },
+      {
+        "text": "Using far too many words",
+        "correct": false
+      },
+      {
+        "text": "Speaking in a sweet song",
+        "correct": false
+      },
+      {
+        "text": "Speaking in a whisper",
+        "correct": false
+      }
+    ],
+    "explanation": "Terse means short and to the point. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0010-4000-8000-000000000012",
+    "word": "equivocal",
+    "grade": "10",
+    "definition": "Open to more than one meaning and so not clear.",
+    "example": "The coach gave an equivocal answer about who would play.",
+    "syllables": "e · quiv · o · cal",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Clear and direct",
+        "correct": false
+      },
+      {
+        "text": "Having more than one meaning, so unclear",
+        "correct": true
+      },
+      {
+        "text": "Very certain",
+        "correct": false
+      },
+      {
+        "text": "Full of joy",
+        "correct": false
+      }
+    ],
+    "explanation": "An equivocal answer avoids being plain. Nice work!"
+  }
+]

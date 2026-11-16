@@ -1,0 +1,282 @@
+[
+  {
+    "id": "f1f1f1f1-0005-4000-8000-000000000001",
+    "word": "ecosystem",
+    "grade": "5",
+    "definition": "A community of living things and the place where they live, all connected to each other.",
+    "example": "A pond is an ecosystem with fish, plants and insects.",
+    "syllables": "ec · o · sys · tem",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A machine that makes electricity",
+        "correct": false
+      },
+      {
+        "text": "Living things and the place they share",
+        "correct": true
+      },
+      {
+        "text": "A collection of old books",
+        "correct": false
+      },
+      {
+        "text": "A map of the stars",
+        "correct": false
+      }
+    ],
+    "explanation": "In an ecosystem, plants, animals and their surroundings depend on each other. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0005-4000-8000-000000000002",
+    "word": "persuade",
+    "grade": "5",
+    "definition": "To convince someone to do or believe something by giving good reasons.",
+    "example": "I tried to persuade my parents to adopt a puppy.",
+    "syllables": "per · suade",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To force someone to leave",
+        "correct": false
+      },
+      {
+        "text": "To tell a funny story",
+        "correct": false
+      },
+      {
+        "text": "To convince someone with good reasons",
+        "correct": true
+      },
+      {
+        "text": "To forget an idea",
+        "correct": false
+      }
+    ],
+    "explanation": "When you persuade, you use reasons to change a mind. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0005-4000-8000-000000000003",
+    "word": "reliable",
+    "grade": "5",
+    "definition": "Able to be trusted to do what is expected.",
+    "example": "A reliable friend always keeps promises.",
+    "syllables": "re · li · a · ble",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Likely to break",
+        "correct": false
+      },
+      {
+        "text": "Hard to understand",
+        "correct": false
+      },
+      {
+        "text": "Always late",
+        "correct": false
+      },
+      {
+        "text": "Able to be trusted",
+        "correct": true
+      }
+    ],
+    "explanation": "Reliable means you can depend on it. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0005-4000-8000-000000000004",
+    "word": "tremendous",
+    "grade": "5",
+    "definition": "Very great in size, amount or strength.",
+    "example": "The crowd let out a tremendous cheer.",
+    "syllables": "tre · men · dous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Very great in size or amount",
+        "correct": true
+      },
+      {
+        "text": "Quite tiny",
+        "correct": false
+      },
+      {
+        "text": "Slightly damp",
+        "correct": false
+      },
+      {
+        "text": "Rather ordinary",
+        "correct": false
+      }
+    ],
+    "explanation": "Tremendous means huge or very great. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0005-4000-8000-000000000005",
+    "word": "bargain",
+    "grade": "5",
+    "definition": "Something you buy for less than its usual price.",
+    "example": "The shoes were a bargain at half price.",
+    "syllables": "bar · gain",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A very rare treasure",
+        "correct": false
+      },
+      {
+        "text": "Something bought for less than usual",
+        "correct": true
+      },
+      {
+        "text": "A tool for measuring",
+        "correct": false
+      },
+      {
+        "text": "A gift you cannot open",
+        "correct": false
+      }
+    ],
+    "explanation": "A bargain saves you money. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0005-4000-8000-000000000006",
+    "word": "conclude",
+    "grade": "5",
+    "definition": "To bring something to an end, or to decide after thinking about the facts.",
+    "example": "Scientists conclude that plants need light to grow.",
+    "syllables": "con · clude",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To begin a new game",
+        "correct": false
+      },
+      {
+        "text": "To lose something",
+        "correct": false
+      },
+      {
+        "text": "To decide after thinking about the facts",
+        "correct": true
+      },
+      {
+        "text": "To ask for help",
+        "correct": false
+      }
+    ],
+    "explanation": "To conclude is to end or to reach a decision. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0005-4000-8000-000000000007",
+    "word": "evidence",
+    "grade": "5",
+    "definition": "Facts or signs that show something is true.",
+    "example": "Footprints in the mud were evidence that a deer had passed.",
+    "syllables": "ev · i · dence",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A wish about what might happen",
+        "correct": false
+      },
+      {
+        "text": "A funny joke",
+        "correct": false
+      },
+      {
+        "text": "A rule for a game",
+        "correct": false
+      },
+      {
+        "text": "Facts or signs that show something is true",
+        "correct": true
+      }
+    ],
+    "explanation": "Evidence helps prove an idea. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0005-4000-8000-000000000008",
+    "word": "swift",
+    "grade": "5",
+    "definition": "Moving very fast.",
+    "example": "The swift runner won the race.",
+    "syllables": "swift",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Moving very fast",
+        "correct": true
+      },
+      {
+        "text": "Moving very slowly",
+        "correct": false
+      },
+      {
+        "text": "Standing very still",
+        "correct": false
+      },
+      {
+        "text": "Growing very tall",
+        "correct": false
+      }
+    ],
+    "explanation": "Swift means quick. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0005-4000-8000-000000000009",
+    "word": "weary",
+    "grade": "5",
+    "definition": "Very tired.",
+    "example": "The weary hikers sat down to rest.",
+    "syllables": "wea · ry",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Full of energy",
+        "correct": false
+      },
+      {
+        "text": "Very tired",
+        "correct": true
+      },
+      {
+        "text": "Bright and shiny",
+        "correct": false
+      },
+      {
+        "text": "Quite hungry",
+        "correct": false
+      }
+    ],
+    "explanation": "Weary means worn out. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0005-4000-8000-000000000010",
+    "word": "imagination",
+    "grade": "5",
+    "definition": "The ability to picture new ideas or things in your mind.",
+    "example": "Her imagination turned the box into a spaceship.",
+    "syllables": "im · ag · i · na · tion",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "The power to lift heavy things",
+        "correct": false
+      },
+      {
+        "text": "A way to count quickly",
+        "correct": false
+      },
+      {
+        "text": "The ability to picture new ideas in your mind",
+        "correct": true
+      },
+      {
+        "text": "A skill for running far",
+        "correct": false
+      }
+    ],
+    "explanation": "Imagination lets you think up things that are not in front of you. Nice work!"
+  }
+]

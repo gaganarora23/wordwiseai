@@ -4,8 +4,12 @@ Defaults satisfy the database constraints; keyword arguments override any column
 """
 
 import uuid
+from pathlib import Path
 
 from sqlalchemy import text
+
+# Development vocabulary (#12): pass it to the ingestion command or its functions. Not release content.
+VOCABULARY_FIXTURES_DIR = Path(__file__).resolve().parents[1] / "fixtures" / "vocabulary"
 
 CHILD = {"nickname": "Sam", "grade": "3", "daily_goal": 5}
 WORD = {

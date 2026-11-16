@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000001",
+    "word": "benevolent",
+    "grade": "7",
+    "definition": "Kind and wanting to help others.",
+    "example": "The benevolent woman gave food to the shelter.",
+    "syllables": "be · nev · o · lent",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Selfish and unkind",
+        "correct": false
+      },
+      {
+        "text": "Easily bored",
+        "correct": false
+      },
+      {
+        "text": "Quick to anger",
+        "correct": false
+      },
+      {
+        "text": "Kind and wanting to help others",
+        "correct": true
+      }
+    ],
+    "explanation": "Benevolent means kind-hearted. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000002",
+    "word": "controversy",
+    "grade": "7",
+    "definition": "A strong disagreement that many people argue about.",
+    "example": "The new rule caused a lot of controversy at school.",
+    "syllables": "con · tro · ver · sy",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A strong disagreement many people argue about",
+        "correct": true
+      },
+      {
+        "text": "A happy celebration",
+        "correct": false
+      },
+      {
+        "text": "A quiet moment",
+        "correct": false
+      },
+      {
+        "text": "A kind of test",
+        "correct": false
+      }
+    ],
+    "explanation": "A controversy is a long, open argument. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000003",
+    "word": "deceive",
+    "grade": "7",
+    "definition": "To make someone believe something that is not true.",
+    "example": "It is wrong to deceive your friends.",
+    "syllables": "de · ceive",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To tell the exact truth",
+        "correct": false
+      },
+      {
+        "text": "To make someone believe something untrue",
+        "correct": true
+      },
+      {
+        "text": "To give a gift",
+        "correct": false
+      },
+      {
+        "text": "To help someone learn",
+        "correct": false
+      }
+    ],
+    "explanation": "To deceive is to trick. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000004",
+    "word": "elaborate",
+    "grade": "7",
+    "definition": "Having many careful details, or to add more details.",
+    "example": "Please elaborate on your idea so we can understand it.",
+    "syllables": "e · lab · o · rate",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To make shorter",
+        "correct": false
+      },
+      {
+        "text": "To stop talking",
+        "correct": false
+      },
+      {
+        "text": "To add more details",
+        "correct": true
+      },
+      {
+        "text": "To skip a step",
+        "correct": false
+      }
+    ],
+    "explanation": "When you elaborate, you explain more fully. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000005",
+    "word": "inevitable",
+    "grade": "7",
+    "definition": "Certain to happen and impossible to avoid.",
+    "example": "After a night of heavy snow, a snow day at school felt inevitable.",
+    "syllables": "in · ev · i · ta · ble",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Very unlikely to happen",
+        "correct": false
+      },
+      {
+        "text": "Easy to change",
+        "correct": false
+      },
+      {
+        "text": "Hard to find",
+        "correct": false
+      },
+      {
+        "text": "Certain to happen and cannot be avoided",
+        "correct": true
+      }
+    ],
+    "explanation": "Inevitable means it will happen no matter what. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000006",
+    "word": "ominous",
+    "grade": "7",
+    "definition": "Giving the feeling that something bad is about to happen.",
+    "example": "Dark ominous clouds filled the sky.",
+    "syllables": "om · i · nous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Giving a feeling that something bad will happen",
+        "correct": true
+      },
+      {
+        "text": "Bright and cheerful",
+        "correct": false
+      },
+      {
+        "text": "Warm and friendly",
+        "correct": false
+      },
+      {
+        "text": "Calm and sleepy",
+        "correct": false
+      }
+    ],
+    "explanation": "Ominous things seem like a warning. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000007",
+    "word": "persevere",
+    "grade": "7",
+    "definition": "To keep trying even when something is hard.",
+    "example": "If you persevere, you will learn to ride a bike.",
+    "syllables": "per · se · vere",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To quit at the first problem",
+        "correct": false
+      },
+      {
+        "text": "To keep trying even when it is hard",
+        "correct": true
+      },
+      {
+        "text": "To change your mind often",
+        "correct": false
+      },
+      {
+        "text": "To ask someone else to do it",
+        "correct": false
+      }
+    ],
+    "explanation": "To persevere is to never give up. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000008",
+    "word": "prudent",
+    "grade": "7",
+    "definition": "Showing good judgment and thinking carefully before acting.",
+    "example": "It is prudent to wear a helmet when you ride.",
+    "syllables": "pru · dent",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Acting without thinking",
+        "correct": false
+      },
+      {
+        "text": "Being very silly",
+        "correct": false
+      },
+      {
+        "text": "Showing careful, good judgment",
+        "correct": true
+      },
+      {
+        "text": "Always being late",
+        "correct": false
+      }
+    ],
+    "explanation": "A prudent choice is a wise one. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000009",
+    "word": "candid",
+    "grade": "7",
+    "definition": "Honest and open, even when the truth is hard to hear.",
+    "example": "She gave a candid answer about the test.",
+    "syllables": "can · did",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Secret and sneaky",
+        "correct": false
+      },
+      {
+        "text": "Sweet and sugary",
+        "correct": false
+      },
+      {
+        "text": "Loud and rude",
+        "correct": false
+      },
+      {
+        "text": "Honest and open",
+        "correct": true
+      }
+    ],
+    "explanation": "A candid person tells the truth plainly. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000010",
+    "word": "thrive",
+    "grade": "7",
+    "definition": "To grow strong and do very well.",
+    "example": "Plants thrive in good soil and sunlight.",
+    "syllables": "thrive",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To grow strong and do very well",
+        "correct": true
+      },
+      {
+        "text": "To slowly fade away",
+        "correct": false
+      },
+      {
+        "text": "To stay exactly the same",
+        "correct": false
+      },
+      {
+        "text": "To be left alone",
+        "correct": false
+      }
+    ],
+    "explanation": "To thrive is to flourish. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000011",
+    "word": "mundane",
+    "grade": "7",
+    "definition": "Ordinary and a little dull, not exciting.",
+    "example": "Washing dishes is a mundane chore.",
+    "syllables": "mun · dane",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Strange and thrilling",
+        "correct": false
+      },
+      {
+        "text": "Ordinary and not exciting",
+        "correct": true
+      },
+      {
+        "text": "Dangerous and new",
+        "correct": false
+      },
+      {
+        "text": "Very expensive",
+        "correct": false
+      }
+    ],
+    "explanation": "Mundane means everyday and common. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0007-4000-8000-000000000012",
+    "word": "refuge",
+    "grade": "7",
+    "definition": "A safe place that protects you from danger.",
+    "example": "The cave was a refuge from the storm.",
+    "syllables": "ref · uge",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A dangerous trap",
+        "correct": false
+      },
+      {
+        "text": "A kind of boat",
+        "correct": false
+      },
+      {
+        "text": "A safe place that protects you",
+        "correct": true
+      },
+      {
+        "text": "A crowded market",
+        "correct": false
+      }
+    ],
+    "explanation": "A refuge shelters you from harm. Nice work!"
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000001",
+    "word": "tree",
+    "grade": "1",
+    "definition": "A tall plant with a thick trunk, branches and leaves.",
+    "example": "The bird built a nest in the tree.",
+    "syllables": "tree",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A small flower in a pot",
+        "correct": false
+      },
+      {
+        "text": "A tall plant with a trunk and leaves",
+        "correct": true
+      },
+      {
+        "text": "A rock by the river",
+        "correct": false
+      },
+      {
+        "text": "A path through the woods",
+        "correct": false
+      }
+    ],
+    "explanation": "A tree has a trunk, branches and leaves. Good job!"
+  },
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000002",
+    "word": "jump",
+    "grade": "1",
+    "definition": "To push yourself up off the ground into the air.",
+    "example": "I can jump over the puddle.",
+    "syllables": "jump",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To lie down and rest",
+        "correct": false
+      },
+      {
+        "text": "To walk very slowly",
+        "correct": false
+      },
+      {
+        "text": "To push yourself up into the air",
+        "correct": true
+      },
+      {
+        "text": "To fall asleep",
+        "correct": false
+      }
+    ],
+    "explanation": "When you jump, your feet leave the ground. Nice one!"
+  },
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000003",
+    "word": "friend",
+    "grade": "1",
+    "definition": "A person you like and enjoy spending time with.",
+    "example": "My friend shared her crayons with me.",
+    "syllables": "friend",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A person who is lost",
+        "correct": false
+      },
+      {
+        "text": "A tool for fixing things",
+        "correct": false
+      },
+      {
+        "text": "A bag for school",
+        "correct": false
+      },
+      {
+        "text": "A person you like to spend time with",
+        "correct": true
+      }
+    ],
+    "explanation": "A friend is someone you like and play with. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000004",
+    "word": "water",
+    "grade": "1",
+    "definition": "The clear liquid that falls as rain and fills rivers and lakes.",
+    "example": "I drink a glass of water every day.",
+    "syllables": "wa · ter",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "The clear liquid we drink",
+        "correct": true
+      },
+      {
+        "text": "A hard shiny metal",
+        "correct": false
+      },
+      {
+        "text": "A soft fluffy cloud",
+        "correct": false
+      },
+      {
+        "text": "A sweet powder for baking",
+        "correct": false
+      }
+    ],
+    "explanation": "Water is the clear liquid we drink and swim in. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000005",
+    "word": "rabbit",
+    "grade": "1",
+    "definition": "A small furry animal with long ears that hops.",
+    "example": "The rabbit nibbled a carrot.",
+    "syllables": "rab · bit",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A large animal with a trunk",
+        "correct": false
+      },
+      {
+        "text": "A small furry animal with long ears",
+        "correct": true
+      },
+      {
+        "text": "A bird that cannot fly",
+        "correct": false
+      },
+      {
+        "text": "A fish with sharp teeth",
+        "correct": false
+      }
+    ],
+    "explanation": "A rabbit has long ears and hops. You got it!"
+  },
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000006",
+    "word": "yellow",
+    "grade": "1",
+    "definition": "The color of a lemon or the sun.",
+    "example": "I painted the sun yellow.",
+    "syllables": "yel · low",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "The color of coal",
+        "correct": false
+      },
+      {
+        "text": "The color of a blueberry",
+        "correct": false
+      },
+      {
+        "text": "The color of a lemon",
+        "correct": true
+      },
+      {
+        "text": "The color of a leaf in summer",
+        "correct": false
+      }
+    ],
+    "explanation": "Yellow is the bright color of lemons. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000007",
+    "word": "pencil",
+    "grade": "1",
+    "definition": "A thin tool you write or draw with that has a point and an eraser.",
+    "example": "I wrote my name with a pencil.",
+    "syllables": "pen · cil",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A soft toy for a baby",
+        "correct": false
+      },
+      {
+        "text": "A pot for cooking",
+        "correct": false
+      },
+      {
+        "text": "A shelf for books",
+        "correct": false
+      },
+      {
+        "text": "A thin tool for writing and drawing",
+        "correct": true
+      }
+    ],
+    "explanation": "You can write and draw with a pencil. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000008",
+    "word": "window",
+    "grade": "1",
+    "definition": "An opening in a wall with glass that lets in light.",
+    "example": "I looked out the window at the snow.",
+    "syllables": "win · dow",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A glass opening in a wall",
+        "correct": true
+      },
+      {
+        "text": "A door to a garage",
+        "correct": false
+      },
+      {
+        "text": "A step on a ladder",
+        "correct": false
+      },
+      {
+        "text": "A rug on the floor",
+        "correct": false
+      }
+    ],
+    "explanation": "A window lets light in and lets you see outside. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000009",
+    "word": "family",
+    "grade": "1",
+    "definition": "A group of people who are related and live together, like parents and children.",
+    "example": "My family eats dinner together.",
+    "syllables": "fam · i · ly",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Animals that live in the sea",
+        "correct": false
+      },
+      {
+        "text": "People who are related and live together",
+        "correct": true
+      },
+      {
+        "text": "A group of cars on a road",
+        "correct": false
+      },
+      {
+        "text": "Books in a library",
+        "correct": false
+      }
+    ],
+    "explanation": "A family is a group of people who care for each other. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000010",
+    "word": "elephant",
+    "grade": "1",
+    "definition": "A very large gray animal with big ears and a long trunk.",
+    "example": "The elephant sprayed water with its trunk.",
+    "syllables": "el · e · phant",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A small pet that meows",
+        "correct": false
+      },
+      {
+        "text": "A bird with a long beak",
+        "correct": false
+      },
+      {
+        "text": "A huge gray animal with a long trunk",
+        "correct": true
+      },
+      {
+        "text": "A striped horse",
+        "correct": false
+      }
+    ],
+    "explanation": "An elephant is a huge animal with a trunk. Wow!"
+  },
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000011",
+    "word": "rain",
+    "grade": "1",
+    "definition": "Drops of water that fall from clouds.",
+    "example": "We wore boots because of the rain.",
+    "syllables": "rain",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Tiny pieces of white ice that float",
+        "correct": false
+      },
+      {
+        "text": "A strong wind that spins",
+        "correct": false
+      },
+      {
+        "text": "The bright light of morning",
+        "correct": false
+      },
+      {
+        "text": "Drops of water that fall from clouds",
+        "correct": true
+      }
+    ],
+    "explanation": "Rain is water falling from the clouds. Great work!"
+  },
+  {
+    "id": "f1f1f1f1-0001-4000-8000-000000000012",
+    "word": "smile",
+    "grade": "1",
+    "definition": "A happy look on your face where the corners of your mouth turn up.",
+    "example": "She gave me a big smile.",
+    "syllables": "smile",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A happy look with your mouth turned up",
+        "correct": true
+      },
+      {
+        "text": "A loud cry",
+        "correct": false
+      },
+      {
+        "text": "A long sleepy yawn",
+        "correct": false
+      },
+      {
+        "text": "A quiet whisper",
+        "correct": false
+      }
+    ],
+    "explanation": "A smile shows you are happy. Nice job!"
+  }
+]

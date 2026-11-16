@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000001",
+    "word": "acrimonious",
+    "grade": "11",
+    "definition": "Angry and bitter in tone or manner.",
+    "example": "The meeting ended in an acrimonious debate.",
+    "syllables": "ac · ri · mo · ni · ous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Calm and friendly",
+        "correct": false
+      },
+      {
+        "text": "Sweet and kind",
+        "correct": false
+      },
+      {
+        "text": "Short and quiet",
+        "correct": false
+      },
+      {
+        "text": "Angry and bitter",
+        "correct": true
+      }
+    ],
+    "explanation": "An acrimonious argument is full of bitter feelings. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000002",
+    "word": "capricious",
+    "grade": "11",
+    "definition": "Changing mood or behavior suddenly and without a clear reason.",
+    "example": "The capricious weather went from sun to storm in minutes.",
+    "syllables": "ca · pri · cious",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Changing suddenly for no clear reason",
+        "correct": true
+      },
+      {
+        "text": "Steady and predictable",
+        "correct": false
+      },
+      {
+        "text": "Slow and careful",
+        "correct": false
+      },
+      {
+        "text": "Plain and dull",
+        "correct": false
+      }
+    ],
+    "explanation": "Capricious means unpredictable. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000003",
+    "word": "insidious",
+    "grade": "11",
+    "definition": "Harmful in a sneaky way that is not noticed at first.",
+    "example": "The insidious weeds slowly took over the garden.",
+    "syllables": "in · sid · i · ous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Openly friendly",
+        "correct": false
+      },
+      {
+        "text": "Sneakily harmful",
+        "correct": true
+      },
+      {
+        "text": "Clearly helpful",
+        "correct": false
+      },
+      {
+        "text": "Brightly colored",
+        "correct": false
+      }
+    ],
+    "explanation": "Insidious things cause harm before you notice. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000004",
+    "word": "laconic",
+    "grade": "11",
+    "definition": "Using very few words.",
+    "example": "The laconic guide answered every question in a single phrase.",
+    "syllables": "la · con · ic",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Talking at great length",
+        "correct": false
+      },
+      {
+        "text": "Singing loudly",
+        "correct": false
+      },
+      {
+        "text": "Using very few words",
+        "correct": true
+      },
+      {
+        "text": "Being very kind",
+        "correct": false
+      }
+    ],
+    "explanation": "A laconic person says little. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000005",
+    "word": "obfuscate",
+    "grade": "11",
+    "definition": "To make something unclear or hard to understand.",
+    "example": "Do not obfuscate the facts with confusing language.",
+    "syllables": "ob · fus · cate",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To explain very simply",
+        "correct": false
+      },
+      {
+        "text": "To discover a secret",
+        "correct": false
+      },
+      {
+        "text": "To finish quickly",
+        "correct": false
+      },
+      {
+        "text": "To make something unclear",
+        "correct": true
+      }
+    ],
+    "explanation": "To obfuscate is to confuse on purpose. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000006",
+    "word": "pedantic",
+    "grade": "11",
+    "definition": "Too concerned with small rules or details, especially to show off knowledge.",
+    "example": "The pedantic editor argued over every comma.",
+    "syllables": "pe · dan · tic",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Too concerned with small rules and details",
+        "correct": true
+      },
+      {
+        "text": "Relaxed about everything",
+        "correct": false
+      },
+      {
+        "text": "Very creative",
+        "correct": false
+      },
+      {
+        "text": "Easy to please",
+        "correct": false
+      }
+    ],
+    "explanation": "A pedantic person fusses over minor points. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000007",
+    "word": "quixotic",
+    "grade": "11",
+    "definition": "Idealistic in a way that is not practical.",
+    "example": "Her quixotic plan was to plant a forest in a week.",
+    "syllables": "quix · ot · ic",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Sensible and realistic",
+        "correct": false
+      },
+      {
+        "text": "Idealistic but not practical",
+        "correct": true
+      },
+      {
+        "text": "Plain and ordinary",
+        "correct": false
+      },
+      {
+        "text": "Careful and slow",
+        "correct": false
+      }
+    ],
+    "explanation": "Quixotic means full of noble but unrealistic ideas. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000008",
+    "word": "sagacious",
+    "grade": "11",
+    "definition": "Wise and having good judgment.",
+    "example": "The sagacious teacher gave thoughtful advice.",
+    "syllables": "sa · ga · cious",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Foolish and careless",
+        "correct": false
+      },
+      {
+        "text": "Fast and strong",
+        "correct": false
+      },
+      {
+        "text": "Wise with good judgment",
+        "correct": true
+      },
+      {
+        "text": "Loud and bossy",
+        "correct": false
+      }
+    ],
+    "explanation": "Sagacious means wise. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000009",
+    "word": "tenuous",
+    "grade": "11",
+    "definition": "Very weak or thin, and easy to break.",
+    "example": "The two ideas had only a tenuous connection.",
+    "syllables": "ten · u · ous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Very strong",
+        "correct": false
+      },
+      {
+        "text": "Bright and loud",
+        "correct": false
+      },
+      {
+        "text": "Heavy and wide",
+        "correct": false
+      },
+      {
+        "text": "Very weak or thin",
+        "correct": true
+      }
+    ],
+    "explanation": "A tenuous link is barely there. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000010",
+    "word": "vociferous",
+    "grade": "11",
+    "definition": "Expressing opinions in a loud and forceful way.",
+    "example": "The vociferous crowd chanted for the team.",
+    "syllables": "vo · cif · er · ous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Loud and forceful in speaking out",
+        "correct": true
+      },
+      {
+        "text": "Quiet and shy",
+        "correct": false
+      },
+      {
+        "text": "Slow to speak",
+        "correct": false
+      },
+      {
+        "text": "Hard to hear",
+        "correct": false
+      }
+    ],
+    "explanation": "Vociferous means loudly outspoken. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000011",
+    "word": "wry",
+    "grade": "11",
+    "definition": "Showing dry, clever humor, often with a twisted smile.",
+    "example": "She made a wry joke about the rainy picnic.",
+    "syllables": "wry",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Showing great sadness",
+        "correct": false
+      },
+      {
+        "text": "Showing dry, clever humor",
+        "correct": true
+      },
+      {
+        "text": "Showing no feeling",
+        "correct": false
+      },
+      {
+        "text": "Showing sudden fear",
+        "correct": false
+      }
+    ],
+    "explanation": "Wry humor is dry and a little twisted. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0011-4000-8000-000000000012",
+    "word": "gaunt",
+    "grade": "11",
+    "definition": "Very thin and bony, often from hunger or illness.",
+    "example": "The stray cat looked gaunt and hungry.",
+    "syllables": "gaunt",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Round and healthy",
+        "correct": false
+      },
+      {
+        "text": "Tall and proud",
+        "correct": false
+      },
+      {
+        "text": "Very thin and bony",
+        "correct": true
+      },
+      {
+        "text": "Soft and furry",
+        "correct": false
+      }
+    ],
+    "explanation": "Gaunt means thin and worn. Nice work!"
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000001",
+    "word": "cat",
+    "grade": "K",
+    "definition": "A small furry pet that purrs and says meow.",
+    "example": "My cat likes to nap in the sun.",
+    "syllables": "cat",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A small furry pet that purrs",
+        "correct": true
+      },
+      {
+        "text": "A big animal that gives milk",
+        "correct": false
+      },
+      {
+        "text": "A bird that can swim",
+        "correct": false
+      },
+      {
+        "text": "A bug that glows at night",
+        "correct": false
+      }
+    ],
+    "explanation": "A cat is a soft pet that purrs when it is happy. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000002",
+    "word": "dog",
+    "grade": "K",
+    "definition": "A pet that barks and wags its tail.",
+    "example": "The dog ran across the grass.",
+    "syllables": "dog",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A tiny animal that lives in a shell",
+        "correct": false
+      },
+      {
+        "text": "A pet that barks and wags its tail",
+        "correct": true
+      },
+      {
+        "text": "An animal with a long neck",
+        "correct": false
+      },
+      {
+        "text": "A fish that lives in a pond",
+        "correct": false
+      }
+    ],
+    "explanation": "A dog is a friendly pet that barks. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000003",
+    "word": "sun",
+    "grade": "K",
+    "definition": "The bright star in the sky that gives us light and warmth during the day.",
+    "example": "The sun is warm today.",
+    "syllables": "sun",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "The light we see at night",
+        "correct": false
+      },
+      {
+        "text": "A cloud that brings rain",
+        "correct": false
+      },
+      {
+        "text": "The bright star that warms us in the day",
+        "correct": true
+      },
+      {
+        "text": "A big round hill",
+        "correct": false
+      }
+    ],
+    "explanation": "The sun gives us light and heat. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000004",
+    "word": "red",
+    "grade": "K",
+    "definition": "The color of a ripe strawberry or a fire truck.",
+    "example": "I drew a red heart.",
+    "syllables": "red",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "The color of grass",
+        "correct": false
+      },
+      {
+        "text": "The color of the sky on a clear day",
+        "correct": false
+      },
+      {
+        "text": "The color of a banana",
+        "correct": false
+      },
+      {
+        "text": "The color of a strawberry",
+        "correct": true
+      }
+    ],
+    "explanation": "Red is the color of strawberries and fire trucks. You got it!"
+  },
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000005",
+    "word": "hop",
+    "grade": "K",
+    "definition": "To jump on one foot or to move in small jumps like a bunny.",
+    "example": "I can hop on one foot.",
+    "syllables": "hop",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To jump in small jumps",
+        "correct": true
+      },
+      {
+        "text": "To sleep for a long time",
+        "correct": false
+      },
+      {
+        "text": "To eat a snack",
+        "correct": false
+      },
+      {
+        "text": "To draw with crayons",
+        "correct": false
+      }
+    ],
+    "explanation": "When you hop, you jump in little jumps. Hooray!"
+  },
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000006",
+    "word": "big",
+    "grade": "K",
+    "definition": "Large in size.",
+    "example": "The elephant is very big.",
+    "syllables": "big",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Very small",
+        "correct": false
+      },
+      {
+        "text": "Large in size",
+        "correct": true
+      },
+      {
+        "text": "Cold like ice",
+        "correct": false
+      },
+      {
+        "text": "Soft and fluffy",
+        "correct": false
+      }
+    ],
+    "explanation": "Big means large. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000007",
+    "word": "apple",
+    "grade": "K",
+    "definition": "A round fruit that can be red, green or yellow and is crunchy to eat.",
+    "example": "She ate a red apple for a snack.",
+    "syllables": "ap · ple",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A kind of bread",
+        "correct": false
+      },
+      {
+        "text": "A warm winter coat",
+        "correct": false
+      },
+      {
+        "text": "A round, crunchy fruit",
+        "correct": true
+      },
+      {
+        "text": "A toy you can ride",
+        "correct": false
+      }
+    ],
+    "explanation": "An apple is a crunchy fruit that grows on trees. Yum!"
+  },
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000008",
+    "word": "happy",
+    "grade": "K",
+    "definition": "Feeling glad and full of joy.",
+    "example": "I am happy when I play with my friends.",
+    "syllables": "hap · py",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Feeling sleepy",
+        "correct": false
+      },
+      {
+        "text": "Feeling hungry",
+        "correct": false
+      },
+      {
+        "text": "Feeling cold",
+        "correct": false
+      },
+      {
+        "text": "Feeling glad and full of joy",
+        "correct": true
+      }
+    ],
+    "explanation": "Happy is the feeling of being glad. Great smile!"
+  },
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000009",
+    "word": "banana",
+    "grade": "K",
+    "definition": "A long yellow fruit with a soft inside.",
+    "example": "I ate a banana with my lunch.",
+    "syllables": "ba · na · na",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A long yellow fruit",
+        "correct": true
+      },
+      {
+        "text": "A kind of shoe",
+        "correct": false
+      },
+      {
+        "text": "A farm animal",
+        "correct": false
+      },
+      {
+        "text": "A type of weather",
+        "correct": false
+      }
+    ],
+    "explanation": "A banana is a fruit you can peel and eat. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000010",
+    "word": "butterfly",
+    "grade": "K",
+    "definition": "An insect with big colorful wings that flies from flower to flower.",
+    "example": "A butterfly landed on the flower.",
+    "syllables": "but · ter · fly",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A small fish with a tail",
+        "correct": false
+      },
+      {
+        "text": "An insect with colorful wings",
+        "correct": true
+      },
+      {
+        "text": "A flying toy made of paper",
+        "correct": false
+      },
+      {
+        "text": "A bird that sings at dawn",
+        "correct": false
+      }
+    ],
+    "explanation": "A butterfly has colorful wings and visits flowers. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000011",
+    "word": "cup",
+    "grade": "K",
+    "definition": "A small container with a handle that you drink from.",
+    "example": "I drank milk from my cup.",
+    "syllables": "cup",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A box for toys",
+        "correct": false
+      },
+      {
+        "text": "A tool for cutting paper",
+        "correct": false
+      },
+      {
+        "text": "A small container you drink from",
+        "correct": true
+      },
+      {
+        "text": "A pillow for your bed",
+        "correct": false
+      }
+    ],
+    "explanation": "You drink water or milk from a cup. Nice job!"
+  },
+  {
+    "id": "f1f1f1f1-0000-4000-8000-000000000012",
+    "word": "ball",
+    "grade": "K",
+    "definition": "A round toy that you can throw, kick or roll.",
+    "example": "We kicked the ball to each other.",
+    "syllables": "ball",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A flat card for games",
+        "correct": false
+      },
+      {
+        "text": "A tall building",
+        "correct": false
+      },
+      {
+        "text": "A hat for sunny days",
+        "correct": false
+      },
+      {
+        "text": "A round toy you can throw or kick",
+        "correct": true
+      }
+    ],
+    "explanation": "A ball is round and fun to play with. Great work!"
+  }
+]

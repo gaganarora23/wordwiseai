@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000001",
+    "word": "adventure",
+    "grade": "3",
+    "definition": "An exciting trip or experience that may be a little risky.",
+    "example": "We went on an adventure in the forest.",
+    "syllables": "ad · ven · ture",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A quiet nap",
+        "correct": false
+      },
+      {
+        "text": "A list of chores",
+        "correct": false
+      },
+      {
+        "text": "A boring lesson",
+        "correct": false
+      },
+      {
+        "text": "An exciting trip or experience",
+        "correct": true
+      }
+    ],
+    "explanation": "An adventure is something exciting to do. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000002",
+    "word": "curious",
+    "grade": "3",
+    "definition": "Eager to learn or find out about something.",
+    "example": "The curious kitten sniffed the box.",
+    "syllables": "cu · ri · ous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Eager to learn or find out something",
+        "correct": true
+      },
+      {
+        "text": "Afraid of everything",
+        "correct": false
+      },
+      {
+        "text": "Very tired",
+        "correct": false
+      },
+      {
+        "text": "Not interested in anything",
+        "correct": false
+      }
+    ],
+    "explanation": "A curious person asks questions and explores. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000003",
+    "word": "journey",
+    "grade": "3",
+    "definition": "A long trip from one place to another.",
+    "example": "The journey to the beach took two hours.",
+    "syllables": "jour · ney",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A short rest",
+        "correct": false
+      },
+      {
+        "text": "A long trip from one place to another",
+        "correct": true
+      },
+      {
+        "text": "A kind of map",
+        "correct": false
+      },
+      {
+        "text": "A place to buy food",
+        "correct": false
+      }
+    ],
+    "explanation": "A journey is a trip that takes you somewhere. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000004",
+    "word": "ancient",
+    "grade": "3",
+    "definition": "Very, very old, from a long time ago.",
+    "example": "We saw ancient tools at the museum.",
+    "syllables": "an · cient",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Brand new",
+        "correct": false
+      },
+      {
+        "text": "Very shiny",
+        "correct": false
+      },
+      {
+        "text": "Very old, from long ago",
+        "correct": true
+      },
+      {
+        "text": "Easy to carry",
+        "correct": false
+      }
+    ],
+    "explanation": "Ancient things are from a very long time ago. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000005",
+    "word": "bright",
+    "grade": "3",
+    "definition": "Giving off a lot of light, or very colorful.",
+    "example": "The bright moon lit up the yard.",
+    "syllables": "bright",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Very dark",
+        "correct": false
+      },
+      {
+        "text": "Quiet and calm",
+        "correct": false
+      },
+      {
+        "text": "Heavy and slow",
+        "correct": false
+      },
+      {
+        "text": "Giving off a lot of light",
+        "correct": true
+      }
+    ],
+    "explanation": "Bright means full of light. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000006",
+    "word": "gather",
+    "grade": "3",
+    "definition": "To bring things or people together in one place.",
+    "example": "We gather shells on the beach.",
+    "syllables": "gath · er",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To bring together in one place",
+        "correct": true
+      },
+      {
+        "text": "To throw far away",
+        "correct": false
+      },
+      {
+        "text": "To break into pieces",
+        "correct": false
+      },
+      {
+        "text": "To hide under a bed",
+        "correct": false
+      }
+    ],
+    "explanation": "When you gather things, you collect them. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000007",
+    "word": "mountain",
+    "grade": "3",
+    "definition": "A very high piece of land, much taller than a hill.",
+    "example": "We hiked up the mountain.",
+    "syllables": "moun · tain",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A small pond",
+        "correct": false
+      },
+      {
+        "text": "A very high piece of land",
+        "correct": true
+      },
+      {
+        "text": "A flat field",
+        "correct": false
+      },
+      {
+        "text": "A sandy beach",
+        "correct": false
+      }
+    ],
+    "explanation": "A mountain is a huge, tall hill of rock. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000008",
+    "word": "protect",
+    "grade": "3",
+    "definition": "To keep someone or something safe from harm.",
+    "example": "A helmet will protect your head.",
+    "syllables": "pro · tect",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To leave alone in the dark",
+        "correct": false
+      },
+      {
+        "text": "To make dirty",
+        "correct": false
+      },
+      {
+        "text": "To keep safe from harm",
+        "correct": true
+      },
+      {
+        "text": "To forget about",
+        "correct": false
+      }
+    ],
+    "explanation": "To protect is to keep safe. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000009",
+    "word": "library",
+    "grade": "3",
+    "definition": "A place where you can borrow books to read.",
+    "example": "I borrowed a book from the library.",
+    "syllables": "li · brar · y",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A place where cars are fixed",
+        "correct": false
+      },
+      {
+        "text": "A place where bread is baked",
+        "correct": false
+      },
+      {
+        "text": "A place where trains stop",
+        "correct": false
+      },
+      {
+        "text": "A place where you can borrow books",
+        "correct": true
+      }
+    ],
+    "explanation": "A library lends books to read. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000010",
+    "word": "enormous",
+    "grade": "3",
+    "definition": "Extremely large.",
+    "example": "An enormous whale swam by the boat.",
+    "syllables": "e · nor · mous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Extremely large",
+        "correct": true
+      },
+      {
+        "text": "Very tiny",
+        "correct": false
+      },
+      {
+        "text": "Quite soft",
+        "correct": false
+      },
+      {
+        "text": "Pretty cold",
+        "correct": false
+      }
+    ],
+    "explanation": "Enormous means very, very big. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000011",
+    "word": "shiver",
+    "grade": "3",
+    "definition": "To shake a little because you are cold or scared.",
+    "example": "I began to shiver in the cold wind.",
+    "syllables": "shiv · er",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To jump up and down with joy",
+        "correct": false
+      },
+      {
+        "text": "To shake a little from cold or fear",
+        "correct": true
+      },
+      {
+        "text": "To fall asleep fast",
+        "correct": false
+      },
+      {
+        "text": "To laugh out loud",
+        "correct": false
+      }
+    ],
+    "explanation": "When you shiver, your body shakes a little. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0003-4000-8000-000000000012",
+    "word": "vegetable",
+    "grade": "3",
+    "definition": "A plant, or part of a plant, that people eat, such as a carrot or a pea.",
+    "example": "Broccoli is my favorite vegetable.",
+    "syllables": "veg · e · ta · ble",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A sweet frozen dessert",
+        "correct": false
+      },
+      {
+        "text": "An animal that lives on a farm",
+        "correct": false
+      },
+      {
+        "text": "A plant we eat, like a carrot",
+        "correct": true
+      },
+      {
+        "text": "A drink made from milk",
+        "correct": false
+      }
+    ],
+    "explanation": "A carrot is a vegetable. Great job!"
+  }
+]

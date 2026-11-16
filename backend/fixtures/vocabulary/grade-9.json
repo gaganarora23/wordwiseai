@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000001",
+    "word": "aberration",
+    "grade": "9",
+    "definition": "Something that is different from what is normal or expected.",
+    "example": "A cold day in July is an aberration.",
+    "syllables": "ab · er · ra · tion",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Something that happens every day",
+        "correct": false
+      },
+      {
+        "text": "Something different from what is normal",
+        "correct": true
+      },
+      {
+        "text": "A very large crowd",
+        "correct": false
+      },
+      {
+        "text": "A kind of dance",
+        "correct": false
+      }
+    ],
+    "explanation": "An aberration is an unusual exception. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000002",
+    "word": "candor",
+    "grade": "9",
+    "definition": "Honest and open speech.",
+    "example": "She spoke with candor about her mistake.",
+    "syllables": "can · dor",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Careful secrecy",
+        "correct": false
+      },
+      {
+        "text": "Sweet taste",
+        "correct": false
+      },
+      {
+        "text": "Honest and open speech",
+        "correct": true
+      },
+      {
+        "text": "A loud laugh",
+        "correct": false
+      }
+    ],
+    "explanation": "Candor means being honest and frank. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000003",
+    "word": "eloquent",
+    "grade": "9",
+    "definition": "Able to speak or write clearly and in a way that moves people.",
+    "example": "The eloquent speaker inspired the whole audience.",
+    "syllables": "el · o · quent",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Unable to find any words",
+        "correct": false
+      },
+      {
+        "text": "Very quiet and shy",
+        "correct": false
+      },
+      {
+        "text": "Fond of loud music",
+        "correct": false
+      },
+      {
+        "text": "Able to speak clearly and powerfully",
+        "correct": true
+      }
+    ],
+    "explanation": "An eloquent speaker uses words well. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000004",
+    "word": "ephemeral",
+    "grade": "9",
+    "definition": "Lasting for a very short time.",
+    "example": "A rainbow is ephemeral and soon fades.",
+    "syllables": "e · phem · er · al",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Lasting for a very short time",
+        "correct": true
+      },
+      {
+        "text": "Lasting forever",
+        "correct": false
+      },
+      {
+        "text": "Very heavy",
+        "correct": false
+      },
+      {
+        "text": "Very old",
+        "correct": false
+      }
+    ],
+    "explanation": "Ephemeral things disappear quickly. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000005",
+    "word": "paradox",
+    "grade": "9",
+    "definition": "A statement that seems to contradict itself but may still be true.",
+    "example": "It is a paradox that the more you share knowledge, the more you have.",
+    "syllables": "par · a · dox",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A plain and simple fact",
+        "correct": false
+      },
+      {
+        "text": "A statement that seems to contradict itself",
+        "correct": true
+      },
+      {
+        "text": "A kind of map",
+        "correct": false
+      },
+      {
+        "text": "A quick answer",
+        "correct": false
+      }
+    ],
+    "explanation": "A paradox sounds impossible but can hold some truth. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000006",
+    "word": "ubiquitous",
+    "grade": "9",
+    "definition": "Seeming to be everywhere at once.",
+    "example": "Smartphones have become ubiquitous in modern life.",
+    "syllables": "u · biq · ui · tous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Very hard to find",
+        "correct": false
+      },
+      {
+        "text": "Brand new",
+        "correct": false
+      },
+      {
+        "text": "Seeming to be everywhere at once",
+        "correct": true
+      },
+      {
+        "text": "Quite expensive",
+        "correct": false
+      }
+    ],
+    "explanation": "Ubiquitous things are found all around. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000007",
+    "word": "mitigate",
+    "grade": "9",
+    "definition": "To make something less harsh or serious.",
+    "example": "Planting trees can mitigate the heat in a city.",
+    "syllables": "mit · i · gate",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "To make something worse",
+        "correct": false
+      },
+      {
+        "text": "To ignore a problem",
+        "correct": false
+      },
+      {
+        "text": "To invent a tool",
+        "correct": false
+      },
+      {
+        "text": "To make something less serious",
+        "correct": true
+      }
+    ],
+    "explanation": "To mitigate is to lessen the effect. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000008",
+    "word": "gregarious",
+    "grade": "9",
+    "definition": "Enjoying the company of other people.",
+    "example": "The gregarious girl made friends with everyone.",
+    "syllables": "gre · gar · i · ous",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Enjoying the company of others",
+        "correct": true
+      },
+      {
+        "text": "Preferring to be alone",
+        "correct": false
+      },
+      {
+        "text": "Easily frightened",
+        "correct": false
+      },
+      {
+        "text": "Very forgetful",
+        "correct": false
+      }
+    ],
+    "explanation": "A gregarious person is sociable. Nice work!"
+  },
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000009",
+    "word": "austere",
+    "grade": "9",
+    "definition": "Plain and simple, without comfort or decoration.",
+    "example": "The monks lived in an austere room with only a bed.",
+    "syllables": "aus · tere",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Fancy and full of color",
+        "correct": false
+      },
+      {
+        "text": "Plain and simple, without decoration",
+        "correct": true
+      },
+      {
+        "text": "Warm and cozy",
+        "correct": false
+      },
+      {
+        "text": "Loud and crowded",
+        "correct": false
+      }
+    ],
+    "explanation": "Austere means very plain and strict. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000010",
+    "word": "cynical",
+    "grade": "9",
+    "definition": "Believing that people usually act for selfish reasons.",
+    "example": "The cynical man doubted that anyone would help for free.",
+    "syllables": "cyn · i · cal",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Trusting everyone",
+        "correct": false
+      },
+      {
+        "text": "Always cheerful",
+        "correct": false
+      },
+      {
+        "text": "Doubting that people are sincere",
+        "correct": true
+      },
+      {
+        "text": "Easily surprised",
+        "correct": false
+      }
+    ],
+    "explanation": "A cynical person expects the worst from others. Well done!"
+  },
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000011",
+    "word": "lethargy",
+    "grade": "9",
+    "definition": "A lack of energy and a feeling of being slow and sleepy.",
+    "example": "The hot afternoon filled us with lethargy.",
+    "syllables": "leth · ar · gy",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "A burst of great energy",
+        "correct": false
+      },
+      {
+        "text": "A strong hunger",
+        "correct": false
+      },
+      {
+        "text": "A loud cheer",
+        "correct": false
+      },
+      {
+        "text": "A lack of energy and a sleepy feeling",
+        "correct": true
+      }
+    ],
+    "explanation": "Lethargy is a slow, tired feeling. Great job!"
+  },
+  {
+    "id": "f1f1f1f1-0009-4000-8000-000000000012",
+    "word": "dire",
+    "grade": "9",
+    "definition": "Very serious or urgent, and often frightening.",
+    "example": "The village was in dire need of fresh water.",
+    "syllables": "dire",
+    "content_version": "fixture-1",
+    "options": [
+      {
+        "text": "Very serious or urgent",
+        "correct": true
+      },
+      {
+        "text": "Pleasant and easy",
+        "correct": false
+      },
+      {
+        "text": "Small and neat",
+        "correct": false
+      },
+      {
+        "text": "Old and quiet",
+        "correct": false
+      }
+    ],
+    "explanation": "Dire describes a very serious situation. Nice work!"
+  }
+]
