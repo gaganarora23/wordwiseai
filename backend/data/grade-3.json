@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "c3c2c601-3ada-43c1-a562-53abc2f85b09",
+    "word": "adventure",
+    "grade": "3",
+    "definition": "An exciting trip or activity where you try something new.",
+    "example": "Our camping trip was a big adventure.",
+    "syllables": "ad · ven · ture",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A quiet rest on a big, soft, cozy couch",
+        "correct": false
+      },
+      {
+        "text": "An exciting trip or new experience",
+        "correct": true
+      },
+      {
+        "text": "A long list of chores to finish",
+        "correct": false
+      },
+      {
+        "text": "A plain meal eaten at a table",
+        "correct": false
+      }
+    ],
+    "explanation": "An adventure is an exciting experience. Great job!"
+  },
+  {
+    "id": "cd192f56-b50f-4a42-abc6-68719279f19e",
+    "word": "curious",
+    "grade": "3",
+    "definition": "Wanting to learn or find out more about something.",
+    "example": "The curious puppy sniffed every corner of the yard.",
+    "syllables": "cu · ri · ous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Eager to learn or find out more",
+        "correct": true
+      },
+      {
+        "text": "Too tired to learn anything new",
+        "correct": false
+      },
+      {
+        "text": "Afraid of every new thing",
+        "correct": false
+      },
+      {
+        "text": "Certain that you know it all",
+        "correct": false
+      }
+    ],
+    "explanation": "Curious means wanting to find out more. Nice work!"
+  },
+  {
+    "id": "e9389ead-7000-4e24-8474-24184ae525b0",
+    "word": "journey",
+    "grade": "3",
+    "definition": "A long trip from one place to another.",
+    "example": "Our journey to the lake took three hours.",
+    "syllables": "jour · ney",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A short nap taken after lunch",
+        "correct": false
+      },
+      {
+        "text": "A tall hill that you climb for fun",
+        "correct": false
+      },
+      {
+        "text": "A map that shows where roads go",
+        "correct": false
+      },
+      {
+        "text": "A long trip to another place",
+        "correct": true
+      }
+    ],
+    "explanation": "A journey is a long trip. You got it!"
+  },
+  {
+    "id": "882758d8-27a0-489f-96c4-92fad0245ff6",
+    "word": "ancient",
+    "grade": "3",
+    "definition": "Very, very old, from a time long ago.",
+    "example": "We saw ancient tools in the museum.",
+    "syllables": "an · cient",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Brand new, just made this very morning",
+        "correct": false
+      },
+      {
+        "text": "Very old, from a long time ago",
+        "correct": true
+      },
+      {
+        "text": "Quite loud, like a trumpet",
+        "correct": false
+      },
+      {
+        "text": "Pretty small, like a coin",
+        "correct": false
+      }
+    ],
+    "explanation": "Ancient means very, very old. Well done!"
+  },
+  {
+    "id": "02d80f7b-196f-49e3-9942-bb51333ecd9f",
+    "word": "gather",
+    "grade": "3",
+    "definition": "To bring people or things together in one place.",
+    "example": "The children gather around the teacher to hear a story.",
+    "syllables": "gath · er",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To spread far apart in all directions",
+        "correct": false
+      },
+      {
+        "text": "To break into many little parts",
+        "correct": false
+      },
+      {
+        "text": "To lose somewhere and forget about",
+        "correct": false
+      },
+      {
+        "text": "To bring together in one place",
+        "correct": true
+      }
+    ],
+    "explanation": "To gather is to bring things or people together. Great job!"
+  },
+  {
+    "id": "b6f8a47a-6b4b-4fa4-a9e4-167de9538d49",
+    "word": "mountain",
+    "grade": "3",
+    "definition": "A very high piece of land that is much taller than a hill.",
+    "example": "We could see snow on top of the mountain.",
+    "syllables": "moun · tain",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A low and flat area of grass",
+        "correct": false
+      },
+      {
+        "text": "A deep hole in the ground",
+        "correct": false
+      },
+      {
+        "text": "A wide stream of fresh water",
+        "correct": false
+      },
+      {
+        "text": "A very high piece of land",
+        "correct": true
+      }
+    ],
+    "explanation": "A mountain is very high land, taller than a hill. Nice work!"
+  },
+  {
+    "id": "69cf8824-e4c4-46b4-b84b-64dbec93d0db",
+    "word": "protect",
+    "grade": "3",
+    "definition": "To keep someone or something safe from harm.",
+    "example": "A helmet can protect your head when you ride a bike.",
+    "syllables": "pro · tect",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To leave alone in the dark",
+        "correct": false
+      },
+      {
+        "text": "To hand over to a stranger",
+        "correct": false
+      },
+      {
+        "text": "To keep safe from harm",
+        "correct": true
+      },
+      {
+        "text": "To pass quickly without stopping",
+        "correct": false
+      }
+    ],
+    "explanation": "To protect is to keep something safe. You got it!"
+  },
+  {
+    "id": "a35c88e5-879e-46b1-bf0e-e271bbcc2932",
+    "word": "library",
+    "grade": "3",
+    "definition": "A place where you can borrow books and read quietly.",
+    "example": "I borrowed a story from the library.",
+    "syllables": "li · brar · y",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A place to buy fresh fish",
+        "correct": false
+      },
+      {
+        "text": "A place to practice running",
+        "correct": false
+      },
+      {
+        "text": "A place to wash your clothes",
+        "correct": false
+      },
+      {
+        "text": "A place to borrow books",
+        "correct": true
+      }
+    ],
+    "explanation": "A library is a place where you can borrow books. Well done!"
+  },
+  {
+    "id": "2659c63a-3236-49a3-a388-f941abeec251",
+    "word": "enormous",
+    "grade": "3",
+    "definition": "Extremely large, much bigger than normal.",
+    "example": "The elephant was enormous.",
+    "syllables": "e · nor · mous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Extremely large, bigger than usual",
+        "correct": true
+      },
+      {
+        "text": "A little smaller than the usual size",
+        "correct": false
+      },
+      {
+        "text": "Exactly the same as all the others",
+        "correct": false
+      },
+      {
+        "text": "Quite thin, like a piece of paper",
+        "correct": false
+      }
+    ],
+    "explanation": "Enormous means extremely large. Great job!"
+  },
+  {
+    "id": "557ccd6d-7a7a-4276-9ded-fc981b39f2b5",
+    "word": "shiver",
+    "grade": "3",
+    "definition": "To shake a little because you are cold or nervous.",
+    "example": "I shiver when the wind is chilly.",
+    "syllables": "shiv · er",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To shake a little from the cold",
+        "correct": true
+      },
+      {
+        "text": "To jump up high with joy",
+        "correct": false
+      },
+      {
+        "text": "To sleep deeply through the night",
+        "correct": false
+      },
+      {
+        "text": "To smile at everyone you meet",
+        "correct": false
+      }
+    ],
+    "explanation": "To shiver is to shake a little from the cold. Nice work!"
+  },
+  {
+    "id": "73c0a2dd-a10a-4beb-931c-a441df39f03f",
+    "word": "explore",
+    "grade": "3",
+    "definition": "To travel around a new place to find out what is there.",
+    "example": "We want to explore the cave with our flashlights.",
+    "syllables": "ex · plore",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To stay in the same seat all day long",
+        "correct": false
+      },
+      {
+        "text": "To travel around to find out about a place",
+        "correct": true
+      },
+      {
+        "text": "To sort things into neat piles",
+        "correct": false
+      },
+      {
+        "text": "To repeat the same song again",
+        "correct": false
+      }
+    ],
+    "explanation": "To explore is to look around a new place. You got it!"
+  },
+  {
+    "id": "c7f21410-b652-463d-97f3-dab1d97de44c",
+    "word": "discover",
+    "grade": "3",
+    "definition": "To find something or learn something for the first time.",
+    "example": "Scientists hope to discover new kinds of plants.",
+    "syllables": "dis · cov · er",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To forget something you learned long ago",
+        "correct": false
+      },
+      {
+        "text": "To hide something where no one looks",
+        "correct": false
+      },
+      {
+        "text": "To find or learn something new",
+        "correct": true
+      },
+      {
+        "text": "To lose something on the way home",
+        "correct": false
+      }
+    ],
+    "explanation": "To discover is to find something new. Well done!"
+  },
+  {
+    "id": "8e0c2210-5459-4069-933a-58f6286cdac4",
+    "word": "imagine",
+    "grade": "3",
+    "definition": "To make a picture of something in your mind.",
+    "example": "Close your eyes and imagine a giant purple tree.",
+    "syllables": "i · mag · ine",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To picture something in your mind",
+        "correct": true
+      },
+      {
+        "text": "To measure something with a ruler",
+        "correct": false
+      },
+      {
+        "text": "To carry something up the stairs",
+        "correct": false
+      },
+      {
+        "text": "To wash something in warm water",
+        "correct": false
+      }
+    ],
+    "explanation": "To imagine is to make a picture in your mind. Great job!"
+  },
+  {
+    "id": "0fef4e6e-303d-401b-a56a-2ac1ac5c0df9",
+    "word": "invent",
+    "grade": "3",
+    "definition": "To think up and make something that did not exist before.",
+    "example": "She wants to invent a robot that waters plants.",
+    "syllables": "in · vent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To copy a thing that is already made",
+        "correct": false
+      },
+      {
+        "text": "To break something into little bits",
+        "correct": false
+      },
+      {
+        "text": "To think up something totally new",
+        "correct": true
+      },
+      {
+        "text": "To put something back where it was",
+        "correct": false
+      }
+    ],
+    "explanation": "To invent is to make something brand new. Nice work!"
+  },
+  {
+    "id": "61fd6ca4-0fdc-4e60-994b-f870472c6778",
+    "word": "describe",
+    "grade": "3",
+    "definition": "To tell what someone or something is like, using words.",
+    "example": "Can you describe your favorite toy to me?",
+    "syllables": "de · scribe",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To tell what something is like",
+        "correct": true
+      },
+      {
+        "text": "To hide what something looks like",
+        "correct": false
+      },
+      {
+        "text": "To forget what something was called",
+        "correct": false
+      },
+      {
+        "text": "To change what something is made of",
+        "correct": false
+      }
+    ],
+    "explanation": "To describe is to tell what something is like. You got it!"
+  },
+  {
+    "id": "c2cceea5-4754-4e8f-8a31-4a8ac86b6fda",
+    "word": "observe",
+    "grade": "3",
+    "definition": "To watch something closely and with care.",
+    "example": "We observe the ants carrying crumbs across the path.",
+    "syllables": "ob · serve",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To watch something closely",
+        "correct": true
+      },
+      {
+        "text": "To ignore something completely",
+        "correct": false
+      },
+      {
+        "text": "To throw something far away",
+        "correct": false
+      },
+      {
+        "text": "To build something very tall",
+        "correct": false
+      }
+    ],
+    "explanation": "To observe is to watch carefully. Well done!"
+  },
+  {
+    "id": "3d9075ba-d292-4835-b3d6-a4cf5a4b67c1",
+    "word": "measure",
+    "grade": "3",
+    "definition": "To find out how big, long, heavy or full something is.",
+    "example": "Use a ruler to measure the length of the pencil.",
+    "syllables": "meas · ure",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To make something look much nicer",
+        "correct": false
+      },
+      {
+        "text": "To pour something into a new pot",
+        "correct": false
+      },
+      {
+        "text": "To draw something with bright paint",
+        "correct": false
+      },
+      {
+        "text": "To find out the size of something",
+        "correct": true
+      }
+    ],
+    "explanation": "To measure is to find out how big something is. Great job!"
+  },
+  {
+    "id": "986c2512-31ce-4ce0-bc30-0b60a458a038",
+    "word": "habitat",
+    "grade": "3",
+    "definition": "The natural place where an animal or plant lives.",
+    "example": "A pond is the habitat of frogs and ducks.",
+    "syllables": "hab · i · tat",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The food that an animal likes to eat",
+        "correct": false
+      },
+      {
+        "text": "The sound that an animal makes at night",
+        "correct": false
+      },
+      {
+        "text": "The color of an animal's fur or skin",
+        "correct": false
+      },
+      {
+        "text": "The natural home of an animal or plant",
+        "correct": true
+      }
+    ],
+    "explanation": "A habitat is where a living thing makes its home. Nice work!"
+  },
+  {
+    "id": "72cac662-93d8-4252-b7a4-c691f01e670f",
+    "word": "shelter",
+    "grade": "3",
+    "definition": "A place that keeps you safe from rain, wind or cold.",
+    "example": "We found shelter under a big tree when the rain began.",
+    "syllables": "shel · ter",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A place that is full of loud music",
+        "correct": false
+      },
+      {
+        "text": "A place that keeps you safe and dry",
+        "correct": true
+      },
+      {
+        "text": "A place that sells toys and games",
+        "correct": false
+      },
+      {
+        "text": "A place that is far across the sea",
+        "correct": false
+      }
+    ],
+    "explanation": "A shelter keeps you safe from the weather. You got it!"
+  },
+  {
+    "id": "9a4257d2-6beb-4c26-9487-15982815e934",
+    "word": "harvest",
+    "grade": "3",
+    "definition": "The time when ripe crops are picked from the fields.",
+    "example": "The farmers pick pumpkins at harvest.",
+    "syllables": "har · vest",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The time when seeds are first planted",
+        "correct": false
+      },
+      {
+        "text": "The time when snow covers the soil",
+        "correct": false
+      },
+      {
+        "text": "The time when a farm closes for good",
+        "correct": false
+      },
+      {
+        "text": "The time when ripe crops are picked",
+        "correct": true
+      }
+    ],
+    "explanation": "Harvest is the time when crops are picked. Well done!"
+  },
+  {
+    "id": "50667784-4984-4c96-8cd5-229bacc05ae9",
+    "word": "weather",
+    "grade": "3",
+    "definition": "What the air outside is like, such as sunny, rainy or windy.",
+    "example": "The weather today is warm and sunny.",
+    "syllables": "weath · er",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "What the air outside is like",
+        "correct": true
+      },
+      {
+        "text": "What the ground is made of",
+        "correct": false
+      },
+      {
+        "text": "What the sky looks like at night",
+        "correct": false
+      },
+      {
+        "text": "What the trees are called",
+        "correct": false
+      }
+    ],
+    "explanation": "Weather is what the air outside is like. Great job!"
+  },
+  {
+    "id": "e5a40608-81eb-4461-947f-c871f139c760",
+    "word": "season",
+    "grade": "3",
+    "definition": "One of the four parts of the year: spring, summer, fall or winter.",
+    "example": "Summer is my favorite season.",
+    "syllables": "sea · son",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "One of the seven days of the week",
+        "correct": false
+      },
+      {
+        "text": "One of the four parts of the year",
+        "correct": true
+      },
+      {
+        "text": "One of the twelve hours on a clock",
+        "correct": false
+      },
+      {
+        "text": "One of the five fingers on a hand",
+        "correct": false
+      }
+    ],
+    "explanation": "A season is one of the four parts of the year. Nice work!"
+  },
+  {
+    "id": "89449fbb-18b1-4b1c-bef3-99768f959b20",
+    "word": "continent",
+    "grade": "3",
+    "definition": "One of the seven very large areas of land in the world.",
+    "example": "A continent is so big that it holds many countries.",
+    "syllables": "con · ti · nent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A small pool of water in a city park",
+        "correct": false
+      },
+      {
+        "text": "A single tall hill in a town",
+        "correct": false
+      },
+      {
+        "text": "A narrow path through a field",
+        "correct": false
+      },
+      {
+        "text": "A very large area of land in the world",
+        "correct": true
+      }
+    ],
+    "explanation": "A continent is a very large area of land. You got it!"
+  },
+  {
+    "id": "1ca58b4d-c630-42ce-99cb-821c92e70c8c",
+    "word": "ocean",
+    "grade": "3",
+    "definition": "A huge body of salty water that covers much of the world.",
+    "example": "Whales and dolphins swim in the ocean.",
+    "syllables": "o · cean",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A small stream of fresh water",
+        "correct": false
+      },
+      {
+        "text": "A little puddle after rain",
+        "correct": false
+      },
+      {
+        "text": "A deep well in a yard",
+        "correct": false
+      },
+      {
+        "text": "A huge body of salty water",
+        "correct": true
+      }
+    ],
+    "explanation": "The ocean is a huge body of salty water. Well done!"
+  },
+  {
+    "id": "123dccd2-1306-48c1-9001-96f668db4f78",
+    "word": "canyon",
+    "grade": "3",
+    "definition": "A deep valley with steep rocky sides, often cut by a river.",
+    "example": "The river cut a canyon through the rock.",
+    "syllables": "can · yon",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A flat plain covered in tall grass",
+        "correct": false
+      },
+      {
+        "text": "A round lake in the middle of a forest",
+        "correct": false
+      },
+      {
+        "text": "A deep valley with steep rocky sides",
+        "correct": true
+      },
+      {
+        "text": "A sandy beach beside the sea",
+        "correct": false
+      }
+    ],
+    "explanation": "A canyon is a deep valley with rocky sides. Great job!"
+  },
+  {
+    "id": "21d8383f-8cbc-40da-b738-edb84488bb85",
+    "word": "orchard",
+    "grade": "3",
+    "definition": "A piece of land where fruit trees are grown.",
+    "example": "We pick apples in the orchard every fall.",
+    "syllables": "or · chard",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Land where cows eat grass",
+        "correct": false
+      },
+      {
+        "text": "Land where wheat is ground to flour",
+        "correct": false
+      },
+      {
+        "text": "Land where fish are kept in tanks",
+        "correct": false
+      },
+      {
+        "text": "Land where fruit trees are grown",
+        "correct": true
+      }
+    ],
+    "explanation": "An orchard is a place where fruit trees grow. Nice work!"
+  },
+  {
+    "id": "a3674941-071c-4175-af4e-b2c75d935798",
+    "word": "festival",
+    "grade": "3",
+    "definition": "A special celebration with food, music or games.",
+    "example": "The town has a music festival every summer.",
+    "syllables": "fes · ti · val",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A quiet day with nothing to do",
+        "correct": false
+      },
+      {
+        "text": "A big celebration with fun events",
+        "correct": true
+      },
+      {
+        "text": "A long test with many hard questions",
+        "correct": false
+      },
+      {
+        "text": "A busy road with heavy traffic",
+        "correct": false
+      }
+    ],
+    "explanation": "A festival is a special celebration. You got it!"
+  },
+  {
+    "id": "462dfb31-1fd6-4ef5-a324-186c8496feb1",
+    "word": "parade",
+    "grade": "3",
+    "definition": "A line of people, bands or floats that move down a street for a celebration.",
+    "example": "We waved flags as the parade went by.",
+    "syllables": "pa · rade",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A group of birds flying south",
+        "correct": false
+      },
+      {
+        "text": "A line of marching people",
+        "correct": true
+      },
+      {
+        "text": "A crowd of shoppers at a store",
+        "correct": false
+      },
+      {
+        "text": "A row of trees along a street",
+        "correct": false
+      }
+    ],
+    "explanation": "A parade is a line of people marching for a celebration. Well done!"
+  },
+  {
+    "id": "078127f4-0f95-469c-9579-2a13746e4499",
+    "word": "trophy",
+    "grade": "3",
+    "definition": "A prize in the shape of a cup that you win for doing something well.",
+    "example": "Our team won the trophy.",
+    "syllables": "tro · phy",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A tool that you use to fix things",
+        "correct": false
+      },
+      {
+        "text": "A toy that you pull on a string",
+        "correct": false
+      },
+      {
+        "text": "A prize that you win for doing well",
+        "correct": true
+      },
+      {
+        "text": "A map that you use to find a faraway place",
+        "correct": false
+      }
+    ],
+    "explanation": "A trophy is a prize for doing well. Great job!"
+  },
+  {
+    "id": "72f6407e-b12b-4fa7-a273-a6afd3d78b83",
+    "word": "puzzle",
+    "grade": "3",
+    "definition": "A game or toy in which you fit pieces together or find an answer.",
+    "example": "It took us an hour to finish the puzzle.",
+    "syllables": "puz · zle",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A song with a very long chorus line",
+        "correct": false
+      },
+      {
+        "text": "A story with a happy end",
+        "correct": false
+      },
+      {
+        "text": "A race with many runners",
+        "correct": false
+      },
+      {
+        "text": "A game with pieces to fit together",
+        "correct": true
+      }
+    ],
+    "explanation": "A puzzle is a game that makes you think. Nice work!"
+  },
+  {
+    "id": "3528d4f0-df73-4ba2-99a0-38268743bcce",
+    "word": "pattern",
+    "grade": "3",
+    "definition": "A set of shapes, colors or numbers that repeat in order.",
+    "example": "The scarf has a red and blue pattern.",
+    "syllables": "pat · tern",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Shapes or colors that are mixed at random",
+        "correct": false
+      },
+      {
+        "text": "A single dot in the middle of a page",
+        "correct": false
+      },
+      {
+        "text": "A plain white sheet with no marks",
+        "correct": false
+      },
+      {
+        "text": "Shapes or colors that repeat in order",
+        "correct": true
+      }
+    ],
+    "explanation": "A pattern repeats in the same order. You got it!"
+  },
+  {
+    "id": "cbc6e5dc-c0c8-465c-a0f6-a1fdd9a6f034",
+    "word": "problem",
+    "grade": "3",
+    "definition": "Something hard that needs to be worked out or solved.",
+    "example": "We had a problem with our wobbly table.",
+    "syllables": "prob · lem",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something easy that is already done",
+        "correct": false
+      },
+      {
+        "text": "Something hard that needs to be solved",
+        "correct": true
+      },
+      {
+        "text": "Something sweet that is served last",
+        "correct": false
+      },
+      {
+        "text": "Something new that is given as a gift to you",
+        "correct": false
+      }
+    ],
+    "explanation": "A problem is something that needs to be solved. Well done!"
+  },
+  {
+    "id": "d281b66c-8ecb-4d49-b41d-bcee79a29544",
+    "word": "solution",
+    "grade": "3",
+    "definition": "An answer that fixes a problem.",
+    "example": "We found a solution to the math puzzle.",
+    "syllables": "so · lu · tion",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "An answer that fixes a problem",
+        "correct": true
+      },
+      {
+        "text": "A question that makes a problem worse",
+        "correct": false
+      },
+      {
+        "text": "A rule that stops all the games",
+        "correct": false
+      },
+      {
+        "text": "A tool that holds all the pieces",
+        "correct": false
+      }
+    ],
+    "explanation": "A solution is an answer that fixes a problem. Great job!"
+  },
+  {
+    "id": "ec0bf400-7400-485b-a694-70554dd1d903",
+    "word": "energy",
+    "grade": "3",
+    "definition": "The power that lets people and machines move and work.",
+    "example": "I ate breakfast to get energy for the day.",
+    "syllables": "en · er · gy",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The color that a thing is painted",
+        "correct": false
+      },
+      {
+        "text": "The weight that a thing has on a scale",
+        "correct": false
+      },
+      {
+        "text": "The power that lets things move and work",
+        "correct": true
+      },
+      {
+        "text": "The shape that a thing has when it is flat",
+        "correct": false
+      }
+    ],
+    "explanation": "Energy is the power to move and do work. Nice work!"
+  },
+  {
+    "id": "6a158741-c64d-4a0f-88ed-842c1c6bb352",
+    "word": "gravity",
+    "grade": "3",
+    "definition": "The force that pulls things down toward the ground.",
+    "example": "Gravity makes the ball fall back to the ground.",
+    "syllables": "grav · i · ty",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The force that pulls things downward",
+        "correct": true
+      },
+      {
+        "text": "The wind that pushes things sideways",
+        "correct": false
+      },
+      {
+        "text": "The heat that melts things quickly",
+        "correct": false
+      },
+      {
+        "text": "The sound that makes things shake",
+        "correct": false
+      }
+    ],
+    "explanation": "Gravity is the force that pulls things down. You got it!"
+  },
+  {
+    "id": "0cc8f03f-9555-4924-b08a-13a69f7ee303",
+    "word": "orbit",
+    "grade": "3",
+    "definition": "The path a planet or moon takes as it goes around another.",
+    "example": "The moon makes an orbit around our planet.",
+    "syllables": "or · bit",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "The straight road between two towns",
+        "correct": false
+      },
+      {
+        "text": "The curved path around a planet or star",
+        "correct": true
+      },
+      {
+        "text": "The deep dark hole at the center of a hill",
+        "correct": false
+      },
+      {
+        "text": "The flat surface at the top of a desk",
+        "correct": false
+      }
+    ],
+    "explanation": "An orbit is the path of one body around another. Well done!"
+  },
+  {
+    "id": "7fb5b886-c63f-487a-a07b-034418b1a803",
+    "word": "insect",
+    "grade": "3",
+    "definition": "A small animal with six legs and a body in three parts.",
+    "example": "An ant is a tiny insect.",
+    "syllables": "in · sect",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A large animal with four legs",
+        "correct": false
+      },
+      {
+        "text": "A bird with two legs and feathers",
+        "correct": false
+      },
+      {
+        "text": "A small animal with six legs",
+        "correct": true
+      },
+      {
+        "text": "A fish with fins and no legs",
+        "correct": false
+      }
+    ],
+    "explanation": "An insect has six legs. Great job!"
+  },
+  {
+    "id": "2fccf6b3-e3cc-4654-8f49-4544b418e37d",
+    "word": "reptile",
+    "grade": "3",
+    "definition": "An animal with dry, scaly skin that lays eggs, like a lizard or turtle.",
+    "example": "A lizard is a reptile that likes to sit in the sun.",
+    "syllables": "rep · tile",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "An animal with dry, scaly skin",
+        "correct": true
+      },
+      {
+        "text": "An animal with soft, fluffy fur",
+        "correct": false
+      },
+      {
+        "text": "An animal with bright, long feathers",
+        "correct": false
+      },
+      {
+        "text": "An animal with wet, smooth skin and gills",
+        "correct": false
+      }
+    ],
+    "explanation": "A reptile has dry, scaly skin. Nice work!"
+  },
+  {
+    "id": "e67ec0e5-3335-476d-ac37-f945b0752569",
+    "word": "mammal",
+    "grade": "3",
+    "definition": "An animal with fur or hair that feeds its babies milk.",
+    "example": "A dog is a mammal.",
+    "syllables": "mam · mal",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "An animal with wings that lays eggs in nests",
+        "correct": false
+      },
+      {
+        "text": "An animal with fins that breathes under water",
+        "correct": false
+      },
+      {
+        "text": "An animal with hair that feeds babies milk",
+        "correct": true
+      },
+      {
+        "text": "An animal with six legs and a hard shell",
+        "correct": false
+      }
+    ],
+    "explanation": "A mammal has hair and feeds its babies milk. You got it!"
+  },
+  {
+    "id": "cf5e4a5e-b901-4345-9e0c-9273421f0bf8",
+    "word": "cactus",
+    "grade": "3",
+    "definition": "A desert plant with thick stems and sharp spines.",
+    "example": "A cactus can store water for a long time.",
+    "syllables": "cac · tus",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A forest tree with broad leaves",
+        "correct": false
+      },
+      {
+        "text": "A pond plant with floating flowers",
+        "correct": false
+      },
+      {
+        "text": "A desert plant with sharp spines",
+        "correct": true
+      },
+      {
+        "text": "A garden vine with sweet berries",
+        "correct": false
+      }
+    ],
+    "explanation": "A cactus is a desert plant with sharp spines. Well done!"
+  },
+  {
+    "id": "ecbbac35-d3e1-4019-a3bc-d1f2a425d462",
+    "word": "bamboo",
+    "grade": "3",
+    "definition": "A tall, woody grass with hollow stems that grows very fast.",
+    "example": "Pandas like to eat bamboo.",
+    "syllables": "bam · boo",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A short bush with red berries",
+        "correct": false
+      },
+      {
+        "text": "A tall grass with hollow stems",
+        "correct": true
+      },
+      {
+        "text": "A thick vine with large leaves",
+        "correct": false
+      },
+      {
+        "text": "A flat weed with yellow petals",
+        "correct": false
+      }
+    ],
+    "explanation": "Bamboo is a tall grass with hollow stems. Great job!"
+  },
+  {
+    "id": "73752af3-4d72-4e0d-9a4e-cee0eddc396c",
+    "word": "timid",
+    "grade": "3",
+    "definition": "Shy and easily frightened, not very bold.",
+    "example": "The timid kitten hid behind the sofa.",
+    "syllables": "tim · id",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Bold and ready for anything",
+        "correct": false
+      },
+      {
+        "text": "Silly and full of jokes",
+        "correct": false
+      },
+      {
+        "text": "Shy and easily frightened",
+        "correct": true
+      },
+      {
+        "text": "Tired and ready for bed",
+        "correct": false
+      }
+    ],
+    "explanation": "Timid means shy and easily frightened. Nice work!"
+  },
+  {
+    "id": "f7ebd72e-eccc-4cfd-91a6-d1372f18acc4",
+    "word": "brilliant",
+    "grade": "3",
+    "definition": "Very bright and shining, or very smart.",
+    "example": "The brilliant light lit up the whole room.",
+    "syllables": "bril · liant",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Very bright and shining",
+        "correct": true
+      },
+      {
+        "text": "Very dim and gray, like fog",
+        "correct": false
+      },
+      {
+        "text": "Very wet and cold",
+        "correct": false
+      },
+      {
+        "text": "Very rough and bumpy",
+        "correct": false
+      }
+    ],
+    "explanation": "Brilliant means very bright. You got it!"
+  },
+  {
+    "id": "2e59d10a-678b-46e2-8a15-401a24ef7c7e",
+    "word": "generous",
+    "grade": "3",
+    "definition": "Happy to give and share with other people.",
+    "example": "She is generous and shares her toys.",
+    "syllables": "gen · er · ous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Eager to keep everything for yourself",
+        "correct": false
+      },
+      {
+        "text": "Happy to give and share with others",
+        "correct": true
+      },
+      {
+        "text": "Likely to forget your friends' names",
+        "correct": false
+      },
+      {
+        "text": "Quick to tell others what to do",
+        "correct": false
+      }
+    ],
+    "explanation": "A generous person shares with others. Well done!"
+  },
+  {
+    "id": "bb2a9c67-68ea-4979-b104-63983bf9723c",
+    "word": "honest",
+    "grade": "3",
+    "definition": "Always telling the truth and not cheating.",
+    "example": "An honest person tells the truth even when it is hard.",
+    "syllables": "hon · est",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Telling a tall tale to be funny",
+        "correct": false
+      },
+      {
+        "text": "Telling the truth and not cheating",
+        "correct": true
+      },
+      {
+        "text": "Keeping a secret about a surprise",
+        "correct": false
+      },
+      {
+        "text": "Staying quiet when asked a question",
+        "correct": false
+      }
+    ],
+    "explanation": "Being honest means telling the truth. Great job!"
+  },
+  {
+    "id": "ba1a1a3b-1364-4472-aa88-92dac100dec4",
+    "word": "patient",
+    "grade": "3",
+    "definition": "Able to wait calmly without getting upset.",
+    "example": "Be patient while the cake bakes.",
+    "syllables": "pa · tient",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Quick to get upset when waiting",
+        "correct": false
+      },
+      {
+        "text": "Ready to give up right away",
+        "correct": false
+      },
+      {
+        "text": "Able to wait calmly",
+        "correct": true
+      },
+      {
+        "text": "Eager to rush through everything",
+        "correct": false
+      }
+    ],
+    "explanation": "Patient means able to wait calmly. Nice work!"
+  },
+  {
+    "id": "84ce8c50-55ff-4a56-899e-3a688b8fb455",
+    "word": "cooperate",
+    "grade": "3",
+    "definition": "To work together with others to get something done.",
+    "example": "We cooperate to clean up the classroom.",
+    "syllables": "co · op · er · ate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To compete against everyone else",
+        "correct": false
+      },
+      {
+        "text": "To work together with others",
+        "correct": true
+      },
+      {
+        "text": "To leave the work for someone else",
+        "correct": false
+      },
+      {
+        "text": "To do things all by yourself",
+        "correct": false
+      }
+    ],
+    "explanation": "To cooperate is to work together. You got it!"
+  },
+  {
+    "id": "e042b0eb-6bae-4018-a75a-44f8691ebc2a",
+    "word": "exhausted",
+    "grade": "3",
+    "definition": "Completely worn out and very tired.",
+    "example": "I was exhausted after the long hike.",
+    "syllables": "ex · haust · ed",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Completely worn out and very tired",
+        "correct": true
+      },
+      {
+        "text": "Full of energy and ready to play all day",
+        "correct": false
+      },
+      {
+        "text": "Nervous about what will happen",
+        "correct": false
+      },
+      {
+        "text": "Bored with a story you know",
+        "correct": false
+      }
+    ],
+    "explanation": "Exhausted means completely worn out. Well done!"
+  },
+  {
+    "id": "8a7795d0-4610-4628-9859-8eb96ab25139",
+    "word": "delighted",
+    "grade": "3",
+    "definition": "Very pleased and full of joy.",
+    "example": "She was delighted with her new bike.",
+    "syllables": "de · light · ed",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Rather puzzled and unsure",
+        "correct": false
+      },
+      {
+        "text": "Quite angry and very upset today",
+        "correct": false
+      },
+      {
+        "text": "Mildly bored and sleepy",
+        "correct": false
+      },
+      {
+        "text": "Very pleased and full of joy",
+        "correct": true
+      }
+    ],
+    "explanation": "Delighted means very pleased. Great job!"
+  },
+  {
+    "id": "7b696da0-bf2b-4314-9153-e9ff8331f8a3",
+    "word": "excellent",
+    "grade": "3",
+    "definition": "Extremely good, better than most.",
+    "example": "Your drawing is excellent.",
+    "syllables": "ex · cel · lent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Not very good, a bit weak",
+        "correct": false
+      },
+      {
+        "text": "Almost the same as all of the rest",
+        "correct": false
+      },
+      {
+        "text": "Extremely good, better than most",
+        "correct": true
+      },
+      {
+        "text": "Too small to see well",
+        "correct": false
+      }
+    ],
+    "explanation": "Excellent means extremely good. Nice work!"
+  }
+]
