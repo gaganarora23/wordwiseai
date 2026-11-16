@@ -241,11 +241,11 @@
         "correct": false
       },
       {
-        "text": "Having a very small size",
+        "text": "Having parts that are all the same",
         "correct": false
       },
       {
-        "text": "Having an old and worn look",
+        "text": "Having one part that is hidden",
         "correct": false
       }
     ],
@@ -377,7 +377,7 @@
         "correct": true
       },
       {
-        "text": "To hide all of the clues in a drawer",
+        "text": "To hide the clues from other people",
         "correct": false
       },
       {
@@ -609,7 +609,7 @@
         "correct": false
       },
       {
-        "text": "Having a very short length",
+        "text": "Having no words in it at all",
         "correct": false
       }
     ],
@@ -1025,7 +1025,7 @@
         "correct": false
       },
       {
-        "text": "Too silly for anyone to say",
+        "text": "Meant only to make people laugh",
         "correct": false
       },
       {
@@ -1337,7 +1337,7 @@
         "correct": false
       },
       {
-        "text": "Short and easy to say",
+        "text": "Loud and harsh to hear",
         "correct": false
       }
     ],
@@ -1393,7 +1393,7 @@
         "correct": false
       },
       {
-        "text": "Taken from a very old book",
+        "text": "Listed in alphabetical order",
         "correct": false
       }
     ],
