@@ -20,11 +20,10 @@ class Word(Base):
         CheckConstraint(f"grade IN ({GRADES_SQL})", name="grade_valid"),
         CheckConstraint("correct_option BETWEEN 1 AND 4", name="correct_option_valid"),
         CheckConstraint(
-            "btrim(option_1) <> '' AND btrim(option_2) <> '' "
-            "AND btrim(option_3) <> '' AND btrim(option_4) <> ''",
+            r"option_1 ~ '\S' AND option_2 ~ '\S' AND option_3 ~ '\S' AND option_4 ~ '\S'",
             name="options_not_blank",
         ),
-        CheckConstraint("btrim(explanation) <> ''", name="explanation_not_blank"),
+        CheckConstraint(r"explanation ~ '\S'", name="explanation_not_blank"),
     )
 
     # Supplied by the caller (stable IDs for ingestion), so no default.

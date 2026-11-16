@@ -47,8 +47,8 @@ def upgrade() -> None:
     sa.Column('option_4', sa.Text(), nullable=False),
     sa.Column('correct_option', sa.SmallInteger(), nullable=False),
     sa.Column('explanation', sa.Text(), nullable=False),
-    sa.CheckConstraint("btrim(explanation) <> ''", name=op.f('ck_words_explanation_not_blank')),
-    sa.CheckConstraint("btrim(option_1) <> '' AND btrim(option_2) <> '' AND btrim(option_3) <> '' AND btrim(option_4) <> ''", name=op.f('ck_words_options_not_blank')),
+    sa.CheckConstraint(r"explanation ~ '\S'", name=op.f('ck_words_explanation_not_blank')),
+    sa.CheckConstraint(r"option_1 ~ '\S' AND option_2 ~ '\S' AND option_3 ~ '\S' AND option_4 ~ '\S'", name=op.f('ck_words_options_not_blank')),
     sa.CheckConstraint("grade IN ('K', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12')", name=op.f('ck_words_grade_valid')),
     sa.CheckConstraint('correct_option BETWEEN 1 AND 4', name=op.f('ck_words_correct_option_valid')),
     sa.PrimaryKeyConstraint('id', name=op.f('pk_words'))

@@ -92,8 +92,11 @@ def test_word_grade_in_allowed_values_is_accepted(migrated_connection, grade):
     accepted(insert_word, migrated_connection, grade=grade)
 
 
+BLANK_VALUES = ["", "   ", "\t", "\n", "\r", "\t\n", "\r\n", "\t\n\r", " \t \n \r "]
+
+
 @pytest.mark.parametrize("option", ["option_1", "option_2", "option_3", "option_4"])
-@pytest.mark.parametrize("value", [None, "", "   "])
+@pytest.mark.parametrize("value", [None, *BLANK_VALUES])
 def test_word_with_null_empty_or_blank_option_is_rejected(migrated_connection, option, value):
     rejected(insert_word, migrated_connection, **{option: value})
 
@@ -118,9 +121,14 @@ def test_word_with_correct_option_1_to_4_is_accepted(migrated_connection, value)
     accepted(insert_word, migrated_connection, correct_option=value)
 
 
-@pytest.mark.parametrize("value", [None, "", "  "])
+@pytest.mark.parametrize("value", [None, *BLANK_VALUES])
 def test_word_with_missing_or_blank_explanation_is_rejected(migrated_connection, value):
     rejected(insert_word, migrated_connection, explanation=value)
+
+
+@pytest.mark.parametrize("column", ["option_1", "option_2", "option_3", "option_4", "explanation"])
+def test_word_text_with_internal_whitespace_is_accepted(migrated_connection, column):
+    accepted(insert_word, migrated_connection, **{column: "to be\tor not\nto be"})
 
 
 @pytest.mark.parametrize("column", ["word", "definition", "example", "syllables", "content_version"])
