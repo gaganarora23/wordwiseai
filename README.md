@@ -44,11 +44,13 @@ cd backend && uv sync && uv run uvicorn app.main:app
 
 ```sh
 cd backend && uv run alembic upgrade head     # create/update the schema (safe to repeat)
-cd backend && uv run alembic downgrade base   # roll back: drops sessions, session_words, answers, children and words
+cd backend && uv run alembic downgrade base   # roll back: drops quiz_results, word_mastery, answers, session_words, sessions, words and children
 cd backend && uv run alembic check            # models and migration agree
 ```
 
 **Sessions.** `sessions`, `session_words` and `answers` (migration `0002`) enforce the session rules in PostgreSQL: one `in_progress` session per child (partial unique index), status and `completed_at`/`abandoned_at` agree, one answer per word per session, and an answer needs a matching `session_words` row (composite foreign key). Deleting a child or session cascades; a word used by a session cannot be deleted. `answers.selected_option` uses the same 1 to 4 numbering as `words.correct_option` (and `option_1` to `option_4`).
+
+**Results and mastery.** `quiz_results` and `word_mastery` (migration `0003`) enforce in PostgreSQL: one result per session (primary key `session_id`) and one mastery row per child and word (primary key `(child_id, word_id)`); `word_mastery.status` is exactly `NEW`, `LEARNING` or `MASTERED`, `consecutive_correct` is 0 to 3, and status and progress agree (`NEW` is 0, never practiced, no review; `LEARNING` is 0 to 2 and practiced; `MASTERED` is 3 and practiced). `needs_review` is a separate boolean, not a status value. A result's `score` equals `correct_count`, the counts are not negative and sum to 1 to 10, and `review_word_ids` (`uuid[]`, default empty, no NULL elements) has between `incorrect_count` and `correct_count + incorrect_count` entries. Deleting a child cascades to its mastery rows, and deleting a session cascades to its result only (mastery is per child and word); a word with a mastery row cannot be deleted. Not enforced here, and left to #27: that the session is completed, that counts match the answers, that review ids are distinct and belong to the session, and that the writing code never stores a streak above 3 (rule logic is #21).
 
 **Answer options.** A word stores its four options as columns `option_1` to `option_4` (all NOT NULL, not blank) plus `correct_option` (check: 1 to 4). PostgreSQL therefore enforces exactly four options and exactly one correct one with plain check constraints, without a child table or triggers. SQLAlchemy 2.1, psycopg 3.3 and Alembic 1.20 work together on PostgreSQL 18.
 
