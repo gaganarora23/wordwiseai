@@ -54,6 +54,8 @@ cd backend && uv run alembic check            # models and migration agree
 
 **Answer options.** A word stores its four options as columns `option_1` to `option_4` (all NOT NULL, not blank) plus `correct_option` (check: 1 to 4). PostgreSQL therefore enforces exactly four options and exactly one correct one with plain check constraints, without a child table or triggers. SQLAlchemy 2.1, psycopg 3.3 and Alembic 1.20 work together on PostgreSQL 18.
 
+**Vocabulary loading.** `cd backend && uv run python -m app.services.vocabulary_ingestion [PATH ...]` validates the vocabulary files and loads them into `words` in one transaction, idempotently and by stable id. See [Loading into the database](backend/data/README.md#loading-into-the-database) for the exit codes, the removed-words rule and the 650-word target line.
+
 Connection settings: connect timeout is 5 seconds (`connect_args={"connect_timeout": 5}`) and `pool_pre_ping=True`; both are defined in `backend/app/config.py` and used in `backend/app/db.py`. Database tests need the Compose database (`docker compose up -d --wait db`); without it they fail with that command in the message.
 
 ## Testing

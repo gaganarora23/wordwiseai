@@ -66,3 +66,18 @@ A path is a file or a directory (searched recursively for `*.json`, sorted). Wit
 - Exit `2` when no JSON files are found (the message names the path) or the command is used wrongly.
 
 From Python: `validate_file(path)` and `validate_files(paths)` in `app/services/vocabulary_validator.py` return a list of `Failure` (`file`, `entry_index`, `entry_id`, `field`, `message`); the list is empty when valid.
+
+## Loading into the database
+
+From `backend/`, with a migrated database (`uv run alembic upgrade head`) and `DATABASE_URL` set in the environment or the repo-root `.env`:
+
+```
+uv run python -m app.services.vocabulary_ingestion [PATH ...]
+```
+
+PATH works as for the validator (file or directory, recursive `*.json`; default `data/`). All files are validated first (no database needed); only if every file is valid are they loaded, in one transaction.
+
+- Idempotent: rows are matched by `id`. A new id is inserted, a changed entry is updated in place (so sessions, answers and mastery stay attached), an identical one is not written. A second run reports `Created: 0, updated: 0, unchanged: <N>`.
+- Words in the database but not in the files are never deleted or changed. They are listed after the run under `Not in files (left in place)`.
+- The last output line says whether the files hold exactly 650 words (`Release target reached: 650 words`) or `Release target not reached: <N> of 650 words`. It counts entries in the files and does not change the exit code.
+- Exit `0` loaded (or nothing changed); `1` validation failures, nothing loaded; `2` no JSON files found or wrong usage; `3` configuration or database problem (`DATABASE_URL` missing or invalid, PostgreSQL not reachable, database not migrated, or a database error, in which case nothing from the run is written).
