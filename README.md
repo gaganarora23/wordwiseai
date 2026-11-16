@@ -44,9 +44,11 @@ cd backend && uv sync && uv run uvicorn app.main:app
 
 ```sh
 cd backend && uv run alembic upgrade head     # create/update the schema (safe to repeat)
-cd backend && uv run alembic downgrade base   # roll back: drops children and words
+cd backend && uv run alembic downgrade base   # roll back: drops sessions, session_words, answers, children and words
 cd backend && uv run alembic check            # models and migration agree
 ```
+
+**Sessions.** `sessions`, `session_words` and `answers` (migration `0002`) enforce the session rules in PostgreSQL: one `in_progress` session per child (partial unique index), status and `completed_at`/`abandoned_at` agree, one answer per word per session, and an answer needs a matching `session_words` row (composite foreign key). Deleting a child or session cascades; a word used by a session cannot be deleted. `answers.selected_option` uses the same 1 to 4 numbering as `words.correct_option` (and `option_1` to `option_4`).
 
 **Answer options.** A word stores its four options as columns `option_1` to `option_4` (all NOT NULL, not blank) plus `correct_option` (check: 1 to 4). PostgreSQL therefore enforces exactly four options and exactly one correct one with plain check constraints, without a child table or triggers. SQLAlchemy 2.1, psycopg 3.3 and Alembic 1.20 work together on PostgreSQL 18.
 
