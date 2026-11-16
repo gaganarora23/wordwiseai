@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "fd1f7439-ea75-4f53-a5ee-6ca7cd9d020d",
+    "word": "abrupt",
+    "grade": "8",
+    "definition": "Sudden and unexpected, often in a way that feels rough.",
+    "example": "The bus came to an abrupt stop, and our bags slid across the floor.",
+    "syllables": "a · brupt",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Smooth and carefully planned",
+        "correct": false
+      },
+      {
+        "text": "Gradual and hardly noticed",
+        "correct": false
+      },
+      {
+        "text": "Sudden and without warning",
+        "correct": true
+      },
+      {
+        "text": "Long and drawn out over time",
+        "correct": false
+      }
+    ],
+    "explanation": "Abrupt means sudden and without warning. Great job!"
+  },
+  {
+    "id": "35f64d9e-1b4d-4e7d-a146-23b2b01307c4",
+    "word": "accumulate",
+    "grade": "8",
+    "definition": "To gather or pile up gradually over time.",
+    "example": "Snow began to accumulate on the roof during the night.",
+    "syllables": "ac · cu · mu · late",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To pile up little by little",
+        "correct": true
+      },
+      {
+        "text": "To melt away little by little",
+        "correct": false
+      },
+      {
+        "text": "To spread out over a wide area",
+        "correct": false
+      },
+      {
+        "text": "To throw away in a hurry",
+        "correct": false
+      }
+    ],
+    "explanation": "To accumulate is to pile up little by little. Nice work!"
+  },
+  {
+    "id": "25d958b6-0823-495a-ab4e-229ca44a4c95",
+    "word": "advocate",
+    "grade": "8",
+    "definition": "To speak or write in support of an idea or a plan.",
+    "example": "Our class decided to advocate for a longer lunch break.",
+    "syllables": "ad · vo · cate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To argue against an idea in public",
+        "correct": false
+      },
+      {
+        "text": "To vote on an idea in secret",
+        "correct": false
+      },
+      {
+        "text": "To speak up in support of an idea",
+        "correct": true
+      },
+      {
+        "text": "To explain a rule to a younger child",
+        "correct": false
+      }
+    ],
+    "explanation": "To advocate is to speak up in support of an idea. Well done!"
+  },
+  {
+    "id": "372f201f-4ef8-46b1-8ad8-084ec0e0ad10",
+    "word": "ample",
+    "grade": "8",
+    "definition": "More than enough; plenty.",
+    "example": "We brought ample water for the whole hike, so nobody went thirsty.",
+    "syllables": "am · ple",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Just barely enough for a need",
+        "correct": false
+      },
+      {
+        "text": "Too little for a need",
+        "correct": false
+      },
+      {
+        "text": "More than enough for a need",
+        "correct": true
+      },
+      {
+        "text": "Meant for a different kind of need",
+        "correct": false
+      }
+    ],
+    "explanation": "Ample means more than enough for a need. You got it!"
+  },
+  {
+    "id": "c0a24a84-7a4b-40a2-a14d-94c8e70d5da6",
+    "word": "anecdote",
+    "grade": "8",
+    "definition": "A short, interesting story about something that really happened to someone.",
+    "example": "My grandfather told an anecdote about his first day at a new school.",
+    "syllables": "an · ec · dote",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A long book full of made-up tales",
+        "correct": false
+      },
+      {
+        "text": "A poem that has a steady rhythm",
+        "correct": false
+      },
+      {
+        "text": "A list of facts about a subject",
+        "correct": false
+      },
+      {
+        "text": "A short story about a real event",
+        "correct": true
+      }
+    ],
+    "explanation": "An anecdote is a short story about a real event. Great job!"
+  },
+  {
+    "id": "6a1f76a5-59a5-40e5-88a6-d8194e70e60c",
+    "word": "authentic",
+    "grade": "8",
+    "definition": "Real and genuine, not a copy or a fake.",
+    "example": "The museum has an authentic coin that is over a thousand years old.",
+    "syllables": "au · then · tic",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Made to look like the real thing",
+        "correct": false
+      },
+      {
+        "text": "Very old and worth a lot of money",
+        "correct": false
+      },
+      {
+        "text": "Real and genuine, not a fake",
+        "correct": true
+      },
+      {
+        "text": "Rare and found in only one place",
+        "correct": false
+      }
+    ],
+    "explanation": "Authentic means real and genuine. Nice work!"
+  },
+  {
+    "id": "67982d48-bd4a-4a12-9e3b-d7e87fa1e0a3",
+    "word": "circumstance",
+    "grade": "8",
+    "definition": "A condition or fact that surrounds an event and affects it.",
+    "example": "A sudden storm was the circumstance that forced the school to hold the picnic indoors.",
+    "syllables": "cir · cum · stance",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A path that goes around something",
+        "correct": false
+      },
+      {
+        "text": "The final result of an event",
+        "correct": false
+      },
+      {
+        "text": "A condition that surrounds an event",
+        "correct": true
+      },
+      {
+        "text": "A rule that guides an event",
+        "correct": false
+      }
+    ],
+    "explanation": "A circumstance is a condition that surrounds an event. Well done!"
+  },
+  {
+    "id": "69226011-1375-463c-9eb9-2345baf102b3",
+    "word": "coherent",
+    "grade": "8",
+    "definition": "Clear and logical, with ideas that fit together well.",
+    "example": "Her essay was coherent, so each paragraph led smoothly to the next.",
+    "syllables": "co · her · ent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Messy and jumping between topics",
+        "correct": false
+      },
+      {
+        "text": "Short and written in a hurry",
+        "correct": false
+      },
+      {
+        "text": "Full of long and unusual words",
+        "correct": false
+      },
+      {
+        "text": "Clear and logical, with ideas that fit",
+        "correct": true
+      }
+    ],
+    "explanation": "Coherent means clear and logical, with ideas that fit together. You got it!"
+  },
+  {
+    "id": "83116a81-d2b8-4d13-9dcd-94fd3b173e56",
+    "word": "collaborate",
+    "grade": "8",
+    "definition": "To work together with others to make or do something.",
+    "example": "Three of us will collaborate on the poster for the science fair.",
+    "syllables": "col · lab · o · rate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To compete against others for a prize",
+        "correct": false
+      },
+      {
+        "text": "To work together on one project",
+        "correct": true
+      },
+      {
+        "text": "To work alone on a hard task",
+        "correct": false
+      },
+      {
+        "text": "To give orders to a group",
+        "correct": false
+      }
+    ],
+    "explanation": "To collaborate is to work together on one project. Great job!"
+  },
+  {
+    "id": "05dd864d-510d-4993-aa45-1d8426a4f158",
+    "word": "compatible",
+    "grade": "8",
+    "definition": "Able to work or exist well together.",
+    "example": "This charger is compatible with my tablet, so I can use it anywhere.",
+    "syllables": "com · pat · i · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Built to fit only one thing",
+        "correct": false
+      },
+      {
+        "text": "Likely to wear out quickly",
+        "correct": false
+      },
+      {
+        "text": "Easy to carry from place to place",
+        "correct": false
+      },
+      {
+        "text": "Able to work well together",
+        "correct": true
+      }
+    ],
+    "explanation": "Compatible means able to work well together. Nice work!"
+  },
+  {
+    "id": "1f092bb1-5810-41fd-ad04-352f32b32255",
+    "word": "customary",
+    "grade": "8",
+    "definition": "Following the usual way or habit of a group.",
+    "example": "It is customary to shake hands and say good luck before a match.",
+    "syllables": "cus · tom · ar · y",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Rare and seen only once a year",
+        "correct": false
+      },
+      {
+        "text": "Made just for one person",
+        "correct": false
+      },
+      {
+        "text": "Strange and hard to predict",
+        "correct": false
+      },
+      {
+        "text": "Usual and expected as a habit",
+        "correct": true
+      }
+    ],
+    "explanation": "Customary means usual and expected as a habit. Well done!"
+  },
+  {
+    "id": "21eee5bf-2c8d-4252-a485-57cc11535f1e",
+    "word": "cultivate",
+    "grade": "8",
+    "definition": "To prepare soil and grow plants, or to work at developing something.",
+    "example": "The family will cultivate tomatoes and beans in the backyard this summer.",
+    "syllables": "cul · ti · vate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To pick flowers for a vase",
+        "correct": false
+      },
+      {
+        "text": "To prepare soil and grow plants",
+        "correct": true
+      },
+      {
+        "text": "To build a tall fence around a field",
+        "correct": false
+      },
+      {
+        "text": "To store seeds in a dry place",
+        "correct": false
+      }
+    ],
+    "explanation": "To cultivate is to prepare soil and grow plants. You got it!"
+  },
+  {
+    "id": "957b6f0d-6181-4208-aa44-4d74d2f5c09d",
+    "word": "deliberate",
+    "grade": "8",
+    "definition": "Done on purpose, after careful thought.",
+    "example": "It was a deliberate choice to leave early so we could miss the traffic.",
+    "syllables": "de · lib · er · ate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Done by accident in a hurry",
+        "correct": false
+      },
+      {
+        "text": "Done only when no one is looking",
+        "correct": false
+      },
+      {
+        "text": "Done for fun with no plan",
+        "correct": false
+      },
+      {
+        "text": "Done on purpose after careful thought",
+        "correct": true
+      }
+    ],
+    "explanation": "Deliberate means done on purpose after careful thought. Great job!"
+  },
+  {
+    "id": "f54addec-2d20-47bd-af32-aa86b8922df0",
+    "word": "dominate",
+    "grade": "8",
+    "definition": "To be the strongest, biggest or most noticeable part of something.",
+    "example": "The tall mountain seems to dominate the view from our window.",
+    "syllables": "dom · i · nate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To blend in with the background",
+        "correct": false
+      },
+      {
+        "text": "To stand just behind others",
+        "correct": false
+      },
+      {
+        "text": "To be one of many equal parts",
+        "correct": false
+      },
+      {
+        "text": "To be the strongest or biggest part",
+        "correct": true
+      }
+    ],
+    "explanation": "To dominate is to be the strongest or biggest part. Nice work!"
+  },
+  {
+    "id": "942a7acc-727b-4787-920d-513197c5913b",
+    "word": "eloquent",
+    "grade": "8",
+    "definition": "Able to speak or write in a clear, powerful and graceful way.",
+    "example": "The eloquent speaker made the whole audience feel hopeful about the future.",
+    "syllables": "el · o · quent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Able to speak in a clear, graceful way",
+        "correct": true
+      },
+      {
+        "text": "Able to speak only in short words",
+        "correct": false
+      },
+      {
+        "text": "Able to speak very loudly for hours at a time",
+        "correct": false
+      },
+      {
+        "text": "Able to remember a speech by heart",
+        "correct": false
+      }
+    ],
+    "explanation": "Eloquent means able to speak in a clear, graceful way. Well done!"
+  },
+  {
+    "id": "7672e577-c679-4da9-a7f4-a55f6c17bbe4",
+    "word": "extract",
+    "grade": "8",
+    "definition": "To pull or take something out, often from inside something else.",
+    "example": "The machine can extract juice from oranges in seconds.",
+    "syllables": "ex · tract",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To pack something tightly inside a big box",
+        "correct": false
+      },
+      {
+        "text": "To pull something out of another thing",
+        "correct": true
+      },
+      {
+        "text": "To pour a liquid over a surface",
+        "correct": false
+      },
+      {
+        "text": "To tie two things firmly together",
+        "correct": false
+      }
+    ],
+    "explanation": "To extract is to pull something out of another thing. You got it!"
+  },
+  {
+    "id": "fe6ca3d9-4420-4f39-b881-25a4c9d09932",
+    "word": "flourish",
+    "grade": "8",
+    "definition": "To grow strongly and be healthy and successful.",
+    "example": "Plants flourish in rich soil with plenty of sunlight.",
+    "syllables": "flour · ish",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To shrink and slowly fade away",
+        "correct": false
+      },
+      {
+        "text": "To grow only in the dark",
+        "correct": false
+      },
+      {
+        "text": "To grow strongly and do well",
+        "correct": true
+      },
+      {
+        "text": "To stay small for a long time",
+        "correct": false
+      }
+    ],
+    "explanation": "To flourish is to grow strongly and do well. Great job!"
+  },
+  {
+    "id": "ebf0fad5-6af6-4119-959c-36ca33052fd9",
+    "word": "fundamental",
+    "grade": "8",
+    "definition": "Forming the basic or most important base of something.",
+    "example": "Reading carefully is a fundamental skill for every school subject.",
+    "syllables": "fun · da · men · tal",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Extra and added at the very end",
+        "correct": false
+      },
+      {
+        "text": "Basic and necessary as a starting point",
+        "correct": true
+      },
+      {
+        "text": "Hard and understood by few people",
+        "correct": false
+      },
+      {
+        "text": "New and different from all others",
+        "correct": false
+      }
+    ],
+    "explanation": "Fundamental means basic and necessary as a starting point. Nice work!"
+  },
+  {
+    "id": "fc3c31fe-fe74-49c3-ba1e-e7b9365de51c",
+    "word": "illuminate",
+    "grade": "8",
+    "definition": "To light up a place or to make something clear.",
+    "example": "A string of lights will illuminate the path to the front door.",
+    "syllables": "il · lu · mi · nate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To fill a place with light",
+        "correct": true
+      },
+      {
+        "text": "To hide a place in shadow",
+        "correct": false
+      },
+      {
+        "text": "To paint the walls of a place",
+        "correct": false
+      },
+      {
+        "text": "To warm the air in a place",
+        "correct": false
+      }
+    ],
+    "explanation": "To illuminate is to fill a place with light. Well done!"
+  },
+  {
+    "id": "e3af5746-eb73-49e5-b781-c3cc66b71d4c",
+    "word": "impulse",
+    "grade": "8",
+    "definition": "A sudden urge to do something without thinking it through.",
+    "example": "On an impulse, I bought a hat that I did not need.",
+    "syllables": "im · pulse",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A careful plan made over many days",
+        "correct": false
+      },
+      {
+        "text": "A sudden urge to act without thinking",
+        "correct": true
+      },
+      {
+        "text": "A reason that someone gives for acting",
+        "correct": false
+      },
+      {
+        "text": "A quiet habit that never changes",
+        "correct": false
+      }
+    ],
+    "explanation": "An impulse is a sudden urge to act without thinking. You got it!"
+  },
+  {
+    "id": "a158222a-e740-41c5-93e9-94046cf311ca",
+    "word": "inevitable",
+    "grade": "8",
+    "definition": "Certain to happen and impossible to avoid.",
+    "example": "With the sky so dark, rain was inevitable.",
+    "syllables": "in · ev · i · ta · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Certain to happen, with no way around it",
+        "correct": true
+      },
+      {
+        "text": "Possible but very unlikely to happen",
+        "correct": false
+      },
+      {
+        "text": "Easy to stop if you start early",
+        "correct": false
+      },
+      {
+        "text": "Hoped for by almost everyone",
+        "correct": false
+      }
+    ],
+    "explanation": "Inevitable means certain to happen, with no way around it. Great job!"
+  },
+  {
+    "id": "35dbfb70-1472-4bc6-a42a-b0733137b7e9",
+    "word": "insight",
+    "grade": "8",
+    "definition": "A clear and deep understanding of something.",
+    "example": "Reading the old diary gave the class a new insight into daily life long ago.",
+    "syllables": "in · sight",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A deep and clear understanding",
+        "correct": true
+      },
+      {
+        "text": "A quick look at something",
+        "correct": false
+      },
+      {
+        "text": "A guess made without knowing any facts",
+        "correct": false
+      },
+      {
+        "text": "A view from a high place",
+        "correct": false
+      }
+    ],
+    "explanation": "An insight is a deep and clear understanding. Nice work!"
+  },
+  {
+    "id": "28eb5263-de86-4d36-8354-ebd8fc7c9468",
+    "word": "integrate",
+    "grade": "8",
+    "definition": "To combine parts so that they work together as a whole.",
+    "example": "The app will integrate maps and weather into one easy screen.",
+    "syllables": "in · te · grate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To divide a whole into parts",
+        "correct": false
+      },
+      {
+        "text": "To arrange parts in a straight line",
+        "correct": false
+      },
+      {
+        "text": "To count the parts of a whole",
+        "correct": false
+      },
+      {
+        "text": "To combine parts into one whole",
+        "correct": true
+      }
+    ],
+    "explanation": "To integrate is to combine parts into one whole. Well done!"
+  },
+  {
+    "id": "e14bda50-df1c-4541-b8d5-c39b72a361a8",
+    "word": "intricate",
+    "grade": "8",
+    "definition": "Having many small parts or details that fit together in a complicated way.",
+    "example": "The artist carved an intricate pattern of tiny leaves into the wooden box.",
+    "syllables": "in · tri · cate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Plain and made of only one simple shape",
+        "correct": false
+      },
+      {
+        "text": "Very large and easy to see",
+        "correct": false
+      },
+      {
+        "text": "Smooth and finished in one color",
+        "correct": false
+      },
+      {
+        "text": "Full of small, complicated details",
+        "correct": true
+      }
+    ],
+    "explanation": "Intricate means full of small, complicated details. You got it!"
+  },
+  {
+    "id": "7ec93961-624e-4709-b4e8-97b598012224",
+    "word": "legible",
+    "grade": "8",
+    "definition": "Clear enough to be read easily.",
+    "example": "Please write in neat letters so your answers are legible.",
+    "syllables": "leg · i · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Clear enough to read easily",
+        "correct": true
+      },
+      {
+        "text": "Allowed by the rules of a game",
+        "correct": false
+      },
+      {
+        "text": "Printed in very small letters",
+        "correct": false
+      },
+      {
+        "text": "Written in a language you do not know",
+        "correct": false
+      }
+    ],
+    "explanation": "Legible means clear enough to read easily. Great job!"
+  },
+  {
+    "id": "807a3ee4-9e16-4694-b36b-9885d5321a85",
+    "word": "literal",
+    "grade": "8",
+    "definition": "Following the exact meaning of the words, without any hidden or figurative sense.",
+    "example": "Taken in the literal sense, a heavy heart would weigh more than a feather.",
+    "syllables": "lit · er · al",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Related to books and stories",
+        "correct": false
+      },
+      {
+        "text": "Based on the exact meaning of the words",
+        "correct": true
+      },
+      {
+        "text": "Written in an old-fashioned style",
+        "correct": false
+      },
+      {
+        "text": "Meant to surprise the reader",
+        "correct": false
+      }
+    ],
+    "explanation": "Literal means based on the exact meaning of the words. Nice work!"
+  },
+  {
+    "id": "da1c58e8-1276-4dbc-a66b-535f1789ebf3",
+    "word": "reinforce",
+    "grade": "8",
+    "definition": "To make something stronger by adding support.",
+    "example": "Workers will reinforce the old fence with extra wooden posts.",
+    "syllables": "re · in · force",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To take support away from something",
+        "correct": false
+      },
+      {
+        "text": "To make something stronger with support",
+        "correct": true
+      },
+      {
+        "text": "To move something to a new place",
+        "correct": false
+      },
+      {
+        "text": "To measure how strong something is",
+        "correct": false
+      }
+    ],
+    "explanation": "To reinforce is to make something stronger with support. Well done!"
+  },
+  {
+    "id": "40c21056-720d-4c07-9d86-9768d5613471",
+    "word": "monotonous",
+    "grade": "8",
+    "definition": "Dull because it stays the same and never changes.",
+    "example": "The long, monotonous drive across the flat desert made us sleepy.",
+    "syllables": "mo · not · o · nous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Dull because it never changes",
+        "correct": true
+      },
+      {
+        "text": "Lively because it keeps changing",
+        "correct": false
+      },
+      {
+        "text": "Peaceful and filled with soft sounds",
+        "correct": false
+      },
+      {
+        "text": "Difficult because it has many steps",
+        "correct": false
+      }
+    ],
+    "explanation": "Monotonous means dull because it never changes. You got it!"
+  },
+  {
+    "id": "e1e1a59f-f17c-476e-8a63-37c7ab36720b",
+    "word": "withstand",
+    "grade": "8",
+    "definition": "To hold up against force, wear or pressure without giving way.",
+    "example": "The old bridge has to withstand strong winds every winter.",
+    "syllables": "with · stand",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To give way under strong force",
+        "correct": false
+      },
+      {
+        "text": "To hold up against strong force",
+        "correct": true
+      },
+      {
+        "text": "To stand in line for a long time",
+        "correct": false
+      },
+      {
+        "text": "To carry a load over a long way",
+        "correct": false
+      }
+    ],
+    "explanation": "To withstand is to hold up against strong force. Great job!"
+  },
+  {
+    "id": "8a88ac5a-06f4-4daa-9c62-90764b9ad417",
+    "word": "notion",
+    "grade": "8",
+    "definition": "An idea or belief about something.",
+    "example": "She had a notion that the missing key was in her coat pocket.",
+    "syllables": "no · tion",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A strong feeling of great joy",
+        "correct": false
+      },
+      {
+        "text": "A fact that has been proven",
+        "correct": false
+      },
+      {
+        "text": "An idea or belief about something",
+        "correct": true
+      },
+      {
+        "text": "A movement made with the hand or arm",
+        "correct": false
+      }
+    ],
+    "explanation": "A notion is an idea or belief about something. Nice work!"
+  },
+  {
+    "id": "7cfebf43-e17b-4948-8470-a80faaf1334b",
+    "word": "obsolete",
+    "grade": "8",
+    "definition": "No longer used because something newer has taken its place.",
+    "example": "Cassette players are obsolete now that most people stream their music.",
+    "syllables": "ob · so · lete",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Out of date and no longer in use",
+        "correct": true
+      },
+      {
+        "text": "Used more now than ever before",
+        "correct": false
+      },
+      {
+        "text": "Too costly for most families to buy today",
+        "correct": false
+      },
+      {
+        "text": "Broken and waiting to be repaired",
+        "correct": false
+      }
+    ],
+    "explanation": "Obsolete means no longer used because it is outdated. Well done!"
+  },
+  {
+    "id": "d23a1b4d-3ffd-433d-ac1d-711afbbb5c35",
+    "word": "optimistic",
+    "grade": "8",
+    "definition": "Expecting good things to happen; hopeful about the future.",
+    "example": "I feel optimistic about the match because our team practiced all week.",
+    "syllables": "op · ti · mis · tic",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Expecting the worst to happen",
+        "correct": false
+      },
+      {
+        "text": "Expecting nothing to change at all",
+        "correct": false
+      },
+      {
+        "text": "Expecting good things to happen",
+        "correct": true
+      },
+      {
+        "text": "Expecting a plan to take longer",
+        "correct": false
+      }
+    ],
+    "explanation": "Optimistic means expecting good things to happen. You got it!"
+  },
+  {
+    "id": "afc4059b-9220-4b0e-a62f-1aeccf1ab61d",
+    "word": "originate",
+    "grade": "8",
+    "definition": "To begin or come into being from a certain source.",
+    "example": "The river will originate in the high hills and flow toward the sea.",
+    "syllables": "o · rig · i · nate",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To begin from a certain source",
+        "correct": true
+      },
+      {
+        "text": "To end at a certain place",
+        "correct": false
+      },
+      {
+        "text": "To flow back toward its start",
+        "correct": false
+      },
+      {
+        "text": "To change from one form to another",
+        "correct": false
+      }
+    ],
+    "explanation": "To originate is to begin from a certain source. Great job!"
+  },
+  {
+    "id": "2c65bc07-4f81-4413-a3e8-3de843c92abf",
+    "word": "partial",
+    "grade": "8",
+    "definition": "Not complete; being only a part of the whole.",
+    "example": "We only had a partial list, so we had to ask for the rest.",
+    "syllables": "par · tial",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Completely finished and checked",
+        "correct": false
+      },
+      {
+        "text": "Only a part, not the whole",
+        "correct": true
+      },
+      {
+        "text": "Divided into two equal parts",
+        "correct": false
+      },
+      {
+        "text": "Repeated again and again",
+        "correct": false
+      }
+    ],
+    "explanation": "Partial means only a part, not the whole. Nice work!"
+  },
+  {
+    "id": "b9f39e5c-a2b7-4408-b894-d601c128e1d1",
+    "word": "peculiar",
+    "grade": "8",
+    "definition": "Strange or unusual in a way that is hard to explain.",
+    "example": "The soup had a peculiar taste, like mint mixed with cheese.",
+    "syllables": "pe · cu · liar",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Normal and just what you expect",
+        "correct": false
+      },
+      {
+        "text": "Private and meant for only one person to see",
+        "correct": false
+      },
+      {
+        "text": "Strange and different from the usual",
+        "correct": true
+      },
+      {
+        "text": "Popular with a lot of people",
+        "correct": false
+      }
+    ],
+    "explanation": "Peculiar means strange and different from the usual. Well done!"
+  },
+  {
+    "id": "277d2290-6638-4423-a060-06cde25ef237",
+    "word": "potential",
+    "grade": "8",
+    "definition": "The ability to grow or become something in the future.",
+    "example": "The coach saw great potential in the new player.",
+    "syllables": "po · ten · tial",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A reward for finishing a task",
+        "correct": false
+      },
+      {
+        "text": "A promise you make to others",
+        "correct": false
+      },
+      {
+        "text": "A list of all the skills you have learned",
+        "correct": false
+      },
+      {
+        "text": "The ability to become something later",
+        "correct": true
+      }
+    ],
+    "explanation": "Potential is the ability to become something later. You got it!"
+  },
+  {
+    "id": "5665336b-2b65-461a-be96-b08fbd2e1dbc",
+    "word": "preserve",
+    "grade": "8",
+    "definition": "To keep something safe and in good condition.",
+    "example": "Museums work hard to preserve old paintings so people can enjoy them for years.",
+    "syllables": "pre · serve",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To keep something safe and in good shape",
+        "correct": true
+      },
+      {
+        "text": "To change something into a new form",
+        "correct": false
+      },
+      {
+        "text": "To serve something to a large group",
+        "correct": false
+      },
+      {
+        "text": "To sell something to a collector",
+        "correct": false
+      }
+    ],
+    "explanation": "To preserve is to keep something safe and in good shape. Great job!"
+  },
+  {
+    "id": "e25513ff-575b-4a57-b909-a7040c6fb9a0",
+    "word": "prevail",
+    "grade": "8",
+    "definition": "To win or succeed in the end.",
+    "example": "After a close game, our team managed to prevail by two points.",
+    "syllables": "pre · vail",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "To win or succeed in the end",
+        "correct": true
+      },
+      {
+        "text": "To fail at the very last moment",
+        "correct": false
+      },
+      {
+        "text": "To tie after extra time",
+        "correct": false
+      },
+      {
+        "text": "To begin a game before others",
+        "correct": false
+      }
+    ],
+    "explanation": "To prevail is to win or succeed in the end. Nice work!"
+  },
+  {
+    "id": "7eaf8642-ada8-44f4-b8aa-68fd9157f6f5",
+    "word": "profound",
+    "grade": "8",
+    "definition": "Very deep or serious, in thought or feeling.",
+    "example": "The book had a profound effect on the way she saw the world.",
+    "syllables": "pro · found",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Very loud and hard for anyone to ignore",
+        "correct": false
+      },
+      {
+        "text": "Very light and easy to forget",
+        "correct": false
+      },
+      {
+        "text": "Very deep in thought or feeling",
+        "correct": true
+      },
+      {
+        "text": "Very simple and easy to explain",
+        "correct": false
+      }
+    ],
+    "explanation": "Profound means very deep in thought or feeling. Well done!"
+  },
+  {
+    "id": "ccd50371-1570-46f5-8d41-9c4f479ce771",
+    "word": "prominent",
+    "grade": "8",
+    "definition": "Easy to see or well known because it stands out.",
+    "example": "A prominent sign above the door told visitors where to check in.",
+    "syllables": "prom · i · nent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Hidden because it blends in",
+        "correct": false
+      },
+      {
+        "text": "Placed far away from everything",
+        "correct": false
+      },
+      {
+        "text": "Plain and found in many different places",
+        "correct": false
+      },
+      {
+        "text": "Easy to notice because it stands out",
+        "correct": true
+      }
+    ],
+    "explanation": "Prominent means easy to notice because it stands out. You got it!"
+  },
+  {
+    "id": "86c5223b-09ee-44c2-adb4-95393b41b209",
+    "word": "rigid",
+    "grade": "8",
+    "definition": "Stiff and not able to bend.",
+    "example": "The rigid plastic ruler snapped when he tried to bend it.",
+    "syllables": "rig · id",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Soft and easy to bend",
+        "correct": false
+      },
+      {
+        "text": "Stiff and unable to bend",
+        "correct": true
+      },
+      {
+        "text": "Thin and able to stretch",
+        "correct": false
+      },
+      {
+        "text": "Smooth and slippery to touch",
+        "correct": false
+      }
+    ],
+    "explanation": "Rigid means stiff and unable to bend. Great job!"
+  },
+  {
+    "id": "f939072c-6452-46f3-9a23-f9808673c1ed",
+    "word": "skeptical",
+    "grade": "8",
+    "definition": "Not easily convinced; doubting that something is true until you see proof.",
+    "example": "I was skeptical about the magic trick until I saw how it worked.",
+    "syllables": "skep · ti · cal",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Believing something right away",
+        "correct": false
+      },
+      {
+        "text": "Doubting something until there is proof",
+        "correct": true
+      },
+      {
+        "text": "Repeating something you heard",
+        "correct": false
+      },
+      {
+        "text": "Hoping something will come true",
+        "correct": false
+      }
+    ],
+    "explanation": "Skeptical means doubting something until there is proof. Nice work!"
+  },
+  {
+    "id": "1ce1016c-c4d2-4f08-8de6-10e16c005301",
+    "word": "spontaneous",
+    "grade": "8",
+    "definition": "Done naturally and suddenly, without planning.",
+    "example": "The spontaneous picnic began when it turned out to be a lovely afternoon.",
+    "syllables": "spon · ta · ne · ous",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Done suddenly without planning",
+        "correct": true
+      },
+      {
+        "text": "Planned carefully for weeks",
+        "correct": false
+      },
+      {
+        "text": "Practiced many times before",
+        "correct": false
+      },
+      {
+        "text": "Done only when someone tells you to",
+        "correct": false
+      }
+    ],
+    "explanation": "Spontaneous means done suddenly without planning. Well done!"
+  },
+  {
+    "id": "bf23cf67-bc54-45cc-ae00-bc1fa4c3e930",
+    "word": "subtle",
+    "grade": "8",
+    "definition": "Not obvious; so slight or delicate that it is hard to notice.",
+    "example": "There is a subtle difference between the two shades of blue.",
+    "syllables": "sub · tle",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Bold and easy to spot",
+        "correct": false
+      },
+      {
+        "text": "Slight and hard to notice",
+        "correct": true
+      },
+      {
+        "text": "Complete and without any gaps",
+        "correct": false
+      },
+      {
+        "text": "Sour and sharp in taste",
+        "correct": false
+      }
+    ],
+    "explanation": "Subtle means slight and hard to notice. You got it!"
+  },
+  {
+    "id": "ff04d21c-464c-4974-96ac-08f6a15235d4",
+    "word": "supplement",
+    "grade": "8",
+    "definition": "Something added to make a thing complete or better.",
+    "example": "The teacher handed out a supplement with extra practice problems.",
+    "syllables": "sup · ple · ment",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Something added to complete a thing",
+        "correct": true
+      },
+      {
+        "text": "Something taken away from the whole thing",
+        "correct": false
+      },
+      {
+        "text": "A copy kept in case of loss",
+        "correct": false
+      },
+      {
+        "text": "A test given at the end of a unit",
+        "correct": false
+      }
+    ],
+    "explanation": "A supplement is something added to complete a thing. Great job!"
+  },
+  {
+    "id": "af533e09-fc71-4830-8b07-dbc6cabc8290",
+    "word": "tangible",
+    "grade": "8",
+    "definition": "Able to be touched; real and solid.",
+    "example": "The trophy was a tangible reminder of the team's hard work.",
+    "syllables": "tan · gi · ble",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Able to be heard from far off",
+        "correct": false
+      },
+      {
+        "text": "Able to be changed with ease",
+        "correct": false
+      },
+      {
+        "text": "Able to be seen only at night",
+        "correct": false
+      },
+      {
+        "text": "Able to be touched and felt",
+        "correct": true
+      }
+    ],
+    "explanation": "Tangible means able to be touched and felt. Nice work!"
+  },
+  {
+    "id": "c01c1a44-aa69-4c6d-bdd4-16fbe2dcd1aa",
+    "word": "tentative",
+    "grade": "8",
+    "definition": "Not final or certain yet; open to change.",
+    "example": "We made tentative plans for the weekend, but we may change them if it rains.",
+    "syllables": "ten · ta · tive",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Fixed forever and not to be changed",
+        "correct": false
+      },
+      {
+        "text": "Done in a hurry with no thought",
+        "correct": false
+      },
+      {
+        "text": "Planned for now but open to change",
+        "correct": true
+      },
+      {
+        "text": "Shared among all the members",
+        "correct": false
+      }
+    ],
+    "explanation": "Tentative means planned for now but open to change. Well done!"
+  },
+  {
+    "id": "e2a4f8c6-b7bb-418f-9609-2c177ceaa609",
+    "word": "transition",
+    "grade": "8",
+    "definition": "A change from one condition, stage or place to another.",
+    "example": "The move to middle school was a big transition for my little brother.",
+    "syllables": "tran · si · tion",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "A short break between two classes",
+        "correct": false
+      },
+      {
+        "text": "A final test at the end of a year",
+        "correct": false
+      },
+      {
+        "text": "A trip made between two towns",
+        "correct": false
+      },
+      {
+        "text": "A change from one stage to another",
+        "correct": true
+      }
+    ],
+    "explanation": "A transition is a change from one stage to another. You got it!"
+  },
+  {
+    "id": "aa2a1391-8926-45bb-bc27-a1b17e57c5d1",
+    "word": "trivial",
+    "grade": "8",
+    "definition": "Of little importance or value.",
+    "example": "Whether we use a blue pen or a black pen is a trivial matter.",
+    "syllables": "triv · i · al",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Serious and worth careful thought",
+        "correct": false
+      },
+      {
+        "text": "Small and not worth much concern",
+        "correct": true
+      },
+      {
+        "text": "Tricky and full of surprises",
+        "correct": false
+      },
+      {
+        "text": "Familiar and loved by many",
+        "correct": false
+      }
+    ],
+    "explanation": "Trivial means small and not worth much concern. Great job!"
+  },
+  {
+    "id": "54c1137a-1f46-4b44-884b-55e47eafc260",
+    "word": "adjacent",
+    "grade": "8",
+    "definition": "Next to or very near something.",
+    "example": "The library is adjacent to the school gym, so we can walk there in a minute.",
+    "syllables": "ad · ja · cent",
+    "content_version": "2026.1",
+    "options": [
+      {
+        "text": "Far across from something else",
+        "correct": false
+      },
+      {
+        "text": "Placed high above something else",
+        "correct": false
+      },
+      {
+        "text": "Right next to something else",
+        "correct": true
+      },
+      {
+        "text": "Turned away from something else",
+        "correct": false
+      }
+    ],
+    "explanation": "Adjacent means right next to something else. Nice work!"
+  }
+]
