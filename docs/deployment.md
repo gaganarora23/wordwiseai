@@ -48,6 +48,15 @@ The backend container starts with `backend/docker-entrypoint.sh`:
 
 The frontend only needs the already-known backend URL, so the two hooks can finish in either order.
 
+## If the free database expired (after 30 days)
+
+A free Render PostgreSQL database is deleted 30 days after creation. `render.yaml` defines it as `wordwise-db`, and the API's `DATABASE_URL` is taken from it, so recreating it is quick. Every profile created in the demo is lost; only the schema and the 500 vocabulary words come back.
+
+1. In Render, sync the Blueprint manually (the Blueprint's manual sync action) so the missing `wordwise-db` is created again. If you prefer, create a new free PostgreSQL database named `wordwise-db` in the same region instead; then, if `wordwise-api` no longer points at it, set its `DATABASE_URL` environment variable to the new database's internal connection string.
+2. Redeploy `wordwise-api`: use Manual Deploy on the service, or merge to `main` so the CI `deploy` job calls the hook. On start `backend/docker-entrypoint.sh` runs `alembic upgrade head` and the idempotent vocabulary ingestion, so the schema and words are rebuilt automatically. In the API logs look for `Running upgrade` and `Created: 500`.
+3. Check `https://wordwise-api-xji2.onrender.com/api/v1/health` (expect `{"status":"ok"}`) and `/api/v1/grades/5/words` (expect 50 words), then open the app and create profiles again.
+4. To keep the data instead, upgrade the database to a paid plan before it expires.
+
 ## Rollback
 
 ### Path A: Render dashboard
