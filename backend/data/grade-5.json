@@ -45,11 +45,11 @@
         "correct": false
       },
       {
-        "text": "Fast and finished before anyone else",
+        "text": "Neat and pretty to look at",
         "correct": false
       },
       {
-        "text": "Simple and easy for a child to do",
+        "text": "Large and easy to read",
         "correct": false
       }
     ],
@@ -293,7 +293,7 @@
         "correct": true
       },
       {
-        "text": "To keep ideas locked up in a drawer",
+        "text": "To keep your ideas to yourself",
         "correct": false
       },
       {
@@ -301,7 +301,7 @@
         "correct": false
       },
       {
-        "text": "To copy a drawing from a book",
+        "text": "To read news printed in a paper",
         "correct": false
       }
     ],
@@ -465,7 +465,7 @@
         "correct": false
       },
       {
-        "text": "Wide and open to the sky",
+        "text": "Pale and gray in color",
         "correct": false
       },
       {
@@ -1012,7 +1012,7 @@
     "word": "navigate",
     "grade": "5",
     "definition": "To find your way from one place to another, using a map or compass.",
-    "example": "Dad used a map to navigate through the winding mountain roads.",
+    "example": "On the drive, we used a map to navigate through the winding mountain roads.",
     "syllables": "nav · i · gate",
     "content_version": "2026.1",
     "options": [
