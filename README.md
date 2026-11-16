@@ -168,7 +168,7 @@ docker compose exec db sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "sel
 
 **Backend configuration.** The backend reads two environment variables (real environment wins over the repo-root `.env`):
 
-- `DATABASE_URL` (required): must start with `postgresql+psycopg://`. The backend refuses to start with a one-line error if it is missing or invalid. The database itself does not need to be running for the app to start or for `GET /api/v1/health` to answer.
+- `DATABASE_URL` (required): must start with `postgresql+psycopg://`; `postgresql://` and `postgres://` (what hosts such as Render provide) are accepted and rewritten to `postgresql+psycopg://`. The backend refuses to start with a one-line error if it is missing or invalid. The database itself does not need to be running for the app to start or for `GET /api/v1/health` to answer.
 - `CORS_ORIGINS` (optional): comma-separated browser origins allowed via CORS; unset or empty allows none.
 
 Run the backend against the Compose database:

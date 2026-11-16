@@ -153,7 +153,7 @@ def test_there_is_a_single_linear_head(throwaway_db_url):
 
 
 def test_invalid_database_url_fails_with_one_line_and_no_password(throwaway_db_url):
-    result = run_alembic("postgresql://u:secretpw@localhost/x", "upgrade", "head")
+    result = run_alembic("mysql://u:secretpw@localhost/x", "upgrade", "head")
     assert result.returncode != 0
     assert "Configuration error: DATABASE_URL must be set" in result.stderr
     assert "secretpw" not in result.stderr + result.stdout
