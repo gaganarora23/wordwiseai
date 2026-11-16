@@ -80,10 +80,9 @@ whenever a pin changes.
 
 - **Backend resolution:** a trial `uv add` of the full backend set on Python 3.13
   resolved cleanly with no conflicts (the versions above are the resolved ones).
-- **Not yet verified at runtime:** SQLAlchemy 2.1 + psycopg 3.3 + Alembic 1.20
-  against PostgreSQL 18 working together. This is proven by tasks 4–6 (connect,
-  migrate, query); if a combination fails there, pin the previous minor version
-  and update this table.
+- **Verified at runtime (task 6):** SQLAlchemy 2.1 + psycopg 3.3 + Alembic 1.20
+  work together against PostgreSQL 18 (connect, migrate up/down, constraints,
+  `alembic check`). No version had to be pinned back.
 - **Frontend:** versions are the ones Lovable generated and tested together.
   Treat them as a unit; changing one TanStack package alone can break the build.
 - **Frontend engine requirements** (Node range for Vite 8) were not confirmed

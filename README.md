@@ -40,4 +40,14 @@ cp .env.example .env && docker compose up -d --wait db
 cd backend && uv sync && uv run uvicorn app.main:app
 ```
 
+**Migrations.** The schema is owned by Alembic (`backend/migrations/`); the URL comes from `DATABASE_URL`, never from `alembic.ini`. With the database up:
+
+```sh
+cd backend && uv run alembic upgrade head     # create/update the schema (safe to repeat)
+cd backend && uv run alembic downgrade base   # roll back: drops children and words
+cd backend && uv run alembic check            # models and migration agree
+```
+
+**Answer options.** A word stores its four options as columns `option_1` to `option_4` (all NOT NULL, not blank) plus `correct_option` (check: 1 to 4). PostgreSQL therefore enforces exactly four options and exactly one correct one with plain check constraints, without a child table or triggers. SQLAlchemy 2.1, psycopg 3.3 and Alembic 1.20 work together on PostgreSQL 18.
+
 Connection settings: connect timeout is 5 seconds (`connect_args={"connect_timeout": 5}`) and `pool_pre_ping=True`; both are defined in `backend/app/config.py` and used in `backend/app/db.py`. Database tests need the Compose database (`docker compose up -d --wait db`); without it they fail with that command in the message.
