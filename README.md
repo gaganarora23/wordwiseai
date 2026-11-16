@@ -30,8 +30,8 @@ The project is built by an AI agent team following a written process, with every
 
 - **Spec first.** `_docs/plan.md` defines behavior and API before code; `_docs/tasks.md` breaks it into tasks.
 - **Public tracker.** [Issues](https://github.com/gaganarora23/wordwiseai/issues) hold the backlog, each with acceptance criteria; `mvp` and `post-mvp` labels mark scope; commits and PRs reference issue numbers.
-- **Agent team.** An orchestrator (the main session) launches three subagents per task: a **PM** that grooms the issue, an **engineer** that implements it, and a **QA engineer** that checks it against the acceptance criteria and posts PASS or FAIL. On FAIL the engineer retries with QA's comment. Roles are in `_docs/team/`, the lifecycle is in `_docs/process.md`.
-- **Context management.** `AGENTS.md` at the root points to modular docs in `_docs/`, with `backend/AGENTS.md` and `frontend/AGENTS.md` for each part.
+- **Agent team.** An orchestrator (the main session) launches three subagents per task: a **PM** that grooms the issue, an **engineer** that implements it, and a **QA engineer** that checks it against the acceptance criteria and posts PASS or FAIL. On FAIL the engineer retries with QA's comment. Roles and their limits are in `docs/agents.md` and `_docs/team/`, the lifecycle is in `_docs/process.md`, and branch, PR and CI conventions are in `docs/process.md`.
+- **Context management.** `AGENTS.md` at the root points to modular docs in `_docs/` and `docs/`, with `backend/AGENTS.md` and `frontend/AGENTS.md` for each part.
 
 ## Run the app locally
 

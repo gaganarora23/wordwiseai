@@ -2,7 +2,8 @@ Documents
 
 - `_docs/process.md` - how work is organized
 - Before writing tests, read `_docs/testing-guidelines.md`
-- For anything touching the UI, read `_docs/design-system.md`
+- API contract and conventions: `_docs/api.md`; architecture: `_docs/architecture.md`; spec: `_docs/plan.md` section 14
+- Roles and branch/PR/CI conventions: `docs/agents.md`, `docs/process.md`
 
 Commands
 

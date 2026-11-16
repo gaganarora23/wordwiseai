@@ -12,6 +12,7 @@ You groom a task before anyone implements it.
 
 Definition of done:
 
+- A comment starting `## PM:` says what you changed (see `docs/agents.md`)
 - The issue has all four sections filled in
 - Every acceptance criterion can be checked by looking at the result
 - Everything moved out of scope links to a follow-up issue

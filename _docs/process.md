@@ -33,3 +33,7 @@ Rules
 - The engineer does not close the issue
 - QA does not fix the code, only outputs PASS or FAIL
 - The orchestrator closes the issue only after QA outputs PASS
+
+Branches, pull requests, CI and merge conventions are in `docs/process.md`.
+Role definitions, limits and who owns an issue at each stage are in `docs/agents.md`.
+Each role hands over by an issue comment starting `## PM:`, `## Engineer:` or `## QA:`.
