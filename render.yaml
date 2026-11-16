@@ -39,8 +39,13 @@ services:
     dockerContext: ./frontend
     autoDeployTrigger: "off"
     envVars:
-      - key: VITE_API_URL # build-time: the backend PUBLIC https URL, baked into the bundle
-        value: https://wordwise-api.onrender.com
+      # Build-time: the backend PUBLIC https URL, baked into the bundle. Render cannot inject a
+      # service's own URL at build time, and it appended a suffix to the API name (the plain
+      # name was already taken), so this is the real URL copied from the wordwise-api service
+      # page after the first apply. If the API is ever recreated, copy its new URL here and in
+      # the dashboard (Environment > VITE_API_URL) and rebuild wordwise-web.
+      - key: VITE_API_URL
+        value: https://wordwise-api-xji2.onrender.com
       - key: PORT # the container listens on 8080 (frontend/Dockerfile)
         value: "8080"
       - key: HOST
