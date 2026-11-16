@@ -241,6 +241,14 @@ Things to know:
 - **Shared demo.** There is no authentication; anyone with the link sees and edits the same profiles, so real children's data must not be entered. The app says this on the home page.
 - **Database URL.** Render's `postgresql://` connection string is accepted; the backend rewrites it to `postgresql+psycopg://`.
 
+## Uptime alert
+
+A scheduled GitHub Actions workflow (`.github/workflows/uptime-alert.yml`) watches the live API as a user would see it: `GET /api/v1/health` must return 200, and `GET /api/v1/grades/5/words` must return 200 with exactly 50 words (this one catches a database outage). It runs every 15 minutes, tolerates a cold start of about 2 minutes and retries a failed check once.
+
+- **Where a failure shows up:** a red run in the repository's Actions tab, and GitHub's failed-workflow email to the repo owner.
+- **Run it by hand:** Actions, "Uptime alert", "Run workflow", with an optional `api_url` (empty checks `https://wordwise-api-xji2.onrender.com`).
+- **Run it locally:** `bash .github/scripts/check-user-journey.sh [url]` (needs bash, curl and jq).
+
 ## Testing
 
 ```sh
