@@ -55,3 +55,27 @@ cd backend && uv run alembic check            # models and migration agree
 **Answer options.** A word stores its four options as columns `option_1` to `option_4` (all NOT NULL, not blank) plus `correct_option` (check: 1 to 4). PostgreSQL therefore enforces exactly four options and exactly one correct one with plain check constraints, without a child table or triggers. SQLAlchemy 2.1, psycopg 3.3 and Alembic 1.20 work together on PostgreSQL 18.
 
 Connection settings: connect timeout is 5 seconds (`connect_args={"connect_timeout": 5}`) and `pool_pre_ping=True`; both are defined in `backend/app/config.py` and used in `backend/app/db.py`. Database tests need the Compose database (`docker compose up -d --wait db`); without it they fail with that command in the message.
+
+## Testing
+
+`make test` from the repo root runs the backend suite (`cd backend && uv run pytest`), then the frontend suite. Backend integration tests run against real PostgreSQL, never SQLite.
+
+**Database.** Locally PostgreSQL is the Compose service: `docker compose up -d --wait db`. In CI it will be a service container, configured in #47. The harness (`backend/tests/conftest.py`, plumbing in `harness.py`) creates its own `wordwise_test_<random>` database on the same server as `DATABASE_URL`, runs `alembic upgrade head` on it once per pytest run, and drops it at the end, so the development database is never read, truncated or migrated. The `DATABASE_URL` user needs the `CREATEDB` privilege (the Compose user and a CI service container have it). If PostgreSQL is down, tests that use the harness fail (not skip) with `docker compose up -d --wait db` in the message; tests that need no database still pass. The database is dropped even when a test fails; a killed process (`kill -9`) can leave a `wordwise_test_*` database behind, which you can drop by hand.
+
+**Fixtures** (`backend/tests/conftest.py`):
+
+- `clean_db`: the migrated test database as an SQLAlchemy `Engine`. All seven tables are emptied (`TRUNCATE`) before and after every test, so rows the code under test committed do not leak. `alembic_version` is kept.
+- `db_session`: a `Session` on that database for your own inserts and queries. Commit to make rows visible to routes.
+- `client`: a `TestClient` for `app.main.app` with `get_session` overridden (via `app.dependency_overrides`) to sessions on the test database. The override is removed after each test.
+- Helpers in `backend/tests/helpers.py`: `insert_child`, `insert_word`, `insert_session_with_words`. They take a connection or session, do not commit, return the new id, and accept keyword overrides.
+
+```python
+from tests.helpers import insert_child
+
+def test_child_is_visible_to_the_api(client, db_session):
+    child_id = insert_child(db_session, nickname="Sam")
+    db_session.commit()
+    assert client.get(f"/api/v1/children/{child_id}").status_code == 200  # illustrative route, arrives with #17
+```
+
+`test_harness.py` proves the harness: tables are empty at the start of every test, committed rows do not leak, and the failure behaviour above.

@@ -9,6 +9,14 @@ Draft. The strategy lives in `architecture.md` section 7; this file is the worki
 - Frontend alone: `cd frontend && bun run test`.
 - On a fresh clone run `cd frontend && bun install --frozen-lockfile` once. `make test` does not install.
 
+## Backend database harness
+
+- Integration tests use real PostgreSQL. Locally it is the Compose service: `docker compose up -d --wait db`. In CI it will be a service container, configured in #47.
+- The harness creates its own `wordwise_test_<random>` database on the server in `DATABASE_URL`, migrates it once per run and drops it at the end. The development database is never touched. The `DATABASE_URL` user needs `CREATEDB` (the Compose user and a CI service container have it). A killed process (`kill -9`) can leave a `wordwise_test_*` database behind.
+- Fixtures in `backend/tests/conftest.py`: `clean_db` (Engine; the seven tables are truncated before and after each test), `db_session` (Session for your own inserts; commit to make rows visible to routes), `client` (`TestClient` with `get_session` overridden to the test database). Insert helpers: `insert_child`, `insert_word`, `insert_session_with_words` in `backend/tests/helpers.py`.
+- Request `client` or `clean_db` explicitly; nothing is autouse, so tests that need no database still run when PostgreSQL is down.
+- Example: `def test_x(client, db_session): insert_child(db_session); db_session.commit(); assert client.get(...).status_code == 200`.
+
 ## What to test
 
 - Unit and integration tests only. No browser end-to-end suite in V0.
