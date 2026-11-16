@@ -2,9 +2,9 @@
 
 **Status:** Agreed baseline for implementation
 **Companion to:** `_docs/plan.md` (product specification v0.4)
-**Scope of this document:** Backend, Frontend, Database, API, Testing.
-Deployment, CI/CD details, observability, alerting, and the on-call agent are
-tabled (see [Section 8](#8-tabled-decisions)).
+**Scope of this document:** Backend, Frontend, Database, API, Testing, Deployment
+([Section 8](#8-deployment)). Observability, alerting, and the on-call agent are
+tabled (see [Section 8a](#8a-tabled-decisions)).
 
 ## 1. Guiding principles
 
@@ -417,13 +417,47 @@ A root `Makefile` target, **`make test`**, runs backend and frontend suites.
 
 Playwright end-to-end tests, Schemathesis fuzzing, load/performance testing.
 
-## 8. Tabled decisions
+## 8. Deployment
+
+**Provider: Render (free tier).** Chosen because it needs no payment card, a
+Blueprint (`render.yaml` at the repo root) creates the database and both web
+services from our existing Dockerfiles in one step, and its deploy hooks fit our
+CI gate (tests must pass before anything deploys). Alternatives considered:
+Fly.io (needs a card and CLI authentication) and Railway (needs a card or a
+trial).
+
+**Topology** (all on free plans, defined in `render.yaml`):
+
+- `wordwise-db`: managed PostgreSQL. Major version **18** on the free plan
+  (owner-reported from the Render dashboard on 2026-11-16), the same major as
+  local and CI. Render's connection string starts with `postgresql://`;
+  `backend/app/config.py` rewrites it (and `postgres://`) to
+  `postgresql+psycopg://`, so the app and Alembic use the same URL path.
+- `wordwise-api`: Docker web service from `backend/Dockerfile`, listening on
+  port 8000. Public URL `https://wordwise-api-xji2.onrender.com` (Render
+  appended the suffix because the plain name was taken).
+- `wordwise-web`: Docker web service from `frontend/Dockerfile`, listening on
+  port 8080. Public URL `https://wordwise-web.onrender.com`.
+- The browser calls the API directly; CORS on the API is limited to the web
+  origin (`CORS_ORIGINS`). The API URL is baked into the frontend at build time
+  through `VITE_API_URL`, so if the API URL changes the frontend must be
+  rebuilt.
+
+**How deploys happen.** Auto-deploy is off for both web services. After the
+`test` job passes on a merge to `main`, the GitHub Actions `deploy` job
+(`needs: test`) calls the two Render deploy hooks (secrets in GitHub). Details,
+setup and rollback: [`docs/deployment.md`](../docs/deployment.md). On start the
+backend runs migrations and idempotent vocabulary ingestion.
+
+**Known limits.** Free web services sleep after idle, so the first request
+takes about a minute. The free PostgreSQL database expires after 30 days. The
+deployment is a shared demo with no authentication, so real children's data
+must not be entered.
+
+## 8a. Tabled decisions
 
 These are deliberately deferred and not part of the current target:
 
-- **Deployment target and topology** (provider choice, frontend/backend hosting).
-  Still needed for the Deployment rubric criterion; decide once the app runs
-  locally.
 - **CI/CD pipeline details** beyond: run tests on pull requests, check
   OpenAPI drift, and deploy automatically on merge.
 - **Observability** (metrics, traces, structured logs sharing a trace ID, a
